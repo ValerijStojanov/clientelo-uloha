@@ -1,0 +1,12 @@
+{
+  "name": "poplatkomer-landing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "data": "node tools/build-data.mjs",
+    "funnel": "node tools/funnel.mjs server-data/events.jsonl",
+    "ads": "node tools/render-ads.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

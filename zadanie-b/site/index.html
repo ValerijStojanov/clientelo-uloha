@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Poplatkoměr – kolik vás stojí poplatky za investování</title>
+<meta name="description" content="Spočítejte si, kolik vám za 20 let vezmou poplatky. Srovnání 12 nejoblíbenějších ETF z NYSE a jejich evropských dvojčat, která v Česku opravdu koupíte.">
+<meta name="theme-color" content="#FFD400">
+<meta property="og:title" content="Kolik vám za 20 let sežerou poplatky?">
+<meta property="og:description" content="Kalkulačka + srovnání 12 ETF z NYSE a jejich evropských dvojčat.">
+<script>
+  // Varianta podle reklamy: ?v=b nebo utm_content obsahující „dvojce“ → B (dvojčata), jinak A (poplatky).
+  (function () {
+    var p = new URLSearchParams(location.search);
+    var v = (p.get('v') || '').toLowerCase();
+    var c = (p.get('utm_content') || '').toLowerCase();
+    document.documentElement.dataset.v = (v === 'b' || c.indexOf('dvojce') > -1) ? 'b' : 'a';
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23FFD400'/%3E%3Ctext x='16' y='23' font-family='Arial' font-weight='900' font-size='19' text-anchor='middle' fill='%23111'%3E%25%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<header class="bar">
+  <span class="mark">poplatko<b>měr</b></span>
+  <span class="bar-note">ETF z NYSE · data k <span data-asof>30. 9. 2026</span></span>
+</header>
+
+<main>
+
+  <!-- 1. HERO: navazuje na slib reklamy. Varianta A = poplatky, B = dvojčata. -->
+  <section class="hero" data-section="hero">
+    <div class="only-a">
+      <h1>Kolik vám za <span data-years-label>20 let</span> sežerou poplatky?</h1>
+      <p class="lead">Posuňte, kolik měsíčně investujete. Hned uvidíte rozdíl mezi levným ETF a typickým fondem z banky.</p>
+    </div>
+    <div class="only-b">
+      <h1>VOO si v&nbsp;Česku nekoupíte. Jeho dvojče ano.</h1>
+      <p class="lead">Americká ETF z NYSE jsou pro drobné investory v EU zablokovaná. Evropská verze sleduje stejný index za stejně nízký poplatek.</p>
+      <div class="twin" aria-label="Srovnání VOO a jeho evropského dvojčete">
+        <div class="twin-card is-no">
+          <span class="twin-tk">VOO</span>
+          <span class="twin-fee"><span data-fee="VOO">0,03 %</span> ročně</span>
+          <span class="twin-flag">V EU nekoupíte</span>
+        </div>
+        <div class="twin-eq" aria-hidden="true">=</div>
+        <div class="twin-card is-yes">
+          <span class="twin-tk" data-twin-tk="VOO">SPYL</span>
+          <span class="twin-fee"><span data-twin-fee="VOO">0,03 %</span> ročně</span>
+          <span class="twin-flag">Koupíte v Česku</span>
+        </div>
+      </div>
+      <a class="btn" href="#odemknout" data-cta="hero">Ukažte mi všech 12 dvojčat</a>
+      <p class="micro">Zdarma. Stačí e-mail, nic neplatíte.</p>
+    </div>
+  </section>
+
+  <!-- 2. KALKULAČKA: hodnota zdarma ještě před formulářem. -->
+  <section class="calc" id="kalkulacka" data-section="calc">
+    <h2 class="only-b">Kolik vás stojí fond z banky?</h2>
+    <div class="calc-in">
+      <label class="calc-label" for="monthly">Měsíčně investuji <output id="monthlyOut" for="monthly">3 000 Kč</output></label>
+      <input type="range" id="monthly" min="500" max="20000" step="500" value="3000">
+      <div class="years" role="radiogroup" aria-label="Doba investování">
+        <button type="button" role="radio" aria-checked="false" data-years="10">10 let</button>
+        <button type="button" role="radio" aria-checked="true" data-years="20">20 let</button>
+        <button type="button" role="radio" aria-checked="false" data-years="30">30 let</button>
+      </div>
+    </div>
+    <div class="receipt" aria-live="polite">
+      <div class="r-head">Účtenka za <span data-years-label>20 let</span></div>
+      <div class="r-row"><span>Vložíte celkem</span><span id="rIn">–</span></div>
+      <div class="r-row"><span>Fond z banky <small id="rBankFee"></small></span><span id="rBank">–</span></div>
+      <div class="r-row"><span>ETF <small id="rEtfFee"></small></span><span id="rEtf">–</span></div>
+      <div class="r-total"><span>Necháte bance navíc</span><strong id="rDiff">–</strong></div>
+      <p class="r-note">Výnos trhu 7 % ročně před poplatky, stejný pro oba. <a href="#jak-pocitame">Jak počítáme</a></p>
+    </div>
+    <a class="btn only-a" href="#odemknout" data-cta="hero">Chci srovnání 12 ETF zdarma</a>
+    <a class="btn only-b" href="#odemknout" data-cta="calc">Poslat mi výpočet a srovnání</a>
+    <p class="micro only-a">Zdarma. Stačí e-mail, nic neplatíte.</p>
+  </section>
+
+  <!-- 3. SROVNÁNÍ: 4 ETF otevřená, zbytek zamčený za e-mailem. -->
+  <section class="compare" id="srovnani" data-section="compare">
+    <h2>12 nejoblíbenějších ETF z NYSE</h2>
+    <p class="sub">Seřazeno podle velikosti fondu. U každého poplatek, výnos a hlavně: jestli ho v Česku koupíte, a pokud ne, co místo něj.</p>
+    <ol class="etf-list" id="etfList"></ol>
+
+    <div class="lock" id="odemknout" data-section="form">
+      <div class="lock-in" id="lockIn">
+        <h3>Odemkněte zbylých <span id="lockedCount">8</span> ETF a jejich evropská dvojčata</h3>
+        <ul class="gets">
+          <li>Srovnání 12 ETF z NYSE: poplatky, výnosy, dividendy</li>
+          <li>Ke každému evropské dvojče, které si u českého brokera opravdu koupíte</li>
+          <li>Tahák na 1 stránku: časový test, W-8BEN, DIP</li>
+          <li class="calc-echo" hidden>Váš výpočet pro <b id="echoMonthly">3 000 Kč</b> měsíčně</li>
+        </ul>
+        <form id="leadForm" novalidate>
+          <label class="sr" for="email">Váš e-mail</label>
+          <input id="email" name="email" type="email" inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" placeholder="vas@email.cz" required>
+          <input class="hp" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <p class="err" id="err" role="alert"></p>
+          <button type="submit" class="btn">Odemknout srovnání</button>
+          <label class="check"><input type="checkbox" id="newsletter"> Posílejte mi i tipy k ETF (max. 2× měsíčně)</label>
+          <p class="micro">Srovnání se odemkne hned tady a kopii pošleme e-mailem. Žádný spam, žádné volání. <a href="zasady.html">Co s e-mailem uděláme</a></p>
+        </form>
+      </div>
+
+      <div class="done" id="done" hidden tabindex="-1">
+        <h3>Hotovo. Srovnání je odemčené.</h3>
+        <p>Kopii jsme poslali na <b id="doneEmail"></b>. Tahák si můžete otevřít hned:</p>
+        <a class="btn btn-alt" href="tahak.html" target="_blank" rel="noopener" id="tahakLink">Otevřít tahák (PDF)</a>
+        <div class="survey" id="survey">
+          <p><b>Jedna otázka navíc:</b> kde teď investujete?</p>
+          <div class="chips">
+            <button type="button" data-survey="nikde">Zatím nikde</button>
+            <button type="button" data-survey="broker">XTB / Trading 212 / jiný broker</button>
+            <button type="button" data-survey="robo">Portu / Fondee</button>
+            <button type="button" data-survey="banka">Fond v bance</button>
+            <button type="button" data-survey="jinde">Jinde</button>
+          </div>
+          <p class="thanks" id="surveyThanks" hidden>Díky, tipy vám přizpůsobíme.</p>
+        </div>
+        <div class="phone-offer" id="phoneOffer" hidden>
+          <p><b>Platíte v bance vstupní poplatky?</b> Spočítáme vám zdarma, kolik byste ušetřili přechodem na ETF. Ozveme se do 2 pracovních dnů.</p>
+          <form id="phoneForm" novalidate>
+            <label class="sr" for="phone">Telefon</label>
+            <input id="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+420 777 123 456">
+            <button type="submit" class="btn btn-alt">Zavolejte mi</button>
+            <p class="err" id="phoneErr" role="alert"></p>
+          </form>
+          <p class="thanks" id="phoneThanks" hidden>Díky, ozveme se.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. NÁMITKY -->
+  <section class="faq" data-section="faq">
+    <h2>Časté otázky</h2>
+    <details data-faq="priips">
+      <summary>Proč si VOO nebo SPY v Česku nekoupím?</summary>
+      <p id="faqPriips">Od roku 2018 platí v EU nařízení PRIIPs: fond prodávaný drobným investorům musí mít sdělení klíčových informací (KID) v jazyce země. Americké ETF ho nevydávají, takže je evropští brokeři drobným klientům neprodají. Evropské (UCITS) verze sledují stejný index a KID mají.</p>
+    </details>
+    <details data-faq="advice">
+      <summary>Je to investiční doporučení?</summary>
+      <p>Ne. Je to srovnání veřejných údajů od správců fondů. Výnosy z minulosti nezaručují budoucí. Než investujete, přečtěte si dokument KID konkrétního fondu.</p>
+    </details>
+    <details data-faq="email">
+      <summary>Co uděláte s mým e-mailem?</summary>
+      <p>Pošleme na něj tahák. Tipy k ETF jen tehdy, když zaškrtnete políčko, a odhlásíte se jedním klikem. E-mail nikomu neprodáváme.</p>
+    </details>
+    <details data-faq="calc" id="jak-pocitame">
+      <summary>Jak počítá kalkulačka?</summary>
+      <p id="faqCalc">Každý měsíc vložíte stejnou částku. Trh roste o 7 % ročně, z toho se strhává roční poplatek fondu (a u fondu z banky i vstupní poplatek z každého vkladu). Daně a kurz koruny zanedbáváme, u obou variant jsou stejné.</p>
+    </details>
+  </section>
+
+  <!-- 5. ZDROJE -->
+  <section class="sources" id="zdroje" data-section="sources">
+    <h2>Odkud jsou data</h2>
+    <ul id="sourceList"></ul>
+    <p class="legal">Nejde o investiční doporučení ani nabídku. Historické výnosy nejsou zárukou budoucích. Provozovatel: <i>[doplnit název, IČO a adresu]</i>.</p>
+  </section>
+
+</main>
+
+<div class="sticky" id="sticky" hidden>
+  <a class="btn" href="#odemknout" data-cta="sticky">Odemknout srovnání 12 ETF</a>
+</div>
+
+<div class="consent" id="consent" hidden>
+  <p>Reklamní měřicí kódy (Meta, Google) spustíme jen s vaším souhlasem. <a href="zasady.html">Více</a></p>
+  <div class="consent-btns">
+    <button type="button" data-consent="no">Jen nezbytné</button>
+    <button type="button" data-consent="yes">Povolit</button>
+  </div>
+</div>
+
+<div class="debug" id="debug" hidden></div>
+
+<script src="config.js"></script>
+<script src="data.js"></script>
+<script src="app.js" defer></script>
+</body>
+</html>
