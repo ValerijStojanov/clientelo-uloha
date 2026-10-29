@@ -1,0 +1,92 @@
+{
+ "candidates": 60,
+ "included_by_collector": 29,
+ "not_yet_verified": [
+  "ZAKA VC",
+  "Soulmates Ventures",
+  "Springtide Ventures (KKCG)",
+  "Tachles VC",
+  "Rockaway Capital (Rockaway Ventures)"
+ ],
+ "field_verdicts": {
+  "supported": 185,
+  "partial": 31,
+  "not_supported": 3,
+  "unavailable": 0
+ },
+ "field_verdicts_by_field": {
+  "legal_name": {
+   "supported": 23,
+   "not_supported": 1
+  },
+  "registry_id": {
+   "supported": 23,
+   "not_supported": 1
+  },
+  "hq_city": {
+   "supported": 23,
+   "partial": 1
+  },
+  "website": {
+   "supported": 23
+  },
+  "sectors": {
+   "supported": 12,
+   "partial": 10,
+   "not_supported": 1
+  },
+  "stages": {
+   "supported": 13,
+   "partial": 8
+  },
+  "ticket": {
+   "supported": 15,
+   "partial": 2
+  },
+  "capital": {
+   "supported": 7,
+   "partial": 7
+  },
+  "last_investment": {
+   "supported": 21,
+   "partial": 3
+  },
+  "independent_deal_evidence": {
+   "supported": 24
+  },
+  "type_evidence": {
+   "supported": 1
+  }
+ },
+ "field_accuracy_strict": 0.8447488584474886,
+ "field_accuracy_lenient": 0.9863013698630136,
+ "record_precision_collector": {
+  "correct": 19,
+  "n": 24,
+  "wrong": [
+   "Miton",
+   "QQ Capital",
+   "Patero",
+   "BD Partners",
+   "Jet Investment"
+  ]
+ },
+ "l2_flagged_records": [
+  "Tensor Ventures",
+  "Miton",
+  "QQ Capital",
+  "Patero",
+  "BD Partners",
+  "Jet Investment"
+ ],
+ "false_negatives": {
+  "found": [
+   "Koopeo Ventures"
+  ],
+  "rechecked": 9
+ },
+ "spot_checks": {
+  "agree": 7,
+  "n": 7
+ }
+}

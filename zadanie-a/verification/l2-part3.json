@@ -1,0 +1,110 @@
+{
+ "included": [
+  {
+   "name": "Inven Capital (ČEZ)",
+   "fields": {
+    "legal_name": {"verdict": "supported", "note": "ARES obchodniJmeno: 'Inven Capital, SICAV, a.s.'"},
+    "registry_id": {"verdict": "supported", "note": "ARES IČO 02059533 exists, active (vznik 2013-09-01, no zánik)."},
+    "hq_city": {"verdict": "supported", "note": "ARES sídlo: Pod křížkem 1773/2, Braník, 14700 Praha 4."},
+    "website": {"verdict": "supported", "note": "invencapital.cz is Inven's own site; also cited as 'www.invencapital.cz' in the Wint 2026 press release."},
+    "sectors": {"verdict": "supported", "note": "Site: topic 'Climate tech'; Wint PR boilerplate: 'focused on later-stage climate tech investments in Europe & Israel'."},
+    "stages": {"verdict": "partial", "note": "No stage policy stated. EIB: 'Inven beteiligt sich hauptsächlich in der späten Wachstumsphase' (mainly late growth). Site news shows Series A (Ember), Series C/D (WINT, Taranis). A/B+/growth is a reasonable derivation, but the sources emphasise later stage."},
+    "ticket": {"verdict": "supported", "note": "Site, under 'Ticket size': '2-30m EUR'."},
+    "capital": {"verdict": "supported", "note": "Site: 'we invest EUR 500m from institutional investors and global corporates'; EIB 2023: 'Gesamtvolumen von mehr als 500 Millionen Euro'. Measure = total committed capital incl. EIB, as of 2023 (repeated in the Sept 2026 PR boilerplate)."},
+    "last_investment": {"verdict": "supported", "note": "PR Newswire 'NEW YORK, Sept. 9, 2026': '$36 million in Series D funding co-led by LIP Ventures and Inven Capital'. This is a follow-on: Inven was already a WINT investor (it co-led the earlier $35M Series C)."},
+    "independent_deal_evidence": {"verdict": "supported", "note": "YPOG, February 11, 2026: 'participants in the round included Inven Capital' (Andercore USD 40M Series B). YPOG is a law firm advising other investors, so it is independent of Inven."}
+   },
+   "own_deal_found": {"company": "Andercore (USD 40M Series B, Inven joined as a new investor)", "date": "2026-02-11", "url": "https://www.thesaasnews.com/news/andercore-raises-40-million-series-b/"},
+   "is_active_investor": true,
+   "type_correct": true,
+   "hq_in_cz": true,
+   "comment": "Clean record. ČEZ-backed CVC with a new portfolio company (Andercore, Feb 2026) and a co-led follow-on (WINT Series D, Sept 2026). The stage field overstates early stages: the EIB describes Inven as mainly late-growth."
+  },
+  {
+   "name": "Y Soft Ventures",
+   "fields": {
+    "legal_name": {"verdict": "supported", "note": "ARES: 'Y Soft Ventures Management, a.s.'"},
+    "registry_id": {"verdict": "supported", "note": "ARES IČO 04504593 exists, active (vznik 2015-10-27)."},
+    "hq_city": {"verdict": "supported", "note": "ARES sídlo: Technická 2948/13, Královo Pole, 61600 Brno."},
+    "website": {"verdict": "supported", "note": "The cited URL ysoftventures.com returns 301 Moved Permanently to https://www.ysoft.com/ventures, which is the claimed value."},
+    "sectors": {"verdict": "partial", "note": "Source: 'The Internet of Things (IoT) represents the focal point of our investment strategy', 'hardware or software solution, or a combination of both', B2B only. 'Software' fits only in part, and 'deeptech' is not stated. Better: IoT/hardware + B2B software."},
+    "stages": {"verdict": "partial", "note": "Source says only 'We support early-stage technology startups'. It does not name pre-seed or seed."},
+    "last_investment": {"verdict": "supported", "note": "EIT Jumpstarter, July 2, 2025: RoboTwin 'has secured €1.25 million in pre-seed funding' from 'BD Partners, Y Soft Ventures and Jörg Rupp' ('a blend of private capital and an EU grant'). CB Insights (T4) dates the round 2025-06-18."},
+    "independent_deal_evidence": {"verdict": "supported", "note": "Same deal and source as last_investment (EIT programme page, independent of Y Soft). Only one deal in the window was found."}
+   },
+   "own_deal_found": {"company": "RoboTwin (EUR 1.25M pre-seed)", "date": "2025-07-02", "url": "https://eitjumpstarter.eu/robotwin-secures-1-million-eur/"},
+   "is_active_investor": true,
+   "type_correct": true,
+   "hq_in_cz": true,
+   "comment": "VC type and Brno HQ are correct, but activity is thin: one deal in 24 months (RoboTwin, mid-2025) and none found for 2026. Re-check at L4. The 'cvc' subtype is debatable: per a Forbes.cz headline, Fund II has outside LPs (Frolík, Livesport); not verified further."
+  },
+  {
+   "name": "Seed Starter ČS (Česká spořitelna)",
+   "fields": {
+    "legal_name": {"verdict": "supported", "note": "ARES: 'ČS Seed Starter, a.s.'; site footer: 'ČS Seed Starter, a.s.'"},
+    "registry_id": {"verdict": "supported", "note": "ARES IČO 61058769 exists, active (vznik 1996-04-25, an older shell later renamed)."},
+    "hq_city": {"verdict": "supported", "note": "ARES sídlo: Olbrachtova 1929/62, Krč, 14000 Praha 4."},
+    "website": {"verdict": "supported", "note": "seedstarter.cz/en/home is the fund's own site."},
+    "sectors": {"verdict": "supported", "note": "Site: 'investing in technologies that help banking thrive or bring innovation to our clients' (fintech). cc.cz 17.12.2025: Milota 'hledá jeho společnost deeptech startupy'."},
+    "stages": {"verdict": "supported", "note": "Site: 'Pre-seed & Seed investment rounds'."},
+    "ticket": {"verdict": "supported", "note": "Site: '200k – 1M EUR'."},
+    "last_investment": {"verdict": "partial", "note": "The source supports the deal: cc.cz 17.12.2025, Repsense 'získal 1,1 milionu eur', 'přidaly se Seed Starter České spořitelny'. But it is no longer the latest: cc.cz 12.6.2026 reports a Definic seed round of EUR 2.5M led by J&T Ventures, 'ke kterému se připojil Seed Starter'."},
+    "independent_deal_evidence": {"verdict": "supported", "note": "cc.cz 17.3.2025: 'Téměř polovinu z 2,2 milionu eur posílá korporátní venture kapitálový fond Seed Starter České spořitelny' (Vestberry, its tenth startup)."}
+   },
+   "own_deal_found": {"company": "Definic (EUR 2.5M seed, led by J&T Ventures, with Seed Starter ČS and Slovak Investment Holding)", "date": "2026-06-12", "url": "https://cc.cz/nakup-it-sluzeb-v-korporacich-je-casto-nefunkcni-hlasi-do-jejich-reseni-investuje-i-ceska-sporitelna/"},
+   "is_active_investor": true,
+   "type_correct": true,
+   "hq_in_cz": true,
+   "comment": "Correct bank CVC: CzechCrunch shows 3 deals in the window. The last_investment field is outdated; update it to Definic, 2026-06-12."
+  },
+  {
+   "name": "Jet Investment",
+   "fields": {
+    "legal_name": {"verdict": "supported", "note": "ARES: 'Jet Investment, a.s.'"},
+    "registry_id": {"verdict": "supported", "note": "ARES IČO 03890333 exists, active (vznik 2015-03-16)."},
+    "hq_city": {"verdict": "supported", "note": "ARES sídlo: Pisárecká 271/13, Pisárky, 63400 Brno. CzechCrunch also calls it 'brněnská skupina'."},
+    "website": {"verdict": "supported", "note": "jetinvestment.cz is the group's own site. The cited page is its venture-capital section."},
+    "sectors": {"verdict": "partial", "note": "No formal sector list. The page says 'We support Central European technology start-ups that can transform entire industries'. AI, deeptech, SaaS and industry appear only in portfolio descriptions, so the value is derived from the portfolio, not stated."},
+    "ticket": {"verdict": "partial", "note": "Stated range (cc.cz 18.12.2025): 'mezi jedním a dvěma miliony eur' (EUR 1–2M). Actual deals fall outside the claimed 1.5–2.1M: Hermetiq 'USD 750,000' (Jet news 26.08.2026, cc.cz 17.9.2026); Digicust about EUR 950k per a Conseq newsletter seen only as a search snippet. The minimum is too high."},
+    "capital": {"verdict": "partial", "note": "cc.cz 18.12.2025: 'Cílová velikost fondu je 50 milionů eur' and 'už po prvním kole fundraisingu má k dispozici přes třicet milionů eur'. EUR 50M is the target size of the VC fund Jet Venture 1 (more than EUR 30M raised). It is not Jet Investment's capital: the group 've čtyřech fondech kvalifikovaných investorů spravuje 17 miliard korun' (cc.cz 17.9.2026), mostly PE and industrial real estate."},
+    "last_investment": {"verdict": "supported", "note": "cc.cz 17.9.2026: 'Jet jako hlavní investor vložil 1,8 milionu dolarů (38 milionů korun), zhruba čtyři pětiny kola' and 'AppNava (USA): 1,8 milionu dolarů (celé kolo 2,3 milionu dolarů)'."},
+    "independent_deal_evidence": {"verdict": "supported", "note": "cc.cz 23.6.2026: DecisionRules 'získává investici ve výši 1,5 milionu eur (36 milionů korun) od brněnské skupiny Jet Investment, respektive jejího venture kapitálového fondu Jet Venture 1'. The source does not say Jet led."}
+   },
+   "own_deal_found": {"company": "Hermetiq (USD 750k of a USD 2.2M round, via Jet Venture 1)", "date": "2026-08-26", "url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/"},
+   "is_active_investor": true,
+   "type_correct": "unclear",
+   "hq_in_cz": true,
+   "comment": "Jet Investment is primarily a PE and industrial-real-estate group (CZK 17bn in 4 funds; Jet 2/3/4 buyouts in the window, e.g. Plastiwell 2025, Likov, Fiberpreg, PEKAŘI add-on Sept 2026). Its VC arm Jet Venture 1 (11 startup deals) may win on deal count, but I could not count the PE deals. 'independent_vc' on the group entity, plus EUR 50M as its capital, is misleading: restructure as the VC arm (Jet Venture 1) with type_secondary=PE, or send to L3."
+  }
+ ],
+ "excluded_recheck": [
+  {
+   "name": "RSJ Investments",
+   "found_recent_investment": false,
+   "evidence": null,
+   "should_be_included": false,
+   "comment": "Three searches found no direct startup deal dated on or after 2024-10-29. The latest direct VC deal found is the Hedepy seed round (Jan 2024, with Nation 1 and Purple Ventures), which is outside the window. RSJ Tech I–IV are funds of funds (X6), RSJ Core is mainly real estate, and Gradus (life sciences) shows no 2025–26 round. The X8 exclusion stands; RSJ publicises little, so an L3 check of rsj.com portfolio pages is optional."
+  },
+  {
+   "name": "KB SmartSolutions",
+   "found_recent_investment": false,
+   "evidence": null,
+   "should_be_included": false,
+   "comment": "No new startup equity investment in the window. The only transactions found are consolidation or exits: buying out Upvest's minority shareholders to reach 100% (Bird & Bird 2025 deal note; page returned 403) and the sale of its minority stake in Roger (KB notice, Jan 2025). The exclusion stands (X8; the Upvest buyout also looks like X7 strategic ownership)."
+  },
+  {
+   "name": "mAccelerator.vc (mBank)",
+   "found_recent_investment": false,
+   "evidence": null,
+   "should_be_included": false,
+   "comment": "The latest known deal is HCM Deck Series A, 2019-06-06 (CB Insights, T4), with no 2025–26 activity in Polish or English sources. It is also a Polish vehicle (Future Tech FIZ, Warsaw, 98% mBank), so X11 (HQ outside CZ) applies on top of X8. The exclusion is correct."
+  },
+  {
+   "name": "Orbit Capital (OGD Advisory)",
+   "found_recent_investment": false,
+   "evidence": null,
+   "should_be_included": false,
+   "comment": "The firm is NOT inactive. Growth Debt Fund II (EUR 107M, tech.eu 2026-07-02) has made 5 deals, including Sloneek (USD 6M round led by Orbit and Venture to Future Fund, June 2026, https://nordic9.com/news/sloneek-raised-a-6m-seed-extension-led-by-orb/), but these are 'non-dilutive' venture debt. Exclude, with the reason corrected from X8 to X5 (debt only). The separate Orbit Growth Equity arm (Mews, Rohlik, Booksy, Preply) has no dated equity deal in the window; HQ is also ambiguous (Prague vs 'Polish Orbit Capital')."
+  }
+ ]
+}

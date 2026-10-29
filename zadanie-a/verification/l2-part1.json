@@ -1,0 +1,166 @@
+[
+  {
+    "index": 0,
+    "name": "Credo Ventures",
+    "fields": {
+      "legal_name": {"verdict": "supported", "note": "ARES: obchodniJmeno 'Credo Ventures a.s.', IČO 28538137, active since 2009-03-02."},
+      "registry_id": {"verdict": "supported", "note": "ARES record 28538137 exists and is not dissolved."},
+      "hq_city": {"verdict": "supported", "note": "ARES seat: Karlovo náměstí 2097/10, Nové Město, 120 00 Praha 2."},
+      "website": {"verdict": "supported", "note": "credoventures.com loads and is the firm's site."},
+      "sectors": {"verdict": "supported", "note": "There is no sector list. The site says 'Backing exceptional people, not thesis-driven.', so 'generalist' is our reading of that, not a word the site uses."},
+      "stages": {"verdict": "supported", "note": "Site: 'Leading Pre-Seed rounds.' cc.cz 23.3.2026: 'Fond se zaměřuje na úvodní, tedy pre-seed investice'."},
+      "ticket": {"verdict": "supported", "note": "Site: '$1M - $5M checks.' cc.cz: 'pre-seed investice o velikosti mezi jedním až pěti miliony dolarů'."},
+      "capital": {"verdict": "supported", "note": "cc.cz 23.3.2026: Credo Stage 5 (fifth fund), 'v němž má od investorů připravených 88 milionů dolarů'. This is the size of the latest fund, not total AUM."},
+      "last_investment": {"verdict": "supported", "note": "Goodwin 15 Oct 2026: '$32 million Series A' led by Balderton 'with participation from existing investors Index Ventures, Northzone, and Credo Ventures'. This is a follow-on, not a new investment."},
+      "independent_deal_evidence": {"verdict": "supported", "note": "Same Duvo round. The Goodwin page and the cc.cz piece of 18.10.2026 ('Součástí bylo opět i Credo Ventures') both confirm it. It is a follow-on; cc.cz says Credo also joined Duvo's first round at the end of 2025."}
+    },
+    "own_deal_found": {"company": "SuperPlane ($2.6M pre-seed, led by Credo)", "date": "2026-06-24", "url": "https://tech.eu/2026/06/24/superplane-secures-26m-to-turn-production-operations-into-an-ai-native-workflow-layer/"},
+    "is_active_investor": true,
+    "type_correct": true,
+    "hq_in_cz": true,
+    "comment": "Every claim checks out against its source. The Duvo deal is a follow-on, but tech.eu shows Credo leading a new pre-seed round (SuperPlane, June 2026)."
+  },
+  {
+    "index": 1,
+    "name": "KAYA VC (Enern)",
+    "fields": {
+      "legal_name": {"verdict": "supported", "note": "ARES: 'KAYA (fka Enern) s.r.o.'. Its only shareholder is 'ENERN Investments, investiční fond s proměnným základním kapitálem, a.s.'. ARES NACE 68200 is incidental."},
+      "registry_id": {"verdict": "supported", "note": "ARES record 10838821 exists and is active."},
+      "hq_city": {"verdict": "supported", "note": "ARES seat: Türkova 2319/5b, Praha 4. The website names no HQ. It lists offices in Warszawa, Prague (Thámova 183/11), San Francisco and London."},
+      "website": {"verdict": "supported", "note": "kaya.vc loads."},
+      "sectors": {"verdict": "supported", "note": "The site says it backs 'teams building at the frontier of digital, physical, and consumer economies'. That is broad and fits 'generalist', but the word does not appear on the site."},
+      "stages": {"verdict": "supported", "note": "Site: Round 'Pre+Seed'; invests 'pre-seed through to meaningful scale'."},
+      "ticket": {"verdict": "supported", "note": "Site: '$1–3M'. Czech press gives the same range in EUR."},
+      "capital": {"verdict": "supported", "note": "Site: 'Current fund: $85M' and 'AUM total: $500M'. The $85M is the current fund. Press reported a €70M first close for Fund V in June 2025."},
+      "last_investment": {"verdict": "supported", "note": "cc.cz 7.10.2026, Series A of $47M: 'K současnému kolu se přidaly také české fondy Kaya VC a Tech Horizons'. Business Wire lists Kaya VC among the existing investors, so this is a follow-on."},
+      "independent_deal_evidence": {"verdict": "supported", "note": "Same Sensible Biotechnologies round as last_investment, same source and date. It is a follow-on."}
+    },
+    "own_deal_found": {"company": "Viktor ($75M Series A led by Accel; Kaya VC participated)", "date": "2026-05-21", "url": "https://www.shopifreaks.com/viktor-raises-75m-series-a-led-by-accel-to-build-ai-coworker-agent-embedded-in-slack-and-microsoft-teams-workspaces/"},
+    "is_active_investor": true,
+    "type_correct": true,
+    "hq_in_cz": true,
+    "comment": "All claims are supported. The managing s.r.o. is registered in Prague, but the firm also has Warsaw, SF and London offices, and the Sensible deal is a follow-on."
+  },
+  {
+    "index": 2,
+    "name": "Presto Ventures",
+    "fields": {
+      "legal_name": {"verdict": "supported", "note": "ARES: 'Presto Ventures II a.s., osoba rizikového kapitálu', named that since 2025-02-13. Its board is E. Kučera, R. Nováček and M. Kratochvíl. This is the Fund II vehicle, not the management company (rule X10). The recent deals and the €150M fund run through 'Presto Tech Horizons', a different vehicle set up with CSG."},
+      "registry_id": {"verdict": "supported", "note": "ARES record 11678704 exists and is active."},
+      "hq_city": {"verdict": "supported", "note": "ARES seat: Revoluční 763/15, Praha 1. The website office is Slovanský dům, Senovážné nám. 869/28, Praha 1."},
+      "website": {"verdict": "supported", "note": "prestoventures.com loads."},
+      "sectors": {"verdict": "supported", "note": "Site: 'Security, defense, and aerospace. Cutting-edge and dual-use solutions, both software and hardware'. 'Security' is stated. 'Deeptech' is how aerospace/hardware was mapped onto the 15 categories."},
+      "stages": {"verdict": "supported", "note": "Site: 'Seed TO SERIES A'."},
+      "ticket": {"verdict": "supported", "note": "Site: 'Tickets ranging from €500k to €5M.'"},
+      "capital": {"verdict": "supported", "note": "Site: 'Our new €150M fund targets the best of security, defense, and aerospace tech'. That fund is Presto Tech Horizons (with CSG), not the Presto Ventures II a.s. named in legal_name. Older funds: '€40M from two funds'."},
+      "last_investment": {"verdict": "supported", "note": "cc.cz, published 2026-02-11 (checked in the page metadata): a €3M pre-seed round in Occam 'které vedl fond český Presto Tech Horizons, jejž založila společnost Presto Ventures a zbrojařská skupina CSG'. One aggregator (altss) dates an Occam €3M round to Feb 2025, which conflicts."},
+      "independent_deal_evidence": {"verdict": "supported", "note": "cc.cz 15.5.2025: 'fond Presto Tech Horizons společně s americkým Outlanderem vedly seed investici ve výši 3,5 milionu dolarů' (DiffuseDrive)."}
+    },
+    "own_deal_found": {"company": "Firehawk Aerospace ($60M round led by 1789 Capital; Presto Tech Horizons the only European investor)", "date": "2025-09-25", "url": "https://tech.eu/2025/09/25/firehawk-aerospace-raises-60m-to-scale-3d-printed-rocket-propellants-gains-strategic-european-backing/"},
+    "is_active_investor": true,
+    "type_correct": true,
+    "hq_in_cz": true,
+    "comment": "The values are right, but the record mixes two vehicles: legal_name/IČO is Fund II, while the capital and every recent deal belong to Presto Tech Horizons. The record should be tied to the management entity. The 'independent_vc' subtype is debatable because the active fund is a joint vehicle with CSG, a defence group."
+  },
+  {
+    "index": 3,
+    "name": "N1 (Nation 1)",
+    "fields": {
+      "legal_name": {"verdict": "not_supported", "note": "ARES has a 'Nation1 Investment s.r.o.', but its only statutory members and shareholders are Jaroslav Ton and Petr Jiříček. N1's partners are Marek Moravec, Jaroslav Trojan, Klára Kocarová and Ondřej Homola (cc.cz 18.9.2023). Its seat (Bělehradská 858/23, Praha 2) is not N1's Prague office (Národní 135/14). This looks like a different company with a similar name. N1's site gives a Luxembourg address, and one listing names 'Nation 1 GP SARL'."},
+      "registry_id": {"verdict": "not_supported", "note": "IČO 09172807 belongs to the company described under legal_name, which does not appear to be N1. ARES has no other match for 'Nation 1', 'N1 Ventures' or 'N1 Fund'."},
+      "hq_city": {"verdict": "partial", "note": "The ARES source is the wrong company, and lupa.cz only says 'Český fond N1' without naming a city. n1.rocks does list a Prague office (Národní 135/14, Prague 1) next to San Francisco and Luxembourg (Senningerberg), so 'Praha' is probably right."},
+      "website": {"verdict": "supported", "note": "czechstartups.gov.cz links to 'https://www.n1.rocks/'."},
+      "sectors": {"verdict": "partial", "note": "n1.rocks: 'two funds focused on AI and healthcare'. AI and health are supported; 'deeptech' is not mentioned."},
+      "stages": {"verdict": "supported", "note": "czechstartups.gov.cz: N1 'focuses on pre-seed and seed investment'."},
+      "capital": {"verdict": "supported", "note": "n1.rocks: 'Today, we manage $60M across two funds focused on AI and healthcare.' This is the total across two funds, not the size of one fund."},
+      "last_investment": {"verdict": "supported", "note": "lupa.cz 8.6.2026: 'N1 vstoupilo do seed kola, ve kterém startup ... získal 8,2 milionu dolarů' (Human Archive)."},
+      "independent_deal_evidence": {"verdict": "supported", "note": "Same Human Archive round on lupa.cz, 8.6.2026."}
+    },
+    "own_deal_found": {"company": "Flick ($6M seed; N1 Ventures participated)", "date": "2026-05-15", "url": "https://www.lupa.cz/aktuality/cesi-z-n1-investovali-do-startupu-ktery-vytvari-ai-filmy-stoji-za-nim-spolutvurce-instagram-stories/"},
+    "is_active_investor": true,
+    "type_correct": true,
+    "hq_in_cz": true,
+    "comment": "N1 is an active VC with a Prague office, but legal_name and IČO point to a company owned by unrelated people (Ton/Jiříček), so the registry match is wrong. Hold the record until the correct entity is found, which may be the Luxembourg GP. hq_in_cz=true rests on the Prague office and Czech press calling it a 'český fond'; it is not backed by a registry."
+  },
+  {
+    "index": 4,
+    "name": "DEPO Ventures",
+    "fields": {
+      "legal_name": {"verdict": "supported", "note": "ARES: 'DEPO VENTURES, s.r.o.'"},
+      "registry_id": {"verdict": "supported", "note": "ARES record 04753101 exists and is active."},
+      "hq_city": {"verdict": "supported", "note": "ARES: Plynární 1617/10, Praha 7. This matches the website ('Plynární 10 street, Prague 7')."},
+      "website": {"verdict": "supported", "note": "depoventures.com loads."},
+      "sectors": {"verdict": "supported", "note": "Site: 'Defence, Space, FinTech, Industry 4.0, Energy'. These were mapped as Defence→security and Space→deeptech."},
+      "stages": {"verdict": "supported", "note": "Site: 'Inception & Pre-seed'."},
+      "ticket": {"verdict": "supported", "note": "Site: '€250K - 500K'."},
+      "last_investment": {"verdict": "supported", "note": "startupcentrum, 1 Sep 2026: 'The round was led by DEPO Ventures through its DEPO Ventures One fund.' The round was over €2M and its type is not given, so round=null is correct."},
+      "independent_deal_evidence": {"verdict": "supported", "note": "cc.cz 28.4.2026, Tapaya pre-seed of €1M: 'Investiční kolo vedl tuzemský fond Depo Ventures společně s britským Passion Capital'."}
+    },
+    "own_deal_found": {"company": "Cork Protocol ($5.5M seed led by Road Capital & a16z CSX; 'Depo Ventures' among participants)", "date": "2026-01-21", "url": "https://crypto-fundraising.info/blog/cork-protocol-raised-5-5m-in-a-seed-funding-round/"},
+    "is_active_investor": true,
+    "type_correct": true,
+    "hq_in_cz": true,
+    "comment": "Every claim checks out, and the legal seat matches the website. The deal I found myself comes from a lower-tier crypto news site and may be a follow-on. The collector's Tapaya and ArcSpace deals are stronger evidence."
+  },
+  {
+    "index": 5,
+    "name": "J&T Ventures",
+    "fields": {
+      "legal_name": {"verdict": "supported", "note": "ARES: 'J&T Ventures CG SICAV a.s.' (NACE 64310). This is a SICAV fund vehicle, not the management company."},
+      "registry_id": {"verdict": "supported", "note": "ARES record 08220867 exists and is active."},
+      "hq_city": {"verdict": "supported", "note": "ARES: Sokolovská 700/113a, Karlín, Praha 8. This matches the website address."},
+      "website": {"verdict": "supported", "note": "jtventures.cz loads."},
+      "sectors": {"verdict": "supported", "note": "Site: 'Sector Agnostic' (plus B2B, B2C, Marketplaces)."},
+      "stages": {"verdict": "supported", "note": "Site: Fáze 'Pre-seed až Series A'."},
+      "ticket": {"verdict": "supported", "note": "Site: Velikost investice '€300K – €3M'."},
+      "capital": {"verdict": "supported", "note": "Site: '€120M' labelled 'Výše aktiv', which is assets/AUM, not the size of one fund."},
+      "last_investment": {"verdict": "supported", "note": "cc.cz 12.6.2026, Definic seed of €2.5M: 'Investiční kolo vedl český fond J&T Ventures'."},
+      "independent_deal_evidence": {"verdict": "supported", "note": "Same Definic round on cc.cz, 12.6.2026."}
+    },
+    "own_deal_found": {"company": "ValkaAI (€12M pre-seed led by Rockaway Ventures; J&T Ventures participated)", "date": "2026-02-25", "url": "https://techfundingnews.com/valkaai-12m-pre-seed-cee-largest-real-time-ai-avatars/"},
+    "is_active_investor": true,
+    "type_correct": true,
+    "hq_in_cz": true,
+    "comment": "Every field is supported, and it is clearly an active VC. The 'cvc' subtype is doubtful: the website shows only an office in the J&T Banka building, nothing proving corporate balance-sheet money, so 'independent_vc' (bank-affiliated) may fit better."
+  },
+  {
+    "index": 6,
+    "name": "Reflex Capital",
+    "fields": {
+      "legal_name": {"verdict": "supported", "note": "ARES: 'Reflex Capital SE'."},
+      "registry_id": {"verdict": "supported", "note": "ARES record 24269158 exists and is active."},
+      "hq_city": {"verdict": "supported", "note": "ARES: Rašínovo nábřeží 2000/78, Praha 2. This matches the website, which also lists a San Francisco office."},
+      "website": {"verdict": "supported", "note": "reflexcapital.com loads."},
+      "sectors": {"verdict": "not_supported", "note": "The homepage states no sector focus. It shows only '€150M invested' and portfolio logos, so 'software' is not in the source."},
+      "capital": {"verdict": "partial", "note": "cc.cz 2.4.2024 says only 'V prosinci svůj další, půlmiliardový fond představil Reflex Capital': no currency, rounded, and as of Dec 2023. Another cc.cz piece gives the third fund as €22M (~540M CZK)."},
+      "last_investment": {"verdict": "supported", "note": "cc.cz 21.10.2026, ArtMaster $2.4M: 'K dřívějším investorům se nově přidávají fondy Factorial Capital a český Reflex Capital'. Round type not given."},
+      "independent_deal_evidence": {"verdict": "supported", "note": "cc.cz 9.6.2026, Merchantee seed extension: 'Kolo vedl fond Reflex Capital za účasti Czech Founders VC a Lighthouse Ventures.'"}
+    },
+    "own_deal_found": {"company": "Supernova ($9.2M Series A led by Taiwania Capital; Reflex Capital participated)", "date": "2025-10-05", "url": "https://pulse2.com/supernova-9-2-million-series-a-closed-for-bringing-vibe-coding-to-product-teams"},
+    "is_active_investor": true,
+    "type_correct": true,
+    "hq_in_cz": true,
+    "comment": "This is an active Prague VC and belongs in the database. The 'software' sector is not in the source, and the capital figure (500M CZK) is an approximate 2023 number with no currency stated."
+  },
+  {
+    "index": 7,
+    "name": "Purple Ventures",
+    "fields": {
+      "legal_name": {"verdict": "supported", "note": "ARES: 'Purple Ventures s.r.o.' The website footer gives the same name."},
+      "registry_id": {"verdict": "supported", "note": "ARES record 05775574 exists and is active."},
+      "hq_city": {"verdict": "supported", "note": "ARES: Masarykova 409/26, Brno. Website footer: 'Masarykova 26, 602 00 Brno'."},
+      "website": {"verdict": "supported", "note": "purple-ventures.com loads."},
+      "sectors": {"verdict": "partial", "note": "The site says 'early-stage purpose-driven technology startups' and 'CEE+ tech-enabled innovations', and quotes tech.eu: '€40M fund for early-stage software startups'. That describes a tech/software focus; it does not say generalist."},
+      "stages": {"verdict": "supported", "note": "Site: 'Pre-seed & Seed'."},
+      "ticket": {"verdict": "supported", "note": "Site: '€250k to €400k' as the initial ticket, with follow-ons later."},
+      "capital": {"verdict": "partial", "note": "cc.cz 2.4.2024: 'cílí v něm na 40 milionů eur'. That is a target, not a closed fund. The site says 'Fund II has raised over CZK 700 million' (about €29M), and a March 2026 report says about 780M CZK."},
+      "last_investment": {"verdict": "supported", "note": "cc.cz 9.12.2025: Purple, an earlier pre-seed investor in Vetstor, takes part in the new €1M round led by JSK ('Ty se účastní i aktuálního kola'). This is a follow-on. The same URL is listed twice. Aggregators show possibly newer deals (TASS Vision 2026), but I could not confirm them."},
+      "independent_deal_evidence": {"verdict": "supported", "note": "Same Vetstor article. It confirms participation but describes a follow-on, not a new investment."}
+    },
+    "own_deal_found": {"company": "Talentiqa (€1M round backed equally by Purple Ventures and Venture to Future Fund)", "date": "2025-10-07", "url": "https://www.thesaasnews.com/news/talentiqa-raises-1-million-in-funding/"},
+    "is_active_investor": true,
+    "type_correct": true,
+    "hq_in_cz": true,
+    "comment": "This is an active Brno VC: I found a new deal myself (Talentiqa, Oct 2025). The capital figure is a 2024 target rather than closed capital, and the collector's deal evidence is a follow-on only."
+  }
+]

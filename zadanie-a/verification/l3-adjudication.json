@@ -1,0 +1,417 @@
+{
+ "_about": "L3 = rozhodnutie hlavnej session (Claude Opus 5.5) pri nezhodách zberového agenta (L0) a overovateľa (L2) + vlastné ručné kontroly zdrojov. Pri každej oprave je zdroj. Ľudský recenzent by mal L3 zopakovať na náhodnej vzorke (verification/l3-checklist.csv).",
+ "rules_clarified": [
+  "Sídlo = mesto, kde pracuje správcovský tím (partneri). Právne sídlo fondu (často Luxembursko) sa uvádza zvlášť; nie je dôvodom na X11.",
+  "IČO sa priraďuje len vtedy, keď sedí aj štatutárny orgán / spoločníci s menami partnerov z webu alebo médií. Zhoda názvu nestačí (prípad N1).",
+  "Záznam patrí správcovi. Ak je v registri len fondové vozidlo (SICAV, Batch s.r.o.), uvedie sa ako vozidlo a správca zostane bez IČO, kým sa nenájde (X10).",
+  "Posledná investícia = nová investícia do novej firmy. Follow-on je platný dôkaz aktivity, ale označí sa ako follow-on.",
+  "Kapitál má vždy stav: target (cieľ), interim (priebežne získané), closed (uzavretý fond), aum (spravované aktíva). Cieľ nie je kapitál.",
+  "Family office alebo PE ako primárny typ = skutočný investor, ale mimo VC pilotu (X11) — v celej DB ide do svojej kategórie."
+ ],
+ "records": {
+  "N1 (Nation 1)": {
+   "final_correct": true,
+   "decision": "ponechať; zlé IČO odstrániť",
+   "corrections": {
+    "legal_name": {
+     "value": null,
+     "basis": "not_public",
+     "note": "IČO 09172807 patrí inej firme (štatutári J. Ton, P. Jiříček; NACE administratíva/obchod/reality). Overené v ARES 2026-10-29 hlavnou session. Fond je v Luxembursku."
+    },
+    "registry_id": {
+     "value": null,
+     "basis": "not_public",
+     "note": "pozri legal_name"
+    },
+    "sectors": {
+     "value": [
+      "ai",
+      "health"
+     ],
+     "basis": "stated",
+     "note": "n1.rocks: 'two funds focused on AI and healthcare' — 'deeptech' zdroj neuvádza"
+    }
+   },
+   "capital_status": "aum"
+  },
+  "Tensor Ventures": {
+   "final_correct": true,
+   "decision": "ponechať (tím v Prahe, fond v Luxembursku → pravidlo o sídle)",
+   "corrections": {
+    "registry_id": {
+     "value": null,
+     "basis": "not_public",
+     "note": "a.s. v ARES má NACE reality — nie je potvrdené, že je to správca; fond a GP sú luxemburské entity (L2)"
+    },
+    "legal_name": {
+     "value": null,
+     "basis": "not_public",
+     "note": "pozri registry_id"
+    }
+   }
+  },
+  "Presto Ventures": {
+   "final_correct": true,
+   "decision": "ponechať, ale kapitál a aktivita patria fondu Presto Tech Horizons (spoločne s CSG)",
+   "corrections": {
+    "capital": {
+     "value": {
+      "amount": 150000000,
+      "currency": "EUR"
+     },
+     "basis": "stated",
+     "measure": "Presto Tech Horizons (spoločný fond s CSG) — cieľ",
+     "note": "web: 'Our new €150M fund…'; staršie fondy spolu 40 mil. EUR"
+    }
+   },
+   "capital_status": "target",
+   "type_note": "subtype sporný: aktívny fond je joint venture s obranným koncernom CSG"
+  },
+  "Purple Ventures": {
+   "final_correct": true,
+   "decision": "ponechať; kapitál opraviť z cieľa na získaný",
+   "corrections": {
+    "capital": {
+     "value": {
+      "amount": 700000000,
+      "currency": "CZK"
+     },
+     "basis": "stated",
+     "measure": "Fund II — získané ('raised over CZK 700 million'); cieľ bol 40 mil. EUR",
+     "note": "purple-ventures.com podľa L2"
+    },
+    "sectors": {
+     "value": [
+      "software"
+     ],
+     "basis": "stated",
+     "note": "'€40M fund for early-stage software startups' (tech.eu citované na webe)"
+    }
+   },
+   "capital_status": "interim"
+  },
+  "Reflex Capital": {
+   "final_correct": true,
+   "decision": "ponechať; sektor a kapitál neboli doložené",
+   "corrections": {
+    "sectors": {
+     "value": [
+      "generalist"
+     ],
+     "basis": "derived",
+     "note": "web neuvádza sektorové zameranie; 'software' zdroj nedokladá → generalist (odvodené z portfólia)"
+    },
+    "capital": {
+     "value": {
+      "amount": 22000000,
+      "currency": "EUR"
+     },
+     "basis": "media",
+     "measure": "tretí fond",
+     "note": "cc.cz uvádza 22 mil. EUR; pôvodných '500 mil.' bez meny zo zdroja nevyplýva"
+    }
+   },
+   "capital_status": "closed"
+  },
+  "J&T Ventures": {
+   "final_correct": true,
+   "decision": "ponechať; subtype zmeniť na independent_vc (bankou podporovaný), legal_name je SICAV vozidlo",
+   "corrections": {},
+   "subtype": "independent_vc",
+   "capital_status": "aum"
+  },
+  "StartupYard": {
+   "final_correct": true,
+   "decision": "ponechať (akcelerátor s equity, Ydoca 2/2025 v okne); IČO patrí vozidlu Batch 15",
+   "corrections": {
+    "ticket": {
+     "value": {
+      "min": 25000,
+      "max": 25000,
+      "currency": "EUR"
+     },
+     "basis": "stated",
+     "note": "FAQ: '€25,000 cash investment via a convertible note' (+ 45 000 EUR in-kind); 100 000 EUR je follow-on fond s DEPO"
+    }
+   },
+   "confidence": "medium"
+  },
+  "AI Startup Incubator": {
+   "final_correct": true,
+   "decision": "ponechať pod menom Look AI Ventures",
+   "rename": "Look AI Ventures",
+   "corrections": {},
+   "capital_status": "target"
+  },
+  "JIC (JIC Ventures / JIC STARCUBE)": {
+   "final_correct": true,
+   "decision": "ponechať, zúžiť na fond JIC Ventures (STARCUBE je program)",
+   "rename": "JIC Ventures",
+   "corrections": {
+    "capital": {
+     "value": {
+      "amount": 320000000,
+      "currency": "CZK"
+     },
+     "basis": "media",
+     "measure": "alokované; cieľ 400 mil. Kč",
+     "note": "cc.cz 7. 4. 2026"
+    }
+   },
+   "capital_status": "interim",
+   "subtype": "public_vc"
+  },
+  "Tilia Impact Ventures": {
+   "final_correct": true,
+   "decision": "ponechať; kapitál je priebežný stav 2023",
+   "corrections": {},
+   "capital_status": "interim"
+  },
+  "Koopeo Ventures": {
+   "final_correct": true,
+   "decision": "PRIDAŤ — falošne vyradený ako neaktívny (X8). Overené hlavnou session: TheSaaSNews, TRIFFT Loyalty pre-seed 550 tis. EUR, 7/2025, 'participation from BD Partners, Gi21 Capital, and Koopeo'.",
+   "add_from_excluded": true,
+   "corrections": {
+    "last_investment": {
+     "value": {
+      "company": "TRIFFT Loyalty",
+      "date": "2025-07-18",
+      "round": "pre-seed"
+     },
+     "basis": "media",
+     "src": [
+      {
+       "url": "https://www.thesaasnews.com/news/trifft-loyalty-raises-550k-in-pre-seed-round",
+       "publisher": "TheSaaSNews",
+       "published": "2025-07-18",
+       "retrieved": "2026-10-29",
+       "quote": "The round was led by Lighthouse Ventures, with participation from BD Partners, Gi21 Capital, and Koopeo."
+      }
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "TRIFFT Loyalty",
+      "date": "2025-07-18"
+     },
+     "basis": "media",
+     "src": [
+      {
+       "url": "https://www.thesaasnews.com/news/trifft-loyalty-raises-550k-in-pre-seed-round",
+       "publisher": "TheSaaSNews",
+       "published": "2025-07-18",
+       "retrieved": "2026-10-29",
+       "quote": "with participation from BD Partners, Gi21 Capital, and Koopeo"
+      }
+     ]
+    },
+    "registry_id": {
+     "value": "05269113",
+     "basis": "registry",
+     "src": [
+      {
+       "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05269113",
+       "publisher": "ARES",
+       "published": null,
+       "retrieved": "2026-10-29",
+       "quote": null
+      }
+     ]
+    }
+   },
+   "confidence": "medium"
+  },
+  "QQ Capital": {
+   "final_correct": false,
+   "decision": "vyradiť z VC vzorky (X11): primárny typ family office — web: 'a venture family office', 'no LPs'. V celej DB patrí do kategórie FO.",
+   "exclusion_codes": [
+    "X11"
+   ],
+   "real_investor_other_type": "Family office"
+  },
+  "BD Partners": {
+   "final_correct": false,
+   "decision": "vyradiť z VC vzorky (X11): 'Jsme joint family office… nejsme klasický fond' (cc.cz). V celej DB patrí do FO.",
+   "exclusion_codes": [
+    "X11"
+   ],
+   "real_investor_other_type": "Family office"
+  },
+  "Miton": {
+   "final_correct": false,
+   "decision": "vyradiť z VC vzorky (X11, konzervatívne): investičná skupina/startup studio, v okne prevažujú akvizície a väčšinové podiely (Grason, polovica padel aplikácie, zlúčenie 8 gastro firiem). Kapitál 450 mil. EUR bol hodnota portfólia, nie kapitál Mitonu.",
+   "exclusion_codes": [
+    "X11"
+   ],
+   "real_investor_other_type": "Private holding"
+  },
+  "Patero": {
+   "final_correct": false,
+   "decision": "vyradiť konzervatívne (X9): typ nepreukázaný (web láka 'Staň se chuťovým investorem' — možný klub, X2), jediná investícia Flowlance 28. 11. 2024 na hrane okna, žiadny druhý dôkaz.",
+   "exclusion_codes": [
+    "X9"
+   ]
+  },
+  "Fazole Ventures": {
+   "final_correct": true,
+   "decision": "ponechať (fond, menšinové podiely, Everbot 9/2025)",
+   "corrections": {}
+  },
+  "Jet Investment": {
+   "final_correct": true,
+   "collector_record_correct": false,
+   "decision": "zberový agent zaradil celú skupinu ako VC, ale skupina je primárne PE + priemyselné reality (17 mld. Kč v 4 fondoch, buyouty v okne). Záznam preštruktúrovaný na VC fond Jet Venture 1 (type_secondary PE).",
+   "rename": "Jet Venture 1 (Jet Investment)",
+   "subtype": "independent_vc",
+   "type_secondary": "Private equity",
+   "corrections": {
+    "capital": {
+     "value": {
+      "amount": 30000000,
+      "currency": "EUR"
+     },
+     "basis": "media",
+     "measure": "Jet Venture 1 — získané po 1. kole; cieľ 50 mil. EUR",
+     "src": [
+      {
+       "url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+       "publisher": "CzechCrunch (podľa L2)",
+       "published": null,
+       "retrieved": "2026-10-29",
+       "quote": "už po prvním kole fundraisingu má k dispozici přes třicet milionů eur"
+      }
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 1000000,
+      "max": 2000000,
+      "currency": "EUR"
+     },
+     "basis": "media",
+     "note": "cc.cz 18. 12. 2025: 'mezi jedním a dvěma miliony eur'; reálne aj menej (Hermetiq 750 tis. USD)"
+    },
+    "last_investment": {
+     "value": {
+      "company": "Hermetiq",
+      "date": "2026-08-26",
+      "round": "seed"
+     },
+     "basis": "media",
+     "src": [
+      {
+       "url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+       "publisher": "CzechCrunch (podľa L2)",
+       "published": "2026-09-17",
+       "retrieved": "2026-10-29",
+       "quote": null
+      }
+     ]
+    }
+   },
+   "capital_status": "interim"
+  },
+  "Seed Starter ČS (Česká spořitelna)": {
+   "final_correct": true,
+   "decision": "ponechať; posledná investícia bola zastaraná",
+   "corrections": {
+    "last_investment": {
+     "value": {
+      "company": "Definic",
+      "date": "2026-06-12",
+      "round": "seed"
+     },
+     "basis": "media",
+     "src": [
+      {
+       "url": "https://cc.cz/nakup-it-sluzeb-v-korporacich-je-casto-nefunkcni-hlasi-do-jejich-reseni-investuje-i-ceska-sporitelna/",
+       "publisher": "CzechCrunch",
+       "published": "2026-06-12",
+       "retrieved": "2026-10-29",
+       "quote": "ke kterému se připojil Seed Starter"
+      }
+     ]
+    }
+   }
+  },
+  "Inven Capital (ČEZ)": {
+   "final_correct": true,
+   "decision": "ponechať (CVC skupiny ČEZ, Andercore 2/2026)",
+   "corrections": {}
+  },
+  "Y Soft Ventures": {
+   "final_correct": true,
+   "decision": "ponechať, nízka istota: jediná investícia v okne (RoboTwin 2025), firma sa presúva k exitom",
+   "corrections": {},
+   "confidence": "low"
+  },
+  "Orbit Capital (OGD Advisory)": {
+   "final_correct": false,
+   "decision": "vyradenie správne, ale kód bol zlý: nie X8 (neaktívny), ale X5 (len venture debt — Growth Debt Fund II, 107 mil. EUR, 5 transakcií)",
+   "exclusion_codes": [
+    "X5"
+   ],
+   "code_corrected": true
+  },
+  "mAccelerator.vc (mBank)": {
+   "final_correct": false,
+   "decision": "vyradenie správne; doplniť X11 (poľský fond Future Tech FIZ, Varšava)",
+   "exclusion_codes": [
+    "X8",
+    "X11"
+   ],
+   "code_corrected": true
+  }
+ },
+ "spot_checks": [
+  {
+   "record": "Lighthouse Ventures",
+   "field": "sectors",
+   "l2": "supported",
+   "my_check": "lhv.vc: 'B2B Software of various verticals, Fintech, AI'",
+   "agrees_with_l2": true
+  },
+  {
+   "record": "Purple Ventures",
+   "field": "stages",
+   "l2": "supported",
+   "my_check": "web: 'investing into CEE+ tech-enabled innovations in pre-seed and seed stages'",
+   "agrees_with_l2": true
+  },
+  {
+   "record": "Presto Ventures",
+   "field": "last_investment",
+   "l2": "supported",
+   "my_check": "cc.cz 11. 2. 2026: Occam, pre-seed 3 mil. EUR, 'vedl fond český Presto Tech Horizons, jejž založila společnost Presto Ventures' — dátum a firma sedia; investoval PTH",
+   "agrees_with_l2": true
+  },
+  {
+   "record": "Tilia Impact Ventures",
+   "field": "sectors",
+   "l2": "supported",
+   "my_check": "tilia.vc: 'Sector-agnostic, Impact-driven' → generalist",
+   "agrees_with_l2": true
+  },
+  {
+   "record": "J&T Ventures",
+   "field": "sectors",
+   "l2": "supported",
+   "my_check": "jtventures.cz: štítok 'Sector Agnostic'",
+   "agrees_with_l2": true
+  },
+  {
+   "record": "N1 (Nation 1)",
+   "field": "registry_id",
+   "l2": "not_supported",
+   "my_check": "ARES 09172807: štatutári Jaroslav Ton, Petr …; NACE 82100/46900/47/68200 — iná firma",
+   "agrees_with_l2": true
+  },
+  {
+   "record": "Koopeo Ventures",
+   "field": "exclusion X8",
+   "l2": "should_be_included",
+   "my_check": "TheSaaSNews 18. 7. 2025: TRIFFT Loyalty, 'participation from BD Partners, Gi21 Capital, and Koopeo'; ARES 05269113 KOOPEO Ventures SE aktívna",
+   "agrees_with_l2": true
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Miton",
+    "fields": {
+      "legal_name": {"verdict": "supported", "note": "ARES 27343430: obchodniJmeno 'MITON INVESTMENT, a.s.', active, founded 2007-12-21."},
+      "registry_id": {"verdict": "supported", "note": "ARES returns ICO 27343430 for MITON INVESTMENT, a.s."},
+      "hq_city": {"verdict": "supported", "note": "ARES: Křižíkova 148/34, Karlín, 186 00 Praha 8; miton.cz footer gives the same address."},
+      "website": {"verdict": "supported", "note": "miton.cz loads and is Miton's site."},
+      "sectors": {"verdict": "partial", "note": "miton.cz lists 'AI, augmented workforce', 'Krypto, web3', 'E-commerce', 'Gastrotech', 'Psychedelika, duševní zdraví'; czechstartups.gov.cz: 'digital innovative B2C companies'. The mapping crypto->fintech and psychedelics/mental health->health is interpretive, and gastrotech (agri/food) is left out."},
+      "capital": {"verdict": "partial", "note": "The 450 mil. EUR is 'hodnota současného portfolia, které jsme pomáhali budovat': the value of the portfolio companies Miton helped build, not Miton's capital or AUM. czechstartups.gov.cz puts the total value of its 60 companies at 2.7 bn EUR. Do not use this as capital."},
+      "last_investment": {"verdict": "supported", "note": "cc.cz 19. 10. 2026: Miton funded DeepScout before launch and 'Teď přidává další miliony, konkrétní částku ale odmítá komentovat'. The new AI service is not named and no round is given. The URL is a tag page; the article itself confirms it."},
+      "independent_deal_evidence": {"verdict": "supported", "note": "cc.cz 02. 2. 2026: 'investiční skupina Miton vložila 300 tisíc eur (7,5 milionu korun)' into Whisper."}
+    },
+    "own_deal_found": {"company": "DeepScout (follow-on into a new AI service)", "date": "2026-10-19", "url": "https://cc.cz/po-roce-a-pul-hlasi-zisk-mlady-startup-uz-vyuziva-i-alza-do-jeho-nove-ai-sluzby-posila-dalsi-miliony-miton/"},
+    "is_active_investor": true,
+    "type_correct": "unclear",
+    "hq_in_cz": true,
+    "comment": "Activity is clear, but Miton calls itself an 'investiční skupina' / startup studio, and many of its deals in the window are majority or holding moves: it bought Grason, bought a stake in a lunch-payment app, took half of a padel app, merged eight gastro firms into one group, and sold a bakery. Whether VC is its primary type needs L3 review, and the 450M EUR capital figure is mislabelled."
+  },
+  {
+    "name": "QQ Capital",
+    "fields": {
+      "legal_name": {"verdict": "supported", "note": "ARES 08676135: 'QQ Capital SE'."},
+      "registry_id": {"verdict": "supported", "note": "ARES returns ICO 08676135; the website footer also names QQ Capital SE."},
+      "hq_city": {"verdict": "supported", "note": "ARES: Hvězdova 1716/2b, Nusle, 140 00 Praha 4."},
+      "website": {"verdict": "supported", "note": "qq.capital loads and is the firm's site."},
+      "sectors": {"verdict": "supported", "note": "'We primarily invest in companies with software products across a wide range of industries'."},
+      "stages": {"verdict": "partial", "note": "The site only says 'from early-stage to growth-stage' and 'investing in early stage technological companies'. Pre-seed, seed, A and B+ are not stated."},
+      "last_investment": {"verdict": "supported", "note": "cc.cz 18. 2. 2026: Navigara seed of '2,5 milionu dolarů'; 'Kolo vedl polský fond Inovo VC, přidali se i čeští Rockaway Ventures a zmiňovaní QQ Capital'."},
+      "independent_deal_evidence": {"verdict": "supported", "note": "Same article and deal as last_investment, so it is not a second piece of evidence."}
+    },
+    "own_deal_found": {"company": "Navigara (seed USD 2.5M, lead Inovo VC)", "date": "2026-02-18", "url": "https://cc.cz/nasli-zpusob-jak-merit-vykon-ajtaku-a-jejich-dopad-na-byznys-od-investoru-ziskali-50-milionu/"},
+    "is_active_investor": true,
+    "type_correct": false,
+    "hq_in_cz": true,
+    "comment": "It calls itself 'a venture family office' and says 'As a family office, we invest private resources, so we have no LPs to report to'. Its primary type is family office (the collector also labelled it FO/sfo), so it falls outside the VC sample (X11). My searches found no other dated deal besides Navigara."
+  },
+  {
+    "name": "Fazole Ventures",
+    "fields": {
+      "legal_name": {"verdict": "supported", "note": "ARES 07491492: 'Fazole Ventures s.r.o.'."},
+      "registry_id": {"verdict": "supported", "note": "ARES returns ICO 07491492, founded 2018-09-25."},
+      "hq_city": {"verdict": "supported", "note": "ARES: Salvátorská 931/8, 110 00 Praha 1; the website gives the same address (c/o Opero)."},
+      "website": {"verdict": "supported", "note": "fazole.vc/indexEN.html loads and is the firm's site."},
+      "sectors": {"verdict": "partial", "note": "The site says 'The most preferred target sectors are utility, banking, transportation, retail, smart city, and telco' and has a B2B/corporate-clientele focus. Energy/climate, fintech, mobility and consumer are loose mappings of these client verticals; smart city and telco are omitted."},
+      "stages": {"verdict": "partial", "note": "The site says 'We support early-stage companies' with a product 'already tested at least on pilot customers'. The word seed is not used."},
+      "ticket": {"verdict": "supported", "note": "'Our sweet spot ranges from 50 to 800 thousand EUR, however, we will also consider larger volumes of funding.'"},
+      "last_investment": {"verdict": "supported", "note": "cc.cz 16. 9. 2025: Everbot raised 'nižší desítky milionů korun'; 'Lídrem investičního kola se stal fond Fazole Ventures'. No round name is given."},
+      "independent_deal_evidence": {"verdict": "supported", "note": "Same article and deal as last_investment, so it is not a second piece of evidence."}
+    },
+    "own_deal_found": {"company": "Everbot (lead investor, 12.2% stake for low tens of millions CZK)", "date": "2025-09-16", "url": "https://www.lupa.cz/aktuality/startup-z-opavy-slucuje-desitky-ai-typu-gpt-llama-ci-deepseek-do-jednoho-rozhrani-ziskal-na-to-investici/"},
+    "is_active_investor": true,
+    "type_correct": true,
+    "hq_in_cz": true,
+    "comment": "Press calls it a 'fond' controlled by Pavel Bouška, Luboš Černý and Pavel Přikryl, taking minority stakes in early-stage B2B startups, so it is VC. It is active through Everbot (Sep 2025, lupa.cz / cc.cz). The lupa.cz date is not checked separately; the 2025-09-16 date comes from the cc.cz article on the same deal. No 2026 deal was found."
+  },
+  {
+    "name": "Patero",
+    "fields": {
+      "legal_name": {"verdict": "supported", "note": "ARES 03928446: 'Patero s.r.o.'."},
+      "registry_id": {"verdict": "supported", "note": "ARES returns ICO 03928446, founded 2015-03-25."},
+      "hq_city": {"verdict": "supported", "note": "ARES: Evropská 1723/61, Dejvice, 160 00 Praha 6; the website gives the same address."},
+      "website": {"verdict": "supported", "note": "patero.cz loads; Flowlance is in its portfolio list."},
+      "sectors": {"verdict": "partial", "note": "The site never says 'generalist'. Its portfolio is B2B tech and SaaS: logistics, BI, retail pricing, SME financing, e-commerce tools."},
+      "stages": {"verdict": "partial", "note": "The cc.cz article only shows that one deal (Flowlance) was pre-seed; the site gives no stage focus. This is derived from a single deal."},
+      "last_investment": {"verdict": "supported", "note": "cc.cz 28. 11. 2024: Flowlance 'pre-seed investici' of '500 tisíc eur (12,6 milionu korun)'; investors include 'skupina Patero a andělský investor Miroslav Uďan'. No lead is named."},
+      "independent_deal_evidence": {"verdict": "supported", "note": "Same article and deal as last_investment, so it is not a second piece of evidence."}
+    },
+    "own_deal_found": {"company": "Flowlance (pre-seed EUR 500k, co-investor)", "date": "2024-11-28", "url": "https://cc.cz/pomohou-sdilet-vase-know-how-a-nabrat-nove-klienty-pres-12-milionu-jim-posila-i-miroslav-udan/"},
+    "is_active_investor": true,
+    "type_correct": "unclear",
+    "hq_in_cz": true,
+    "comment": "The only dated deal I could find is Flowlance (2024-11-28), which leaves the 24-month window on 2026-11-28; three searches found nothing newer. The site does not say whether Patero invests its own capital or runs a fund or club ('Staň se chuťovým investorem'), and press only calls it a 'skupina'. Its VC type and fund/vehicle are unproven, so it needs L3 review."
+  },
+  {
+    "name": "BD Partners",
+    "fields": {
+      "legal_name": {"verdict": "supported", "note": "ARES 19286511: 'BD Partners a.s.'."},
+      "registry_id": {"verdict": "supported", "note": "ARES returns ICO 19286511, founded 2023-04-25."},
+      "hq_city": {"verdict": "supported", "note": "ARES: Generála Píky 430/26, Dejvice, 160 00 Praha 6."},
+      "sectors": {"verdict": "partial", "note": "cc.cz 28. 7. 2025: mainly technology companies (software or software plus hardware), with non-tech holdings such as the Château Virant winery, Ynsect and So Concrete. Seznam Zprávy says it 'Primárně se zaměřuje na evropské společnosti ve fázi generování příjmů'. The word generalist is not used."},
+      "stages": {"verdict": "partial", "note": "The cited ValkaAI article supports pre-seed for that one deal only ('v pre-seedovém kole'); seed is not stated. Seznam Zprávy describes the focus as revenue-generating companies."},
+      "ticket": {"verdict": "supported", "note": "cc.cz: 'od 250 tisíc až dvěma miliony eur'."},
+      "capital": {"verdict": "supported", "note": "cc.cz: plans to invest '1,2 až 2,5 miliardy korun' into startups in the coming years, with about 20M EUR allocated so far. This is a self-reported planned allocation, not a closed fund, and capital_measure should say so."},
+      "last_investment": {"verdict": "supported", "note": "cc.cz 24. 2. 2026: ValkaAI pre-seed of '12 milionů eur'; investors include 'BD Partners'; 'Rockaway Ventures, který kolo vedl'."},
+      "independent_deal_evidence": {"verdict": "supported", "note": "cc.cz 11. 9. 2025: RoboTwin pre-seed of '1,25 milionu eur'; investors include 'investiční společnost BD Partners'."}
+    },
+    "own_deal_found": {"company": "Trifft Loyalty (pre-seed GBP 410k, lead Lighthouse Ventures, with BD Partners)", "date": "2025-07-30", "url": "https://www.seznamzpravy.cz/clanek/ekonomika-firmy-exmanazeri-z-ppf-vsadili-na-cesko-britsky-trifft-282799"},
+    "is_active_investor": true,
+    "type_correct": false,
+    "hq_in_cz": true,
+    "comment": "Bartoníček says in cc.cz: 'Jsme joint family office' and 'nejsme klasický fond'. The vehicle invests his and Duvieusart's own PPF exit money, and the collector itself labelled it FO/mfo. It is a very active startup investor, but its primary type is family office, so it falls outside the VC sample (X11)."
+  }
+]

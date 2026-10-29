@@ -75,11 +75,52 @@ def norm(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+def apply_l3(records):
+    """Aplikuje rozhodnutia L3 (verification/l3-adjudication.json) na výstup zberu.
+
+    Pôvodné hodnoty zberového agenta zostávajú v data/raw/ — tu vzniká finálna verzia.
+    """
+    path = os.path.join(ROOT, "verification", "l3-adjudication.json")
+    if not os.path.exists(path):
+        return records
+    adj = json.load(open(path, encoding="utf-8"))["records"]
+    for r in records:
+        a = adj.get(r["name"])
+        if not a:
+            r["l3_status"] = "overené L2" if r.get("decision") == "include" else ""
+            continue
+        was_included = r.get("decision") == "include"
+        if "final_correct" in a:
+            r["decision"] = "include" if a["final_correct"] else "exclude"
+        if r["decision"] == "exclude":
+            if a.get("exclusion_codes"):
+                r["exclusion_codes"] = a["exclusion_codes"]
+            r["decision_reason"] = a.get("decision", r.get("decision_reason"))
+            if a.get("real_investor_other_type"):
+                r["type"] = a["real_investor_other_type"]
+            r["l3_status"] = "vyradené L3" if was_included else ("kód opravený L3" if a.get("code_corrected") else "")
+            continue
+        if a.get("rename"):
+            r["name_collector"], r["name"] = r["name"], a["rename"]
+        for k in ("subtype", "type_secondary", "confidence", "capital_status"):
+            if k in a:
+                r[k] = a[k]
+        f = r.setdefault("fields", {})
+        for fname, c in (a.get("corrections") or {}).items():
+            old = f.get(fname) or {}
+            f[fname] = {**{k: v for k, v in c.items() if k != "note"},
+                        "src": c.get("src") if "src" in c else (old.get("src") if c.get("value") is not None else []),
+                        "l3_note": c.get("note")}
+        r["l3_status"] = "pridané L3" if not was_included else ("opravené L3" if a.get("corrections") or a.get("rename") else "overené L2+L3")
+    return records
+
+
 def main():
     records = []
     for path in sorted(glob.glob(os.path.join(ROOT, "data", "raw", "batch-*.json"))):
         with open(path, encoding="utf-8") as f:
             records.extend(json.load(f))
+    records = apply_l3(records)
 
     included = [r for r in records if r.get("decision") == "include"]
     excluded = [r for r in records if r.get("decision") != "include"]
@@ -171,10 +212,12 @@ def main():
             "capital_measure": (f.get("capital") or {}).get("measure"),
             "capital_as_of": (f.get("capital") or {}).get("as_of"),
             "capital_basis": (f.get("capital") or {}).get("basis"),
+            "capital_status": r.get("capital_status"),
             "last_investment_company": last.get("company") if isinstance(last, dict) else None,
             "last_investment_date": last.get("date") if isinstance(last, dict) else None,
             "last_investment_round": last.get("round") if isinstance(last, dict) else None,
             "confidence": r.get("confidence"), "l1_flags": ";".join(flags),
+            "verification": r.get("l3_status", ""),
         })
         for fname in FIELDS:
             fv = f.get(fname) or {}
@@ -186,6 +229,7 @@ def main():
                     "basis": fv.get("basis"), "source_url": s.get("url"), "publisher": s.get("publisher"),
                     "published": s.get("published"), "retrieved": s.get("retrieved"),
                     "quote": s.get("quote"), "http_status": status.get(s.get("url"), "neoverené"),
+                    "l3_note": fv.get("l3_note"),
                 })
         report.append((rid, r["name"], flags, ares))
 
@@ -197,10 +241,11 @@ def main():
             w.writerows(rows)
     with open(out("excluded.csv"), "w", newline="", encoding="utf-8-sig") as fh:
         w = csv.writer(fh)
-        w.writerow(["name", "website", "exclusion_codes", "reason", "type_if_investor"])
+        w.writerow(["name", "website", "exclusion_codes", "reason", "type_if_investor", "verification"])
         for r in excluded:
             w.writerow([r["name"], (r.get("fields", {}).get("website") or {}).get("value"),
-                        ";".join(r.get("exclusion_codes") or []), r.get("decision_reason"), r.get("type")])
+                        ";".join(r.get("exclusion_codes") or []), r.get("decision_reason"), r.get("type"),
+                        r.get("l3_status", "")])
 
     n_urls = len(urls)
     ok = sum(1 for s in status.values() if isinstance(s, int) and s < 400)

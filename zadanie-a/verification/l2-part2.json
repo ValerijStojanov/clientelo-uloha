@@ -1,0 +1,176 @@
+{
+  "included": [
+    {
+      "name": "Czech Founders VC",
+      "fields": {
+        "legal_name": {"verdict": "supported", "note": "ARES: obchodniJmeno 'Czech Founders Ventures s.r.o., osoba rizikového kapitálu'."},
+        "registry_id": {"verdict": "supported", "note": "ARES IČO 17051835, vznik 2022-04-19, active."},
+        "hq_city": {"verdict": "supported", "note": "ARES sídlo Salvátorská 931/8, Praha 1. Website lists a different Prague office (Gen. Píky 430/26, Praha 6) plus Bratislava; city is still Praha."},
+        "website": {"verdict": "supported", "note": ""},
+        "stages": {"verdict": "supported", "note": "Site: 'Pre-seed tickets. Typically €50-350k.'"},
+        "ticket": {"verdict": "supported", "note": "Site: 'Typically €50-350k.'"},
+        "last_investment": {"verdict": "supported", "note": "cc.cz 9. 6. 2026: 'Kolo vedl fond Reflex Capital za účasti Czech Founders VC a Lighthouse Ventures.' Round = extension of the 2024 seed (bridge to Series A), +30 mil. Kč. It is a follow-on into an existing portfolio company, not a new deal."},
+        "independent_deal_evidence": {"verdict": "supported", "note": "Same cc.cz article; independent T3 source."}
+      },
+      "own_deal_found": {"company": "Maxfusion", "date": "2026-01-14", "url": "https://www.lupa.cz/aktuality/izraelci-z-prahy-generuji-herce-s-pomoci-ai-na-dalsi-vyvoj-ziskali-investici/"},
+      "is_active_investor": true,
+      "type_correct": true,
+      "hq_in_cz": true,
+      "comment": "All fields check out. Lupa.cz (14. 1. 2026) confirms a new deal: 'Peníze mu posílá fond Czech Founders VC a andělský investor Ory Weihs' (EUR 350k), which is better evidence of new activity than the Merchantee follow-on."
+    },
+    {
+      "name": "Lighthouse Ventures",
+      "fields": {
+        "legal_name": {"verdict": "supported", "note": "ARES: 'Lighthouse Ventures GP s.r.o.'"},
+        "registry_id": {"verdict": "supported", "note": "ARES IČO 07500912, vznik 2018-09-27."},
+        "hq_city": {"verdict": "supported", "note": "ARES Evropská 2758/11, Praha 6; same address on lhv.vc."},
+        "website": {"verdict": "supported", "note": ""},
+        "sectors": {"verdict": "supported", "note": "Site: 'B2B Software of various verticals, Fintech, AI'."},
+        "stages": {"verdict": "supported", "note": "Site wording is 'Idea / Seed' (preferred investment stage); 'Idea' is mapped to pre-seed."},
+        "ticket": {"verdict": "supported", "note": "Site: 'From €200k to €1m', investment in a single startup."},
+        "last_investment": {"verdict": "supported", "note": "cc.cz 9. 6. 2026 names Lighthouse Ventures as a participant (Reflex Capital led). Merchantee is already in the lhv.vc portfolio, so this is likely a follow-on."},
+        "independent_deal_evidence": {"verdict": "supported", "note": "Same cc.cz article."}
+      },
+      "own_deal_found": {"company": "Ranketta", "date": "2025-11-27", "url": "https://www.lupa.cz/aktuality/21lety-startupista-ziskal-milion-eur-na-projekt-ktery-pomaha-znackam-zviditelnit-se-v-konverzacich-s-ai/"},
+      "is_active_investor": true,
+      "type_correct": true,
+      "hq_in_cz": true,
+      "comment": "All fields check out. Lupa.cz (27. 11. 2025): 'Investiční kolo vedlo Lighthouse Ventures a zapojil se také Gi21 Capital' (EUR 1M pre-seed), a new lead deal."
+    },
+    {
+      "name": "Tensor Ventures",
+      "fields": {
+        "legal_name": {"verdict": "supported", "note": "ARES: 'Tensor Ventures a.s.' Caveat: its NACE codes are 68200/68320 (real estate), and tensor.ventures names the fund vehicle and GP as 'Tensor Ventures GP S.à r.l. & Tensor Ventures Fund I SCSp, 1A Heienhaff, 1736 Senningerberg, Luxembourg'. The Czech a.s. may not be the manager."},
+        "registry_id": {"verdict": "supported", "note": "ARES IČO 06257241, vznik 2017-07-10."},
+        "hq_city": {"verdict": "supported", "note": "ARES Pernerova 635/57, Praha 8. The website gives a Prague contact address (Pernerova 697/35) and the Luxembourg fund/GP address."},
+        "website": {"verdict": "supported", "note": ""},
+        "sectors": {"verdict": "partial", "note": "Site: 'the rise of AI, Quantum Revolution, Computational Biotech or Sustainable Tech'. AI and deeptech are supported; 'health' (from computational biotech) and 'energy_climate' (from 'Sustainable Tech') are inferences, not stated."},
+        "stages": {"verdict": "supported", "note": "Site: 'We participate in Seed and Series A rounds.'"},
+        "last_investment": {"verdict": "supported", "note": "cc.cz 17. 12. 2025: 'Investiční kolo vedl český deeptech fond Tensor Ventures' (EUR 1.1M). Round type not named in article (null is correct)."},
+        "independent_deal_evidence": {"verdict": "supported", "note": "Same cc.cz article."}
+      },
+      "own_deal_found": {"company": "AppFactor", "date": "2026-02-04", "url": "https://theaiinsider.tech/2026/02/04/tensor-ventures-and-others-invest-4-million-us-in-london-based-appfactor"},
+      "is_active_investor": true,
+      "type_correct": true,
+      "hq_in_cz": "unclear",
+      "comment": "Active VC: per The AI Insider (4 Feb 2026), 'Tensor Ventures led a USD 4 million seed round' in AppFactor. The fund and GP are Luxembourg entities with the team in Prague, so this needs an explicit X11 decision; the ARES a.s. (real-estate NACE) may not be the manager."
+    },
+    {
+      "name": "Tilia Impact Ventures",
+      "fields": {
+        "legal_name": {"verdict": "supported", "note": "ARES: 'Tilia Impact Ventures, osoba rizikového kapitálu, s.r.o.'"},
+        "registry_id": {"verdict": "supported", "note": "ARES IČO 17848911, vznik 2022-12-19."},
+        "hq_city": {"verdict": "supported", "note": "ARES Drtinova 557/10, Praha 5; same on tilia.vc."},
+        "website": {"verdict": "supported", "note": ""},
+        "sectors": {"verdict": "supported", "note": "Site: 'Sector-agnostic, Impact-driven'. Note the hard constraint: invests 'exclusively in companies with impact inherent in the business model'."},
+        "stages": {"verdict": "partial", "note": "tilia.vc says only 'Early stage'. cc.cz names the fund 'Impact Seed Fund' but does not state the stage, and Tilia also backs pre-seed rounds (e.g. Theorema)."},
+        "ticket": {"verdict": "supported", "note": "Site: '0.3 - 1.2m EUR initial ticket'."},
+        "capital": {"verdict": "partial", "note": "cc.cz 21. 9. 2023: Fund II targets EUR 32M ('cílí už na 32 milionů eur'), and 'Prozatím má Tilia potvrzených 26 milionů eur'. EUR 26M is an interim 2023 commitment, not a final fund size."},
+        "last_investment": {"verdict": "partial", "note": "cc.cz (published 18. 8. 2026) confirms a Seed+ round of $3M 'pod vedením českého fondu Tilia Impact Ventures' but dates it only to 'v letošním roce'. 2026-08-18 is the article date, not the deal date; aggregators (CB Insights, Seedtable) date the round to Feb 2026."},
+        "independent_deal_evidence": {"verdict": "supported", "note": "Vestbee 31 Mar 2026: Theorema EUR 2.85M pre-seed 'was supported by Tilia Impact Ventures, InvestEU, Credo Ventures, ...'."}
+      },
+      "own_deal_found": {"company": "Flox (Flox Intelligence / FLOX Robotics), Seed+ led by Tilia", "date": "2026 (cc.cz article 2026-08-18; aggregators date the round 2026-02)", "url": "https://cc.cz/ceska-nasla-zpusob-jak-mluvit-se-zviraty-a-zachranovat-jejich-zivoty-oceneni-ma-i-od-svedskeho-krale/"},
+      "is_active_investor": true,
+      "type_correct": true,
+      "hq_in_cz": true,
+      "comment": "This is a legitimate, active Prague impact VC. Capital uses an interim 2023 figure, and the last_investment date is the publication date rather than the deal date (the deal was likely Feb 2026)."
+    },
+    {
+      "name": "StartupYard",
+      "fields": {
+        "legal_name": {"verdict": "supported", "note": "ARES: 'StartupYard Batch 15 s.r.o.' (vznik 2024-11-14). This is a per-batch SPV, not the manager. Under X10 the record should be the managing entity, with batch vehicles as child records."},
+        "registry_id": {"verdict": "supported", "note": "ARES IČO 22266852; it is the IČO of the Batch 15 vehicle only."},
+        "hq_city": {"verdict": "supported", "note": "ARES Perlová 371/5, Praha 1; FAQ: 'based in beautiful Prague'."},
+        "website": {"verdict": "supported", "note": ""},
+        "sectors": {"verdict": "partial", "note": "Batch 15 page: 'with a sharp focus on AI and hard-to-replicate deep tech solutions', but the same page says StartupYard is industry-agnostic. The AI/deeptech focus belongs to this batch, not the firm."},
+        "stages": {"verdict": "partial", "note": "The cited cc.cz Ydoca article mentions only a pre-seed round. Seed is not supported by that URL (the FAQ, not cited, says 'pre-seed and seed accelerator')."},
+        "ticket": {"verdict": "partial", "note": "FAQ: '€25,000 cash investment via a convertible note' plus '€45,000 (in-kind investment)'. The €100,000 is the follow-on fund 'in partnership with DEPO Ventures who have full power to decide which teams are eligible', so 100k is not StartupYard's own ticket decision."},
+        "last_investment": {"verdict": "supported", "note": "cc.cz 14. 2. 2025: pre-seed of 2.3 mil. Kč; 'DEPO Ventures podpořilo projekt částkou 1,8 milionu a StartupYard částkou 500 tisíc korun'."},
+        "independent_deal_evidence": {"verdict": "supported", "note": "Same cc.cz article."},
+        "type_evidence": {"verdict": "supported", "note": "FAQ: 'we typically target around 5% equity in your startup'; a follow-on fund is run with DEPO Ventures."}
+      },
+      "own_deal_found": {"company": "Ydoca", "date": "2025-02-14", "url": "https://cc.cz/live/petkrat-rychlejsi-vyberova-rizeni-do-cesko-slovenske-ai-platformy-ydoca-investovali-depo-ventures-a-startupyard/"},
+      "is_active_investor": true,
+      "type_correct": true,
+      "hq_in_cz": true,
+      "comment": "Ydoca (Feb 2025, ~EUR 20k) is within the window, but three independent searches found no newer named deal (e.g. a Batch 15 investee), so activity is thin. Fix legal_name/registry_id to the managing entity rather than the Batch 15 SPV."
+    },
+    {
+      "name": "JIC (JIC Ventures / JIC STARCUBE)",
+      "fields": {
+        "legal_name": {"verdict": "supported", "note": "ARES: 'JIC Ventures 2 a.s., osoba rizikového kapitálu' (vznik 2026-01-05). This is the new fund vehicle, while the record name mixes JIC (innovation agency), JIC Ventures and JIC STARCUBE (accelerator program)."},
+        "registry_id": {"verdict": "supported", "note": "ARES IČO 24320358."},
+        "hq_city": {"verdict": "supported", "note": "ARES Purkyňova 649/127, Brno."},
+        "website": {"verdict": "supported", "note": "jic.cz; the fund has its own subpage jic.cz/ventures."},
+        "sectors": {"verdict": "supported", "note": "jic.cz: global ambition required 'whether in SaaS, deep tech or other advanced technologies'."},
+        "stages": {"verdict": "supported", "note": "CTP press release 7. 4. 2026: 'v raných fázích, tedy pre-seed a seed'."},
+        "ticket": {"verdict": "supported", "note": "jic.cz: 'with tickets of up to €1 million'."},
+        "capital": {"verdict": "partial", "note": "CTP PDF: 'Fond o objemu 400 milionů korun'. cc.cz 7. 4. 2026: 'Fond cílí na velikost 400 milionů korun', with 320 mil. Kč allocated. 400M is a target; committed capital was 320M CZK as of April 2026."},
+        "last_investment": {"verdict": "partial", "note": "Lupa.cz 19. 5. 2026 confirms company and date ('významným účastníkem byl i nový fond JIC Ventures', round >110 mil. Kč led by Fil Rouge Capital) but does not call it Series A, only the company's third round. Series A appears only on jic.cz."},
+        "independent_deal_evidence": {"verdict": "supported", "note": "Same lupa.cz article (T3)."}
+      },
+      "own_deal_found": {"company": "FaceUp", "date": "2026-05-19", "url": "https://www.lupa.cz/aktuality/whistleblowing-platforma-faceup-ziskala-pres-100-milionu-i-od-brnenskeho-fondu-s-nimz-investuje-biskupstvi/"},
+      "is_active_investor": true,
+      "type_correct": true,
+      "hq_in_cz": true,
+      "comment": "JIC Ventures is a real VC fund (launched April 2026), but FaceUp is its only documented deal. The record should be scoped to JIC Ventures, not JIC/STARCUBE (STARCUBE is a program that risks X3). Subtype 'independent_vc' is debatable for a fund initiated by a public innovation agency with the region as an LP."
+    },
+    {
+      "name": "AI Startup Incubator",
+      "fields": {
+        "legal_name": {"verdict": "supported", "note": "ARES: 'Look AI Ventures SICAV, a.s.' (NACE 64310). The record name is outdated: lookai.vc says 'Look AI Investments (formerly AI Startup Incubator) is a subsidiary company of Look AI Ventures'."},
+        "registry_id": {"verdict": "supported", "note": "ARES IČO 17604087, vznik 2022-10-04."},
+        "hq_city": {"verdict": "supported", "note": "ARES Radlická 180/50, Praha 5; same on lookai.vc."},
+        "website": {"verdict": "supported", "note": ""},
+        "sectors": {"verdict": "supported", "note": "Site: 'focuses exclusively on AI startups worldwide'."},
+        "stages": {"verdict": "supported", "note": "Homepage says 'pre-Series A venture capital fund'; news page lists pre-seed and seed deals (Ochy, Inntelo, Lucida)."},
+        "ticket": {"verdict": "supported", "note": "tech.eu 13 Apr 2023: 'The targeted investment amount in one start-up is €250,000'. This is a 2023 target, not a current stated range."},
+        "capital": {"verdict": "partial", "note": "tech.eu 2023: 'It aims to raise €20 million'. That is a fundraising target at launch; no source confirms the fund closed at EUR 20M."},
+        "last_investment": {"verdict": "supported", "note": "Pulse 2.0 16 Sep 2026: 'The financing also included participation from Techshop Capital, Look AI Ventures, Kickfund, Plug and Play...' (first financing round led by Faber VC, size undisclosed)."},
+        "independent_deal_evidence": {"verdict": "supported", "note": "StartupRise 28 May 2026: 'The round was led by Alea Capital Partners, with participation from Slow Ventures and Look AI Ventures.'"}
+      },
+      "own_deal_found": {"company": "Lucida AI", "date": "2026-06-30", "url": "https://www.lupa.cz/aktuality/cesi-investovali-do-konkurenta-duolinga-ktery-pro-vyuku-jazyku-nabizi-treba-ai-persony/"},
+      "is_active_investor": true,
+      "type_correct": true,
+      "hq_in_cz": true,
+      "comment": "Active Prague AI-focused VC with several 2026 deals, which lupa.cz confirms independently (Lucida AI seed, 30. 6. 2026). The record name should be 'Look AI Ventures', since 'AI Startup Incubator' is the former name of its subsidiary, and capital is a 2023 target."
+    }
+  ],
+  "excluded_recheck": [
+    {
+      "name": "Impulse Ventures",
+      "found_recent_investment": false,
+      "evidence": null,
+      "should_be_included": false,
+      "comment": "CB Insights credits Impulse Ventures with Safetica's 24 Jan 2025 round, but cc.cz (23. 1. 2025) shows Ondřej Tomek invested 'jakožto soukromá osoba', and Impulse Ventures is not mentioned. The cc.cz Impulse Ventures tag has no new investment after Dec 2023 (Dataddo); the Aug 2025 item is an exit (Taikun), so the exclusion stands."
+    },
+    {
+      "name": "Air Ventures",
+      "found_recent_investment": false,
+      "evidence": null,
+      "should_be_included": false,
+      "comment": "airventures.eu does not resolve (DNS ENOTFOUND). CB Insights shows the last deal as Jiant, Dec 2023. PitchBook's 2025–2026 deals (e.g. Kimba, June 2026) appear to be conflated with LA-based AIR Venture Partners, and CEO Václav Pavlečka now focuses on the Startup World Cup and co-founded Czech Founders VC. Exclusion stands."
+    },
+    {
+      "name": "Koopeo Ventures",
+      "found_recent_investment": true,
+      "evidence": {"company": "TRIFFT Loyalty (pre-seed, EUR 550k, led by Lighthouse Ventures)", "date": "2025-07 (page updated 2025-07-18)", "url": "https://www.thesaasnews.com/news/trifft-loyalty-raises-550k-in-pre-seed-round"},
+      "should_be_included": true,
+      "comment": "TheSaaSNews: 'The round was led by Lighthouse Ventures, with participation from BD Partners, Gi21 Capital, and Koopeo', and Deal Lite and CB Insights agree; KOOPEO Ventures SE exists in ARES (IČO 05269113, Brno). The 'inactive' exclusion was wrong, but before inclusion check the subtype (it invests only its own money, so possibly private_holding) and whether TRIFFT was a follow-on."
+    },
+    {
+      "name": "Fond rizikového kapitálu, s.r.o.",
+      "found_recent_investment": false,
+      "evidence": null,
+      "should_be_included": false,
+      "comment": "The only reference found is historical: English Wikipedia ('Venture capital in the Czech Republic') says it achieved ~50% annual returns 'through 2000'. An ARES search by name returns no entity, and there is no website or recent deal, so the exclusion stands as historical/unverifiable."
+    },
+    {
+      "name": "Seed Fund (Český rozvojový uzavřený investiční fond)",
+      "found_recent_investment": false,
+      "evidence": null,
+      "should_be_included": false,
+      "comment": "This was a 2011–2014 state (MPO/OP PIK) co-investment instrument. BusinessInfo and Lupa report that the fund-manager tender was cancelled in April 2014 and the fund ended before it ever operated, and later state schemes moved to the EIF fund of funds and NRI. It was never an active investor, so the exclusion is correct."
+    }
+  ]
+}
