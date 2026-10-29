@@ -1,445 +1,445 @@
-# Dokumentace průběhu spolupráce s Claude Code
+# Dokumentácia priebehu spolupráce s Claude Code
 
-**Projekt:** Zpracování zadání A – databáze investorů a zadání B – investiční landing page  
-**Datum realizace:** 29. 10. 2026  
-**Hlavní nástroj:** Claude Code (desktop)  
-**Hlavní model:** Claude Opus 5.5  
+**Projekt:** Spracovanie zadania A – databáza investorov a zadania B – investičná landing page  
+**Dátum realizácie:** 29. 10. 2026  
+**Hlavný nástroj:** Claude Code (desktop)  
+**Hlavný model:** Claude Opus 5.5  
 **Subagenti:** Claude Sonnet 5.5 a Claude Opus 5.5  
-**Výsledné prostředí:** GitHub, Vercel, lokální vývojové prostředí
+**Výsledné prostredie:** GitHub, Vercel, lokálne vývojové prostredie
 
-> Strukturovaný souhrn pracovní konverzace, nikoliv doslovný export (důvod v sekci 8).
-> Podrobnosti o práci s AI jsou v hlavním [README.md](../README.md#ako-som-pracoval-s-ai).
-
----
-
-## 1. Zadání projektu
-
-Projekt se skládal ze dvou hlavních částí, které byly řešeny v rámci jedné pracovní session.
-
-### 1.1 Zadání A – databáze investorů
-
-První část byla zaměřena na identifikaci, klasifikaci a ověřování relevantních investorů podle předem stanovených kritérií.
-
-Požadovaným výsledkem byla strukturovaná databáze subjektů s doložitelnými informacemi a zdroji.
-
-Klíčové činnosti zahrnovaly:
-
-1. Vyhledání potenciálně relevantních investorů.
-2. Definování pravidel pro jejich zařazení nebo vyřazení.
-3. Získání veřejně dostupných informací.
-4. Kontrolu identity a investiční aktivity.
-5. Ověření výsledků nezávislými AI agenty.
-6. Vyřešení sporných případů.
-7. Vyhodnocení přesnosti a kvality získaných dat.
-
-### 1.2 Zadání B – investiční landing page
-
-Druhá část zahrnovala návrh a implementaci webové stránky zaměřené na investiční téma.
-
-Součástí řešení byly:
-
-- Landing page s interaktivní investiční kalkulačkou.
-- Porovnání vybraných ETF a jejich evropských UCITS alternativ.
-- Formulář pro získávání potenciálních zákazníků.
-- Navazující dotazníkový proces.
-- Systém měření uživatelských interakcí.
-- Dvě reklamní kreativy.
-- Testování uživatelského průchodu.
-- Příprava produkčního nasazení.
-
-Obě zadání byla nejprve vyvíjena lokálně. Publikace na GitHub a Vercel proběhla až po následném výslovném požadavku uživatele.
+> Štruktúrovaný súhrn pracovnej konverzácie, nie doslovný export (dôvod v sekcii 8).
+> Podrobnosti o práci s AI sú v hlavnom [README.md](../README.md#ako-som-pracoval-s-ai).
 
 ---
 
-## 2. Použité AI nástroje a organizace práce
+## 1. Zadanie projektu
 
-### 2.1 Hlavní AI agent
+Projekt sa skladal z dvoch hlavných častí, ktoré sa riešili v rámci jednej pracovnej session.
 
-Hlavním koordinátorem projektu byl Claude Opus 5.5 prostřednictvím aplikace Claude Code.
+### 1.1 Zadanie A – databáza investorov
 
-Jeho úlohou bylo především:
+Prvá časť bola zameraná na identifikáciu, klasifikáciu a overovanie relevantných investorov podľa vopred stanovených kritérií.
 
-- Analyzovat požadavky zadání.
-- Navrhnout plán realizace.
-- Rozdělovat práci mezi subagenty.
-- Implementovat webovou aplikaci.
-- Vyhodnocovat výsledky dílčích úkolů.
-- Kontrolovat a opravovat nalezené chyby.
-- Připravovat finální dokumentaci.
+Požadovaným výsledkom bola štruktúrovaná databáza subjektov s doložiteľnými informáciami a zdrojmi.
 
-Hlavní agent fungoval jako centrální koordinační vrstva mezi zadáním, vývojem, výzkumem a ověřováním výsledků.
+Kľúčové činnosti zahŕňali:
 
-### 2.2 Specializovaní subagenti
+1. Vyhľadanie potenciálne relevantných investorov.
+2. Definovanie pravidiel na ich zaradenie alebo vyradenie.
+3. Získanie verejne dostupných informácií.
+4. Kontrolu identity a investičnej aktivity.
+5. Overenie výsledkov nezávislými AI agentmi.
+6. Vyriešenie sporných prípadov.
+7. Vyhodnotenie presnosti a kvality získaných dát.
 
-Pro jednotlivé úkoly bylo využito celkem **12 subagentů**.
+### 1.2 Zadanie B – investičná landing page
 
-| Oblast | Počet agentů | Úloha |
+Druhá časť zahŕňala návrh a implementáciu webovej stránky zameranej na investičnú tému.
+
+Súčasťou riešenia boli:
+
+- Landing page s interaktívnou investičnou kalkulačkou.
+- Porovnanie vybraných ETF a ich európskych UCITS alternatív.
+- Formulár na získavanie potenciálnych zákazníkov.
+- Nadväzujúci dotazníkový proces.
+- Systém merania používateľských interakcií.
+- Dve reklamné kreatívy.
+- Testovanie používateľského prechodu.
+- Príprava produkčného nasadenia.
+
+Obe zadania sa najprv vyvíjali lokálne. Publikovanie na GitHub a Vercel prebehlo až na neskoršiu výslovnú požiadavku používateľa.
+
+---
+
+## 2. Použité AI nástroje a organizácia práce
+
+### 2.1 Hlavný AI agent
+
+Hlavným koordinátorom projektu bol Claude Opus 5.5 prostredníctvom aplikácie Claude Code.
+
+Jeho úlohou bolo predovšetkým:
+
+- Analyzovať požiadavky zadania.
+- Navrhnúť plán realizácie.
+- Rozdeľovať prácu medzi subagentov.
+- Implementovať webovú aplikáciu.
+- Vyhodnocovať výsledky čiastkových úloh.
+- Kontrolovať a opravovať nájdené chyby.
+- Pripravovať finálnu dokumentáciu.
+
+Hlavný agent fungoval ako centrálna koordinačná vrstva medzi zadaním, vývojom, výskumom a overovaním výsledkov.
+
+### 2.2 Špecializovaní subagenti
+
+Na jednotlivé úlohy sa použilo spolu **12 subagentov**.
+
+| Oblasť | Počet agentov | Úloha |
 |---|---:|---|
-| Discovery investorů | 1 | Vyhledání 60 kandidátů |
-| Sběr informací | 4 | Zpracování kandidátů podle metodiky |
-| Nezávislé ověřování | 5 | Kontrola zařazení a vyřazení |
-| ETF research | 1 | Sběr produktových a regulatorních dat |
-| Odhad trhu | 1 | Podklady pro odhad velikosti trhu |
-| **Celkem** | **12** | |
+| Discovery investorov | 1 | Vyhľadanie 60 kandidátov |
+| Zber informácií | 4 | Spracovanie kandidátov podľa metodiky |
+| Nezávislé overovanie | 5 | Kontrola zaradenia a vyradenia |
+| ETF research | 1 | Zber produktových a regulačných dát |
+| Odhad trhu | 1 | Podklady na odhad veľkosti trhu |
+| **Spolu** | **12** | |
 
-Pro sběr dat byl použit Claude Sonnet 5.5, zatímco nezávislé ověřování probíhalo pomocí Claude Opus 5.5.
+Na zber dát sa použil Claude Sonnet 5.5, nezávislé overovanie prebiehalo pomocou Claude Opus 5.5.
 
-Toto rozdělení umožnilo využít různé modely podle charakteru úkolu. Rutinnější rešeršní činnosti byly odděleny od náročnějšího rozhodování a kontroly.
+Toto rozdelenie umožnilo využiť rôzne modely podľa charakteru úlohy. Rutinnejšie rešeršné činnosti boli oddelené od náročnejšieho rozhodovania a kontroly.
 
-Důležitým principem bylo, že výsledek jednoho AI agenta nebyl automaticky považován za ověřený.
+Dôležitým princípom bolo, že výsledok jedného AI agenta sa automaticky nepovažoval za overený.
 
 ---
 
-## 3. Průběh realizace
+## 3. Priebeh realizácie
 
-### Fáze 1 – Analýza zadání a plánování
+### Fáza 1 – Analýza zadania a plánovanie
 
-Na začátku uživatel poskytl e-mail obsahující obě zadání a požádal o jejich realizaci.
+Na začiatku používateľ poskytol e-mail s oboma zadaniami a požiadal o ich realizáciu.
 
-Claude nejprve identifikoval dvě samostatné pracovní oblasti a vyžádal si upřesnění rozsahu a způsobu publikace.
+Claude najprv identifikoval dve samostatné pracovné oblasti a vyžiadal si upresnenie rozsahu a spôsobu publikovania.
 
-Uživatel potvrdil, že chce realizovat obě části, avšak zpočátku pouze lokálně.
+Používateľ potvrdil, že chce realizovať obe časti, spočiatku však iba lokálne.
 
-Následně byl založen projektový repozitář a vytvořen soubor `PLAN.md`.
+Následne bol založený projektový repozitár a vytvorený súbor `PLAN.md`.
 
-Plán obsahoval zejména:
+Plán obsahoval najmä:
 
-- Pracovní definici relevantního investora.
-- Kritéria zařazení do databáze.
-- Jedenáct kategorií důvodů vyřazení (X1–X11).
-- Návrh datového modelu.
-- Víceúrovňový systém ověřování (L1–L4).
-- Postup řešení nejednoznačných případů.
+- Pracovnú definíciu relevantného investora.
+- Kritériá zaradenia do databázy.
+- Jedenásť kategórií dôvodov vyradenia (X1–X11).
+- Návrh dátového modelu.
+- Viacúrovňový systém overovania (L1–L4).
+- Postup riešenia nejednoznačných prípadov.
 
-**Význam této fáze:** Před zahájením samotného sběru dat byla stanovena jednotná metodika. Tím se snížilo riziko, že jednotliví agenti budou stejná kritéria interpretovat rozdílně.
+**Význam tejto fázy:** Pred začatím samotného zberu dát bola stanovená jednotná metodika. Tým sa znížilo riziko, že jednotliví agenti budú rovnaké kritériá interpretovať rozdielne.
 
-### Fáze 2 – Paralelní výzkum
+### Fáza 2 – Paralelný výskum
 
-Po vytvoření plánu byli spuštěni tři výzkumní subagenti.
+Po vytvorení plánu boli spustení traja výskumní subagenti.
 
-První agent se zaměřil na vyhledání 60 potenciálních českých VC investorů.
+Prvý agent sa zameral na vyhľadanie 60 potenciálnych českých VC investorov.
 
-Druhý agent zpracovával informace o ETF, jejich vlastnostech, evropských alternativách a dostupných zdrojích.
+Druhý agent spracovával informácie o ETF, ich vlastnostiach, európskych alternatívach a dostupných zdrojoch.
 
-Třetí agent vyhledával veřejné údaje o počtech investorů a související informace využitelné pro odhad velikosti trhu.
+Tretí agent vyhľadával verejné údaje o počtoch investorov a súvisiace informácie využiteľné na odhad veľkosti trhu.
 
-Výzkumné úkoly probíhaly paralelně, což umožnilo pokračovat ve vývoji webové aplikace bez nutnosti čekat na dokončení všech rešerší.
+Výskumné úlohy prebiehali paralelne, takže vývoj webovej aplikácie mohol pokračovať bez čakania na dokončenie všetkých rešerší.
 
-### Fáze 3 – Implementace landing page
+### Fáza 3 – Implementácia landing page
 
-Zatímco subagenti zpracovávali výzkumné úkoly, hlavní agent implementoval zadání B.
+Kým subagenti spracovávali výskumné úlohy, hlavný agent implementoval zadanie B.
 
-Vznikla landing page s několika hlavními funkčními prvky.
+Vznikla landing page s niekoľkými hlavnými funkčnými prvkami.
 
-**Interaktivní kalkulačka**
+**Interaktívna kalkulačka**
 
-Úvodní část stránky obsahovala kalkulačku prezentovanou formou vizuální „účtenky“. Jejím účelem bylo srozumitelně zobrazovat investiční výpočty a umožnit uživateli pracovat s jejich výsledky.
+Úvodná časť stránky obsahovala kalkulačku prezentovanú formou vizuálnej „účtenky“. Jej účelom bolo zrozumiteľne zobrazovať investičné výpočty a umožniť používateľovi pracovať s ich výsledkami.
 
-**Porovnání ETF**
+**Porovnanie ETF**
 
-Součástí stránky bylo porovnání investičních produktů. Některé informace byly zpřístupňovány prostřednictvím uzamčené části uživatelského rozhraní.
+Súčasťou stránky bolo porovnanie investičných produktov. Niektoré informácie sa sprístupňovali prostredníctvom uzamknutej časti používateľského rozhrania.
 
-**Lead generation formulář**
+**Lead generation formulár**
 
-Primární formulář obsahoval pouze jedno vstupní pole. Cílem bylo minimalizovat počáteční náročnost interakce a umožnit navázání další komunikace.
+Primárny formulár obsahoval iba jedno vstupné pole. Cieľom bolo minimalizovať počiatočnú náročnosť interakcie a umožniť nadviazanie ďalšej komunikácie.
 
-**Měření interakcí**
+**Meranie interakcií**
 
-Bylo implementováno first-party měření uživatelských událostí bez využití cookies.
+Bolo implementované first-party meranie používateľských udalostí bez použitia cookies.
 
 **Backend**
 
-Součástí řešení byl server a API potřebné pro fungování formuláře a navazujících procesů.
+Súčasťou riešenia bol server a API potrebné na fungovanie formulára a nadväzujúcich procesov.
 
-### Fáze 4 – Uživatelské testování a optimalizace
+### Fáza 4 – Používateľské testovanie a optimalizácia
 
-Po implementaci byla stránka otevřena a testována v prohlížeči, včetně mobilního zobrazení.
+Po implementácii bola stránka otvorená a otestovaná v prehliadači, vrátane mobilného zobrazenia.
 
-Při kontrole bylo zjištěno, že první obrazovka na mobilních zařízeních obsahuje příliš mnoho vertikálního prostoru.
+Pri kontrole sa zistilo, že prvá obrazovka na mobilných zariadeniach zaberá príliš veľa vertikálneho priestoru.
 
-Hlavní agent proto upravil rozložení úvodní sekce tak, aby bylo hlavní CTA viditelné bez nutnosti scrollování.
+Hlavný agent preto upravil rozloženie úvodnej sekcie tak, aby bolo hlavné CTA viditeľné bez scrollovania.
 
-Tato úprava byla zaměřena na použitelnost a přístupnost hlavní akce. Její skutečný dopad na konverzní poměr však nebyl v rámci popsaného testování prokázán.
+Táto úprava bola zameraná na použiteľnosť a dostupnosť hlavnej akcie. Jej skutočný dopad na konverzný pomer však v rámci opísaného testovania nebol preukázaný.
 
-### Fáze 5 – Sběr dat o investorech
+### Fáza 5 – Zber dát o investoroch
 
-Po dokončení počátečního discovery byli spuštěni čtyři samostatní sběroví agenti.
+Po dokončení počiatočného discovery boli spustení štyria samostatní zberoví agenti.
 
-Každý zpracovával přibližně 15 kandidátů podle metodiky definované v `BRIEF-2`.
+Každý spracovával približne 15 kandidátov podľa metodiky definovanej v `BRIEF-2`.
 
-Agenti vyhledávali informace potřebné pro klasifikaci jednotlivých subjektů a zaznamenávali podklady pro jejich následné ověření.
+Agenti vyhľadávali informácie potrebné na klasifikáciu jednotlivých subjektov a zaznamenávali podklady na ich následné overenie.
 
-Výsledkem sběrové fáze bylo 29 předběžně zařazených kandidátů.
+Výsledkom zberovej fázy bolo 29 predbežne zaradených kandidátov.
 
-Zároveň byly na základě dostupných tržních informací připraveny podklady pro dokument `ODHAD.md`.
+Zároveň boli na základe dostupných trhových informácií pripravené podklady pre dokument `ODHAD.md`.
 
-### Fáze 6 – Reklamní kreativy
+### Fáza 6 – Reklamné kreatívy
 
-V rámci zadání B vznikly dvě reklamní kreativy.
+V rámci zadania B vznikli dve reklamné kreatívy.
 
-Jejich příprava probíhala prostřednictvím HTML, ze kterého byly následně vytvořeny PNG soubory.
+Pripravili sa v HTML, z ktorého sa následne vytvorili PNG súbory.
 
-Důležitým rozhodnutím bylo využití stejných datových podkladů jako v investiční kalkulačce.
+Dôležitým rozhodnutím bolo použitie rovnakých dátových podkladov ako v investičnej kalkulačke.
 
-Tím byla podpořena numerická konzistence mezi reklamní komunikací a samotnou landing page.
+Tým sa podporila číselná konzistencia medzi reklamnou komunikáciou a samotnou landing page.
 
-### Fáze 7 – Testování konverzního procesu
+### Fáza 7 – Testovanie konverzného procesu
 
-Následně byl otestován kompletní uživatelský průchod formulářem.
+Následne bol otestovaný kompletný používateľský prechod formulárom.
 
-Test zahrnoval následující scénář:
+Test zahŕňal nasledujúci scenár:
 
-1. Zadání e-mailové adresy s překlepem.
+1. Zadanie e-mailovej adresy s preklepom.
 2. Opravu vstupu.
-3. Odeslání formuláře.
-4. Přechod do navazující ankety.
-5. Zadání telefonního čísla.
-6. Kontrolu zaznamenaných událostí.
+3. Odoslanie formulára.
+4. Prechod do nadväzujúcej ankety.
+5. Zadanie telefónneho čísla.
+6. Kontrolu zaznamenaných udalostí.
 
-Během testování hlavní agent identifikoval dvě chyby ve vlastním měřicím systému.
+Počas testovania hlavný agent identifikoval dve chyby vo vlastnom meracom systéme.
 
-Obě chyby byly následně opraveny.
+Obe chyby boli následne opravené.
 
-Tato fáze ukázala význam end-to-end testování. Samotná funkčnost jednotlivých komponent totiž nezaručuje správné fungování celého uživatelského procesu.
+Táto fáza ukázala význam end-to-end testovania. Samotná funkčnosť jednotlivých komponentov totiž nezaručuje správne fungovanie celého používateľského procesu.
 
-### Fáze 8 – Ověření finančních informací
+### Fáza 8 – Overenie finančných informácií
 
-Po dokončení ETF rešerše následovala kontrola vybraných klíčových údajů proti původním dokumentům.
+Po dokončení ETF rešerše nasledovala kontrola vybraných kľúčových údajov oproti pôvodným dokumentom.
 
-Mezi ověřované zdroje patřily:
+Medzi overované zdroje patrili:
 
 - Fact sheet ETF VOO.
-- Dokument KID společnosti Amundi.
-- Ceník Komerční banky.
-- Tisková zpráva Generálního finančního ředitelství.
+- Dokument KID spoločnosti Amundi.
+- Cenník Komerční banky.
+- Tlačová správa Generálneho finančného riaditeľstva ČR.
 
-Kontrola vedla také k úpravě některých formulací na landing page.
+Kontrola viedla aj k úprave niektorých formulácií na landing page.
 
-Příkladem bylo původně příliš obecné tvrzení o dostupnosti amerických ETF prostřednictvím brokerů.
+Príkladom bolo pôvodne príliš všeobecné tvrdenie o dostupnosti amerických ETF prostredníctvom brokerov.
 
-Text byl upraven na přesnější formulaci „většina brokerů neprodá“, aby nevyvolával dojem univerzálního omezení.
+Text bol upravený na presnejšiu formuláciu „většina brokerů neprodá“, aby nevyvolával dojem univerzálneho obmedzenia.
 
-Tento případ dokumentuje důležitý rozdíl mezi automaticky získanou informací a informací ověřenou proti primárnímu zdroji.
+Tento prípad dokumentuje dôležitý rozdiel medzi automaticky získanou informáciou a informáciou overenou oproti primárnemu zdroju.
 
-### Fáze 9 – Automatizované ověřování databáze
+### Fáza 9 – Automatizované overovanie databázy
 
-Pro zadání A byl vytvořen validační skript první úrovně (L1).
+Pre zadanie A bol vytvorený validačný skript prvej úrovne (L1).
 
-Kontrola zahrnovala:
+Kontrola zahŕňala:
 
-- Platnost a dostupnost URL.
-- Ověření údajů prostřednictvím ARES.
-- Kontrolu časového okna investiční aktivity.
-- Přítomnost povinných datových polí.
+- Platnosť a dostupnosť URL.
+- Overenie údajov prostredníctvom ARES.
+- Kontrolu časového okna investičnej aktivity.
+- Prítomnosť povinných dátových polí.
 
-Následně bylo spuštěno pět nezávislých ověřovacích agentů používajících Claude Opus 5.5.
+Následne bolo spustených päť nezávislých overovacích agentov s modelom Claude Opus 5.5.
 
-Tito agenti pracovali naslepo nad 29 předběžně zařazenými a 12 vyřazenými subjekty.
+Títo agenti pracovali naslepo nad 29 predbežne zaradenými a 12 vyradenými subjektmi.
 
-Princip slepého ověřování měl omezit ovlivnění výsledku původním rozhodnutím sběrového agenta.
+Princíp slepého overovania mal obmedziť ovplyvnenie výsledku pôvodným rozhodnutím zberového agenta.
 
-### Fáze 10 – Rozhodování sporných případů
+### Fáza 10 – Rozhodovanie sporných prípadov
 
-Po nezávislém ověřování následovala úroveň L3, ve které hlavní agent řešil rozpory mezi jednotlivými závěry.
+Po nezávislom overovaní nasledovala úroveň L3, v ktorej hlavný agent riešil rozpory medzi jednotlivými závermi.
 
-Mezi konkrétní příklady patřily:
+Medzi konkrétne príklady patrili:
 
-- Nesprávně přiřazené IČO u subjektu N1.
-- Family office chybně klasifikované jako VC investor.
-- Subjekt Koopeo, který byl nesprávně vyřazen.
+- Nesprávne priradené IČO pri subjekte N1.
+- Family office chybne klasifikované ako VC investor.
+- Subjekt Koopeo, ktorý bol nesprávne vyradený.
 
-Tyto případy ukázaly, že formálně vyplněný záznam nemusí být věcně správný.
+Tieto prípady ukázali, že formálne vyplnený záznam nemusí byť vecne správny.
 
-Zvláštní pozornost byla proto věnována identitě subjektů, jejich skutečné investiční činnosti a správnému použití klasifikačních kritérií.
+Osobitná pozornosť sa preto venovala identite subjektov, ich skutočnej investičnej činnosti a správnemu použitiu klasifikačných kritérií.
 
-Následně proběhla namátková kontrola ověřovatele, při které bylo dosaženo shody v 7 ze 7 kontrolovaných případů.
+Následne prebehla náhodná kontrola overovateľa, pri ktorej sa dosiahla zhoda v 7 zo 7 kontrolovaných prípadov.
 
-Vzhledem k omezené velikosti vzorku jde o dílčí kontrolní výsledek, nikoliv o důkaz bezchybnosti celého procesu.
+Vzhľadom na obmedzenú veľkosť vzorky ide o čiastkový kontrolný výsledok, nie o dôkaz bezchybnosti celého procesu.
 
-### Fáze 11 – Vyhodnocení kvality a dokumentace
+### Fáza 11 – Vyhodnotenie kvality a dokumentácia
 
-Po dokončení výzkumu a ověřování byly vytvořeny souhrnné dokumenty.
+Po dokončení výskumu a overovania vznikli súhrnné dokumenty.
 
 **`VYSLEDKY.md`**
 
-Obsahoval vyhodnocení přesnosti, včetně uváděných hodnot 72 % a 86 % a příslušných intervalů spolehlivosti.
+Obsahuje vyhodnotenie presnosti vrátane uvádzaných hodnôt 72 % a 86 % a príslušných intervalov spoľahlivosti.
 
 **`NAKLADY.md`**
 
-Odhad nákladů na rozšíření databáze na celý svět (≈ 62 tis. €), postavený na číslech z pilotu.
+Odhad nákladov na rozšírenie databázy na celý svet (≈ 62 tis. €), postavený na číslach z pilotu.
 
 **`PLAN.md`**
 
-Byl doplněn o poznatky a metodické úpravy vyplývající z pilotního zpracování.
+Bol doplnený o poznatky a metodické úpravy vyplývajúce z pilotného spracovania.
 
 **`README.md`**
 
-Obsahoval popis projektu, výstupů a identifikovaných chyb při práci s AI.
+Obsahuje opis projektu, výstupov a identifikovaných chýb pri práci s AI.
 
-### Fáze 12 – Finální kontrola a publikace
+### Fáza 12 – Finálna kontrola a publikovanie
 
-Po dokončení lokálního řešení uživatel požádal o kontrolu souladu se zadáním a o následné zveřejnění.
+Po dokončení lokálneho riešenia používateľ požiadal o kontrolu súladu so zadaním a o následné zverejnenie.
 
-Hlavní agent provedl kontrolu požadavků a připravil produkční nasazení.
+Hlavný agent skontroloval požiadavky a pripravil produkčné nasadenie.
 
-Součástí příprav bylo:
+Súčasťou príprav bolo:
 
-- Doplnění konfigurace `vercel.json`.
-- Příprava ukládání leadů v prostředí Vercel.
-- Zveřejnění projektového repozitáře na GitHubu.
-- Nasazení zadání B na Vercel.
+- Doplnenie konfigurácie `vercel.json`.
+- Príprava ukladania leadov v prostredí Vercel.
+- Zverejnenie projektového repozitára na GitHube.
+- Nasadenie zadania B na Vercel.
 
 Výsledná landing page je dostupná na adrese:
 
 https://clientelo-uloha.vercel.app/
 
-Tím se původně lokální projekt změnil na veřejně dostupné řešení.
+Tým sa pôvodne lokálny projekt zmenil na verejne dostupné riešenie.
 
-### Fáze 13 – Export a transparentnost konverzace
+### Fáza 13 – Export a transparentnosť konverzácie
 
-V závěru uživatel požádal o export pracovní konverzace.
+Na záver používateľ požiadal o export pracovnej konverzácie.
 
-Původní export však obsahoval také soukromý kontext nesouvisející s projektem.
+Pôvodný export však obsahoval aj súkromný kontext nesúvisiaci s projektom.
 
-Z tohoto důvodu bylo rozhodnuto nezveřejňovat kompletní surový export, ale připravit strukturovaný souhrn relevantních pracovních kroků.
+Z tohto dôvodu sa rozhodlo nezverejniť kompletný surový export, ale pripraviť štruktúrovaný súhrn relevantných pracovných krokov.
 
-Detailnější informace zůstaly dostupné v projektových souborech, zadáních agentů a jejich výstupech.
+Podrobnejšie informácie zostali dostupné v projektových súboroch, zadaniach agentov a ich výstupoch.
 
 ---
 
 ## 4. Výsledky projektu
 
-### 4.1 Zadání A – databáze investorů
+### 4.1 Zadanie A – databáza investorov
 
-| Ukazatel | Výsledek |
+| Ukazovateľ | Výsledok |
 |---|---:|
-| Počet nalezených kandidátů | 60 |
-| Předběžně zařazené subjekty | 29 |
-| Finální počet subjektů v databázi | 24 |
-| Evidované důkazy se zdrojem | 234 |
-| Sběroví agenti | 4 |
-| Nezávislí ověřovací agenti | 5 |
-| Shoda v namátkové kontrole | 7/7 |
+| Počet nájdených kandidátov | 60 |
+| Predbežne zaradené subjekty | 29 |
+| Finálny počet subjektov v databáze | 24 |
+| Evidované dôkazy so zdrojom | 234 |
+| Zberoví agenti | 4 |
+| Nezávislí overovací agenti | 5 |
+| Zhoda v náhodnej kontrole | 7/7 |
 
-Z původních 60 kandidátů bylo do finální databáze zařazeno 24 subjektů.
+Z pôvodných 60 kandidátov bolo do finálnej databázy zaradených 24 subjektov.
 
-*Uvedená čísla popisují průchod kandidátů procesem výběru a ověřování. Sama o sobě nepředstavují statistickou míru přesnosti databáze.*
+*Uvedené čísla opisujú prechod kandidátov procesom výberu a overovania. Samy osebe nepredstavujú štatistickú mieru presnosti databázy.*
 
-### 4.2 Zadání B – landing page
+### 4.2 Zadanie B – landing page
 
-| Ukazatel | Výsledek |
+| Ukazovateľ | Výsledok |
 |---|---:|
-| Zpracovaná americká ETF | 12 |
-| Evropské alternativy | UCITS dvojčata |
-| Reklamní kreativy | 2 |
-| Typy měřených událostí | 22 |
-| Interaktivní kalkulačka | Implementována |
-| Formulář a navazující anketa | Implementovány |
-| End-to-end test formuláře | Proveden |
-| Produkční nasazení | Vercel |
+| Spracované americké ETF | 12 |
+| Európske alternatívy | UCITS dvojčatá |
+| Reklamné kreatívy | 2 |
+| Typy meraných udalostí | 22 |
+| Interaktívna kalkulačka | Implementovaná |
+| Formulár a nadväzujúca anketa | Implementované |
+| End-to-end test formulára | Vykonaný |
+| Produkčné nasadenie | Vercel |
 
-Součástí výsledku byla nejen samotná webová stránka, ale také podkladová finanční data, reklamní materiály, měřicí systém a report konverzního procesu.
+Súčasťou výsledku nebola iba samotná webová stránka, ale aj podkladové finančné dáta, reklamné materiály, merací systém a report konverzného procesu.
 
 ### 4.3 Celkové výsledky
 
-- **12 specializovaných AI subagentů** použitých během realizace.
-- **60 kandidátů** v počátečním výzkumu investorů.
-- **24 finálních záznamů** v databázi.
-- **234 evidovaných důkazů** se zdroji.
-- **12 ETF** zpracovaných s evropskými alternativami.
-- **22 typů událostí** v systému měření.
-- **2 reklamní kreativy**.
-- **15 Git commitů** během vývoje.
+- **12 špecializovaných AI subagentov** použitých počas realizácie.
+- **60 kandidátov** v počiatočnom výskume investorov.
+- **24 finálnych záznamov** v databáze.
+- **234 evidovaných dôkazov** so zdrojmi.
+- **12 ETF** spracovaných s európskymi alternatívami.
+- **22 typov udalostí** v systéme merania.
+- **2 reklamné kreatívy**.
+- **15 Git commitov** počas vývoja.
 
 ---
 
-## 5. Kontrola kvality a práce s chybami AI
+## 5. Kontrola kvality a práca s chybami AI
 
-Jedním z nejdůležitějších aspektů projektu bylo oddělení generování výstupů od jejich kontroly.
+Jedným z najdôležitejších aspektov projektu bolo oddelenie generovania výstupov od ich kontroly.
 
-Během realizace se objevilo několik typů problémů.
+Počas realizácie sa objavilo niekoľko typov problémov.
 
-### 5.1 Chybná identifikace subjektů
+### 5.1 Chybná identifikácia subjektov
 
-U některých investorů vznikly problémy se správným přiřazením identifikačních údajů.
+Pri niektorých investoroch vznikli problémy so správnym priradením identifikačných údajov.
 
-Typickým příkladem bylo přiřazení cizího IČO.
+Typickým príkladom bolo priradenie cudzieho IČO.
 
-Tento problém ukazuje, že AI může najít relevantně vypadající informaci, která však patří jinému subjektu.
+Tento problém ukazuje, že AI môže nájsť relevantne vyzerajúcu informáciu, ktorá však patrí inému subjektu.
 
-### 5.2 Nesprávná klasifikace
+### 5.2 Nesprávna klasifikácia
 
-Další skupinou chyb bylo nesprávné zařazení subjektů do investičních kategorií.
+Ďalšou skupinou chýb bolo nesprávne zaradenie subjektov do investičných kategórií.
 
-Například family office bylo klasifikováno jako VC investor, přestože takové zařazení neodpovídalo stanoveným pravidlům.
+Napríklad family office bolo klasifikované ako VC investor, hoci také zaradenie nezodpovedalo stanoveným pravidlám.
 
-### 5.3 Nesprávné vyřazení
+### 5.3 Nesprávne vyradenie
 
-Ověřovací proces identifikoval také opačný problém, kdy byl relevantní subjekt chybně vyřazen.
+Overovací proces identifikoval aj opačný problém, keď bol relevantný subjekt chybne vyradený.
 
-Příkladem byl Koopeo.
+Príkladom bol Koopeo.
 
-### 5.4 Příliš kategorické formulace
+### 5.4 Príliš kategorické formulácie
 
-Při práci s finančními informacemi se ukázalo riziko příliš širokých tvrzení.
+Pri práci s finančnými informáciami sa ukázalo riziko príliš širokých tvrdení.
 
-Oprava textu o dostupnosti amerických ETF představuje konkrétní příklad zpřesnění formulace na základě ověření zdrojů.
+Oprava textu o dostupnosti amerických ETF je konkrétnym príkladom spresnenia formulácie na základe overenia zdrojov.
 
-### 5.5 Chyby implementace
+### 5.5 Chyby implementácie
 
-Během testování webové aplikace byly identifikovány dvě chyby měření, které vznikly při implementaci.
+Počas testovania webovej aplikácie boli identifikované dve chyby merania, ktoré vznikli pri implementácii.
 
-Jejich odhalení při testování celého formulářového procesu potvrzuje význam praktického ověřování, nikoliv pouze kontroly zdrojového kódu.
+Ich odhalenie pri testovaní celého formulárového procesu potvrdzuje význam praktického overovania, nie iba kontroly zdrojového kódu.
 
-**Zásadní poznatek:** Výstupy AI je nutné chápat jako pracovní výsledky, které mohou vyžadovat nezávislou validaci. Ani použití více agentů samo o sobě nezaručuje správnost, zejména pokud pracují s podobnými zdroji nebo používají obdobné rozhodovací postupy.
-
----
-
-## 6. Limity a interpretace výsledků
-
-Při hodnocení projektu je důležité rozlišovat mezi technickým dokončením úkolu a nezávisle prokázanou kvalitou výsledku.
-
-U databáze investorů bylo provedeno víceúrovňové ověřování, přesto nelze předpokládat absolutní správnost všech údajů.
-
-Uváděné hodnoty přesnosti 72 % a 86 % je nutné interpretovat podle metodiky popsané v `VYSLEDKY.md`, včetně velikosti vzorku a intervalů spolehlivosti.
-
-U landing page bylo provedeno funkční testování, ale popsaný průběh sám o sobě nedokládá dlouhodobou provozní stabilitu ani skutečný konverzní výkon.
-
-Podobně nelze z počtu použitých subagentů nebo commitů přímo odvozovat kvalitu výsledného řešení.
-
-Tyto metriky slouží především jako informace o rozsahu a organizaci realizace.
+**Zásadný poznatok:** Výstupy AI treba chápať ako pracovné výsledky, ktoré môžu vyžadovať nezávislú validáciu. Ani použitie viacerých agentov samo osebe nezaručuje správnosť, najmä ak pracujú s podobnými zdrojmi alebo používajú obdobné rozhodovacie postupy.
 
 ---
 
-## 7. Struktura dokumentace
+## 6. Limity a interpretácia výsledkov
 
-Podrobné informace o projektu jsou rozděleny do několika souborů a adresářů.
+Pri hodnotení projektu je dôležité rozlišovať medzi technickým dokončením úlohy a nezávisle preukázanou kvalitou výsledku.
 
-| Soubor / adresář | Obsah |
+Pri databáze investorov prebehlo viacúrovňové overovanie, napriek tomu nemožno predpokladať absolútnu správnosť všetkých údajov.
+
+Uvádzané hodnoty presnosti 72 % a 86 % treba interpretovať podľa metodiky opísanej vo `VYSLEDKY.md`, vrátane veľkosti vzorky a intervalov spoľahlivosti.
+
+Pri landing page prebehlo funkčné testovanie, opísaný priebeh však sám osebe nedokladá dlhodobú prevádzkovú stabilitu ani skutočný konverzný výkon.
+
+Podobne nemožno z počtu použitých subagentov alebo commitov priamo odvodzovať kvalitu výsledného riešenia.
+
+Tieto metriky slúžia predovšetkým ako informácia o rozsahu a organizácii realizácie.
+
+---
+
+## 7. Štruktúra dokumentácie
+
+Podrobné informácie o projekte sú rozdelené do niekoľkých súborov a adresárov.
+
+| Súbor / adresár | Obsah |
 |---|---|
-| `README.md` | Přehled projektu, použití a známé chyby |
-| `zadanie-a/PLAN.md` | Metodika, datový model a plán ověřování |
-| `zadanie-a/VYSLEDKY.md` | Vyhodnocení kvality a přesnosti |
-| `zadanie-a/NAKLADY.md` | Odhad nákladů na rozšíření na celý svět |
+| `README.md` | Prehľad projektu, použitie a známe chyby |
+| `zadanie-a/PLAN.md` | Metodika, dátový model a plán overovania |
+| `zadanie-a/VYSLEDKY.md` | Vyhodnotenie kvality a presnosti |
+| `zadanie-a/NAKLADY.md` | Odhad nákladov na rozšírenie na celý svet |
 | `zadanie-a/ODHAD.md` | Odhad trhu a jeho podklady |
-| `zadanie-a/agents/BRIEF-*.md` | Zadání jednotlivých agentů |
-| `zadanie-a/data/raw/` | Surové výstupy sběru dat |
-| `zadanie-a/verification/` | Výsledky nezávislého ověřování |
-| `zadanie-b/research/BRIEF-etf.md` | Zadání ETF výzkumu |
-| `zadanie-b/research/` | Výzkumné podklady a výstupy |
+| `zadanie-a/agents/BRIEF-*.md` | Zadania jednotlivých agentov |
+| `zadanie-a/data/raw/` | Surové výstupy zberu dát |
+| `zadanie-a/verification/` | Výsledky nezávislého overovania |
+| `zadanie-b/research/BRIEF-etf.md` | Zadanie ETF výskumu |
+| `zadanie-b/research/` | Výskumné podklady a výstupy |
 
-Tato struktura umožňuje oddělit souhrnný popis projektu od detailních technických a výzkumných podkladů.
+Táto štruktúra umožňuje oddeliť súhrnný opis projektu od podrobných technických a výskumných podkladov.
 
 ---
 
-## 8. Poznámka k transparentnosti a ochraně soukromí
+## 8. Poznámka k transparentnosti a ochrane súkromia
 
-Tento dokument je redakčně upraveným souhrnem pracovní konverzace s Claude Code.
+Tento dokument je redakčne upraveným súhrnom pracovnej konverzácie s Claude Code.
 
-Nejedná se o doslovný přepis všech zpráv ani o kompletní export interní session.
+Nejde o doslovný prepis všetkých správ ani o kompletný export internej session.
 
-Úplný export nebyl zveřejněn, protože obsahoval soukromé informace a kontext, které nesouvisely s řešením projektu.
+Úplný export nebol zverejnený, pretože obsahoval súkromné informácie a kontext, ktoré nesúviseli s riešením projektu.
 
-Pro účely technické kontroly a posouzení práce s AI jsou relevantní pracovní podklady, zadání subagentů, výsledky ověřování a projektová dokumentace.
+Na účely technickej kontroly a posúdenia práce s AI sú relevantné pracovné podklady, zadania subagentov, výsledky overovania a projektová dokumentácia.
 
-Dokument zachycuje postup realizace podle dostupného souhrnu konverzace k datu 29. 10. 2026.
+Dokument zachytáva postup realizácie podľa dostupného súhrnu konverzácie k 29. 10. 2026.
