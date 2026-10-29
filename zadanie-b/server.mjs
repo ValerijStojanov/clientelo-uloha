@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const SITE = join(ROOT, 'site');
-const PORT = Number(process.env.PORT) || 4321;
+const PORT = Number(process.env.PORT || process.argv[2]) || 4321;
 const TYPES = {
   '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8', '.json': 'application/json',

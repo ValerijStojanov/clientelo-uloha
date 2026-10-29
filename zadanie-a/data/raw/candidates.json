@@ -1,0 +1,1772 @@
+[
+  {
+    "name": "Credo Ventures",
+    "website": "https://www.credoventures.com",
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/category/full-members/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/credo-ventures/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.failory.com/blog/venture-capital-firms-czechia",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/investors-czech-republic.md",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.ellty.com/investors/prague-seed-investors",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://privateequitylist.com/investors/venture-capital/czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/prosli-jsme-vsechny-investice-ceske-startupy-loni-ve-119-dealech-nabraly-pres-46-miliard-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.newstream.cz/money/nejlepsi-firmy-roku-2024-z-private-equity-a-venture-kapitalu-v-cesku-prevzaly-sve-ceny",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.newstream.cz/zpravy-z-firem/asociace-venture-kapitalu-ocenily-transakce-roku-zabodoval-productboard",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague-based early-stage VC (founded 2009) investing in CEE tech; appears in nearly every Czech VC list."
+  },
+  {
+    "name": "KAYA VC (Enern)",
+    "website": "https://www.kaya.vc/",
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/category/full-members/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf",
+        "source_type": "eif_or_public",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/kaya-vc/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/enern/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.failory.com/blog/venture-capital-firms-czechia",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://privateequitylist.com/investors/venture-capital/czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/prosli-jsme-vsechny-investice-ceske-startupy-loni-ve-119-dealech-nabraly-pres-46-miliard-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/startupovi-investori-zazivaji-nejhorsi-rok-za-poslednich-devet-let-fondy-maji-problem-nabrat-penize/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/rozhoduji-jestli-startup-ziska-penize-profily-vice-nez-stovky-investoru-jsou-uz-na-jednom-miste/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.newstream.cz/zpravy-z-firem/asociace-venture-kapitalu-ocenily-transakce-roku-zabodoval-productboard",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague early-stage VC that grew out of Enern (founded 2010), raising its fifth fund and named VC Fund Manager at the CVCA & SLOVCA Awards."
+  },
+  {
+    "name": "Presto Ventures",
+    "website": "https://www.prestoventures.com",
+    "found_in": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.failory.com/blog/venture-capital-firms-czechia",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.ellty.com/investors/prague-seed-investors",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/prosli-jsme-vsechny-investice-ceske-startupy-loni-ve-119-dealech-nabraly-pres-46-miliard-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/startupovi-investori-zazivaji-nejhorsi-rok-za-poslednich-devet-let-fondy-maji-problem-nabrat-penize/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.newstream.cz/money/nejlepsi-firmy-roku-2024-z-private-equity-a-venture-kapitalu-v-cesku-prevzaly-sve-ceny",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague pre-seed/seed fund founded 2016, among the most active Czech funds by deal count."
+  },
+  {
+    "name": "N1 (Nation 1)",
+    "website": "https://nation1.vc/",
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/category/full-members/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/nation-1/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.ellty.com/investors/prague-seed-investors",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/prosli-jsme-vsechny-investice-ceske-startupy-loni-ve-119-dealech-nabraly-pres-46-miliard-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/startupovi-investori-zazivaji-nejhorsi-rok-za-poslednich-devet-let-fondy-maji-problem-nabrat-penize/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/rozhoduji-jestli-startup-ziska-penize-profily-vice-nez-stovky-investoru-jsou-uz-na-jednom-miste/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Czech/CEE pre-seed and seed fund (formerly Nation 1), reported to be backed by the EIF and raising a second fund."
+  },
+  {
+    "name": "DEPO Ventures",
+    "website": "https://depoventures.com",
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/category/full-members/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/depo-ventures/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/investors-czech-republic.md",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.ellty.com/investors/prague-seed-investors",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://privateequitylist.com/investors/venture-capital/czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/prosli-jsme-vsechny-investice-ceske-startupy-loni-ve-119-dealech-nabraly-pres-46-miliard-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/startupovi-investori-zazivaji-nejhorsi-rok-za-poslednich-devet-let-fondy-maji-problem-nabrat-penize/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/rozhoduji-jestli-startup-ziska-penize-profily-vice-nez-stovky-investoru-jsou-uz-na-jednom-miste/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague pre-seed/seed VC that also runs angel syndicates and was among the top Czech funds by number of investments."
+  },
+  {
+    "name": "J&T Ventures",
+    "website": "https://www.jtventures.cz",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/jt-ventures/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.failory.com/blog/venture-capital-firms-czechia",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/investors-czech-republic.md",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.ellty.com/investors/prague-seed-investors",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/prosli-jsme-vsechny-investice-ceske-startupy-loni-ve-119-dealech-nabraly-pres-46-miliard-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Corporate-backed (J&T group) seed/Series A fund investing in CEE tech, with about EUR 40M under management per Vestbee."
+  },
+  {
+    "name": "Reflex Capital",
+    "website": "https://www.reflexcapital.com",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/reflex-capital/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.failory.com/blog/venture-capital-firms-czechia",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.ellty.com/investors/prague-seed-investors",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/prosli-jsme-vsechny-investice-ceske-startupy-loni-ve-119-dealech-nabraly-pres-46-miliard-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/startupovi-investori-zazivaji-nejhorsi-rok-za-poslednich-devet-let-fondy-maji-problem-nabrat-penize/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/rozhoduji-jestli-startup-ziska-penize-profily-vice-nez-stovky-investoru-jsou-uz-na-jednom-miste/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague investment group of entrepreneurs investing its own money in early-stage software, closing a third fund of roughly CZK 500M."
+  },
+  {
+    "name": "Purple Ventures",
+    "website": "https://www.purple-ventures.com/",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/purple-ventures/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/prosli-jsme-vsechny-investice-ceske-startupy-loni-ve-119-dealech-nabraly-pres-46-miliard-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/startupovi-investori-zazivaji-nejhorsi-rok-za-poslednich-devet-let-fondy-maji-problem-nabrat-penize/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/rozhoduji-jestli-startup-ziska-penize-profily-vice-nez-stovky-investoru-jsou-uz-na-jednom-miste/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Brno-based pre-seed/seed VC raising its second fund (target EUR 40M)."
+  },
+  {
+    "name": "Czech Founders VC",
+    "website": "https://czechfounders.vc",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/czech-founders-vc/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/prosli-jsme-vsechny-investice-ceske-startupy-loni-ve-119-dealech-nabraly-pres-46-miliard-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/rozhoduji-jestli-startup-ziska-penize-profily-vice-nez-stovky-investoru-jsou-uz-na-jednom-miste/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Pre-seed fund set up by Czech entrepreneurs to back Czech founders."
+  },
+  {
+    "name": "Lighthouse Ventures",
+    "website": "https://lhv.vc",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/lighthouse-venture/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://privateequitylist.com/investors/venture-capital/czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague VC and accelerator (about EUR 24M under management) investing in seed-stage tech."
+  },
+  {
+    "name": "Tensor Ventures",
+    "website": "https://tensor.ventures/",
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/category/full-members/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf",
+        "source_type": "eif_or_public",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/tensor-ventures/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.ellty.com/investors/prague-seed-investors",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/startupovi-investori-zazivaji-nejhorsi-rok-za-poslednich-devet-let-fondy-maji-problem-nabrat-penize/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/rozhoduji-jestli-startup-ziska-penize-profily-vice-nez-stovky-investoru-jsou-uz-na-jednom-miste/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Invitation-only Prague deep-tech VC and first manager in the EIF-backed Czech fund of funds, per CVCA and EIF listings."
+  },
+  {
+    "name": "Tilia Impact Ventures",
+    "website": "https://tiliaimpactventures.cz/en/",
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/tilia-impact-ventures-honorary-member/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf",
+        "source_type": "eif_or_public",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/tilia-impact-ventures/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.failory.com/blog/venture-capital-firms-czechia",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/startupovi-investori-zazivaji-nejhorsi-rok-za-poslednich-devet-let-fondy-maji-problem-nabrat-penize/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/rozhoduji-jestli-startup-ziska-penize-profily-vice-nez-stovky-investoru-jsou-uz-na-jednom-miste/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.newstream.cz/zpravy-z-firem/asociace-venture-kapitalu-ocenily-transakce-roku-zabodoval-productboard",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague impact-focused VC, listed by CVCA as an honorary member and by the EIF as a fund partner (Tilia Impact Ventures Fund II)."
+  },
+  {
+    "name": "Impulse Ventures",
+    "website": "https://impulseventures.com/?lang=en",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/impulse-ventures/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Hands-on sector-agnostic CEE VC investing from seed to Series A."
+  },
+  {
+    "name": "Air Ventures",
+    "website": "https://airventures.eu",
+    "found_in": [
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Europe-focused early-growth fund investing EUR 200k-2M from late seed to Series A."
+  },
+  {
+    "name": "Koopeo Ventures",
+    "website": "https://www.koopeoventures.com/",
+    "found_in": [
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague-based fund (founded 1995 per Vestbee) investing EUR 200k-500k in CEE internet and e-commerce companies."
+  },
+  {
+    "name": "ZAKA VC",
+    "website": "https://zaka.vc/",
+    "found_in": [
+      {
+        "url": "https://www.failory.com/blog/venture-capital-firms-czechia",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/startupovi-investori-zazivaji-nejhorsi-rok-za-poslednich-devet-let-fondy-maji-problem-nabrat-penize/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/rozhoduji-jestli-startup-ziska-penize-profily-vice-nez-stovky-investoru-jsou-uz-na-jednom-miste/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague-based (Slovak-founded) family-office-turned-VC writing first cheques into pre-seed/seed software startups."
+  },
+  {
+    "name": "Soulmates Ventures",
+    "website": "https://www.soulmatesventures.com/",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/soulmates/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.failory.com/blog/venture-capital-firms-czechia",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/prosli-jsme-vsechny-investice-ceske-startupy-loni-ve-119-dealech-nabraly-pres-46-miliard-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/startupovi-investori-zazivaji-nejhorsi-rok-za-poslednich-devet-let-fondy-maji-problem-nabrat-penize/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague firm backing green-innovation startups from seed on, described by CzechStartups as a green-investing accelerator."
+  },
+  {
+    "name": "STARTGUIDE VC",
+    "website": "https://www.startguide.cz/en/",
+    "found_in": [
+      {
+        "url": "https://www.failory.com/blog/venture-capital-firms-czechia",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/rozhoduji-jestli-startup-ziska-penize-profily-vice-nez-stovky-investoru-jsou-uz-na-jednom-miste/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague investor providing pre-seed, seed and bridge funding to early-stage CEE startups."
+  },
+  {
+    "name": "Springtide Ventures (KKCG)",
+    "website": "https://www.springtide.cz",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/springtide-ventures/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Venture arm of the KKCG group investing seed to later-stage SaaS in Europe and Israel; its former partners launched Tachles."
+  },
+  {
+    "name": "Tachles VC",
+    "website": "http://www.tachlesvc.com",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/tachles-vc/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/startupovi-investori-zazivaji-nejhorsi-rok-za-poslednich-devet-let-fondy-maji-problem-nabrat-penize/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "New fund (target over CZK 1B) launched by former Springtide partners; one article calls it the renamed Springtide, which needs checking."
+  },
+  {
+    "name": "Pale Fire Capital",
+    "website": "http://palefirecapital.com/",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/palefire-capital/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.ellty.com/investors/prague-seed-investors",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague private-equity/investment group (founded 2015) backing tech companies from seed to growth."
+  },
+  {
+    "name": "Rockaway Capital (Rockaway Ventures)",
+    "website": "https://www.rockawaycapital.com",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/rockaway-ventures/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.ellty.com/investors/prague-seed-investors",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague investment group (Mall, Heureka, Rohlik lineage) investing seed to growth, with the Rockaway Ventures fund launched in 2022."
+  },
+  {
+    "name": "RockawayX",
+    "website": "https://www.rockawayx.com",
+    "found_in": [
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Web3/crypto-focused venture platform listed as a separate entry next to Rockaway in a Prague VC list."
+  },
+  {
+    "name": "Miton",
+    "website": null,
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/miton/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/investors-czech-republic.md",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/prosli-jsme-vsechny-investice-ceske-startupy-loni-ve-119-dealech-nabraly-pres-46-miliard-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Invests only its own capital (no external LPs) in e-commerce, AI and digital consumer companies."
+  },
+  {
+    "name": "QQ Capital",
+    "website": "https://www.qq.capital/",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/qq-capital/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague venture family office led by Michal Stencl, backing early-stage technology startups."
+  },
+  {
+    "name": "Fazole Ventures",
+    "website": "http://fazole.vc/indexEN.html",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/fazole-ventures/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Early-stage investor backing promising projects."
+  },
+  {
+    "name": "Patero",
+    "website": "https://www.patero.cz",
+    "found_in": [
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague investment firm (founded 2015) making direct venture investments in early-stage startups such as Flowpay; website taken from a search-result directory profile."
+  },
+  {
+    "name": "Zero Gravity Capital",
+    "website": null,
+    "found_in": [
+      {
+        "url": "https://cc.cz/prosli-jsme-vsechny-investice-ceske-startupy-loni-ve-119-dealech-nabraly-pres-46-miliard-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.newstream.cz/zpravy-z-firem/asociace-venture-kapitalu-ocenily-transakce-roku-zabodoval-productboard",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Bratislava-based pre-seed/seed fund linked to a Czech family-office sponsor, named as an investor in CEE rounds."
+  },
+  {
+    "name": "BD Partners",
+    "website": null,
+    "found_in": [
+      {
+        "url": "https://cc.cz/sefoval-ppf-ted-investuje-do-startupu-vina-i-betonu-mame-na-to-az-25-miliardy-rika-bartonicek/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/startupovi-investori-zazivaji-nejhorsi-rok-za-poslednich-devet-let-fondy-maji-problem-nabrat-penize/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/rozhoduji-jestli-startup-ziska-penize-profily-vice-nez-stovky-investoru-jsou-uz-na-jednom-miste/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague investment vehicle of Ladislav Bartonicek and Jean-Pascal Duvieusart (ex-PPF) co-investing in startups and other assets."
+  },
+  {
+    "name": "SFG Holding",
+    "website": null,
+    "found_in": [
+      {
+        "url": "https://cc.cz/prosli-jsme-vsechny-investice-ceske-startupy-loni-ve-119-dealech-nabraly-pres-46-miliard-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/tag/sfg-holding/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague firm mixing venture investing with real-estate financing; counted with five Czech-founder startup investments in a CzechCrunch review."
+  },
+  {
+    "name": "RSJ Investments",
+    "website": "https://www.rsj.com/en/investments",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/rsj-investments-2/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Multi-strategy international investment group that operates venture vehicles."
+  },
+  {
+    "name": "Thein",
+    "website": null,
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/thein-2/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/investicni-skupina-thein-nekdejsiho-kellnerova-manazera-koupila-benesovskou-slevarnu-top-alulit/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague investment group (founded 2020) running Thein Digital and Thein Industry funds; CVCA lists it as a full member."
+  },
+  {
+    "name": "Inven Capital (ČEZ)",
+    "website": "https://www.invencapital.cz/",
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/inven-capital-2/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/inven-capital/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.failory.com/blog/venture-capital-firms-czechia",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/venture-capital-firms-prague",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://privateequitylist.com/investors/venture-capital/czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Corporate venture fund of the ČEZ group investing in cleantech/smart-energy startups, co-financed by the EIB."
+  },
+  {
+    "name": "Y Soft Ventures",
+    "website": "http://www.ysoft.com",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/y-soft-ventures/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.vestbee.com/blog/articles/top-vc-funds-in-czech-republic-to-finance-your-startup",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.ain.ua/2022/09/27/top-17-most-active-czech-vc-funds-in-h1-2022",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Corporate venture arm of Brno-based Y Soft investing in and incubating CEE B2B hardware/software startups."
+  },
+  {
+    "name": "KB SmartSolutions",
+    "website": "https://www.kbsmart.cz/en/",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/kb-smartsolutions/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Komerční banka subsidiary developing fintech services, listed as corporate VC on the CzechStartups portal."
+  },
+  {
+    "name": "Seed Starter ČS (Česká spořitelna)",
+    "website": "https://www.seedstarter.cz/en/home",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/seed-starter/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/rozhoduji-jestli-startup-ziska-penize-profily-vice-nez-stovky-investoru-jsou-uz-na-jednom-miste/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Corporate venture programme of Česká spořitelna backing startups relevant to banking."
+  },
+  {
+    "name": "mAccelerator.vc (mBank)",
+    "website": "https://maccelerator.vc",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/maccelerator-vc/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "mBank-backed venture fund investing in early-stage digital-economy startups."
+  },
+  {
+    "name": "Genesis Capital",
+    "website": "http://genesis.cz/",
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/category/full-members/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf",
+        "source_type": "eif_or_public",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/genesis-capital/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.newstream.cz/money/nejlepsi-firmy-roku-2024-z-private-equity-a-venture-kapitalu-v-cesku-prevzaly-sve-ceny",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.newstream.cz/zpravy-z-firem/asociace-venture-kapitalu-ocenily-transakce-roku-zabodoval-productboard",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Czech private-equity manager investing in SMEs in CEE (about EUR 500M in funds), named PE Fund Manager of the year at the CVCA & SLOVCA Awards."
+  },
+  {
+    "name": "ARX Equity Partners",
+    "website": "https://www.arxequity.com/",
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/about-us/boards/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf",
+        "source_type": "eif_or_public",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/investors-czech-republic.md",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.newstream.cz/money/nejlepsi-firmy-roku-2024-z-private-equity-a-venture-kapitalu-v-cesku-prevzaly-sve-ceny",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.newstream.cz/zpravy-z-firem/asociace-venture-kapitalu-ocenily-transakce-roku-zabodoval-productboard",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Czech buyout/growth private-equity firm; EIF fund partner and winner of a PE Deal of the Year award."
+  },
+  {
+    "name": "EVERITA Capital",
+    "website": null,
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/everita-capital-en/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf",
+        "source_type": "eif_or_public",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Lower-mid-market private-equity manager (EUR 2-5M tickets) with an EIF-backed fund, listed by CVCA."
+  },
+  {
+    "name": "Orbit Capital (OGD Advisory)",
+    "website": "https://orbitcapital.com/",
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/category/full-members/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf",
+        "source_type": "eif_or_public",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.newstream.cz/money/nejlepsi-firmy-roku-2024-z-private-equity-a-venture-kapitalu-v-cesku-prevzaly-sve-ceny",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Czech private-credit and growth-debt manager (Orbit Growth Debt II) with EIF participation."
+  },
+  {
+    "name": "Jet Investment",
+    "website": null,
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/about-us/boards/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://privateequitylist.com/investors/venture-capital/czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Czech PE/VC firm with a representative on the CVCA board and a profile on a PE directory."
+  },
+  {
+    "name": "Stratum Partners",
+    "website": null,
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/category/full-members/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Czech/Slovak growth-equity and buyout firm (about EUR 40M under management) listed among CVCA full members."
+  },
+  {
+    "name": "Enterprise Investors",
+    "website": null,
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/category/full-members/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Private-equity firm with over EUR 2.5B in funds and three Czech deals, listed among CVCA full members."
+  },
+  {
+    "name": "Mid Europa Partners",
+    "website": null,
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/category/full-members/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cvca.cz/en/about-us/boards/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Private-equity firm with about EUR 5.2B under management and Czech holdings, listed among CVCA full members."
+  },
+  {
+    "name": "Fond rizikového kapitálu, s.r.o.",
+    "website": null,
+    "found_in": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.newstream.cz/money/nejlepsi-firmy-roku-2024-z-private-equity-a-venture-kapitalu-v-cesku-prevzaly-sve-ceny",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Early Czech PE fund founded in 1995 by Michal Nosek, with 11 investments."
+  },
+  {
+    "name": "StartupYard",
+    "website": "https://startupyard.com/",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/startup-yard/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.papermark.com/blog/investors-czech-republic.md",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.ellty.com/investors/prague-seed-investors",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Prague accelerator providing seed investment and mentoring to early-stage startups."
+  },
+  {
+    "name": "JIC (JIC Ventures / JIC STARCUBE)",
+    "website": "https://www.jic.cz/en/starcube",
+    "found_in": [
+      {
+        "url": "https://www.papermark.com/blog/investors-czech-republic.md",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://privateequitylist.com/investors/venture-capital/czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "South Moravian Innovation Centre running the JIC STARCUBE accelerator and listed as an active VC on directories."
+  },
+  {
+    "name": "AI Startup Incubator",
+    "website": "https://www.suincubator.ai/",
+    "found_in": [
+      {
+        "url": "https://www.papermark.com/blog/investors-czech-republic.md",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Accelerator focused on AI startups in the Czech Republic."
+  },
+  {
+    "name": "HitHit",
+    "website": "https://www.hithit.com/cs/home",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/hithit/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Czech reward-based crowdfunding platform (over 2,000 projects)."
+  },
+  {
+    "name": "Fundlift",
+    "website": "https://www.fundlift.cz",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/fundlift/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Investment crowdfunding platform matching investors with companies via convertible certificates or minibonds."
+  },
+  {
+    "name": "Investown",
+    "website": null,
+    "found_in": [
+      {
+        "url": "https://www.fxstreet.cz/licenci-cnb-pro-investicni-crowdfunging-ziskaly-investown-roier-a-fingood.html",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/startup-investown-dostal-zelenou-od-cnb-licence-mu-otevira-cestu-do-george-ceske-sporitelny/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Czech crowdfunding/real-estate investment platform reported to have received a CNB investment-crowdfunding licence."
+  },
+  {
+    "name": "Garage Angels",
+    "website": "http://www.garageangels.cz/index.html",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/garage-angels/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Investor group of business angels backing early-stage startups, mainly from South Moravia."
+  },
+  {
+    "name": "Czech Private Equity and Venture Capital Association (CVCA)",
+    "website": "https://www.cvca.cz",
+    "found_in": [
+      {
+        "url": "https://czechstartups.gov.cz/investori_en/czech-private-equity-and-venture-capital-association/",
+        "source_type": "community",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.newstream.cz/money/nejlepsi-firmy-roku-2024-z-private-equity-a-venture-kapitalu-v-cesku-prevzaly-sve-ceny",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Industry association of PE/VC funds in the Czech Republic (not an investor itself)."
+  },
+  {
+    "name": "JŠK (law firm)",
+    "website": null,
+    "found_in": [
+      {
+        "url": "https://cvca.cz/en/category/associate-members/",
+        "source_type": "association",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.newstream.cz/zpravy-z-firem/asociace-venture-kapitalu-ocenily-transakce-roku-zabodoval-productboard",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Law firm named best advisor at the CVCA & SLOVCA Awards and listed among CVCA associate members."
+  },
+  {
+    "name": "CzechInvest",
+    "website": "https://czechinvest.gov.cz",
+    "found_in": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.ellty.com/investors/prague-seed-investors",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://shizune.co/investors/vc-funds-czech-republic",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://een.gov.cz/en/news/cee-funding-map-provides-an-overview-of-active-investors-in-central-and-eastern-europe/",
+        "source_type": "eif_or_public",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Czech state agency promoting investment and startups (runs Czechia Dealroom, CEE Funding Map partner), not a VC fund."
+  },
+  {
+    "name": "European Investment Fund (EIF)",
+    "website": "https://www.eif.org",
+    "found_in": [
+      {
+        "url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf",
+        "source_type": "eif_or_public",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.ellty.com/investors/prague-seed-investors",
+        "source_type": "database",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://cc.cz/startupovi-investori-zazivaji-nejhorsi-rok-za-poslednich-devet-let-fondy-maji-problem-nabrat-penize/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "EU fund-of-funds that has committed about EUR 300M to 15 Czech equity funds, investing in funds rather than startups."
+  },
+  {
+    "name": "EBRD (EBRD Venture Capital)",
+    "website": null,
+    "found_in": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.newstream.cz/money/nejlepsi-firmy-roku-2024-z-private-equity-a-venture-kapitalu-v-cesku-prevzaly-sve-ceny",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Multilateral bank that returned to direct investment in Czechia in 2021 and appears as a VC investor in a CVCA-awarded exit."
+  },
+  {
+    "name": "Národní rozvojová banka (NRB)",
+    "website": "https://www.nrb.cz",
+    "found_in": [
+      {
+        "url": "https://www.nrb.cz/en/the-ndb-hosted-a-meeting-of-the-advisory-board-of-the-central-europe-fund-of-funds-cefof/",
+        "source_type": "eif_or_public",
+        "retrieved": "2026-10-29"
+      },
+      {
+        "url": "https://www.businessinfo.cz/clanky/cmzrb-se-meni-na-narodni-rozvojovou-banku-pomuze-podnikatelum-i-infrastrukture/",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "State development bank (ex-ČMZRB) that co-runs the Central Europe Fund of Funds and has invested in Czech VC/PE funds."
+  },
+  {
+    "name": "Seed Fund (Český rozvojový uzavřený investiční fond)",
+    "website": null,
+    "found_in": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic",
+        "source_type": "media",
+        "retrieved": "2026-10-29"
+      }
+    ],
+    "note": "Government co-investment programme backed by CZK 660M of EU funds requiring at least 30% private co-investment."
+  }
+]

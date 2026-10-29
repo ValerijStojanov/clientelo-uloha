@@ -36,7 +36,7 @@
   <section class="hero" data-section="hero">
     <div class="only-a">
       <h1>Kolik vám za <span data-years-label>20 let</span> sežerou poplatky?</h1>
-      <p class="lead">Posuňte, kolik měsíčně investujete. Hned uvidíte rozdíl mezi levným ETF a typickým fondem z banky.</p>
+      <p class="lead">Posuňte, kolik investujete měsíčně, a uvidíte rozdíl mezi ETF a fondem z banky.</p>
     </div>
     <div class="only-b">
       <h1>VOO si v&nbsp;Česku nekoupíte. Jeho dvojče ano.</h1>
@@ -65,14 +65,16 @@
     <div class="calc-in">
       <label class="calc-label" for="monthly">Měsíčně investuji <output id="monthlyOut" for="monthly">3 000 Kč</output></label>
       <input type="range" id="monthly" min="500" max="20000" step="500" value="3000">
-      <div class="years" role="radiogroup" aria-label="Doba investování">
-        <button type="button" role="radio" aria-checked="false" data-years="10">10 let</button>
-        <button type="button" role="radio" aria-checked="true" data-years="20">20 let</button>
-        <button type="button" role="radio" aria-checked="false" data-years="30">30 let</button>
-      </div>
     </div>
     <div class="receipt" aria-live="polite">
-      <div class="r-head">Účtenka za <span data-years-label>20 let</span></div>
+      <div class="r-head">
+        <span>Účtenka za</span>
+        <div class="years" role="radiogroup" aria-label="Doba investování">
+          <button type="button" role="radio" aria-checked="false" data-years="10">10 let</button>
+          <button type="button" role="radio" aria-checked="true" data-years="20">20 let</button>
+          <button type="button" role="radio" aria-checked="false" data-years="30">30 let</button>
+        </div>
+      </div>
       <div class="r-row"><span>Vložíte celkem</span><span id="rIn">–</span></div>
       <div class="r-row"><span>Fond z banky <small id="rBankFee"></small></span><span id="rBank">–</span></div>
       <div class="r-row"><span>ETF <small id="rEtfFee"></small></span><span id="rEtf">–</span></div>
