@@ -11,6 +11,7 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 n = int(sys.argv[1]) if len(sys.argv) > 1 else 10
 random.seed(20261029)
+sys.stdout.reconfigure(encoding="utf-8")
 
 inv = list(csv.DictReader(open(os.path.join(ROOT, "data", "investors.csv"), encoding="utf-8-sig")))
 ev = list(csv.DictReader(open(os.path.join(ROOT, "data", "evidence.csv"), encoding="utf-8-sig")))

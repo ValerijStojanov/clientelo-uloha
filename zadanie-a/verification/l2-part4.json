@@ -1,0 +1,121 @@
+{
+  "included": [
+    {
+      "name": "ZAKA VC",
+      "fields": {
+        "legal_name": {"verdict": "supported", "note": "ARES 21514992: 'ZAKA VC I, osoba rizikového kapitálu, a.s.' (vznik 2024-04-25). This is the Fund I vehicle; no separate management company was identified."},
+        "registry_id": {"verdict": "supported", "note": "ARES returns the IČO 21514992 with the matching name."},
+        "hq_city": {"verdict": "supported", "note": "ARES seat: Italská 2581/67, Vinohrady, 120 00 Praha 2. Caveat: the zaka.vc footer lists 'Silicon Valley / London / Prague / Bratislava', and PitchBook (per search) gives Bratislava as HQ."},
+        "website": {"verdict": "supported", "note": "zaka.vc is the ZAKA VC site ('a seed & pre-seed VC fund')."},
+        "sectors": {"verdict": "supported", "note": "zaka.vc: 'Especially looking for startups in the Health & Biotech and Industrial Tech verticals.' The 2024 articles also name B2B software/AI."},
+        "stages": {"verdict": "supported", "note": "zaka.vc: 'We are a seed & pre-seed VC fund'."},
+        "ticket": {"verdict": "supported", "note": "familyofficehub.io (22 Jul 2024): 'its €250-300k tickets'. Self-reported, from 2024. The 'minimum ticket is 130K' on zaka.vc is the LP ticket, not the investment ticket."},
+        "capital": {"verdict": "partial", "note": "startuprise (19 Jul 2024): '€15 million ZAKA VC Fund I opened with a €10.5 million first closing', so €15M was the target. familyofficehub: '€10.5 million' raised. zaka.vc now shows 'Current fund size 17M' (Fund 1: 17M, 8M invested), so 15M is outdated or a target figure."},
+        "last_investment": {"verdict": "supported", "note": "The Ateios press release (dateline March 23, 2026) reports a $7.25M Series A led by TitletownTech, with 'Zaka Ventures' among the new investors. ZAKA participated and did not lead. CB Insights lists the same deal as the latest, dated 2026-03-23."},
+        "independent_deal_evidence": {"verdict": "supported", "note": "The page shows 'March 22nd, 2026' as the article date and March 23 in the dateline. The source is the portfolio company's own press release (T2), not media."}
+      },
+      "own_deal_found": {"company": "Ateios Systems (Series A, USD 7.25M, participant)", "date": "2026-03-23", "url": "https://ateios-production.onrender.com/news/ateios-systems-closes-usd7-25m-series-a-to-scale-next-generation-battery-electrode-manufacturing"},
+      "is_active_investor": true,
+      "type_correct": true,
+      "hq_in_cz": true,
+      "comment": "Active pre-seed/seed VC: ZAKA converted from a single family office into a VC fund with third-party LPs in 2024. Other 2025-26 deals (ParcelBio, Cirrus Therapeutics) are confirmed only by aggregators, and the Cirrus announcement coverage does not name ZAKA; capital is outdated (15M target vs 17M now)."
+    },
+    {
+      "name": "Soulmates Ventures",
+      "fields": {
+        "legal_name": {"verdict": "supported", "note": "ARES 09789561: 'Soulmates Ventures, osoba rizikového kapitálu, s.r.o.'"},
+        "registry_id": {"verdict": "supported", "note": "ARES IČO 09789561 matches."},
+        "hq_city": {"verdict": "supported", "note": "ARES: Rohanské nábřeží 693/10, Karlín, Praha 8. The website also says 'Prague HQ'."},
+        "website": {"verdict": "supported", "note": "Official site of the fund."},
+        "sectors": {"verdict": "supported", "note": "Website: 'air, water, energy, mobility, education, healthcare, food and agriculture'. ain.ua adds circular economy."},
+        "stages": {"verdict": "supported", "note": "Website target stage: 'Seed/SA'. It also leads some pre-seed rounds (Better Medicine EUR 1M pre-seed)."},
+        "ticket": {"verdict": "supported", "note": "Website: 'initial investment of up to €3,000,000'. ain.ua (18 Mar 2025): 'initial investments of up to €3 million per startup', plus follow-on up to €5M. No minimum is stated."},
+        "capital": {"verdict": "supported", "note": "ain.ua: 'expansion of its €50 million fund'. Website: '€50 million Article 9 SFDR-aligned fund'. The website separately states AUM of €62M."},
+        "last_investment": {"verdict": "supported", "note": "cc.cz (20. 1. 2025): Fusebox raised EUR 2.6M; 'Investiční kolo vedla česká společnost Soulmates Ventures'. This is NOT the latest deal: Soulmates led Antiverse's USD 9.3M Series A (2026-03-03), and Rightcharge (Oct 2025) and FluoSphera (Jan 2026) also came later."},
+        "independent_deal_evidence": {"verdict": "supported", "note": "Same cc.cz article, an independent T3 source."}
+      },
+      "own_deal_found": {"company": "Antiverse (Series A USD 9.3M, lead)", "date": "2026-03-03", "url": "https://bioxconomy.com/investment/antiverse-raises-9-3m-series-a-and-partners-with-cystic-fibrosis-foundation"},
+      "is_active_investor": true,
+      "type_correct": true,
+      "hq_in_cz": true,
+      "comment": "Clean record: every field is source-backed and Soulmates is a Prague impact VC that leads rounds. Only last_investment is stale; it should be Antiverse (2026-03-03) rather than Fusebox."
+    },
+    {
+      "name": "Springtide Ventures (KKCG)",
+      "fields": {
+        "legal_name": {"verdict": "supported", "note": "ARES 01726587: 'Springtide Ventures s.r.o.'"},
+        "registry_id": {"verdict": "supported", "note": "ARES IČO 01726587 matches."},
+        "hq_city": {"verdict": "supported", "note": "ARES: Evropská 866/71, Vokovice, Praha 6."},
+        "website": {"verdict": "supported", "note": "springtide.cz is the Springtide Ventures s.r.o. homepage. It gives only a tagline, with no sectors, stages or portfolio."},
+        "sectors": {"verdict": "partial", "note": "The cc.cz tag page shows cybersecurity as the dominant theme (2022: 'izraelské startupy z oblasti kyberbezpečnosti'; ThreatMark, PlainID). The same page also lists non-security deals (NejŘemeslníci, Techloop), and KKCG/aggregator profiles name cloud, AI/ML and blockchain, so 'security' alone is narrower than the sources."},
+        "last_investment": {"verdict": "supported", "note": "cc.cz (07. 1. 2025): USD 23M round; 'dalších osm milionů dolarů startup získal ve formě konvertibilního úvěru od českého fondu Springtide Ventures'. Caveat: this is a follow-on into a company Springtide has held since 2017 (it is the largest shareholder), not a new portfolio company."},
+        "independent_deal_evidence": {"verdict": "supported", "note": "Supported by the cc.cz article. The second URL (threatmark.com/threatmark-to-advance-the-fight-against-online-fraud/) returns HTTP 404."}
+      },
+      "own_deal_found": {"company": "ThreatMark (USD 8M convertible loan, follow-on); no other deal on or after 2024-10-29 found in 2 searches", "date": "2025-01-07", "url": "https://cc.cz/chrani-desitky-milionu-bankovnich-uctu-ted-brnensky-threatmark-nabira-pres-pul-miliardy/"},
+      "is_active_investor": "unclear",
+      "type_correct": true,
+      "hq_in_cz": true,
+      "comment": "The only in-window transaction is a follow-on convertible loan into a 2017 portfolio company; the latest new deals found date from 2021-22. Its long-time partners Tušek and Marek launched their own fund, Tachles VC, in 2024 (cc.cz 13. 6. 2024), so L3 should decide whether this counts as 'nová investícia' under the VC rule. Springtide is a 100% KKCG subsidiary that makes minority startup investments, which makes it VC; 'cvc' is debatable because KKCG is Komárek's private investment group."
+    },
+    {
+      "name": "Tachles VC",
+      "fields": {
+        "legal_name": {"verdict": "supported", "note": "ARES 14376032: 'Tachles VC Management s.r.o.' The register shows it is a renamed shelf company (formerly 'AlfaFIT jihomoravská distribuční MLM s.r.o.'). Its sole shareholder is 'Tachles VC Management, LLC.' (US), and its executives are Karel Tušek and David Marek."},
+        "registry_id": {"verdict": "supported", "note": "ARES IČO 14376032 matches."},
+        "hq_city": {"verdict": "partial", "note": "ARES confirms the Czech subsidiary's seat in Praha 10. However, tachlesvc.com gives only the address '107 Technology Parkway Suite 520, Peachtree Corners, GA 30092, USA', with no mention of Prague. The SEC IAPD record (CRD 331713) for TACHLES VC MANAGEMENT, LLC, a Georgia exempt reporting adviser since 2024-07-03, lists the same Georgia main office. czechstartups.gov.cz says 'Prague, Tel Aviv, and Atlanta'."},
+        "website": {"verdict": "supported", "note": "tachlesvc.com is the Tachles VC site, and its portfolio includes Boost.space."},
+        "sectors": {"verdict": "supported", "note": "Website: 'early-stage startups in cybersecurity, cloud, and AI'."},
+        "stages": {"verdict": "supported", "note": "czechstartups.gov.cz: 'pre-seed and seed stages'."},
+        "capital": {"verdict": "supported", "note": "cc.cz (13. 6. 2024): a closed first phase with 'prostředky na úrovni půl miliardy korun', so the figure is approximate, from June 2024, and refers to the first phase only."},
+        "last_investment": {"verdict": "supported", "note": "cc.cz (09. 10. 2025): Boost.space raised EUR 3M led by Jet Investment, 's přispěním českého fond Tachles VC'. PitchBook (per search, not verified) lists a newer deal, Frostbridge (2026-07-01)."},
+        "independent_deal_evidence": {"verdict": "supported", "note": "Same cc.cz article (T3). The cc.cz/tag/tachles page lists it, dated 9 Oct 2025."}
+      },
+      "own_deal_found": {"company": "Boost.space (EUR 3M round, co-investor)", "date": "2025-10-09", "url": "https://cc.cz/cesi-delaji-poradek-v-datech-pro-firmy-ve-vice-nez-140-zemich-sveta-ted-zaujali-i-miliardare-igora-faita/"},
+      "is_active_investor": true,
+      "type_correct": true,
+      "hq_in_cz": false,
+      "comment": "Tachles VC is an active early-stage VC with Czech founders, but its management company is a Georgia (US) LLC: per SEC IAPD and the website, the main office is in Peachtree Corners, GA. The Prague s.r.o. is a wholly owned subsidiary, which matches the X11 'foreign fund with a Czech branch' case, although Czech media call it a 'český fond'; L3 should decide."
+    },
+    {
+      "name": "Rockaway Capital (Rockaway Ventures)",
+      "fields": {
+        "legal_name": {"verdict": "supported", "note": "ARES 01967631 = 'Rockaway Capital SE', the group holding. Entity mismatch: the VC arm has its own entities, including Rockaway Ventures a.s. (06387136), Rockaway Ventures Fund SICAV a.s. (14235781) and Rockaway Ventures Advisors a.s. (14125129)."},
+        "registry_id": {"verdict": "supported", "note": "ARES confirms 01967631 as Rockaway Capital SE. The same entity-mismatch caveat applies."},
+        "hq_city": {"verdict": "supported", "note": "ARES: Generála Píky 430/26, Dejvice, Praha 6."},
+        "website": {"verdict": "supported", "note": "rockawaycapital.com is the group site. The VC arm's own site is rockawayventures.com."},
+        "sectors": {"verdict": "supported", "note": "rockawayventures.com: 'retail and e-commerce, travel & hospitality, digital logistics, digital media, cybersecurity' and 'defence, CleanTech, and PropTech'. Mapping 'industry' to logistics/defence is loose."},
+        "stages": {"verdict": "supported", "note": "rockawayventures.com: 'late seed or Series A stage'. The ValkaAI lead was a pre-seed."},
+        "last_investment": {"verdict": "supported", "note": "cc.cz (24. 2. 2026): 'v pre-seedovém kole získal rekordní investici 12 milionů eur'; Rockaway Ventures is named as the investor 'který kolo vedl'."},
+        "independent_deal_evidence": {"verdict": "supported", "note": "URL 1, cc.cz (24. 6. 2025): Filuta AI, USD 4.2M seed; 'Vedoucím investorem ... byl fond Rockaway Ventures'. URL 2 is the wrong attachment: it is the Navigara article (18. 2. 2026), which does not mention Filuta."}
+      },
+      "own_deal_found": {"company": "Navigara (seed USD 2.5M, led by Inovo VC; Rockaway Ventures participated)", "date": "2026-02-18", "url": "https://cc.cz/nasli-zpusob-jak-merit-vykon-ajtaku-a-jejich-dopad-na-byznys-od-investoru-ziskali-50-milionu/"},
+      "is_active_investor": true,
+      "type_correct": false,
+      "hq_in_cz": true,
+      "comment": "Rockaway Ventures is an active Prague VC (Fund II of about EUR 55M closed in 2025), but the record is keyed to Rockaway Capital SE. Per its own site, that is a multi-strategy investment group whose portfolio covers 'private equity, venture capital a blockchain' (Rockaway Alpha/Defense = PE, RockawayX = blockchain), so the primary type of the recorded entity is not VC. Re-key the record to Rockaway Ventures (e.g. Rockaway Ventures a.s. 06387136 or the SICAV 14235781) and check X10 against RockawayX."
+    }
+  ],
+  "excluded_recheck": [
+    {
+      "name": "STARTGUIDE VC",
+      "found_recent_investment": false,
+      "evidence": null,
+      "should_be_included": false,
+      "comment": "No dated equity investment on or after 2024-10-29 was found. The cc.cz/tag/startguide page ends with a 22. 10. 2024 article about the new SGTwo fund (EUR 25M target); the latest named deal is Ringil (2023), and aggregators list no 2025-26 deals. A LinkedIn post mentions SGTwo's first investment, but it is undated and unverified, so the exclusion stands; re-check in L4 once SGTwo deals are announced."
+    },
+    {
+      "name": "RockawayX",
+      "found_recent_investment": true,
+      "evidence": {"company": "BetHog (Series A USD 10M, co-led by Will Ventures and RockawayX)", "date": "2026-04-22", "url": "https://thesaasnews.com/news/bethog-raises-10m-series-a"},
+      "should_be_included": "unclear",
+      "comment": "Excluding RockawayX as inactive was WRONG: it co-led BetHog's Series A in April 2026, and aggregators list further 2026 crypto rounds. Inclusion still depends on type, because it is a multi-line crypto firm ('Venture and yield strategies', liquidity, validators; raising a USD 150M liquid fund) operated by Blockad s.r.o. with offices in London/Prague/Dubai. It also needs an X10 check against the Rockaway Capital group record."
+    },
+    {
+      "name": "SFG Holding",
+      "found_recent_investment": false,
+      "evidence": null,
+      "should_be_included": false,
+      "comment": "The latest startup deals tied to SFG Holding or Michal Dědek are from 2021-2023 (cc.cz tag page: NutritionPro, Edhance, Advertee, Freš, a recycler in 2023). The only 2025 item is a cc.cz article (19. 6. 2025) reporting that his companies owe tens of millions. SFG is also a finance/real-estate private holding rather than a VC, so the exclusion is correct."
+    }
+  ]
+}

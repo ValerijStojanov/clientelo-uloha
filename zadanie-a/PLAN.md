@@ -152,3 +152,18 @@ verejne dostupné. Výsledky: [VYSLEDKY.md](VYSLEDKY.md).
   vždy uvádzame s popisom, čo presne meria.
 - **Zastaranie.** VC trh sa mení rýchlo; bez L4 klesá presnosť odhadom o
   niekoľko percentných bodov ročne (fondy prechádzajú do harvest fázy).
+
+## 11. Úpravy plánu po pilote
+
+Pilot ([VYSLEDKY.md](VYSLEDKY.md)) ukázal, kde pravidlá neboli dosť presné:
+
+| Situácia v pilote | Nové pravidlo |
+|---|---|
+| Fond v Luxembursku / USA, tím v Prahe (N1, Tensor, Tachles) | **Sídlo = miesto, kde pracuje správcovský tím.** Právne sídlo fondu je samostatné pole `fund_domicile`. Ak je správca zahraničná entita a web neuvádza ČR (Tachles), ide o zahraničný fond. |
+| IČO firmy s podobným názvom (N1) | **IČO len pri zhode štatutárov / spoločníkov s partnermi fondu.** Do L1 doplniť kontrolu cez ARES VR (v pilote ešte nie je implementovaná — chybu našiel až L2). |
+| SICAV / Batch s.r.o. namiesto správcu (J&T, StartupYard, Presto) | Záznam patrí **správcovi**; vozidlá sú podriadené záznamy. |
+| Skupina s PE aj VC (Rockaway, Jet) | Do VC ide **VC rameno** (vlastný tím a fond), skupina je samostatný záznam svojho typu. |
+| Follow-on ako jediná aktivita (Springtide) | Aktivita VC = **nová** investícia; follow-on sa eviduje, ale nestačí. |
+| Cieľ fondu ako kapitál (Purple, Look AI, JIC) | Pole **`capital_status`**: target / interim / closed / aum. Cieľ sa nesmie vydávať za kapitál. |
+| Family office zaradené ako VC (QQ, BD Partners) | Rozhodovací strom typu s príkladmi priamo v zadaní agenta; L2 kontroluje typ vždy. |
+| Agentovi sa minula kvóta vyhľadávania → falošne vyradený (Koopeo) | **L2 vždy znovu overuje** vyradených pre X8/X9; pri X8 povinne ≥ 3 vyhľadávania. |

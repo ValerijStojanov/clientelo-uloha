@@ -361,6 +361,129 @@
     "X11"
    ],
    "code_corrected": true
+  },
+  "ZAKA VC": {
+   "final_correct": true,
+   "decision": "ponechať; kapitál aktualizovať (cieľ 15 mil. → web teraz 17 mil. EUR)",
+   "capital_status": "interim",
+   "corrections": {
+    "capital": {
+     "value": {
+      "amount": 17000000,
+      "currency": "EUR"
+     },
+     "basis": "stated",
+     "measure": "Fund I — aktuálna veľkosť",
+     "src": [
+      {
+       "url": "https://zaka.vc/",
+       "publisher": "ZAKA VC (podľa L2)",
+       "published": null,
+       "retrieved": "2026-10-29",
+       "quote": "Current fund size 17M"
+      }
+     ]
+    }
+   }
+  },
+  "Soulmates Ventures": {
+   "final_correct": true,
+   "decision": "ponechať; posledná investícia bola zastaraná",
+   "corrections": {
+    "last_investment": {
+     "value": {
+      "company": "Antiverse",
+      "date": "2026-03-03",
+      "round": "A"
+     },
+     "basis": "media",
+     "src": [
+      {
+       "url": "https://bioxconomy.com/investment/antiverse-raises-9-3m-series-a-and-partners-with-cystic-fibrosis-foundation",
+       "publisher": "BioXconomy (podľa L2)",
+       "published": "2026-03-03",
+       "retrieved": "2026-10-29",
+       "quote": null
+      }
+     ]
+    }
+   }
+  },
+  "Springtide Ventures (KKCG)": {
+   "final_correct": false,
+   "exclusion_codes": [
+    "X8"
+   ],
+   "decision": "vyradiť (X8): v okne len follow-on (konvertibilná pôžička ThreatMark 1/2025), posledné nové investície 2021–22, partneri odišli v 2024 do Tachles VC → pravdepodobne harvest fáza. Pravidlo VC žiada novú investíciu."
+  },
+  "Tachles VC": {
+   "final_correct": false,
+   "exclusion_codes": [
+    "X11"
+   ],
+   "decision": "vyradiť z CZ vzorky (X11): správca je americká LLC (SEC IAPD CRD 331713, Peachtree Corners, GA), web uvádza len US adresu; pražská s.r.o. je dcéra. V celej DB ako US VC s českými zakladateľmi."
+  },
+  "Rockaway Capital (Rockaway Ventures)": {
+   "final_correct": true,
+   "collector_record_correct": false,
+   "decision": "zberový agent priradil záznam holdingu Rockaway Capital SE (PE + VC + blockchain). Preštruktúrované na VC Rockaway Ventures.",
+   "rename": "Rockaway Ventures",
+   "subtype": "independent_vc",
+   "type_secondary": null,
+   "corrections": {
+    "legal_name": {
+     "value": "Rockaway Ventures a.s.",
+     "basis": "registry",
+     "src": [
+      {
+       "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06387136",
+       "publisher": "ARES",
+       "published": null,
+       "retrieved": "2026-10-29",
+       "quote": null
+      }
+     ],
+     "note": "fond: Rockaway Ventures Fund SICAV a.s. (14235781)"
+    },
+    "registry_id": {
+     "value": "06387136",
+     "basis": "registry",
+     "src": [
+      {
+       "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06387136",
+       "publisher": "ARES",
+       "published": null,
+       "retrieved": "2026-10-29",
+       "quote": null
+      }
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Navigara",
+      "date": "2026-02-18",
+      "round": "seed"
+     },
+     "basis": "media",
+     "src": [
+      {
+       "url": "https://cc.cz/nasli-zpusob-jak-merit-vykon-ajtaku-a-jejich-dopad-na-byznys-od-investoru-ziskali-50-milionu/",
+       "publisher": "CzechCrunch",
+       "published": "2026-02-18",
+       "retrieved": "2026-10-29",
+       "quote": null
+      }
+     ]
+    }
+   }
+  },
+  "RockawayX": {
+   "final_correct": false,
+   "exclusion_codes": [
+    "X9"
+   ],
+   "code_corrected": true,
+   "decision": "kód X8 bol zlý — RockawayX je aktívny (BetHog Series A 10 mil. USD, 22. 4. 2026, spoluviedol). Typ (venture + likvidné krypto stratégie) a sídlo (Londýn/Praha/Dubaj) sú nejasné → karanténa X9 na ručné preverenie, nie automatické zaradenie."
   }
  },
  "spot_checks": [

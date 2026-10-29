@@ -1,69 +1,66 @@
 {
  "candidates": 60,
  "included_by_collector": 29,
- "not_yet_verified": [
-  "ZAKA VC",
-  "Soulmates Ventures",
-  "Springtide Ventures (KKCG)",
-  "Tachles VC",
-  "Rockaway Capital (Rockaway Ventures)"
- ],
+ "not_yet_verified": [],
  "field_verdicts": {
-  "supported": 185,
-  "partial": 31,
+  "supported": 226,
+  "partial": 34,
   "not_supported": 3,
   "unavailable": 0
  },
  "field_verdicts_by_field": {
   "legal_name": {
-   "supported": 23,
+   "supported": 28,
    "not_supported": 1
   },
   "registry_id": {
-   "supported": 23,
+   "supported": 28,
    "not_supported": 1
   },
   "hq_city": {
-   "supported": 23,
-   "partial": 1
+   "supported": 27,
+   "partial": 2
   },
   "website": {
-   "supported": 23
+   "supported": 28
   },
   "sectors": {
-   "supported": 12,
-   "partial": 10,
+   "supported": 16,
+   "partial": 11,
    "not_supported": 1
   },
   "stages": {
-   "supported": 13,
+   "supported": 17,
    "partial": 8
   },
   "ticket": {
-   "supported": 15,
+   "supported": 17,
    "partial": 2
   },
   "capital": {
-   "supported": 7,
-   "partial": 7
+   "supported": 9,
+   "partial": 8
   },
   "last_investment": {
-   "supported": 21,
+   "supported": 26,
    "partial": 3
   },
   "independent_deal_evidence": {
-   "supported": 24
+   "supported": 29
   },
   "type_evidence": {
    "supported": 1
   }
  },
- "field_accuracy_strict": 0.8447488584474886,
- "field_accuracy_lenient": 0.9863013698630136,
+ "field_accuracy_strict": 0.8593155893536122,
+ "field_accuracy_lenient": 0.9885931558935361,
  "record_precision_collector": {
-  "correct": 19,
-  "n": 24,
+  "correct": 21,
+  "n": 29,
   "wrong": [
+   "Springtide Ventures (KKCG)",
+   "Tachles VC",
+   "Rockaway Capital (Rockaway Ventures)",
    "Miton",
    "QQ Capital",
    "Patero",
@@ -73,6 +70,9 @@
  },
  "l2_flagged_records": [
   "Tensor Ventures",
+  "Springtide Ventures (KKCG)",
+  "Tachles VC",
+  "Rockaway Capital (Rockaway Ventures)",
   "Miton",
   "QQ Capital",
   "Patero",
@@ -83,7 +83,7 @@
   "found": [
    "Koopeo Ventures"
   ],
-  "rechecked": 9
+  "rechecked": 12
  },
  "spot_checks": {
   "agree": 7,
