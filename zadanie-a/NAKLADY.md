@@ -66,7 +66,8 @@ zmerať na API (usage na úrovni requestu) pri prvých 1 000 kandidátoch.
 - **Registre namiesto webu** všade, kde existujú (SEC Form ADV/D, ESMA, Companies
   House, ARES): lacnejšie, presnejšie a dajú sa sťahovať hromadne bez LLM.
 - **Overovanie nešetriť.** Pilot ukázal (pozri [VYSLEDKY.md](VYSLEDKY.md)), že
-  zberový agent sa mýli práve v číslach (veľkosť fondu, ticket) a v odkazoch na
-  zdroj — teda v tom, kvôli čomu klient databázu kupuje.
+  zberový agent sa mýli práve v **type investora** (72 % presnosť zaradenia) a v
+  **číslach** (kapitál 53 %, sektory 57 %) — teda v tom, kvôli čomu klient databázu kupuje.
+  Samotné odkazy na zdroj boli takmer vždy správne.
 - **Ručná kontrola je najdrahšia položka na záznam**, preto ju smerujeme len na
   náhodnú vzorku (meranie presnosti) a na nezhody, ktoré agent nevyrieši.

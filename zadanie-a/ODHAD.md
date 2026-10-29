@@ -17,7 +17,7 @@ porovnal so zdrojmi — NVCA Yearbook 2026, SEC IA statistics 2025, Invest Europ
 
 | Typ | Existuje (zdroj) | Identifikovateľné z verejných zdrojov | Presnosť zaradenia | Ticket verejne | Kapitál verejne |
 |---|---|---|---|---|---|
-| **VC + CVC** | USA: 2 984 firiem (NVCA 2026), 4 172 aktívnych US VC investorov; SEC ADV: 3 273 poradcov s VC fondom. Európa: 253 VC firiem uzavrelo fond len v 2025 (Invest Europe). Čína: ~11 600 PE+VC správcov (AMAC). Preqin: 21 254 „aktívnych“ VC firiem globálne (široká definícia) | **10 000 – 15 000** | 95 %+ | ~50 % | ~65 % |
+| **VC + CVC** | USA: 2 984 firiem (NVCA 2026), 4 172 aktívnych US VC investorov; SEC ADV: 3 273 poradcov s VC fondom. Európa: 253 VC firiem uzavrelo fond len v 2025 (Invest Europe). Čína: ~11 600 PE+VC správcov (AMAC). Preqin: 21 254 „aktívnych“ VC firiem globálne (široká definícia) | **10 000 – 15 000** | 95 %+ po overení (zber sám: 72 % — pilot) | 75 % (pilot) | 58 % (pilot; polovica z toho len cieľ fondu) |
 | **Private equity** | SEC ADV: 4 603 poradcov s PE fondom; Preqin: 31 653 aktívnych PE firiem (vrátane realít/infra a malých); Európa: 4 600+ PE+VC firiem v databáze Invest Europe | **8 000 – 12 000** | 95 %+ | ~40 % | ~75 % |
 | **Family office** | 8 030 single FO (Deloitte 2024); multi-FO bez spoľahlivého čísla; PwC eviduje 20 000+ „deal-active“ FO (neoverené) | **2 000 – 4 000** | 85 – 90 % | < 20 % | ~30 % |
 | **Angel investori** | USA ~445 000 aktívnych (UNH CVR, prieskum, neoverené); Európa ~47 600 viditeľných v sieťach (EBAN) | **20 000 – 40 000** | 85 – 90 % | ~20 % | ~0 % (nezverejňujú) |
@@ -51,7 +51,9 @@ porovnal so zdrojmi — NVCA Yearbook 2026, SEC IA statistics 2025, Invest Europ
 ## Spoľahlivosť — čo si z pilotu prenášame
 
 Pilot na českých VC ([VYSLEDKY.md](VYSLEDKY.md)) dáva reálne čísla pre typ VC:
-presnosť zaradenia, presnosť polí a úplnosť tiketu / kapitálu. Odhady pre ostatné
+zberový agent sám zaradil správne 72 % (95 % CI 54–85 %), polia potvrdil zdroj
+v 86 % (81–90 %); ticket je verejný pri 75 % a kapitál pri 58 % fondov. Cieľ 95 %
+je teda dosiahnuteľný len s overovacou vrstvou (L2 + L3). Odhady pre ostatné
 typy sú odvodené z toho, ako verejne daný typ komunikuje — **sú to predpoklady,
 ktoré treba overiť ďalším pilotom** (napr. 30 family offices v DACH).
 
