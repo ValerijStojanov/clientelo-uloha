@@ -1,0 +1,1256 @@
+{
+ "included": [
+  {
+   "name": "Credo Ventures",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Credo Ventures a.s.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/28538137"
+     ]
+    },
+    "registry_id": {
+     "value": "28538137",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/28538137"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/28538137"
+     ]
+    },
+    "website": {
+     "value": "https://www.credoventures.com",
+     "urls": [
+      "https://www.credoventures.com"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "generalist"
+     ],
+     "urls": [
+      "https://www.credoventures.com"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed"
+     ],
+     "urls": [
+      "https://www.credoventures.com"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 1000000,
+      "max": 5000000,
+      "currency": "USD"
+     },
+     "urls": [
+      "https://www.credoventures.com",
+      "https://cc.cz/zazivame-nejvetsi-pokrok-za-20-let-elitni-cesti-investori-maji-dalsi-dve-miliardy-pro-startupove-rakety/"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 88000000,
+      "currency": "USD"
+     },
+     "urls": [
+      "https://cc.cz/zazivame-nejvetsi-pokrok-za-20-let-elitni-cesti-investori-maji-dalsi-dve-miliardy-pro-startupove-rakety/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Duvo",
+      "date": "2026-10-15",
+      "round": "Series A"
+     },
+     "urls": [
+      "https://www.goodwinlaw.com/en/news-and-events/news/2026/10/announcements-technology-goodwin-advises-duvo-32-million-series-a",
+      "https://cc.cz/u-elevenlabs-jsme-meli-stesti-investice-do-startupu-tomase-cupra-nadchl-nas-rika-ondrej-bartos/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Duvo",
+      "date": "2026-10-15"
+     },
+     "urls": [
+      "https://www.goodwinlaw.com/en/news-and-events/news/2026/10/announcements-technology-goodwin-advises-duvo-32-million-series-a",
+      "https://cc.cz/u-elevenlabs-jsme-meli-stesti-investice-do-startupu-tomase-cupra-nadchl-nas-rika-ondrej-bartos/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "KAYA VC (Enern)",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "KAYA (fka Enern) s.r.o.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10838821"
+     ]
+    },
+    "registry_id": {
+     "value": "10838821",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10838821"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/10838821"
+     ]
+    },
+    "website": {
+     "value": "https://www.kaya.vc/",
+     "urls": [
+      "https://www.kaya.vc/"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "generalist"
+     ],
+     "urls": [
+      "https://www.kaya.vc/"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed",
+      "seed"
+     ],
+     "urls": [
+      "https://www.kaya.vc/"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 1000000,
+      "max": 3000000,
+      "currency": "USD"
+     },
+     "urls": [
+      "https://www.kaya.vc/"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 85000000,
+      "currency": "USD"
+     },
+     "urls": [
+      "https://www.kaya.vc/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Sensible Biotechnologies",
+      "date": "2026-10-07",
+      "round": "Series A"
+     },
+     "urls": [
+      "https://cc.cz/velka-jizda-ze-slovenska-absolventi-oxfordu-chteji-zmenit-lecbu-rakoviny-od-investoru-ted-ziskali-miliardu/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Sensible Biotechnologies",
+      "date": "2026-10-07"
+     },
+     "urls": [
+      "https://cc.cz/velka-jizda-ze-slovenska-absolventi-oxfordu-chteji-zmenit-lecbu-rakoviny-od-investoru-ted-ziskali-miliardu/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Presto Ventures",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Presto Ventures II a.s., osoba rizikového kapitálu",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/11678704"
+     ]
+    },
+    "registry_id": {
+     "value": "11678704",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/11678704"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/11678704"
+     ]
+    },
+    "website": {
+     "value": "https://www.prestoventures.com",
+     "urls": [
+      "https://www.prestoventures.com"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "security",
+      "deeptech"
+     ],
+     "urls": [
+      "https://www.prestoventures.com"
+     ]
+    },
+    "stages": {
+     "value": [
+      "seed",
+      "A"
+     ],
+     "urls": [
+      "https://www.prestoventures.com"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 500000,
+      "max": 5000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://www.prestoventures.com"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 150000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://www.prestoventures.com"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Occam",
+      "date": "2026-02-11",
+      "round": "pre-seed"
+     },
+     "urls": [
+      "https://cc.cz/investori-v-cele-s-miliardarem-michalem-strnadem-posilaji-desitky-milionu-na-vyvoj-autonomnich-dronu/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "DiffuseDrive",
+      "date": "2025-05-15"
+     },
+     "urls": [
+      "https://cc.cz/dronum-i-robotum-chybi-treninkova-data-z-terenu-a-z-boje-madary-kteri-je-vytvari-podporili-cesti-investori/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "N1 (Nation 1)",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Nation1 Investment s.r.o.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/09172807"
+     ]
+    },
+    "registry_id": {
+     "value": "09172807",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/09172807"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/09172807",
+      "https://www.lupa.cz/aktuality/sbiraji-data-o-tom-jak-funguji-lide-v-realnem-svete-aby-to-naucili-ai-na-rozvoj-takoveho-projektu-ted-prispel-cesky-fond/"
+     ]
+    },
+    "website": {
+     "value": "https://www.n1.rocks/",
+     "urls": [
+      "https://czechstartups.gov.cz/investori_en/nation-1/",
+      "https://n1.rocks"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "ai",
+      "health",
+      "deeptech"
+     ],
+     "urls": [
+      "https://n1.rocks"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed",
+      "seed"
+     ],
+     "urls": [
+      "https://czechstartups.gov.cz/investori_en/nation-1/"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 60000000,
+      "currency": "USD"
+     },
+     "urls": [
+      "https://n1.rocks"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Human Archive",
+      "date": "2026-06-08",
+      "round": "seed"
+     },
+     "urls": [
+      "https://www.lupa.cz/aktuality/sbiraji-data-o-tom-jak-funguji-lide-v-realnem-svete-aby-to-naucili-ai-na-rozvoj-takoveho-projektu-ted-prispel-cesky-fond/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Human Archive",
+      "date": "2026-06-08"
+     },
+     "urls": [
+      "https://www.lupa.cz/aktuality/sbiraji-data-o-tom-jak-funguji-lide-v-realnem-svete-aby-to-naucili-ai-na-rozvoj-takoveho-projektu-ted-prispel-cesky-fond/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "DEPO Ventures",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "DEPO VENTURES, s.r.o.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04753101"
+     ]
+    },
+    "registry_id": {
+     "value": "04753101",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04753101"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04753101"
+     ]
+    },
+    "website": {
+     "value": "https://depoventures.com",
+     "urls": [
+      "https://depoventures.com"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "security",
+      "deeptech",
+      "fintech",
+      "industry",
+      "energy_climate"
+     ],
+     "urls": [
+      "https://depoventures.com"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed"
+     ],
+     "urls": [
+      "https://depoventures.com"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 250000,
+      "max": 500000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://depoventures.com"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "ArcSpace",
+      "date": "2026-09-01",
+      "round": null
+     },
+     "urls": [
+      "https://media.startupcentrum.com/en/investment-arcspace-raises-over-e2-million/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Tapaya",
+      "date": "2026-04-28"
+     },
+     "urls": [
+      "https://cc.cz/za-co-nejjednodussi-prijimani-penez-cesi-meni-jakykoliv-mobil-v-platebni-terminal/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "J&T Ventures",
+   "claimed_type": "VC",
+   "claimed_subtype": "cvc",
+   "fields": {
+    "legal_name": {
+     "value": "J&T Ventures CG SICAV a.s.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08220867"
+     ]
+    },
+    "registry_id": {
+     "value": "08220867",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08220867"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08220867"
+     ]
+    },
+    "website": {
+     "value": "https://www.jtventures.cz",
+     "urls": [
+      "https://www.jtventures.cz"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "generalist"
+     ],
+     "urls": [
+      "https://www.jtventures.cz"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed",
+      "seed",
+      "A"
+     ],
+     "urls": [
+      "https://www.jtventures.cz"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 300000,
+      "max": 3000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://www.jtventures.cz"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 120000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://www.jtventures.cz"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Definic (formerly Nordics)",
+      "date": "2026-06-12",
+      "round": "seed"
+     },
+     "urls": [
+      "https://cc.cz/nakup-it-sluzeb-v-korporacich-je-casto-nefunkcni-hlasi-do-jejich-reseni-investuje-i-ceska-sporitelna/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Definic (formerly Nordics)",
+      "date": "2026-06-12"
+     },
+     "urls": [
+      "https://cc.cz/nakup-it-sluzeb-v-korporacich-je-casto-nefunkcni-hlasi-do-jejich-reseni-investuje-i-ceska-sporitelna/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Reflex Capital",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Reflex Capital SE",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24269158"
+     ]
+    },
+    "registry_id": {
+     "value": "24269158",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24269158"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24269158"
+     ]
+    },
+    "website": {
+     "value": "https://www.reflexcapital.com",
+     "urls": [
+      "https://www.reflexcapital.com"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "software"
+     ],
+     "urls": [
+      "https://www.reflexcapital.com"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 500000000,
+      "currency": "CZK"
+     },
+     "urls": [
+      "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "ArtMaster",
+      "date": "2026-10-21",
+      "round": null
+     },
+     "urls": [
+      "https://cc.cz/kdysi-si-v-amsterdamske-red-light-district-vydelaval-hranim-dnes-uz-diky-ai-uci-na-piano-stovky-tisic-lidi/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Merchantee",
+      "date": "2026-06-09"
+     },
+     "urls": [
+      "https://cc.cz/resi-jeden-z-nejvetsich-problemu-evropskych-e-shopu-kvituje-investor-cesi-ziskali-dalsi-desitky-milionu/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Purple Ventures",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Purple Ventures s.r.o.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05775574"
+     ]
+    },
+    "registry_id": {
+     "value": "05775574",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05775574"
+     ]
+    },
+    "hq_city": {
+     "value": "Brno",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05775574"
+     ]
+    },
+    "website": {
+     "value": "https://www.purple-ventures.com/",
+     "urls": [
+      "https://www.purple-ventures.com/"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "generalist"
+     ],
+     "urls": [
+      "https://www.purple-ventures.com/"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed",
+      "seed"
+     ],
+     "urls": [
+      "https://www.purple-ventures.com/"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 250000,
+      "max": 400000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://www.purple-ventures.com/"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 40000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://cc.cz/purple-presto-kaya-a-dalsi-investori-maji-apetit-startupove-fondy-nabiraji-dalsi-miliardy-korun/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Vetstor",
+      "date": "2025-12-09",
+      "round": null
+     },
+     "urls": [
+      "https://cc.cz/vedla-miliardovou-sit-zverimexu-po-rodicovske-hlida-zdravi-mazlicku-desitky-milionu-ted-ma-i-od-kijonkove/",
+      "https://cc.cz/vedla-miliardovou-sit-zverimexu-po-rodicovske-hlida-zdravi-mazlicku-desitky-milionu-ted-ma-i-od-kijonkove/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Vetstor",
+      "date": "2025-12-09"
+     },
+     "urls": [
+      "https://cc.cz/vedla-miliardovou-sit-zverimexu-po-rodicovske-hlida-zdravi-mazlicku-desitky-milionu-ted-ma-i-od-kijonkove/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Czech Founders VC",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Czech Founders Ventures s.r.o., osoba rizikového kapitálu",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17051835"
+     ]
+    },
+    "registry_id": {
+     "value": "17051835",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17051835"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17051835"
+     ]
+    },
+    "website": {
+     "value": "https://czechfounders.vc",
+     "urls": [
+      "https://czechfounders.vc"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed"
+     ],
+     "urls": [
+      "https://czechfounders.vc"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 50000,
+      "max": 350000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://czechfounders.vc"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Merchantee",
+      "date": "2026-06-09",
+      "round": "seed extension"
+     },
+     "urls": [
+      "https://cc.cz/resi-jeden-z-nejvetsich-problemu-evropskych-e-shopu-kvituje-investor-cesi-ziskali-dalsi-desitky-milionu/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Merchantee",
+      "date": "2026-06-09"
+     },
+     "urls": [
+      "https://cc.cz/resi-jeden-z-nejvetsich-problemu-evropskych-e-shopu-kvituje-investor-cesi-ziskali-dalsi-desitky-milionu/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Lighthouse Ventures",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Lighthouse Ventures GP s.r.o.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07500912"
+     ]
+    },
+    "registry_id": {
+     "value": "07500912",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07500912"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07500912"
+     ]
+    },
+    "website": {
+     "value": "https://lhv.vc",
+     "urls": [
+      "https://lhv.vc"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "software",
+      "fintech",
+      "ai"
+     ],
+     "urls": [
+      "https://lhv.vc"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed",
+      "seed"
+     ],
+     "urls": [
+      "https://lhv.vc"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 200000,
+      "max": 1000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://lhv.vc"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Merchantee",
+      "date": "2026-06-09",
+      "round": "seed extension"
+     },
+     "urls": [
+      "https://cc.cz/resi-jeden-z-nejvetsich-problemu-evropskych-e-shopu-kvituje-investor-cesi-ziskali-dalsi-desitky-milionu/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Merchantee",
+      "date": "2026-06-09"
+     },
+     "urls": [
+      "https://cc.cz/resi-jeden-z-nejvetsich-problemu-evropskych-e-shopu-kvituje-investor-cesi-ziskali-dalsi-desitky-milionu/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Tensor Ventures",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Tensor Ventures a.s.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06257241"
+     ]
+    },
+    "registry_id": {
+     "value": "06257241",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06257241"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06257241"
+     ]
+    },
+    "website": {
+     "value": "https://tensor.ventures/",
+     "urls": [
+      "https://tensor.ventures/"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "ai",
+      "deeptech",
+      "health",
+      "energy_climate"
+     ],
+     "urls": [
+      "https://tensor.ventures/"
+     ]
+    },
+    "stages": {
+     "value": [
+      "seed",
+      "A"
+     ],
+     "urls": [
+      "https://tensor.ventures/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Repsense",
+      "date": "2025-12-17",
+      "round": null
+     },
+     "urls": [
+      "https://cc.cz/jejich-nastroj-havel-pomaha-i-v-nato-do-litevcu-ted-investuji-tensor-ventures-a-ceska-sporitelna/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Repsense",
+      "date": "2025-12-17"
+     },
+     "urls": [
+      "https://cc.cz/jejich-nastroj-havel-pomaha-i-v-nato-do-litevcu-ted-investuji-tensor-ventures-a-ceska-sporitelna/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Tilia Impact Ventures",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Tilia Impact Ventures, osoba rizikového kapitálu, s.r.o.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17848911"
+     ]
+    },
+    "registry_id": {
+     "value": "17848911",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17848911"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17848911"
+     ]
+    },
+    "website": {
+     "value": "https://tilia.vc/",
+     "urls": [
+      "http://tilia.vc/"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "generalist"
+     ],
+     "urls": [
+      "http://tilia.vc/"
+     ]
+    },
+    "stages": {
+     "value": [
+      "seed"
+     ],
+     "urls": [
+      "http://tilia.vc/",
+      "https://cc.cz/cesky-fond-urceny-na-investice-se-spolecenskymi-dopady-ma-dalsich-600-milionu-podporili-ho-winkler-ci-barta/"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 300000,
+      "max": 1200000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "http://tilia.vc/"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 26000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://cc.cz/cesky-fond-urceny-na-investice-se-spolecenskymi-dopady-ma-dalsich-600-milionu-podporili-ho-winkler-ci-barta/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Flox Intelligence",
+      "date": "2026-08-18",
+      "round": "Seed+"
+     },
+     "urls": [
+      "https://cc.cz/ceska-nasla-zpusob-jak-mluvit-se-zviraty-a-zachranovat-jejich-zivoty-oceneni-ma-i-od-svedskeho-krale/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Theorema",
+      "date": "2026-03-31"
+     },
+     "urls": [
+      "https://www.vestbee.com/insights/articles/theorema-secures-2-85-m"
+     ]
+    }
+   }
+  },
+  {
+   "name": "StartupYard",
+   "claimed_type": "VC",
+   "claimed_subtype": "accelerator_equity",
+   "fields": {
+    "legal_name": {
+     "value": "StartupYard Batch 15 s.r.o.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22266852"
+     ]
+    },
+    "registry_id": {
+     "value": "22266852",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22266852"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22266852"
+     ]
+    },
+    "website": {
+     "value": "https://startupyard.com/",
+     "urls": [
+      "https://startupyard.com/faq"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "ai",
+      "deeptech"
+     ],
+     "urls": [
+      "https://startupyard.com/the-next-wave-begins-startupyard-announces-batch-15/"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed",
+      "seed"
+     ],
+     "urls": [
+      "https://cc.cz/live/petkrat-rychlejsi-vyberova-rizeni-do-cesko-slovenske-ai-platformy-ydoca-investovali-depo-ventures-a-startupyard/"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 25000,
+      "max": 100000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://startupyard.com/faq",
+      "https://startupyard.com/faq"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Ydoca",
+      "date": "2025-02-14",
+      "round": "pre-seed"
+     },
+     "urls": [
+      "https://cc.cz/live/petkrat-rychlejsi-vyberova-rizeni-do-cesko-slovenske-ai-platformy-ydoca-investovali-depo-ventures-a-startupyard/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Ydoca",
+      "date": "2025-02-14"
+     },
+     "urls": [
+      "https://cc.cz/live/petkrat-rychlejsi-vyberova-rizeni-do-cesko-slovenske-ai-platformy-ydoca-investovali-depo-ventures-a-startupyard/"
+     ]
+    },
+    "type_evidence": {
+     "value": "Berie podiel (cieľovo ~5 %) za program a financovanie; prevádzkuje follow-on fond v partnerstve s DEPO Ventures.",
+     "urls": [
+      "https://startupyard.com/faq"
+     ]
+    }
+   }
+  },
+  {
+   "name": "JIC (JIC Ventures / JIC STARCUBE)",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "JIC Ventures 2 a.s., osoba rizikového kapitálu",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24320358"
+     ]
+    },
+    "registry_id": {
+     "value": "24320358",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24320358"
+     ]
+    },
+    "hq_city": {
+     "value": "Brno",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24320358"
+     ]
+    },
+    "website": {
+     "value": "https://www.jic.cz",
+     "urls": [
+      "https://www.jic.cz/en/about-us/pro-media/prvni-investice-noveho-fondu-jic-ventures-miri-do"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "software",
+      "deeptech"
+     ],
+     "urls": [
+      "https://www.jic.cz/en/about-us/pro-media/prvni-investice-noveho-fondu-jic-ventures-miri-do"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed",
+      "seed"
+     ],
+     "urls": [
+      "https://ctp.eu/wp-content/uploads/2026/04/TZ_CTP_JIC-Ventures.pdf"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": null,
+      "max": 1000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://www.jic.cz/en/about-us/pro-media/prvni-investice-noveho-fondu-jic-ventures-miri-do"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 400000000,
+      "currency": "CZK"
+     },
+     "urls": [
+      "https://ctp.eu/wp-content/uploads/2026/04/TZ_CTP_JIC-Ventures.pdf",
+      "https://cc.cz/v-brne-vznikl-fond-jaky-nema-obdoby-spojuje-soukromniky-mesto-kraj-univerzity-i-biskupstvi/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "FaceUp",
+      "date": "2026-05-19",
+      "round": "Series A"
+     },
+     "urls": [
+      "https://www.lupa.cz/aktuality/whistleblowing-platforma-faceup-ziskala-pres-100-milionu-i-od-brnenskeho-fondu-s-nimz-investuje-biskupstvi/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "FaceUp",
+      "date": "2026-05-19"
+     },
+     "urls": [
+      "https://www.lupa.cz/aktuality/whistleblowing-platforma-faceup-ziskala-pres-100-milionu-i-od-brnenskeho-fondu-s-nimz-investuje-biskupstvi/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "AI Startup Incubator",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Look AI Ventures SICAV, a.s.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17604087"
+     ]
+    },
+    "registry_id": {
+     "value": "17604087",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17604087"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17604087"
+     ]
+    },
+    "website": {
+     "value": "https://lookai.vc",
+     "urls": [
+      "https://lookai.vc/"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "ai"
+     ],
+     "urls": [
+      "https://lookai.vc/"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed",
+      "seed"
+     ],
+     "urls": [
+      "https://lookai.vc/",
+      "https://lookai.vc/news/"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 250000,
+      "max": 250000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://tech.eu/2023/04/13/czech-republic-has-a-new-investment-fund-for-ai-start-ups"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 20000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://tech.eu/2023/04/13/czech-republic-has-a-new-investment-fund-for-ai-start-ups"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Embodied AI",
+      "date": "2026-09-16",
+      "round": "initial financing round (size undisclosed)"
+     },
+     "urls": [
+      "https://pulse2.com/embodied-ai-launches-with-funding-to-automate-european-manufacturing/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Checkstep",
+      "date": "2026-05-28"
+     },
+     "urls": [
+      "https://startuprise.co.uk/checkstep-secures-3-million-to-scale-ai-powered-trust-safety-infrastructure-globally/"
+     ]
+    }
+   }
+  }
+ ],
+ "excluded_recheck": [
+  {
+   "name": "Impulse Ventures",
+   "website": "https://impulseventures.com/",
+   "claim": "Subjekt nemá žiadnu doloženú novú investíciu od 2024-10-29 (neaktívny) alebo je neoveriteľný."
+  },
+  {
+   "name": "Air Ventures",
+   "website": "https://airventures.eu",
+   "claim": "Subjekt nemá žiadnu doloženú novú investíciu od 2024-10-29 (neaktívny) alebo je neoveriteľný."
+  },
+  {
+   "name": "Koopeo Ventures",
+   "website": "https://www.koopeoventures.com/",
+   "claim": "Subjekt nemá žiadnu doloženú novú investíciu od 2024-10-29 (neaktívny) alebo je neoveriteľný."
+  },
+  {
+   "name": "Fond rizikového kapitálu, s.r.o.",
+   "website": null,
+   "claim": "Subjekt nemá žiadnu doloženú novú investíciu od 2024-10-29 (neaktívny) alebo je neoveriteľný."
+  },
+  {
+   "name": "Seed Fund (Český rozvojový uzavřený investiční fond)",
+   "website": null,
+   "claim": "Subjekt nemá žiadnu doloženú novú investíciu od 2024-10-29 (neaktívny) alebo je neoveriteľný."
+  }
+ ]
+}

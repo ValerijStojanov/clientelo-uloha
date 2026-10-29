@@ -132,6 +132,12 @@ def main():
             flags.append("nezavisly_dokaz:je_web_investora")
         if tmax and cap_eur and tmax > cap_eur:
             flags.append("ticket>kapital")
+        for req in ("sectors", "stages", "hq_city", "website"):
+            if not val(req):
+                flags.append(f"{req}:chyba_povinne")
+        # Fond len na pre-seed s minimálnym tiketom nad 500 tis. EUR je podozrivý (typicky 50–500 tis.).
+        if tmin and tmin > 500_000 and (val("stages") or []) == ["pre-seed"]:
+            flags.append("ticket_vs_stage:podozrive")
         if site:
             if site in seen_domains:
                 flags.append(f"duplicita:{seen_domains[site]}")
@@ -158,7 +164,7 @@ def main():
             "country": "CZ", "hq_city": val("hq_city"), "website": val("website"),
             "sectors": ";".join(val("sectors") or []), "stages": ";".join(val("stages") or []),
             "ticket_min_eur": tmin, "ticket_max_eur": tmax,
-            "ticket_original": f'{ticket.get("min")}–{ticket.get("max")} {t_cur}' if t_cur else None,
+            "ticket_original": (f'{ticket.get("min") or "?"}–{ticket.get("max") or "?"} {t_cur}') if t_cur else None,
             "ticket_basis": (f.get("ticket") or {}).get("basis"),
             "capital_eur": cap_eur,
             "capital_original": f'{cap.get("amount")} {cap.get("currency")}' if isinstance(cap, dict) and cap.get("amount") else None,
@@ -204,7 +210,14 @@ def main():
     if not OFFLINE:
         lines += [f"URL zdrojov: {n_urls}, dostupných (HTTP < 400): {ok} ({ok / max(n_urls, 1):.0%}). "
                   "Pozn.: niektoré weby blokujú skripty (403) aj keď v prehliadači fungujú — tie overuje L2.", ""]
-    lines += ["| ID | Investor | Príznaky L1 | Názov v ARES |", "|---|---|---|---|"]
+    n = max(len(inv_rows), 1)
+    filled = lambda k: sum(1 for r in inv_rows if r[k] not in (None, ""))
+    lines += ["**Úplnosť polí** (podiel záznamov s hodnotou):", "",
+              "| Pole | Vyplnené |", "|---|---|"]
+    for k, label in (("sectors", "sektory"), ("stages", "štádiá"), ("ticket_max_eur", "ticket"),
+                     ("capital_eur", "kapitál"), ("registry_id", "IČO"), ("last_investment_date", "posledná investícia")):
+        lines.append(f"| {label} | {filled(k)}/{len(inv_rows)} ({filled(k) / n:.0%}) |")
+    lines += ["", "| ID | Investor | Príznaky L1 | Názov v ARES |", "|---|---|---|---|"]
     for rid, name, flags, ares in report:
         lines.append(f"| {rid} | {name} | {'; '.join(flags) or 'OK'} | {ares or ''} |")
     with open(os.path.join(ROOT, "verification", "l1-report.md"), "w", encoding="utf-8") as fh:
