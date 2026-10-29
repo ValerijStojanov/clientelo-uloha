@@ -11,11 +11,19 @@ const DATA_DIR = join(dirname(fileURLToPath(import.meta.url)), '..', 'server-dat
 export async function store(kind, record) {
   const webhook = process.env[kind === 'lead' ? 'LEAD_WEBHOOK_URL' : 'EVENTS_WEBHOOK_URL'];
   if (webhook) {
-    await fetch(webhook, {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify(record),
-    });
+    try {
+      const r = await fetch(webhook, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify(record),
+      });
+      if (r.ok) return;
+    } catch {}
+  }
+  // Na Verceli bez webhooku (alebo keď webhook zlyhá) záznam nestratíme:
+  // ide do Runtime Logs projektu ako jeden JSON riadok s prefixom.
+  if (webhook || process.env.VERCEL) {
+    console.log(`[${kind}] ${JSON.stringify(record)}`);
     return;
   }
   await mkdir(DATA_DIR, { recursive: true });

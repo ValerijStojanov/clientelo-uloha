@@ -13,8 +13,8 @@ node tools/build-data.mjs     # research/etf-data.json → site/data.js (jediný
 node tools/render-ads.mjs     # ads/*.html → PNG
 ```
 
-Stránka **nie je nasadená** (rozhodnutie zadávateľa tohto cvičenia: iba lokálne).
-Nasadenie na Vercel je pripravené — pozri [Nasadenie](#nasadenie).
+**Živá stránka:** TODO-URL (Vercel) · varianta B: TODO-URL?v=b
+Postup nasadenia: [Nasadenie](#10-nasadenie).
 
 ---
 
@@ -178,11 +178,19 @@ za krokem“ · D5 „Daně: časový test a W-8BEN“ · D9 „Jak odejít z fo
 npm i -g vercel
 cd zadanie-b && vercel --prod
 ```
-`api/*.js` sú Vercel Functions v rovnakom formáte, aký používa lokálny
-`server.mjs`. Na Verceli je disk len na čítanie → nastaviť `LEAD_WEBHOOK_URL`
-(a voliteľne `EVENTS_WEBHOOK_URL`), napr. na Make/Zapier → Google Sheet, alebo
-priamo na e-mailingový nástroj (Ecomail, Brevo). Do `site/config.js` doplniť
-`metaPixelId` / `gtmId`.
+- Pri importe z GitHubu cez web Vercelu nastaviť **Root Directory = `zadanie-b`**
+  (Framework: Other, bez build príkazu).
+- [`vercel.json`](vercel.json) servíruje statickú stránku zo `site/` na koreni
+  domény; `api/*.js` sú Vercel Functions v rovnakom formáte, aký používa lokálny
+  `server.mjs`.
+- **Ukladanie leadov a udalostí:** na Verceli je disk len na čítanie. Bez
+  nastavenia ide každý lead a udalosť do Runtime Logs projektu ako JSON riadok
+  (`[lead] {…}`, `[event] {…}`), takže sa nič nestratí; riadky `[event]` bez
+  prefixu sú vstup pre `tools/funnel.mjs`. Logy na bezplatnom pláne Vercelu
+  vydržia len krátko — na test stačí, na kampaň nie. Pre ostrú kampaň nastaviť `LEAD_WEBHOOK_URL` (a voliteľne
+  `EVENTS_WEBHOOK_URL`), napr. Make/Zapier → Google Sheet, alebo priamo
+  e-mailingový nástroj (Ecomail, Brevo). Keď webhook zlyhá, záznam ide do logov.
+- Do `site/config.js` doplniť `metaPixelId` / `gtmId`.
 
 ## 11. Čo chýba / čo by som pred spustením reklamy ešte urobil
 
