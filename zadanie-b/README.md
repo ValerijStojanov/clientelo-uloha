@@ -13,7 +13,7 @@ node tools/build-data.mjs     # research/etf-data.json → site/data.js (jediný
 node tools/render-ads.mjs     # ads/*.html → PNG
 ```
 
-**Živá stránka:** TODO-URL (Vercel) · varianta B: TODO-URL?v=b
+**Živá stránka:** [clientelo-uloha.vercel.app](https://clientelo-uloha.vercel.app) · varianta B: [?v=b](https://clientelo-uloha.vercel.app/?v=b)
 Postup nasadenia: [Nasadenie](#10-nasadenie).
 
 ---

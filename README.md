@@ -7,7 +7,7 @@ chyby AI sú popísané nižšie.
 | | Zadanie | Výsledok |
 |---|---|---|
 | **A** | Spoľahlivá databáza investorov | [zadanie-a/](zadanie-a/) — plán, pravidlá, odhad rozsahu, pilot na českých VC so zdrojom pri každom údaji, meranie presnosti, náklady na celý svet |
-| **B** | Konverzná landing page (ETF z NYSE) | [zadanie-b/](zadanie-b/) — stránka (živá: TODO-URL), 2 reklamy, meranie lievika, README so zdôvodnením |
+| **B** | Konverzná landing page (ETF z NYSE) | [zadanie-b/](zadanie-b/) — stránka ([clientelo-uloha.vercel.app](https://clientelo-uloha.vercel.app)), 2 reklamy, meranie lievika, README so zdôvodnením |
 | | Export konverzácie | [ai-log/](ai-log/) |
 
 ## Ako som pracoval s AI
