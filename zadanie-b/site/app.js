@@ -224,19 +224,27 @@
     sticky.classList.toggle('is-on', on);
   }
   if ('IntersectionObserver' in window) {
+    // Sekce může být vyšší než obrazovka, proto „viděl“ = sekce protnula střední pás obrazovky.
+    var sectionIO = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        var id = en.target.dataset.section;
+        if (en.isIntersecting) track('section_view', { id: id }, id);
+      });
+    }, { rootMargin: '-45% 0px -45% 0px' });
+    $$('[data-section]').forEach(function (el) { sectionIO.observe(el); });
+
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         var el = en.target;
-        if (el.dataset.section && en.isIntersecting) track('section_view', { id: el.dataset.section }, el.dataset.section);
         if (el.id === 'leadForm') {
           formVisible = en.isIntersecting;
           if (en.isIntersecting) track('form_view', {}, true);
+        } else {
+          heroCtaVisible = en.isIntersecting;
         }
-        if (el.matches && el.matches('.btn[data-cta="hero"]')) heroCtaVisible = en.isIntersecting;
         updateSticky();
       });
     }, { threshold: 0.5 });
-    $$('[data-section]').forEach(function (el) { io.observe(el); });
     io.observe($('#leadForm'));
     $$('.btn[data-cta="hero"]').forEach(function (el) { if (el.offsetParent) io.observe(el); });
   }
