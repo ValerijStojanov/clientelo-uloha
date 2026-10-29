@@ -1,0 +1,782 @@
+{
+ "included": [
+  {
+   "name": "ZAKA VC",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "ZAKA VC I, osoba rizikového kapitálu, a.s.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21514992"
+     ]
+    },
+    "registry_id": {
+     "value": "21514992",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21514992"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21514992"
+     ]
+    },
+    "website": {
+     "value": "https://zaka.vc/",
+     "urls": [
+      "https://zaka.vc/"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "health",
+      "industry"
+     ],
+     "urls": [
+      "https://zaka.vc/"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed",
+      "seed"
+     ],
+     "urls": [
+      "https://zaka.vc/"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 250000,
+      "max": 300000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://familyofficehub.io/blog/czech-vc-single-family-office-opens-up-to-third-party-investors/"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 15000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://startuprise.co.uk/zaka-unveils-its-first-fund-of-e15-million/",
+      "https://familyofficehub.io/blog/czech-vc-single-family-office-opens-up-to-third-party-investors/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Ateios Systems",
+      "date": "2026-03-23",
+      "round": "Series A"
+     },
+     "urls": [
+      "https://ateios-production.onrender.com/news/ateios-systems-closes-usd7-25m-series-a-to-scale-next-generation-battery-electrode-manufacturing",
+      "https://www.cbinsights.com/investor/zaka-ventures"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Ateios Systems",
+      "date": "2026-03-22"
+     },
+     "urls": [
+      "https://ateios-production.onrender.com/news/ateios-systems-closes-usd7-25m-series-a-to-scale-next-generation-battery-electrode-manufacturing"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Soulmates Ventures",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Soulmates Ventures, osoba rizikového kapitálu, s.r.o.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/09789561"
+     ]
+    },
+    "registry_id": {
+     "value": "09789561",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/09789561"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/09789561"
+     ]
+    },
+    "website": {
+     "value": "https://www.soulmatesventures.com/",
+     "urls": [
+      "https://www.soulmatesventures.com/"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "energy_climate",
+      "mobility",
+      "edtech",
+      "health",
+      "agri_food"
+     ],
+     "urls": [
+      "https://www.soulmatesventures.com/"
+     ]
+    },
+    "stages": {
+     "value": [
+      "seed",
+      "A"
+     ],
+     "urls": [
+      "https://www.soulmatesventures.com/"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": null,
+      "max": 3000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://en.ain.ua/2025/03/18/soulmates-ventures-expands-investments-in-sustainability-startups",
+      "https://www.soulmatesventures.com/"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 50000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://en.ain.ua/2025/03/18/soulmates-ventures-expands-investments-in-sustainability-startups",
+      "https://www.soulmatesventures.com/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Fusebox",
+      "date": "2025-01-20",
+      "round": "investment round EUR 2.6M, led by Soulmates (stage not stated)"
+     },
+     "urls": [
+      "https://cc.cz/live/meni-evropsky-trh-s-energiemi-a-nabira-pres-65-milionu-estonce-podporil-cesky-fond-soulmates-ventures/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Fusebox",
+      "date": "2025-01-20"
+     },
+     "urls": [
+      "https://cc.cz/live/meni-evropsky-trh-s-energiemi-a-nabira-pres-65-milionu-estonce-podporil-cesky-fond-soulmates-ventures/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Springtide Ventures (KKCG)",
+   "claimed_type": "VC",
+   "claimed_subtype": "cvc",
+   "fields": {
+    "legal_name": {
+     "value": "Springtide Ventures s.r.o.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01726587"
+     ]
+    },
+    "registry_id": {
+     "value": "01726587",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01726587"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01726587"
+     ]
+    },
+    "website": {
+     "value": "https://www.springtide.cz",
+     "urls": [
+      "https://www.springtide.cz"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "security"
+     ],
+     "urls": [
+      "https://cc.cz/tag/springtide-ventures/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "ThreatMark",
+      "date": "2025-01-07",
+      "round": "convertible loan USD 8M (part of USD 23M round)"
+     },
+     "urls": [
+      "https://cc.cz/chrani-desitky-milionu-bankovnich-uctu-ted-brnensky-threatmark-nabira-pres-pul-miliardy/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "ThreatMark",
+      "date": "2025-01-07"
+     },
+     "urls": [
+      "https://cc.cz/chrani-desitky-milionu-bankovnich-uctu-ted-brnensky-threatmark-nabira-pres-pul-miliardy/",
+      "https://www.threatmark.com/threatmark-to-advance-the-fight-against-online-fraud/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Tachles VC",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Tachles VC Management s.r.o.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/14376032"
+     ]
+    },
+    "registry_id": {
+     "value": "14376032",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/14376032"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/14376032",
+      "https://czechstartups.gov.cz/investori_en/tachles-vc/"
+     ]
+    },
+    "website": {
+     "value": "http://www.tachlesvc.com",
+     "urls": [
+      "http://www.tachlesvc.com"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "security",
+      "software",
+      "ai"
+     ],
+     "urls": [
+      "http://www.tachlesvc.com"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed",
+      "seed"
+     ],
+     "urls": [
+      "https://czechstartups.gov.cz/investori_en/tachles-vc/"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 500000000,
+      "currency": "CZK"
+     },
+     "urls": [
+      "https://cc.cz/roky-hledali-startupy-pro-fond-karla-komarka-ted-rozbihaji-vlastni-v-prvni-fazi-maji-pul-miliardy/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Boost.space",
+      "date": "2025-10-09",
+      "round": "EUR 3M round led by Jet Investment; Tachles contributed"
+     },
+     "urls": [
+      "https://cc.cz/cesi-delaji-poradek-v-datech-pro-firmy-ve-vice-nez-140-zemich-sveta-ted-zaujali-i-miliardare-igora-faita/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Boost.space",
+      "date": "2025-10-09"
+     },
+     "urls": [
+      "https://cc.cz/cesi-delaji-poradek-v-datech-pro-firmy-ve-vice-nez-140-zemich-sveta-ted-zaujali-i-miliardare-igora-faita/",
+      "https://cc.cz/tag/tachles/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Rockaway Capital (Rockaway Ventures)",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Rockaway Capital SE",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01967631"
+     ]
+    },
+    "registry_id": {
+     "value": "01967631",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01967631"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01967631"
+     ]
+    },
+    "website": {
+     "value": "https://www.rockawaycapital.com",
+     "urls": [
+      "https://www.rockawaycapital.com"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "consumer",
+      "industry",
+      "media_gaming",
+      "security",
+      "energy_climate",
+      "proptech"
+     ],
+     "urls": [
+      "https://www.rockawayventures.com"
+     ]
+    },
+    "stages": {
+     "value": [
+      "seed",
+      "A"
+     ],
+     "urls": [
+      "https://www.rockawayventures.com"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "ValkaAI",
+      "date": "2026-02-24",
+      "round": "pre-seed EUR 12M, led by Rockaway Ventures"
+     },
+     "urls": [
+      "https://cc.cz/tvori-avatary-kteri-zvladnou-zive-komentovat-sportovni-zapasy-ted-ziskal-rekordni-investici/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Filuta AI",
+      "date": "2025-06-24"
+     },
+     "urls": [
+      "https://cc.cz/budeme-jeden-z-nejsilnejsich-tymu-pro-vyvoj-umele-inteligence-v-cesku-veri-ziskal-na-to-sto-milionu/",
+      "https://cc.cz/nasli-zpusob-jak-merit-vykon-ajtaku-a-jejich-dopad-na-byznys-od-investoru-ziskali-50-milionu/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Miton",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "MITON INVESTMENT, a.s.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/27343430"
+     ]
+    },
+    "registry_id": {
+     "value": "27343430",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/27343430"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/27343430",
+      "https://www.miton.cz"
+     ]
+    },
+    "website": {
+     "value": "https://www.miton.cz",
+     "urls": [
+      "https://www.miton.cz"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "ai",
+      "fintech",
+      "consumer",
+      "health"
+     ],
+     "urls": [
+      "https://www.miton.cz",
+      "https://czechstartups.gov.cz/investori_en/miton/"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 450000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://www.miton.cz"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "DeepScout (nova AI sluzba)",
+      "date": "2026-10-19",
+      "round": "dalsie financovanie (suma a kolo neuvedene)"
+     },
+     "urls": [
+      "https://cc.cz/tag/miton/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Whisper",
+      "date": "2026-02-02"
+     },
+     "urls": [
+      "https://cc.cz/poznali-se-ve-skolce-z-dobrocinneho-projektu-ted-smeruji-do-byznysu-automatizuji-operativu-e-shopu/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "QQ Capital",
+   "claimed_type": "Family office",
+   "claimed_subtype": "sfo",
+   "fields": {
+    "legal_name": {
+     "value": "QQ Capital SE",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08676135"
+     ]
+    },
+    "registry_id": {
+     "value": "08676135",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08676135"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08676135"
+     ]
+    },
+    "website": {
+     "value": "https://www.qq.capital/",
+     "urls": [
+      "https://www.qq.capital/"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "software"
+     ],
+     "urls": [
+      "https://www.qq.capital/"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed",
+      "seed",
+      "A",
+      "B+",
+      "growth"
+     ],
+     "urls": [
+      "https://www.qq.capital/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Navigara",
+      "date": "2026-02-18",
+      "round": "seed USD 2.5M (led by Inovo VC)"
+     },
+     "urls": [
+      "https://cc.cz/nasli-zpusob-jak-merit-vykon-ajtaku-a-jejich-dopad-na-byznys-od-investoru-ziskali-50-milionu/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Navigara",
+      "date": "2026-02-18"
+     },
+     "urls": [
+      "https://cc.cz/nasli-zpusob-jak-merit-vykon-ajtaku-a-jejich-dopad-na-byznys-od-investoru-ziskali-50-milionu/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Fazole Ventures",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Fazole Ventures s.r.o.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07491492"
+     ]
+    },
+    "registry_id": {
+     "value": "07491492",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07491492"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07491492"
+     ]
+    },
+    "website": {
+     "value": "http://fazole.vc/indexEN.html",
+     "urls": [
+      "http://fazole.vc/indexEN.html"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "energy_climate",
+      "fintech",
+      "mobility",
+      "consumer"
+     ],
+     "urls": [
+      "http://fazole.vc/indexEN.html"
+     ]
+    },
+    "stages": {
+     "value": [
+      "seed"
+     ],
+     "urls": [
+      "http://fazole.vc/indexEN.html"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 50000,
+      "max": 800000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "http://fazole.vc/indexEN.html"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Everbot",
+      "date": "2025-09-16",
+      "round": "kolo nizsie desiatky mil. CZK, lead: Fazole Ventures"
+     },
+     "urls": [
+      "https://cc.cz/jak-se-vyznat-v-modelech-umele-inteligence-startup-nabizi-reseni-a-nabira-desitky-milionu-korun/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Everbot",
+      "date": "2025-09-16"
+     },
+     "urls": [
+      "https://cc.cz/jak-se-vyznat-v-modelech-umele-inteligence-startup-nabizi-reseni-a-nabira-desitky-milionu-korun/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Patero",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Patero s.r.o.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03928446"
+     ]
+    },
+    "registry_id": {
+     "value": "03928446",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03928446"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03928446"
+     ]
+    },
+    "website": {
+     "value": "https://www.patero.cz",
+     "urls": [
+      "https://www.patero.cz"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "generalist"
+     ],
+     "urls": [
+      "https://www.patero.cz"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed"
+     ],
+     "urls": [
+      "https://cc.cz/pomohou-sdilet-vase-know-how-a-nabrat-nove-klienty-pres-12-milionu-jim-posila-i-miroslav-udan/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Flowlance",
+      "date": "2024-11-28",
+      "round": "pre-seed EUR 500k"
+     },
+     "urls": [
+      "https://cc.cz/pomohou-sdilet-vase-know-how-a-nabrat-nove-klienty-pres-12-milionu-jim-posila-i-miroslav-udan/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Flowlance",
+      "date": "2024-11-28"
+     },
+     "urls": [
+      "https://cc.cz/pomohou-sdilet-vase-know-how-a-nabrat-nove-klienty-pres-12-milionu-jim-posila-i-miroslav-udan/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "BD Partners",
+   "claimed_type": "Family office",
+   "claimed_subtype": "mfo",
+   "fields": {
+    "legal_name": {
+     "value": "BD Partners a.s.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19286511"
+     ]
+    },
+    "registry_id": {
+     "value": "19286511",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19286511"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19286511"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "generalist"
+     ],
+     "urls": [
+      "https://cc.cz/sefoval-ppf-ted-investuje-do-startupu-vina-i-betonu-mame-na-to-az-25-miliardy-rika-bartonicek/"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed",
+      "seed"
+     ],
+     "urls": [
+      "https://cc.cz/tvori-avatary-kteri-zvladnou-zive-komentovat-sportovni-zapasy-ted-ziskal-rekordni-investici/"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 250000,
+      "max": 2000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://cc.cz/sefoval-ppf-ted-investuje-do-startupu-vina-i-betonu-mame-na-to-az-25-miliardy-rika-bartonicek/"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 2500000000,
+      "currency": "CZK",
+      "amount_low": 1200000000
+     },
+     "urls": [
+      "https://cc.cz/sefoval-ppf-ted-investuje-do-startupu-vina-i-betonu-mame-na-to-az-25-miliardy-rika-bartonicek/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "ValkaAI",
+      "date": "2026-02-24",
+      "round": "pre-seed EUR 12M (lead: Rockaway Ventures)"
+     },
+     "urls": [
+      "https://cc.cz/tvori-avatary-kteri-zvladnou-zive-komentovat-sportovni-zapasy-ted-ziskal-rekordni-investici/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "RoboTwin",
+      "date": "2025-09-11"
+     },
+     "urls": [
+      "https://cc.cz/cesi-resi-urgentni-problem-evropy-od-byvalych-akcionaru-ppf-ci-eu-ted-maji-desitky-milionu/"
+     ]
+    }
+   }
+  }
+ ],
+ "excluded_recheck": [
+  {
+   "name": "STARTGUIDE VC",
+   "website": "https://www.startguide.cz/en/",
+   "claim": "Subjekt nemá žiadnu doloženú novú investíciu od 2024-10-29 (neaktívny) alebo je neoveriteľný."
+  },
+  {
+   "name": "RockawayX",
+   "website": "https://www.rockawayx.com",
+   "claim": "Subjekt nemá žiadnu doloženú novú investíciu od 2024-10-29 (neaktívny) alebo je neoveriteľný."
+  },
+  {
+   "name": "SFG Holding",
+   "website": null,
+   "claim": "Subjekt nemá žiadnu doloženú novú investíciu od 2024-10-29 (neaktívny) alebo je neoveriteľný."
+  }
+ ]
+}

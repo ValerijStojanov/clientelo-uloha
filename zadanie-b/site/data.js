@@ -33,7 +33,7 @@ window.ETF_DATA = {
     "isin": "IE00BFMXXD54",
     "name": "Vanguard S&P 500 UCITS ETF (USD) Accumulating",
     "ter": 0.07,
-    "exchange": "XETRA (EUR, ticker VUAA); London Stock Exchange (USD VUAA, GBP VUAG)",
+    "exchange": "XETRA (EUR, ticker VUAA)",
     "dist": "acc",
     "source": "https://www.justetf.com/en/etf-profile.html?isin=IE00BFMXXD54"
    }
@@ -55,7 +55,7 @@ window.ETF_DATA = {
     "isin": "IE00B5BMR087",
     "name": "iShares Core S&P 500 UCITS ETF USD (Acc)",
     "ter": 0.07,
-    "exchange": "XETRA (EUR, SXR8); London Stock Exchange (USD CSPX, GBX CSP1); Euronext Amsterdam, SIX, Borsa Italiana, gettex, Stuttgart",
+    "exchange": "XETRA (EUR, SXR8)",
     "dist": "acc",
     "source": "https://www.justetf.com/en/etf-profile.html?isin=IE00B5BMR087"
    }
@@ -77,7 +77,7 @@ window.ETF_DATA = {
     "isin": "IE00B6YX5C33",
     "name": "State Street SPDR S&P 500 UCITS ETF USD Unhedged (Dist)",
     "ter": 0.03,
-    "exchange": "XETRA (EUR, SPY5); London Stock Exchange (USD SPY5, GBP SPX5); Euronext Paris, SIX, Borsa Italiana, gettex, Stuttgart",
+    "exchange": "XETRA (EUR, SPY5)",
     "dist": "dist",
     "source": "https://www.justetf.com/en/etf-profile.html?isin=IE00B6YX5C33"
    }
@@ -113,7 +113,7 @@ window.ETF_DATA = {
     "isin": "IE000XZSV718",
     "name": "State Street SPDR S&P 500 UCITS ETF USD Unhedged (Acc)",
     "ter": 0.03,
-    "exchange": "XETRA (EUR, SPYL); London Stock Exchange (USD SPYL, GBP SPXL)",
+    "exchange": "XETRA (EUR, SPYL)",
     "dist": "acc",
     "source": "https://www.justetf.com/en/etf-profile.html?isin=IE000XZSV718"
    }
@@ -135,7 +135,7 @@ window.ETF_DATA = {
     "isin": "IE00BYXYYM63",
     "name": "iShares US Aggregate Bond UCITS ETF (Acc)",
     "ter": 0.25,
-    "exchange": "London Stock Exchange (USD, IUAA); gettex (EUR, IS03). justETF does not list it on XETRA.",
+    "exchange": "London Stock Exchange (USD, IUAA)",
     "dist": "acc",
     "source": "https://www.justetf.com/en/etf-profile.html?isin=IE00BYXYYM63"
    }
@@ -157,7 +157,7 @@ window.ETF_DATA = {
     "isin": "IE00B4ND3602",
     "name": "iShares Physical Gold ETC",
     "ter": 0.12,
-    "exchange": "XETRA (EUR, PPFB); London Stock Exchange (USD IGLN, EUR EGLN, GBX SGLN)",
+    "exchange": "XETRA (EUR, PPFB)",
     "dist": "acc",
     "source": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4ND3602"
    }
@@ -179,7 +179,7 @@ window.ETF_DATA = {
     "isin": "IE00B6YX5D40",
     "name": "State Street SPDR S&P U.S. Dividend Aristocrats UCITS ETF USD Unhedged (Dist)",
     "ter": 0.35,
-    "exchange": "XETRA (EUR, SPYD); London Stock Exchange (USD UDVD, GBP USDV)",
+    "exchange": "XETRA (EUR, SPYD)",
     "dist": "dist",
     "source": "https://www.justetf.com/en/etf-profile.html?isin=IE00B6YX5D40"
    }
@@ -201,7 +201,7 @@ window.ETF_DATA = {
     "isin": "IE00BK5BQT80",
     "name": "Vanguard FTSE All-World UCITS ETF (USD) Accumulating",
     "ter": 0.14,
-    "exchange": "XETRA (EUR, VWCE); London Stock Exchange (USD VWRA, GBP VWRP)",
+    "exchange": "XETRA (EUR, VWCE)",
     "dist": "acc",
     "source": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80"
    }
@@ -223,7 +223,7 @@ window.ETF_DATA = {
     "isin": "IE00B8GKDB10",
     "name": "Vanguard FTSE All-World High Dividend Yield UCITS ETF Distributing",
     "ter": 0.29,
-    "exchange": "XETRA (EUR, VGWD); London Stock Exchange (USD VHYD, GBP VHYL)",
+    "exchange": "XETRA (EUR, VGWD)",
     "dist": "dist",
     "source": "https://www.justetf.com/en/etf-profile.html?isin=IE00B8GKDB10"
    }
@@ -245,7 +245,7 @@ window.ETF_DATA = {
     "isin": "IE0009A5ADV9",
     "name": "Vanguard FTSE All-World ex-U.S. UCITS ETF USD Acc",
     "ter": 0.12,
-    "exchange": "XETRA (EUR, ticker VXUS); London Stock Exchange (USD VXUA, GBP VXUS); Euronext Amsterdam, SIX, Borsa Italiana, gettex",
+    "exchange": "XETRA (EUR, ticker VXUS)",
     "dist": "acc",
     "source": "https://www.justetf.com/en/etf-profile.html?isin=IE0009A5ADV9"
    }
@@ -267,7 +267,7 @@ window.ETF_DATA = {
     "isin": "IE00BFXR7892",
     "name": "KraneShares CSI China Internet UCITS ETF USD Acc",
     "ter": 0.75,
-    "exchange": "London Stock Exchange (USD, KWEB); XETRA (EUR, KWBE)",
+    "exchange": "London Stock Exchange (USD, KWEB)",
     "dist": "acc",
     "source": "https://www.justetf.com/en/etf-profile.html?isin=IE00BFXR7892"
    }

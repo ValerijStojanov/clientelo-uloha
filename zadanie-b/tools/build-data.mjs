@@ -37,7 +37,7 @@ const etfs = R.etfs
           isin: e.ucits_twin.isin,
           name: e.ucits_twin.name,
           ter: e.ucits_twin.ter_pct,
-          exchange: e.ucits_twin.exchange,
+          exchange: String(e.ucits_twin.exchange || '').split(';')[0].trim(),
           dist: e.ucits_twin.distribution,
           source: e.ucits_twin.source_url,
         }

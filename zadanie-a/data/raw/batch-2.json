@@ -1,0 +1,2393 @@
+[
+  {
+    "name": "ZAKA VC",
+    "decision": "include",
+    "exclusion_codes": [],
+    "decision_reason": "Fond pre-seed/seed s tretimi LP (Fund I) a registrovanou osobou rizikoveho kapitalu v Praze; investice do Ateios Systems (Series A, brezen 2026) dolozena tiskovou zpravou portfolioveho podniku.",
+    "type": "VC",
+    "subtype": "independent_vc",
+    "type_secondary": null,
+    "confidence": "medium",
+    "fields": {
+      "legal_name": {
+        "value": "ZAKA VC I, osoba rizikového kapitálu, a.s.",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21514992",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"obchodniJmeno\":\"ZAKA VC I, osoba rizikového kapitálu, a.s.\""
+          }
+        ],
+        "note": "Fond (vehikel). Spravujici spolecnost je pravdepodobne ZAKA Management s.r.o. (ICO 21053987, stejna adresa) - nepotvrzeno."
+      },
+      "registry_id": {
+        "value": "21514992",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21514992",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"ico\":\"21514992\""
+          }
+        ]
+      },
+      "hq_city": {
+        "value": "Praha",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/21514992",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"nazevObce\":\"Praha\""
+          }
+        ],
+        "note": "Web uvadi pobocky Silicon Valley / London / Prague / Bratislava, zadne jedine sidlo."
+      },
+      "website": {
+        "value": "https://zaka.vc/",
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://zaka.vc/",
+            "publisher": "ZAKA VC (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ]
+      },
+      "sectors": {
+        "value": [
+          "health",
+          "industry"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://zaka.vc/",
+            "publisher": "ZAKA VC (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "Especially looking for startups in the Health & Biotech and Industrial Tech verticals."
+          }
+        ],
+        "raw": "Health & Biotech and Industrial Tech (2024 media: B2B software, biotech, healthtech)"
+      },
+      "stages": {
+        "value": [
+          "pre-seed",
+          "seed"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://zaka.vc/",
+            "publisher": "ZAKA VC (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "We are a seed & pre-seed VC fund, investing mainly in the US and Europe."
+          }
+        ]
+      },
+      "ticket": {
+        "value": {
+          "min": 250000,
+          "max": 300000,
+          "currency": "EUR"
+        },
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://familyofficehub.io/blog/czech-vc-single-family-office-opens-up-to-third-party-investors/",
+            "publisher": "Family Office Hub",
+            "published": "2024-07-22",
+            "retrieved": "2026-10-29",
+            "quote": "following its €250-300k tickets in the B2B software, biotech and healthtech sectors."
+          }
+        ],
+        "derivation": null,
+        "note": "Web zaka.vc uvadi 'The minimum ticket is 130K' - patri k LP (kvalifikovany investor), nie k startupom."
+      },
+      "capital": {
+        "value": {
+          "amount": 15000000,
+          "currency": "EUR"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://startuprise.co.uk/zaka-unveils-its-first-fund-of-e15-million/",
+            "publisher": "Startup Rise",
+            "published": "2024-07-19",
+            "retrieved": "2026-10-29",
+            "quote": "sized at €15 million"
+          },
+          {
+            "url": "https://familyofficehub.io/blog/czech-vc-single-family-office-opens-up-to-third-party-investors/",
+            "publisher": "Family Office Hub",
+            "published": "2024-07-22",
+            "retrieved": "2026-10-29",
+            "quote": "Now, the family office has raised €10.5 million from third-party limited partners (LPs) to accelerate its deal flow."
+          }
+        ],
+        "measure": "Fund I - cielova velkost 15 mil. EUR; prvy close 10,5 mil. EUR (jun 2024)",
+        "as_of": "2024-07"
+      },
+      "last_investment": {
+        "value": {
+          "company": "Ateios Systems",
+          "date": "2026-03-23",
+          "round": "Series A"
+        },
+        "basis": "portfolio_pr",
+        "src": [
+          {
+            "url": "https://ateios-production.onrender.com/news/ateios-systems-closes-usd7-25m-series-a-to-scale-next-generation-battery-electrode-manufacturing",
+            "publisher": "Ateios Systems (portfolio company press release)",
+            "published": "2026-03-22",
+            "retrieved": "2026-10-29",
+            "quote": "as well as new investors JHH Ventures, Stonecast Ventures, Zaka Ventures, Carat Venture Partners, and E8 Angels."
+          },
+          {
+            "url": "https://www.cbinsights.com/investor/zaka-ventures",
+            "publisher": "CB Insights (aggregator, T4 - corroboration only)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ],
+        "note": "Datum 2026-03-23 = dateline EINPresswire / CB Insights; stranka PR uvadza 2026-03-22. V PR je 'Zaka Ventures' (zhoda s ZAKA VC potvrdena portfoliom na zaka.vc, kde je Ateios Systems uvedeny)."
+      },
+      "independent_deal_evidence": {
+        "value": {
+          "company": "Ateios Systems",
+          "date": "2026-03-22"
+        },
+        "basis": "portfolio_pr",
+        "src": [
+          {
+            "url": "https://ateios-production.onrender.com/news/ateios-systems-closes-usd7-25m-series-a-to-scale-next-generation-battery-electrode-manufacturing",
+            "publisher": "Ateios Systems (portfolio company press release)",
+            "published": "2026-03-22",
+            "retrieved": "2026-10-29",
+            "quote": "as well as new investors JHH Ventures, Stonecast Ventures, Zaka Ventures, Carat Venture Partners, and E8 Angels."
+          }
+        ]
+      }
+    },
+    "open_questions": "Nepodarilo sa najst T3 (media) dolozenu investiciu v okne; dolozene iba tlacovou spravou portfolioveho podniku (T2). Web uvadi 'Current fund size 17M' bez meny a 97 firiem v portfoliu - nezosuladene s 15 mil. EUR z medii 2024. Spravca vs. fond: ICO je fondu (osoba rizikoveho kapitalu), spravca ZAKA Management s.r.o. (21053987) nepotvrdeny. Hlasenia agregatorov o Sygaldry (apr 2026) a PerfectBit (jun 2026) som neoveril."
+  },
+  {
+    "name": "Soulmates Ventures",
+    "decision": "include",
+    "exclusion_codes": [],
+    "decision_reason": "Fond udrzatelnych startupov s registrovanou osobou rizikoveho kapitalu v Praze; kolo Fusebox (jan 2025) viedol Soulmates, doloz. cc.cz.",
+    "type": "VC",
+    "subtype": "independent_vc",
+    "type_secondary": null,
+    "confidence": "high",
+    "fields": {
+      "legal_name": {
+        "value": "Soulmates Ventures, osoba rizikového kapitálu, s.r.o.",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/09789561",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"obchodniJmeno\":\"Soulmates Ventures, osoba rizikového kapitálu, s.r.o.\""
+          }
+        ],
+        "note": "Od 2025 existuje aj Soulmates Ventures Fund SICAV, a.s. (ICO 23302054) a podfond SVF 01 (ICO 75165708) - podriadene vehikla (X10)."
+      },
+      "registry_id": {
+        "value": "09789561",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/09789561",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"ico\":\"09789561\""
+          }
+        ]
+      },
+      "hq_city": {
+        "value": "Praha",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/09789561",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"nazevObce\":\"Praha\""
+          }
+        ]
+      },
+      "website": {
+        "value": "https://www.soulmatesventures.com/",
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.soulmatesventures.com/",
+            "publisher": "Soulmates Ventures (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ]
+      },
+      "sectors": {
+        "value": [
+          "energy_climate",
+          "mobility",
+          "edtech",
+          "health",
+          "agri_food"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.soulmatesventures.com/",
+            "publisher": "Soulmates Ventures (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "bold, innovative entrepreneurs building a more sustainable future"
+          }
+        ],
+        "raw": "Air, water, energy, mobility, education, healthcare, food and agriculture, circular economy (zoznam zo zhrnutia WebFetch, nie doslovny)"
+      },
+      "stages": {
+        "value": [
+          "seed",
+          "A"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.soulmatesventures.com/",
+            "publisher": "Soulmates Ventures (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "Seed/SA"
+          }
+        ],
+        "raw": "Seed/SA"
+      },
+      "ticket": {
+        "value": {
+          "min": null,
+          "max": 3000000,
+          "currency": "EUR"
+        },
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://en.ain.ua/2025/03/18/soulmates-ventures-expands-investments-in-sustainability-startups",
+            "publisher": "Ain.ua",
+            "published": "2025-03-18",
+            "retrieved": "2026-10-29",
+            "quote": "The fund will provide initial investments of up to €3 million per startup"
+          },
+          {
+            "url": "https://www.soulmatesventures.com/",
+            "publisher": "Soulmates Ventures (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "We fund each company with an initial investment of up to €3,000,000"
+          }
+        ],
+        "note": "Nasledne financovanie do 5 mil. EUR (ain.ua)."
+      },
+      "capital": {
+        "value": {
+          "amount": 50000000,
+          "currency": "EUR"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://en.ain.ua/2025/03/18/soulmates-ventures-expands-investments-in-sustainability-startups",
+            "publisher": "Ain.ua",
+            "published": "2025-03-18",
+            "retrieved": "2026-10-29",
+            "quote": "Soulmates Ventures has announced the expansion of its €50 million fund"
+          },
+          {
+            "url": "https://www.soulmatesventures.com/",
+            "publisher": "Soulmates Ventures (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ],
+        "measure": "velkost fondu udrzatelnych inovacii (oznamene marec 2025); web zaroven uvadi AUM 62 mil. EUR",
+        "as_of": "2025-03"
+      },
+      "last_investment": {
+        "value": {
+          "company": "Fusebox",
+          "date": "2025-01-20",
+          "round": "investment round EUR 2.6M, led by Soulmates (stage not stated)"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/live/meni-evropsky-trh-s-energiemi-a-nabira-pres-65-milionu-estonce-podporil-cesky-fond-soulmates-ventures/",
+            "publisher": "CzechCrunch",
+            "published": "2025-01-20",
+            "retrieved": "2026-10-29",
+            "quote": "Investiční kolo vedla česká společnost Soulmates Ventures"
+          }
+        ],
+        "note": "Datum = datum clanku. Agregator Caplight (T4) uvadza novsie dealy (Antiverse Series A 2026-03, FluoSphera seed 2026-01, Rightcharge 2026-09) - nepotvrdene nezavislym zdrojom."
+      },
+      "independent_deal_evidence": {
+        "value": {
+          "company": "Fusebox",
+          "date": "2025-01-20"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/live/meni-evropsky-trh-s-energiemi-a-nabira-pres-65-milionu-estonce-podporil-cesky-fond-soulmates-ventures/",
+            "publisher": "CzechCrunch",
+            "published": "2025-01-20",
+            "retrieved": "2026-10-29",
+            "quote": "získal novou investici ve výši 2,6 milionu eur"
+          }
+        ]
+      }
+    },
+    "open_questions": "Novsie investicie (Antiverse Series A mar 2026, FluoSphera seed jan 2026, Rightcharge sep 2026) vidno iba v agregatore Caplight a z vyhladavacich snippetov; stranka Antiverse Soulmates ako investora neuvadza. Nezosuladene cisla: fond 50 mil. EUR (media 2025) vs AUM 62 mil. EUR (web). Sektory z webu mapovane zo zhrnutia, nie doslovneho zoznamu."
+  },
+  {
+    "name": "STARTGUIDE VC",
+    "decision": "exclude",
+    "exclusion_codes": [
+      "X8"
+    ],
+    "decision_reason": "Posledna nezavisle doložená investicia (Carebot seed, marec 2024) je mimo 24-mesacneho okna (od 2024-10-29); v okne nie je ziadna nezavisle doloz. investicia.",
+    "type": "VC",
+    "subtype": "independent_vc",
+    "type_secondary": null,
+    "confidence": "low",
+    "fields": {
+      "legal_name": {
+        "value": "Start Guide - osoba rizikového kapitálu, s.r.o.",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/28418425",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"obchodniJmeno\":\"Start Guide - osoba rizikového kapitálu, s.r.o.\""
+          }
+        ],
+        "note": "Web uvadi 'Start Guide, s.r.o.'. Fond SG One = START GUIDE ONE, a.s. (ICO 17323126). Priradenie k brandu podla nazvu a adresy (Opletalova 1015/55), nepotvrdene priamym odkazom."
+      },
+      "registry_id": {
+        "value": "28418425",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/28418425",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"ico\":\"28418425\""
+          }
+        ]
+      },
+      "hq_city": {
+        "value": "Praha",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/28418425",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"nazevObce\":\"Praha\""
+          }
+        ]
+      },
+      "website": {
+        "value": "https://www.startguide.cz/en/",
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.startguide.cz/en/",
+            "publisher": "STARTGUIDE (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ]
+      },
+      "sectors": {
+        "value": [
+          "health",
+          "software",
+          "fintech",
+          "security",
+          "ai"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.startguide.cz/en/",
+            "publisher": "STARTGUIDE (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ],
+        "raw": "Digital solutions incl. Healthtech, Enterprise Software, Fintech, Cybersecurity, focus on AI transformation (zo zhrnutia WebFetch)"
+      },
+      "stages": {
+        "value": [
+          "pre-seed",
+          "seed"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.startguide.cz/en/",
+            "publisher": "STARTGUIDE (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "We consider investment opportunities up to seed"
+          }
+        ]
+      },
+      "ticket": {
+        "value": {
+          "min": 50000,
+          "max": 200000,
+          "currency": "USD"
+        },
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.startguide.cz/sgone/",
+            "publisher": "STARTGUIDE (own website, SG One)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "Velikost investice 50 ‑ 200 000 USD"
+          }
+        ],
+        "note": "Ta ista stranka tiez: 'Do každého projektu se v rané fázi chystáme investovat okolo 100 000 Eur.' Stranka nedatovana (fond SG One z roku 2022)."
+      },
+      "capital": {
+        "value": {
+          "amount": 6000000,
+          "currency": "EUR"
+        },
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.startguide.cz/sgone/",
+            "publisher": "STARTGUIDE (own website, SG One)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "Fond směřuje k hodnotě 6 milionů Eur a je z 30 % naplněn."
+          }
+        ],
+        "measure": "cielova velkost fondu SG One (z 30 % naplnena podla nedatovanej stranky; fond zacal 2022-06-01)",
+        "as_of": null
+      },
+      "last_investment": {
+        "value": {
+          "company": "Carebot",
+          "date": "2024-03-22",
+          "round": "seed"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/ceska-umela-inteligence-analyzuje-rentgeny-plic-a-miri-do-evropy-carebot-zaroven-ziskal-investici/",
+            "publisher": "CzechCrunch",
+            "published": "2024-03-22",
+            "retrieved": "2026-10-29",
+            "quote": "venture kapitálová společnost Startguide VC"
+          }
+        ],
+        "note": "Mimo okno aktivity (pred 2024-10-29)."
+      },
+      "independent_deal_evidence": {
+        "value": {
+          "company": "Carebot",
+          "date": "2024-03-22"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/ceska-umela-inteligence-analyzuje-rentgeny-plic-a-miri-do-evropy-carebot-zaroven-ziskal-investici/",
+            "publisher": "CzechCrunch",
+            "published": "2024-03-22",
+            "retrieved": "2026-10-29",
+            "quote": "venture kapitálová společnost Startguide VC"
+          }
+        ]
+      }
+    },
+    "open_questions": "CB Insights (T4, paywall) uvadza StartGuide investicie 2024-11-20 (CloseRocket, Pre-Seed) a 2024-11-30 (Airline Pilot Club, Pre-Seed) - nepotvrdene: CloseRocket seed bol v jan 2024, pre Airline Pilot Club vyhladavanie StartGuide nepotvrdilo. Clanky Forbes.cz o Carebot kole (sep 2026) StartGuide nemenuju; LinkedIn prispevok partnera (nedostupny) tvrdi ucast v kole a novy fond SG Two. Ak sa to potvrdi nezavislym zdrojom, zaradit (L3 rucna kontrola). Zdroj tvrdeni o LinkedIn: vyhladavaci snippet."
+  },
+  {
+    "name": "Springtide Ventures (KKCG)",
+    "decision": "include",
+    "exclusion_codes": [],
+    "decision_reason": "Venture vehikel skupiny KKCG (aktivny subjekt v ARES); v okne doložená investicia - konvertibilny uver 8 mil. USD do ThreatMark (oznamene 2025-01-07). Nie je duplicitou Tachles VC: ide o samostatny subjekt, Tachles zalozil byvaly tim Springtide (Tusek, Marek).",
+    "type": "VC",
+    "subtype": "cvc",
+    "type_secondary": null,
+    "confidence": "medium",
+    "fields": {
+      "legal_name": {
+        "value": "Springtide Ventures s.r.o.",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01726587",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"obchodniJmeno\":\"Springtide Ventures s.r.o.\""
+          }
+        ]
+      },
+      "registry_id": {
+        "value": "01726587",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01726587",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"ico\":\"01726587\""
+          }
+        ]
+      },
+      "hq_city": {
+        "value": "Praha",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01726587",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"nazevObce\":\"Praha\""
+          }
+        ]
+      },
+      "website": {
+        "value": "https://www.springtide.cz",
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.springtide.cz",
+            "publisher": "Springtide Ventures (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "We help the courageous build outstanding companies."
+          }
+        ]
+      },
+      "sectors": {
+        "value": [
+          "security"
+        ],
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/tag/springtide-ventures/",
+            "publisher": "CzechCrunch (tag page, headline)",
+            "published": "2022-04-27",
+            "retrieved": "2026-10-29",
+            "quote": "Čtvrt miliardy do kybernetické bezpečnosti. Karel Komárek investuje do dvou izraelských startupů"
+          }
+        ],
+        "raw": "kybernetická bezpečnosť (izraelské startupy); portfólio na springtide.cz: Cyngular, Equalum, Source Defense, NetOp.cloud, Cognni, PlainID, ThreatMark ...",
+        "note": "Web investora sektory neuvadza; mapovanie z medialneho nadpisu a nazvov portfolioveho zoznamu."
+      },
+      "stages": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "Web ani media stadia explicitne neuvadzaju."
+      },
+      "ticket": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "Jedina znama transakcia v okne: 8 mil. USD konvertibilny uver (ThreatMark); nepouzite ako rozpatie."
+      },
+      "capital": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "Kapital pochadza z bilancie KKCG (zo vyhladavacieho snippetu), cislo nie je zverejnene."
+      },
+      "last_investment": {
+        "value": {
+          "company": "ThreatMark",
+          "date": "2025-01-07",
+          "round": "convertible loan USD 8M (part of USD 23M round)"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/chrani-desitky-milionu-bankovnich-uctu-ted-brnensky-threatmark-nabira-pres-pul-miliardy/",
+            "publisher": "CzechCrunch",
+            "published": "2025-01-07",
+            "retrieved": "2026-10-29",
+            "quote": "dalších osm milionů dolarů startup získal ve formě konvertibilního úvěru od českého fondu Springtide Ventures miliardáře Karla Komárka"
+          }
+        ],
+        "note": "Datum = datum clanku; presny datum uzavretia nezname."
+      },
+      "independent_deal_evidence": {
+        "value": {
+          "company": "ThreatMark",
+          "date": "2025-01-07"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/chrani-desitky-milionu-bankovnich-uctu-ted-brnensky-threatmark-nabira-pres-pul-miliardy/",
+            "publisher": "CzechCrunch",
+            "published": "2025-01-07",
+            "retrieved": "2026-10-29",
+            "quote": "dalších osm milionů dolarů startup získal ve formě konvertibilního úvěru od českého fondu Springtide Ventures miliardáře Karla Komárka"
+          },
+          {
+            "url": "https://www.threatmark.com/threatmark-to-advance-the-fight-against-online-fraud/",
+            "publisher": "ThreatMark (portfolio company press release, search snippet)",
+            "published": "2025-01-07",
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ]
+      }
+    },
+    "open_questions": "Duplicita so Tachles: NIE. cc.cz (2024-06-13) pisal, ze Tusek a Marek hladali startupy pod hlavickou Springtide a potom spustili vlastny fond Tachles VC; Tachles ma vlastny web, tim a subjekt. Springtide Ventures s.r.o. v ARES dalej existuje a v jan 2025 investoval (ThreatMark). Tvrdenie 'Tachles = premenovany Springtide' zo zdroja je nepresne (tim, nie subjekt). Posledna najdena investicia je jedna, nasledna k starsiemu holdingu (ThreatMark od 2017) - pochybnost, ci Springtide po odchode timu robi aj nove investicie; web Springtide ukazuje iba stare exity a ziadne nove firmy. Stadia, ticket a kapital neverejne. Zaradenie 'cvc' (dcera KKCG) je z vyhladavacieho snippetu (altss), nie z otvorenej stranky.",
+    "relation_evidence": {
+      "relation": "Tachles VC je samostatny fond zalozeny byvalymi partnermi Springtide (Tusek, Marek); Springtide Ventures s.r.o. pokracuje ako subjekt KKCG - NIE duplicita (X10 sa neaplikuje).",
+      "src": [
+        {
+          "url": "https://cc.cz/startupovi-investori-zazivaji-nejhorsi-rok-za-poslednich-devet-let-fondy-maji-problem-nabrat-penize/",
+          "publisher": "CzechCrunch",
+          "published": "2024-08-03",
+          "retrieved": "2026-10-29",
+          "quote": "\"otevřeným nováčkem\" na trhu je i Tachles (předtím dělali Springtide Ventures)."
+        },
+        {
+          "url": "https://cc.cz/roky-hledali-startupy-pro-fond-karla-komarka-ted-rozbihaji-vlastni-v-prvni-fazi-maji-pul-miliardy/",
+          "publisher": "CzechCrunch",
+          "published": "2024-06-13",
+          "retrieved": "2026-10-29",
+          "quote": "Karel Tušek a David Marek podporovat zajímavé startupy pod hlavičkou Springtide Ventures"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Tachles VC",
+    "decision": "include",
+    "exclusion_codes": [],
+    "decision_reason": "Samostatny fond zalozeny byvalym timom Springtide (2024), investoval do Boost.space (okt 2025) a do 7 izraelskych startupov; HQ je nejednoznacne (CZ spolocnost vs. US LLC na webe) - nutna rucna kontrola.",
+    "type": "VC",
+    "subtype": "independent_vc",
+    "type_secondary": null,
+    "confidence": "medium",
+    "fields": {
+      "legal_name": {
+        "value": "Tachles VC Management s.r.o.",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/14376032",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"obchodniJmeno\":\"Tachles VC Management s.r.o.\""
+          }
+        ],
+        "note": "Zhoda len podla nazvu. s.r.o. vznikla 2022-03-24 (pred zalozenim fondu 2023/24) a ma necharakteristicke NACE kody; web uvadza 'Tachles VC Management, LLC' (USA). Prepojenie nepotvrdene."
+      },
+      "registry_id": {
+        "value": "14376032",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/14376032",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"ico\":\"14376032\""
+          }
+        ],
+        "note": "Nepotvrdene, ze ide o tu istu entitu ako investicny manazer (viď legal_name)."
+      },
+      "hq_city": {
+        "value": "Praha",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/14376032",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"nazevObce\":\"Praha\""
+          },
+          {
+            "url": "https://czechstartups.gov.cz/investori_en/tachles-vc/",
+            "publisher": "CzechStartups (gov.cz)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ],
+        "note": "Web tachlesvc.com: '107 Technology Parkway Suite 520, Peachtree Corners, GA 30092, USA' a '© 2024 Tachles VC Management, LLC'. CzechStartups: kancelarie Praha, Tel Aviv, Atlanta. CzechCrunch: 'ceský fond'."
+      },
+      "website": {
+        "value": "http://www.tachlesvc.com",
+        "basis": "stated",
+        "src": [
+          {
+            "url": "http://www.tachlesvc.com",
+            "publisher": "Tachles VC (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ]
+      },
+      "sectors": {
+        "value": [
+          "security",
+          "software",
+          "ai"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "http://www.tachlesvc.com",
+            "publisher": "Tachles VC (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "We invest where technology meets transformation: early-stage startups in cybersecurity, cloud, and AI."
+          }
+        ],
+        "raw": "cybersecurity, cloud, and AI"
+      },
+      "stages": {
+        "value": [
+          "pre-seed",
+          "seed"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://czechstartups.gov.cz/investori_en/tachles-vc/",
+            "publisher": "CzechStartups (gov.cz)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "pre-seed and seed stages"
+          }
+        ]
+      },
+      "ticket": {
+        "value": null,
+        "basis": "not_public",
+        "src": []
+      },
+      "capital": {
+        "value": {
+          "amount": 500000000,
+          "currency": "CZK"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/roky-hledali-startupy-pro-fond-karla-komarka-ted-rozbihaji-vlastni-v-prvni-fazi-maji-pul-miliardy/",
+            "publisher": "CzechCrunch",
+            "published": "2024-06-13",
+            "retrieved": "2026-10-29",
+            "quote": "prostředky na úrovni půl miliardy korun"
+          }
+        ],
+        "measure": "prostriedky prvej uzavretej fazy fondu (fond zostava otvoreny pre dalsich investorov)",
+        "as_of": "2024-06"
+      },
+      "last_investment": {
+        "value": {
+          "company": "Boost.space",
+          "date": "2025-10-09",
+          "round": "EUR 3M round led by Jet Investment; Tachles contributed"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/cesi-delaji-poradek-v-datech-pro-firmy-ve-vice-nez-140-zemich-sveta-ted-zaujali-i-miliardare-igora-faita/",
+            "publisher": "CzechCrunch",
+            "published": "2025-10-09",
+            "retrieved": "2026-10-29",
+            "quote": "s přispěním českého fond Tachles VC"
+          }
+        ],
+        "note": "Datum = datum clanku. Citat je doslovny vo vystupe WebFetch (gramaticky 'fond'); malym modelom neoverene znovu."
+      },
+      "independent_deal_evidence": {
+        "value": {
+          "company": "Boost.space",
+          "date": "2025-10-09"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/cesi-delaji-poradek-v-datech-pro-firmy-ve-vice-nez-140-zemich-sveta-ted-zaujali-i-miliardare-igora-faita/",
+            "publisher": "CzechCrunch",
+            "published": "2025-10-09",
+            "retrieved": "2026-10-29",
+            "quote": "s přispěním českého fond Tachles VC"
+          },
+          {
+            "url": "https://cc.cz/tag/tachles/",
+            "publisher": "CzechCrunch (tag page excerpt)",
+            "published": "2025-02-12",
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ]
+      }
+    },
+    "open_questions": "Vztah k Springtide: samostatny fond zalozeny byvalymi partnermi Springtide (Karel Tusek, David Marek); nie premenovanie (viď zaznam Springtide). Sidlo: CZ s.r.o. v ARES vs. US LLC na webe - rozhodnut, ci subjekt patri do vzorky 'HQ v CR' (mozne X11); ICO moze patrit inemu/spiacemu subjektu. Ticket nezverejneny. Kapital je odhad z media k prvej fazy (jun 2024). Clanok cc.cz z augusta 2024 s textom '(předtím dělali Springtide Ventures)' sa tyka timu, nie subjektu.",
+    "relation_evidence": {
+      "relation": "Zalozeny byvalym timom Springtide Ventures; nejde o premenovanie ani duplicitu Springtide (X10 sa neaplikuje).",
+      "src": [
+        {
+          "url": "https://cc.cz/startupovi-investori-zazivaji-nejhorsi-rok-za-poslednich-devet-let-fondy-maji-problem-nabrat-penize/",
+          "publisher": "CzechCrunch",
+          "published": "2024-08-03",
+          "retrieved": "2026-10-29",
+          "quote": "\"otevřeným nováčkem\" na trhu je i Tachles (předtím dělali Springtide Ventures)."
+        },
+        {
+          "url": "https://cc.cz/roky-hledali-startupy-pro-fond-karla-komarka-ted-rozbihaji-vlastni-v-prvni-fazi-maji-pul-miliardy/",
+          "publisher": "CzechCrunch",
+          "published": "2024-06-13",
+          "retrieved": "2026-10-29",
+          "quote": "Karel Tušek a David Marek podporovat zajímavé startupy pod hlavičkou Springtide Ventures"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Pale Fire Capital",
+    "decision": "exclude",
+    "exclusion_codes": [
+      "X4"
+    ],
+    "decision_reason": "Zmiesana investicna skupina (verejne akcie + sukromne podiely, sama sa oznacuje ako private equity, nie VC); v okne prevladaju nakupy podielov v kotovanych spolocnostiach (Edenred, Coursera, TUI...), nove sukromne transakcie takmer ziadne. Hranicny pripad - skor PE mimo vzorky VC.",
+    "type": "Private equity",
+    "subtype": "growth",
+    "type_secondary": null,
+    "confidence": "medium",
+    "fields": {
+      "legal_name": {
+        "value": "Pale Fire Capital SE",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04165918",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"obchodniJmeno\":\"Pale Fire Capital SE\""
+          }
+        ],
+        "note": "Dalsie subjekty: Pale Fire Capital SICAV a.s. (17604125; drzi Edenred), investicni spolecnost a.s. (21671478), Altira SICAV (29547059)."
+      },
+      "registry_id": {
+        "value": "04165918",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04165918",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"ico\":\"04165918\""
+          }
+        ]
+      },
+      "hq_city": {
+        "value": "Praha",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04165918",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"nazevObce\":\"Praha\""
+          }
+        ]
+      },
+      "website": {
+        "value": "http://palefirecapital.com/",
+        "basis": "stated",
+        "src": [
+          {
+            "url": "http://palefirecapital.com/",
+            "publisher": "Pale Fire Capital (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ]
+      },
+      "sectors": {
+        "value": [
+          "consumer",
+          "fintech",
+          "software"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "http://palefirecapital.com/",
+            "publisher": "Pale Fire Capital (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ],
+        "raw": "e-commerce, fintech (NetBrokers), technology companies (zo zhrnutia WebFetch; web nema formalny zoznam)"
+      },
+      "stages": {
+        "value": [
+          "growth"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "http://palefirecapital.com/",
+            "publisher": "Pale Fire Capital (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ],
+        "raw": "etablovane firmy hladajuce dalsi rastovy krok (expanzia, digitalizacia, budovanie manazmentu); od 2026 aj mensinovy podiel v rodinnych firmach"
+      },
+      "ticket": {
+        "value": {
+          "min": 100000000,
+          "max": null,
+          "currency": "CZK"
+        },
+        "basis": "stated",
+        "src": [
+          {
+            "url": "http://palefirecapital.com/",
+            "publisher": "Pale Fire Capital (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "Naše investice se typicky pohybují ve stovkách milionů až přes miliardu korun vlastních prostředků."
+          }
+        ],
+        "derivation": "'stovky milionů' interpretovane ako >= 100 mil. CZK; horna hranica 'přes miliardu'"
+      },
+      "capital": {
+        "value": {
+          "amount": 413000000,
+          "currency": "EUR"
+        },
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://palefirecapital.com/en/pale-fire-capital-closes-its-first-decade-with-a-e413-million-portfolio-and-expands-into-family-owned-businesses/",
+            "publisher": "Pale Fire Capital (own website)",
+            "published": "2026-07-02",
+            "retrieved": "2026-10-29",
+            "quote": "Pale Fire Capital closes its first decade with a €413 million portfolio"
+          }
+        ],
+        "measure": "hodnota portfolia (self-reported; zahrna aj verejne drzby; clanok uvadza aj 10 mld. CZK PE portfolio)",
+        "as_of": "2026-07"
+      },
+      "last_investment": {
+        "value": {
+          "company": "Zwift (podiel po transakcii ROUVY)",
+          "date": "2026-04-30",
+          "round": "equity stake (vymena za predaj ROUVY, nie cisty novy nakup)"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://palefirecapital.com/en/pale-fire-capital-becomes-a-significant-shareholder-in-zwift-following-rouvy-transaction/",
+            "publisher": "Pale Fire Capital (own website)",
+            "published": "2026-04-30",
+            "retrieved": "2026-10-29",
+            "quote": "Pale Fire Capital, as the ROUVY's former majority owner, is acquiring a significant stake in Zwift."
+          },
+          {
+            "url": "https://cc.cz/tag/pale-fire-capital/",
+            "publisher": "CzechCrunch (tag page excerpt, 2026-04-29 article)",
+            "published": "2026-04-29",
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ],
+        "note": "Posledna verejna investicia: 5,01 % Edenred (kotovana akcia), Hospodarske noviny 2025-12-22 - nepocita sa (verejny trh)."
+      },
+      "independent_deal_evidence": {
+        "value": {
+          "company": "Zwift / ROUVY",
+          "date": "2026-04-29"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/tag/pale-fire-capital/",
+            "publisher": "CzechCrunch (tag page excerpt)",
+            "published": "2026-04-29",
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ],
+        "note": "Iba vynatok zo stranky tagu; clanok som neotvoril."
+      }
+    },
+    "open_questions": "Rozhodnutie je hranicne: skupina ma aj sukromne PE podiely (Aukro, Zwift) a seed fond Purpose Ventures (2021), ale ziadnu nezavisle doloženu NOVU sukromnu transakciu v okne okrem vymeny ROUVY za podiel v Zwift. Odporucam prehodnotit v kategorii PE (okno 36 mesiacov). Web nema pravny nazov ani AUM (clanok uvadza AUM 2 mld. EUR - zhrnutie WebFetch, neoverene doslovne)."
+  },
+  {
+    "name": "Rockaway Capital (Rockaway Ventures)",
+    "decision": "include",
+    "exclusion_codes": [],
+    "decision_reason": "VC rameno skupiny Rockaway (Rockaway Ventures) viedlo kola Filuta AI (jun 2025) a ValkaAI (feb 2026) a zucastnilo sa Navigara (feb 2026); skupina robi aj PE (Experience Education, okt 2026).",
+    "type": "VC",
+    "subtype": "independent_vc",
+    "type_secondary": "Private equity",
+    "confidence": "medium",
+    "fields": {
+      "legal_name": {
+        "value": "Rockaway Capital SE",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01967631",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"obchodniJmeno\":\"Rockaway Capital SE\""
+          }
+        ],
+        "note": "Zaznam = skupina. VC vehikel: Rockaway Ventures Fund SICAV a.s. (ICO 14235781, Praha 6); dalsie: Rockaway Ventures a.s. (06387136), Rockaway GP a.s. (23278757). Ktora entita je 'spravca' VC nezistene."
+      },
+      "registry_id": {
+        "value": "01967631",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01967631",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"ico\":\"01967631\""
+          }
+        ]
+      },
+      "hq_city": {
+        "value": "Praha",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/01967631",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"nazevObce\":\"Praha\""
+          }
+        ]
+      },
+      "website": {
+        "value": "https://www.rockawaycapital.com",
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.rockawaycapital.com",
+            "publisher": "Rockaway Capital (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ]
+      },
+      "sectors": {
+        "value": [
+          "consumer",
+          "industry",
+          "media_gaming",
+          "security",
+          "energy_climate",
+          "proptech"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.rockawayventures.com",
+            "publisher": "Rockaway Ventures (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ],
+        "raw": "Retail and e-commerce, travel and hospitality, digital logistics, digital media, cybersecurity, defence, CleanTech, PropTech (zo zhrnutia WebFetch)"
+      },
+      "stages": {
+        "value": [
+          "seed",
+          "A"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.rockawayventures.com",
+            "publisher": "Rockaway Ventures (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "proven traction in the late seed or Series A stage"
+          }
+        ]
+      },
+      "ticket": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "Web uvadza iba celkove velkosti kol (Filuta 4,2 mil. USD), nie vlastny ticket."
+      },
+      "capital": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "Velkost fondu Rockaway Ventures nenajdena; cislo pre Rockaway Alpha/Fund sa tyka PE/skupiny, nie VC."
+      },
+      "last_investment": {
+        "value": {
+          "company": "ValkaAI",
+          "date": "2026-02-24",
+          "round": "pre-seed EUR 12M, led by Rockaway Ventures"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/tvori-avatary-kteri-zvladnou-zive-komentovat-sportovni-zapasy-ted-ziskal-rekordni-investici/",
+            "publisher": "CzechCrunch",
+            "published": "2026-02-24",
+            "retrieved": "2026-10-29",
+            "quote": "a právě Rockaway Ventures, který kolo vedl."
+          }
+        ],
+        "note": "Datum = datum clanku. Citat doslovny vo vystupe WebFetch."
+      },
+      "independent_deal_evidence": {
+        "value": {
+          "company": "Filuta AI",
+          "date": "2025-06-24"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/budeme-jeden-z-nejsilnejsich-tymu-pro-vyvoj-umele-inteligence-v-cesku-veri-ziskal-na-to-sto-milionu/",
+            "publisher": "CzechCrunch",
+            "published": "2025-06-24",
+            "retrieved": "2026-10-29",
+            "quote": "Vedoucím investorem současného, takzvaného seed kola byl fond Rockaway Ventures zakladatele Jakuba Havrlanta"
+          },
+          {
+            "url": "https://cc.cz/nasli-zpusob-jak-merit-vykon-ajtaku-a-jejich-dopad-na-byznys-od-investoru-ziskali-50-milionu/",
+            "publisher": "CzechCrunch",
+            "published": "2026-02-18",
+            "retrieved": "2026-10-29",
+            "quote": "přidali se i čeští Rockaway Ventures a zmiňovaní QQ Capital"
+          }
+        ]
+      }
+    },
+    "open_questions": "Co presne je zaznam: skupina Rockaway Capital (PE + VC + blockchain, fondy Rockaway Fund/Alpha/Defense/Ventures/RockawayQ) vs. VC fond Rockaway Ventures - rozhodnut pri dedupe (X10: Ventures Fund SICAV je podriadene vehikulum). Primarny typ = VC predpoklad (vzorka VC); skupina v okne robi aj PE buyouty (Experience Education 2026-10-14). Ticket a velkost VC fondu neverejne. Kapital a ticket oznacene not_public; RockawayX riesene samostatne (X8)."
+  },
+  {
+    "name": "RockawayX",
+    "decision": "exclude",
+    "exclusion_codes": [
+      "X8"
+    ],
+    "decision_reason": "Kryptoinfrastrukturna/liquidity divizia skupiny Rockaway (predaj Solmate dohodnuty dec 2025, rozvazany mar 2026); portfolio je prevazne tokenove/protokolove a nepodarilo sa najst ziadnu datovanu nezavislu kapitalovu investiciu v okne. Konzervativne vyradene.",
+    "type": "VC",
+    "subtype": "independent_vc",
+    "type_secondary": null,
+    "confidence": "low",
+    "fields": {
+      "legal_name": {
+        "value": "RockawayX a.s.",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17457009",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"obchodniJmeno\":\"RockawayX a.s.\""
+          }
+        ],
+        "note": "Pati k brandu iba podla nazvu; web v pate uvadza ako prevadzkovatela 'Blockad s.r.o.' (ICO 08006458, Praha 6)."
+      },
+      "registry_id": {
+        "value": "17457009",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17457009",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"ico\":\"17457009\""
+          }
+        ]
+      },
+      "hq_city": {
+        "value": "Praha",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17457009",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"nazevObce\":\"Praha\""
+          }
+        ],
+        "note": "Web uvadza kancelarie Londyn, Praha, Dubaj bez uvedenia sidla."
+      },
+      "website": {
+        "value": "https://www.rockawayx.com",
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.rockawayx.com",
+            "publisher": "RockawayX (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ]
+      },
+      "sectors": {
+        "value": [
+          "fintech"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.rockawayx.com",
+            "publisher": "RockawayX (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "We run blockchains and provide liquidity to fuel protocols."
+          }
+        ],
+        "raw": "blockchain / web3 / Solana ekosystem (venture, yield, liquidity, infrastructure)"
+      },
+      "stages": {
+        "value": [
+          "pre-seed",
+          "seed"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.rockawayx.com",
+            "publisher": "RockawayX (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "We invest in early-stage projects, then build alongside them."
+          }
+        ]
+      },
+      "ticket": {
+        "value": null,
+        "basis": "not_public",
+        "src": []
+      },
+      "capital": {
+        "value": {
+          "amount": 2000000000,
+          "currency": "USD"
+        },
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.rockawayx.com",
+            "publisher": "RockawayX (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "$2B+"
+          }
+        ],
+        "measure": "udaj 'Assets' pod sekciou Investments na webe; vyznam nejasny (nie velkost venture fondu)",
+        "as_of": null
+      },
+      "last_investment": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "Zadna datovana nezavisla investicia najdena."
+      },
+      "independent_deal_evidence": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "Web uvadza portfolio (Solana, Kamino, 1inch, Wintermute ...) bez datumov; nezavisly datovany zdroj nenajdeny."
+      }
+    },
+    "open_questions": "Nepodarilo sa overit ziadnu datovanu investiciu v okne (vycerpany limit vyhladavania). CzechCrunch (2025-12-05) pise, ze RockawayX je krypto divizia pod Rockaway Capital: 'kryptodivize, kterou pod hlavičkou Rockaway Capital Jakuba Havrlanta buduje' V. Fischer; predaj Solmate (term sheet) a rozvazanie (2026-03-17, iba nadpis). Ak sa preukaze kapitalovy VC v okne, zvazit zaradenie; inak X10 (divizia skupiny Rockaway) alebo mimo definicie (tokenove investicie)."
+  },
+  {
+    "name": "Miton",
+    "decision": "include",
+    "exclusion_codes": [],
+    "decision_reason": "Investicna skupina investujuca vlastny kapital do startupov a digitalnych firiem (Whisper 300 tis. EUR feb 2026, dalsie peniaze do DeepScout okt 2026, Ace pad. app okt 2026), doloz. CzechCrunch; zaroven prevadzkuje/spaja gastro projekty - hranicny VC/PE profil.",
+    "type": "VC",
+    "subtype": "independent_vc",
+    "type_secondary": "Private equity",
+    "confidence": "medium",
+    "fields": {
+      "legal_name": {
+        "value": "MITON INVESTMENT, a.s.",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/27343430",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"obchodniJmeno\":\"MITON INVESTMENT, a.s.\""
+          }
+        ],
+        "note": "Pravny nazov web neuvadza ('Copyright © 2026 Miton'). Vybrane podla nazvu a zhody adresy Krizikova 148/34 s webom; v ARES je 55 dalsich 'MITON ...' subjektov (SPV, vehikla - X10) - nepotvrdene, ze je to materska/spravcovska entita."
+      },
+      "registry_id": {
+        "value": "27343430",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/27343430",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"ico\":\"27343430\""
+          }
+        ]
+      },
+      "hq_city": {
+        "value": "Praha",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/27343430",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"nazevObce\":\"Praha\""
+          },
+          {
+            "url": "https://www.miton.cz",
+            "publisher": "Miton (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ]
+      },
+      "website": {
+        "value": "https://www.miton.cz",
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.miton.cz",
+            "publisher": "Miton (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ]
+      },
+      "sectors": {
+        "value": [
+          "ai",
+          "fintech",
+          "consumer",
+          "health"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.miton.cz",
+            "publisher": "Miton (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          },
+          {
+            "url": "https://czechstartups.gov.cz/investori_en/miton/",
+            "publisher": "CzechStartups (gov.cz)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "Miton focuses on digital innovative B2C companies."
+          }
+        ],
+        "raw": "AI and augmented workforce; crypto and web3; e-commerce; gastrotech; psychedelics and mental health"
+      },
+      "stages": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "Stadia web neuvadza."
+      },
+      "ticket": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "Jedina doložená transakcia: 300 tis. EUR (Whisper, feb 2026) - jeden udaj, nie rozpatie."
+      },
+      "capital": {
+        "value": {
+          "amount": 450000000,
+          "currency": "EUR"
+        },
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.miton.cz",
+            "publisher": "Miton (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "hodnota současného portfolia"
+          }
+        ],
+        "measure": "hodnota sucasneho portfolia (self-reported; nie velkost fondu); 25 ludi, 61 firiem",
+        "as_of": "2026-10"
+      },
+      "last_investment": {
+        "value": {
+          "company": "DeepScout (nova AI sluzba)",
+          "date": "2026-10-19",
+          "round": "dalsie financovanie (suma a kolo neuvedene)"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/tag/miton/",
+            "publisher": "CzechCrunch (tag page, headline)",
+            "published": "2026-10-19",
+            "retrieved": "2026-10-29",
+            "quote": "Po roce a půl hlásí zisk, mladý startup už využívá i Alza. Do jeho nové AI služby posílá další miliony Miton"
+          }
+        ],
+        "note": "Iba nadpis zo stranky tagu; clanok som neotvoril. Datum = datum clanku. Dalsie: Ace padel app (2026-10-01, nadpis)."
+      },
+      "independent_deal_evidence": {
+        "value": {
+          "company": "Whisper",
+          "date": "2026-02-02"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/poznali-se-ve-skolce-z-dobrocinneho-projektu-ted-smeruji-do-byznysu-automatizuji-operativu-e-shopu/",
+            "publisher": "CzechCrunch",
+            "published": "2026-02-02",
+            "retrieved": "2026-10-29",
+            "quote": "do kterého investiční skupina Miton vložila 300 tisíc eur (7,5 milionu korun)"
+          }
+        ]
+      }
+    },
+    "open_questions": "Pravny subjekt a ICO su nepotvrdene (viď legal_name). Miton nema externych LP (vlastny kapital - zo zadania kandidata, nepotvrdene vlastnym zdrojom). Zmiesava startup investicie s prevadzkou/konsolidaciou gastro firiem (Piano) a predajmi (pekaren Jablonec 2025) - riziko X7/PE; ticket a stadia neverejne."
+  },
+  {
+    "name": "QQ Capital",
+    "decision": "include",
+    "exclusion_codes": [],
+    "decision_reason": "Venture family office (vlastny kapital, bez LP) v Prahe; seed kolo Navigara (feb 2026) doložene CzechCrunch.",
+    "type": "Family office",
+    "subtype": "sfo",
+    "type_secondary": "VC",
+    "confidence": "medium",
+    "fields": {
+      "legal_name": {
+        "value": "QQ Capital SE",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08676135",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"obchodniJmeno\":\"QQ Capital SE\""
+          }
+        ]
+      },
+      "registry_id": {
+        "value": "08676135",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08676135",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"ico\":\"08676135\""
+          }
+        ]
+      },
+      "hq_city": {
+        "value": "Praha",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08676135",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"nazevObce\":\"Praha\""
+          }
+        ]
+      },
+      "website": {
+        "value": "https://www.qq.capital/",
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.qq.capital/",
+            "publisher": "QQ Capital (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ]
+      },
+      "sectors": {
+        "value": [
+          "software"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.qq.capital/",
+            "publisher": "QQ Capital (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "QQ Capital is a venture family office in Prague, Czech Republic, investing in early stage technological companies."
+          }
+        ],
+        "raw": "primarily software products across a wide range of industries (zo zhrnutia WebFetch)"
+      },
+      "stages": {
+        "value": [
+          "pre-seed",
+          "seed",
+          "A",
+          "B+",
+          "growth"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.qq.capital/",
+            "publisher": "QQ Capital (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ],
+        "raw": "from early-stage to growth-stage"
+      },
+      "ticket": {
+        "value": null,
+        "basis": "not_public",
+        "src": []
+      },
+      "capital": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "Ako family office nema LP; kapital neuvedeny."
+      },
+      "last_investment": {
+        "value": {
+          "company": "Navigara",
+          "date": "2026-02-18",
+          "round": "seed USD 2.5M (led by Inovo VC)"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/nasli-zpusob-jak-merit-vykon-ajtaku-a-jejich-dopad-na-byznys-od-investoru-ziskali-50-milionu/",
+            "publisher": "CzechCrunch",
+            "published": "2026-02-18",
+            "retrieved": "2026-10-29",
+            "quote": "přidali se i čeští Rockaway Ventures a zmiňovaní QQ Capital"
+          }
+        ],
+        "note": "Datum = datum clanku."
+      },
+      "independent_deal_evidence": {
+        "value": {
+          "company": "Navigara",
+          "date": "2026-02-18"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/nasli-zpusob-jak-merit-vykon-ajtaku-a-jejich-dopad-na-byznys-od-investoru-ziskali-50-milionu/",
+            "publisher": "CzechCrunch",
+            "published": "2026-02-18",
+            "retrieved": "2026-10-29",
+            "quote": "přidali se i čeští Rockaway Ventures a zmiňovaní QQ Capital"
+          }
+        ]
+      }
+    },
+    "open_questions": "Typ: sam sa oznacuje ako 'venture family office' - zaradene ako family office (sfo, okno 36 mes.), VC len sekundarne; pre vzorku 'VC' hranicne. Ticket a kapital neverejne. Portfolio na webe bez datumov."
+  },
+  {
+    "name": "Fazole Ventures",
+    "decision": "include",
+    "exclusion_codes": [],
+    "decision_reason": "Early-stage investor (s.r.o. v Prahe) s uvedenym tiketom 50-800 tis. EUR; viedol kolo Everbot (sep 2025), doloz. CzechCrunch.",
+    "type": "VC",
+    "subtype": "independent_vc",
+    "type_secondary": null,
+    "confidence": "medium",
+    "fields": {
+      "legal_name": {
+        "value": "Fazole Ventures s.r.o.",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07491492",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"obchodniJmeno\":\"Fazole Ventures s.r.o.\""
+          }
+        ]
+      },
+      "registry_id": {
+        "value": "07491492",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07491492",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"ico\":\"07491492\""
+          }
+        ]
+      },
+      "hq_city": {
+        "value": "Praha",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07491492",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"nazevObce\":\"Praha\""
+          }
+        ]
+      },
+      "website": {
+        "value": "http://fazole.vc/indexEN.html",
+        "basis": "stated",
+        "src": [
+          {
+            "url": "http://fazole.vc/indexEN.html",
+            "publisher": "Fazole Ventures (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ]
+      },
+      "sectors": {
+        "value": [
+          "energy_climate",
+          "fintech",
+          "mobility",
+          "consumer"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "http://fazole.vc/indexEN.html",
+            "publisher": "Fazole Ventures (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ],
+        "raw": "B2B companies, preference for utilities, banking, transportation, retail, smart cities, telecoms (zo zhrnutia WebFetch)",
+        "note": "Smart cities a telekomy nezaradene do ziadnej z 15 kategorii."
+      },
+      "stages": {
+        "value": [
+          "seed"
+        ],
+        "basis": "stated",
+        "src": [
+          {
+            "url": "http://fazole.vc/indexEN.html",
+            "publisher": "Fazole Ventures (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "We support early-stage companies by providing them with funding and wealth of other support in developing the business."
+          }
+        ],
+        "raw": "early-stage firmy po pilotoch s klientmi"
+      },
+      "ticket": {
+        "value": {
+          "min": 50000,
+          "max": 800000,
+          "currency": "EUR"
+        },
+        "basis": "stated",
+        "src": [
+          {
+            "url": "http://fazole.vc/indexEN.html",
+            "publisher": "Fazole Ventures (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "Our sweet spot ranges from 50 to 800 thousand EUR, however, we will also consider larger volumes of funding."
+          }
+        ]
+      },
+      "capital": {
+        "value": null,
+        "basis": "not_public",
+        "src": []
+      },
+      "last_investment": {
+        "value": {
+          "company": "Everbot",
+          "date": "2025-09-16",
+          "round": "kolo nizsie desiatky mil. CZK, lead: Fazole Ventures"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/jak-se-vyznat-v-modelech-umele-inteligence-startup-nabizi-reseni-a-nabira-desitky-milionu-korun/",
+            "publisher": "CzechCrunch",
+            "published": "2025-09-16",
+            "retrieved": "2026-10-29",
+            "quote": "Lídrem investičního kola se stal fond Fazole Ventures"
+          }
+        ],
+        "note": "Datum = datum clanku."
+      },
+      "independent_deal_evidence": {
+        "value": {
+          "company": "Everbot",
+          "date": "2025-09-16"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/jak-se-vyznat-v-modelech-umele-inteligence-startup-nabizi-reseni-a-nabira-desitky-milionu-korun/",
+            "publisher": "CzechCrunch",
+            "published": "2025-09-16",
+            "retrieved": "2026-10-29",
+            "quote": "Lídrem investičního kola se stal fond Fazole Ventures"
+          }
+        ]
+      }
+    },
+    "open_questions": "Nezistene, ci ide o fond s LP alebo investicny vehikel jednotlivca/rodiny (CzechCrunch ho nazyva 'fond'). Kapital nezverejneny. Mapovanie sektorov na 15 kategorii je interpretacia."
+  },
+  {
+    "name": "Patero",
+    "decision": "include",
+    "exclusion_codes": [],
+    "decision_reason": "Investicna spolocnost (s.r.o., Praha 6) investujuca do startupov; v okne doloz. investicia do Flowlance (pre-seed 500 tis. EUR, 2024-11-28) - na samom zaciatku okna.",
+    "type": "VC",
+    "subtype": "independent_vc",
+    "type_secondary": null,
+    "confidence": "medium",
+    "fields": {
+      "legal_name": {
+        "value": "Patero s.r.o.",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03928446",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"obchodniJmeno\":\"Patero s.r.o.\""
+          }
+        ]
+      },
+      "registry_id": {
+        "value": "03928446",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03928446",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"ico\":\"03928446\""
+          }
+        ]
+      },
+      "hq_city": {
+        "value": "Praha",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03928446",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"nazevObce\":\"Praha\""
+          }
+        ]
+      },
+      "website": {
+        "value": "https://www.patero.cz",
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://www.patero.cz",
+            "publisher": "Patero (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ]
+      },
+      "sectors": {
+        "value": [
+          "generalist"
+        ],
+        "basis": "derived",
+        "src": [
+          {
+            "url": "https://www.patero.cz",
+            "publisher": "Patero (own website)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": null
+          }
+        ],
+        "raw": "startupy (portfolio: Logio, Yedem, Stories, Inventoro, Yieldigo, Flowpay, Tocchela, Boostspace, Outfindo, Flowlance, Wereldo, Ringil)",
+        "note": "Web sektor explicitne neuvadza; generalist = odvodene z rozpiatia portfolia."
+      },
+      "stages": {
+        "value": [
+          "pre-seed"
+        ],
+        "basis": "derived",
+        "src": [
+          {
+            "url": "https://cc.cz/pomohou-sdilet-vase-know-how-a-nabrat-nove-klienty-pres-12-milionu-jim-posila-i-miroslav-udan/",
+            "publisher": "CzechCrunch",
+            "published": "2024-11-28",
+            "retrieved": "2026-10-29",
+            "quote": "pre-seed investici ve výši 500 tisíc eur"
+          }
+        ],
+        "derivation": "z jedinej doložénej transakcie (Flowlance pre-seed); web stadia neuvadza"
+      },
+      "ticket": {
+        "value": null,
+        "basis": "not_public",
+        "src": []
+      },
+      "capital": {
+        "value": null,
+        "basis": "not_public",
+        "src": []
+      },
+      "last_investment": {
+        "value": {
+          "company": "Flowlance",
+          "date": "2024-11-28",
+          "round": "pre-seed EUR 500k"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/pomohou-sdilet-vase-know-how-a-nabrat-nove-klienty-pres-12-milionu-jim-posila-i-miroslav-udan/",
+            "publisher": "CzechCrunch",
+            "published": "2024-11-28",
+            "retrieved": "2026-10-29",
+            "quote": "skupina Patero a andělský investor Miroslav Uďan"
+          }
+        ],
+        "note": "Datum = datum clanku (okno zacina 2024-10-29)."
+      },
+      "independent_deal_evidence": {
+        "value": {
+          "company": "Flowlance",
+          "date": "2024-11-28"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/pomohou-sdilet-vase-know-how-a-nabrat-nove-klienty-pres-12-milionu-jim-posila-i-miroslav-udan/",
+            "publisher": "CzechCrunch",
+            "published": "2024-11-28",
+            "retrieved": "2026-10-29",
+            "quote": "skupina Patero a andělský investor Miroslav Uďan"
+          }
+        ]
+      }
+    },
+    "open_questions": "Iba jedna doložená investicia v okne. Nezistene, ci ide o VC vehikel, angel skupinu alebo holding (typ). Web: '15+ startupov, 3 exity, 10 rokov skusenosti' (self-reported). Ticket a kapital neverejne. Podla vyhladavacieho snippetu (nie otvorena stranka) Patero investovalo aj do Flowpay."
+  },
+  {
+    "name": "Zero Gravity Capital",
+    "decision": "exclude",
+    "exclusion_codes": [
+      "X11"
+    ],
+    "decision_reason": "Slovensky fond (Bratislava; CzechCrunch: 'slovenské fondy Zero Gravity Capital'), nie sidlo v CR - mimo vzorky.",
+    "type": "VC",
+    "subtype": "independent_vc",
+    "type_secondary": null,
+    "confidence": "medium",
+    "fields": {
+      "legal_name": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "V ARES (CR) nenajdeny."
+      },
+      "registry_id": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "V ARES (CR) nenajdeny; slovensky ORSR neprehladavany."
+      },
+      "hq_city": {
+        "value": "Bratislava",
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/podporili-nejvetsi-startupove-nadeje-na-slovensku-s-novym-fondem-maji-i-pro-ceske-firmy-15-miliardy/",
+            "publisher": "CzechCrunch",
+            "published": "2022-12-20",
+            "retrieved": "2026-10-29",
+            "quote": "který sídlí v Bratislavě, Praze a na Kypru"
+          },
+          {
+            "url": "https://cc.cz/zapomneli-vzit-na-dovolenou-knizky-a-tak-vytvorili-aplikaci-ktera-ted-motivuje-cist-i-deti-ve-skolach/",
+            "publisher": "CzechCrunch",
+            "published": "2026-03-04",
+            "retrieved": "2026-10-29",
+            "quote": "Mezi jeho investory patří slovenské fondy Zero Gravity Capital a Venture to Future Fund"
+          }
+        ],
+        "note": "Prvy citat sa tyka materskej skupiny Zero One Hundred (Bratislava, Praha, Cyprus), nie priamo fondu."
+      },
+      "website": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "Web nenajdeny (zerogravitycapital.com neodpovedal)."
+      },
+      "sectors": {
+        "value": null,
+        "basis": "not_public",
+        "src": []
+      },
+      "stages": {
+        "value": [
+          "pre-seed",
+          "seed",
+          "A"
+        ],
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/podporili-nejvetsi-startupove-nadeje-na-slovensku-s-novym-fondem-maji-i-pro-ceske-firmy-15-miliardy/",
+            "publisher": "CzechCrunch",
+            "published": "2022-12-20",
+            "retrieved": "2026-10-29",
+            "quote": "Soustředit se chce na rané fáze firem od takzvaných pre-seed po sérii A"
+          }
+        ],
+        "note": "Tyka sa noveho fondu skupiny Zero One Hundred (60 mil. EUR plan), nie nevyhnutne Zero Gravity Capital."
+      },
+      "ticket": {
+        "value": null,
+        "basis": "not_public",
+        "src": []
+      },
+      "capital": {
+        "value": {
+          "amount": 23000000,
+          "currency": "EUR"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/podporili-nejvetsi-startupove-nadeje-na-slovensku-s-novym-fondem-maji-i-pro-ceske-firmy-15-miliardy/",
+            "publisher": "CzechCrunch",
+            "published": "2022-12-20",
+            "retrieved": "2026-10-29",
+            "quote": "založením samostatného fondu Zero Gravity Capital s prostředky v hodnotě 23 milionů eur"
+          }
+        ],
+        "measure": "velkost fondu Zero Gravity Capital (stav 2022)",
+        "as_of": "2022-12"
+      },
+      "last_investment": {
+        "value": {
+          "company": "Kubo",
+          "date": "2026-03-04",
+          "round": "seed CZK 30M (ucast Zero Gravity v tomto kole nie je explicitne uvedena)"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/zapomneli-vzit-na-dovolenou-knizky-a-tak-vytvorili-aplikaci-ktera-ted-motivuje-cist-i-deti-ve-skolach/",
+            "publisher": "CzechCrunch",
+            "published": "2026-03-04",
+            "retrieved": "2026-10-29",
+            "quote": "Mezi jeho investory patří slovenské fondy Zero Gravity Capital a Venture to Future Fund"
+          }
+        ],
+        "note": "Datum = datum clanku."
+      },
+      "independent_deal_evidence": {
+        "value": {
+          "company": "Kubo",
+          "date": "2026-03-04"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/zapomneli-vzit-na-dovolenou-knizky-a-tak-vytvorili-aplikaci-ktera-ted-motivuje-cist-i-deti-ve-skolach/",
+            "publisher": "CzechCrunch",
+            "published": "2026-03-04",
+            "retrieved": "2026-10-29",
+            "quote": "Mezi jeho investory patří slovenské fondy Zero Gravity Capital a Venture to Future Fund"
+          }
+        ]
+      }
+    },
+    "open_questions": "Sidlo zalozene na CzechCrunch (SK fond) - ORSR (SK) neoverene, pravny nazov a registrove cislo chybaju. Web nenajdeny. Kandidat v zadani spominal 'ceskeho family-office sponzora' - nepotvrdene. V DB mimo vzorky nevyraduje (X11 iba pre pilot)."
+  },
+  {
+    "name": "BD Partners",
+    "decision": "include",
+    "exclusion_codes": [],
+    "decision_reason": "Joint family office (Bartonicek, Duvieusart) investujuci priamo do startupov; ucast v kolach RoboTwin (sep 2025) a ValkaAI (feb 2026), doloz. CzechCrunch.",
+    "type": "Family office",
+    "subtype": "mfo",
+    "type_secondary": "VC",
+    "confidence": "medium",
+    "fields": {
+      "legal_name": {
+        "value": "BD Partners a.s.",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19286511",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"obchodniJmeno\":\"BD Partners a.s.\""
+          }
+        ],
+        "note": "Zhoda len podla nazvu (jediny subjekt v ARES); adresa Generala Piky 430/26 je zhodna s adresou Rockaway - priradenie nepotvrdene."
+      },
+      "registry_id": {
+        "value": "19286511",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19286511",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"ico\":\"19286511\""
+          }
+        ]
+      },
+      "hq_city": {
+        "value": "Praha",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19286511",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"nazevObce\":\"Praha\""
+          }
+        ]
+      },
+      "website": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "Web nenajdeny."
+      },
+      "sectors": {
+        "value": [
+          "generalist"
+        ],
+        "basis": "derived",
+        "src": [
+          {
+            "url": "https://cc.cz/sefoval-ppf-ted-investuje-do-startupu-vina-i-betonu-mame-na-to-az-25-miliardy-rika-bartonicek/",
+            "publisher": "CzechCrunch",
+            "published": "2025-07-28",
+            "retrieved": "2026-10-29",
+            "quote": "Do portfolia BD Partners patří například startupy:"
+          }
+        ],
+        "raw": "portfolio: Oddin.gg, Advanto, Jeff, InTouch, Myriad, Elin.ai, FaceUp, Ynsect, So Concrete; dalej RoboTwin, ValkaAI",
+        "note": "Odvodene z rozpiatia portfolia; sektor sam neuvadza."
+      },
+      "stages": {
+        "value": [
+          "pre-seed",
+          "seed"
+        ],
+        "basis": "derived",
+        "src": [
+          {
+            "url": "https://cc.cz/tvori-avatary-kteri-zvladnou-zive-komentovat-sportovni-zapasy-ted-ziskal-rekordni-investici/",
+            "publisher": "CzechCrunch",
+            "published": "2026-02-24",
+            "retrieved": "2026-10-29",
+            "quote": "od tuzemských fondů J&T Ventures, Tensor Ventures, BD Partners"
+          }
+        ],
+        "derivation": "obe dolozene transakcie v okne su pre-seed (ValkaAI, RoboTwin)"
+      },
+      "ticket": {
+        "value": {
+          "min": 250000,
+          "max": 2000000,
+          "currency": "EUR"
+        },
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://cc.cz/sefoval-ppf-ted-investuje-do-startupu-vina-i-betonu-mame-na-to-az-25-miliardy-rika-bartonicek/",
+            "publisher": "CzechCrunch",
+            "published": "2025-07-28",
+            "retrieved": "2026-10-29",
+            "quote": "pohybujeme se někde mezi 250 tisíci až dvěma miliony eur"
+          }
+        ],
+        "note": "Podla WebFetch odpoved v rozhovore nemenuje BD Partners priamo (hovori Bartonicek o 'nas')."
+      },
+      "capital": {
+        "value": {
+          "amount": 2500000000,
+          "currency": "CZK",
+          "amount_low": 1200000000
+        },
+        "basis": "stated",
+        "src": [
+          {
+            "url": "https://cc.cz/sefoval-ppf-ted-investuje-do-startupu-vina-i-betonu-mame-na-to-az-25-miliardy-rika-bartonicek/",
+            "publisher": "CzechCrunch",
+            "published": "2025-07-28",
+            "retrieved": "2026-10-29",
+            "quote": "do startupů hodlají v průběhu příštích let vložit celkem 1,2 až 2,5 miliardy korun."
+          }
+        ],
+        "measure": "plan investicii do startupov v nasledujucich rokoch (1,2-2,5 mld. CZK) - nie velkost fondu ani AUM; ~20 mil. EUR uz alokovanych",
+        "as_of": "2025-07"
+      },
+      "last_investment": {
+        "value": {
+          "company": "ValkaAI",
+          "date": "2026-02-24",
+          "round": "pre-seed EUR 12M (lead: Rockaway Ventures)"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/tvori-avatary-kteri-zvladnou-zive-komentovat-sportovni-zapasy-ted-ziskal-rekordni-investici/",
+            "publisher": "CzechCrunch",
+            "published": "2026-02-24",
+            "retrieved": "2026-10-29",
+            "quote": "od tuzemských fondů J&T Ventures, Tensor Ventures, BD Partners"
+          }
+        ],
+        "note": "Datum = datum clanku."
+      },
+      "independent_deal_evidence": {
+        "value": {
+          "company": "RoboTwin",
+          "date": "2025-09-11"
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/cesi-resi-urgentni-problem-evropy-od-byvalych-akcionaru-ppf-ci-eu-ted-maji-desitky-milionu/",
+            "publisher": "CzechCrunch",
+            "published": "2025-09-11",
+            "retrieved": "2026-10-29",
+            "quote": "Mezi nimi jsou zdejší fondy Y Soft Ventures, EIT Manufacturing, Jörg Rupp i investiční společnost BD Partners"
+          }
+        ]
+      }
+    },
+    "open_questions": "Subjekt v ARES je priradeny len podla nazvu - overit (obchodny register, vlastnici). Podtyp mfo vs sfo: clanok pise 'joint family office' (dve rodiny), nie klasicky multi-family office - hranicne. Ticket je z rozhovoru (nie vlastny web); kapital je plan, nie AUM. Web nenajdeny."
+  },
+  {
+    "name": "SFG Holding",
+    "decision": "exclude",
+    "exclusion_codes": [
+      "X8"
+    ],
+    "decision_reason": "Holding Michala Dedka (financie, nehnutelnosti, startupy): historicke startup investicie (ETW, NutritionPro, Buildiro, Edhance) bez datumov v okne; ziadna nezavisle doložená investicia v okne (36 mes. od 2023-10-29).",
+    "type": "Large private investor",
+    "subtype": "private_holding",
+    "type_secondary": null,
+    "confidence": "low",
+    "fields": {
+      "legal_name": {
+        "value": "SFG holding a.s.",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08483264",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"obchodniJmeno\":\"SFG holding a.s.\""
+          }
+        ]
+      },
+      "registry_id": {
+        "value": "08483264",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08483264",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"ico\":\"08483264\""
+          }
+        ]
+      },
+      "hq_city": {
+        "value": "Praha",
+        "basis": "registry",
+        "src": [
+          {
+            "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08483264",
+            "publisher": "ARES (Ministerstvo financi CR)",
+            "published": null,
+            "retrieved": "2026-10-29",
+            "quote": "\"nazevObce\":\"Praha\""
+          }
+        ]
+      },
+      "website": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "Web nenajdeny."
+      },
+      "sectors": {
+        "value": [
+          "fintech",
+          "proptech"
+        ],
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/o-jinych-rikal-ze-okradali-klienty-ted-podnikatel-michal-dedek-a-jeho-firmy-dluzi-az-desitky-milionu/",
+            "publisher": "CzechCrunch",
+            "published": "2025-06-19",
+            "retrieved": "2026-10-29",
+            "quote": "Michal Dědek prostřednictvím SFG Holdingu podniká ve financích, realitách a investuje do startupů."
+          }
+        ],
+        "raw": "finance, real estate (development), investovanie do startupov"
+      },
+      "stages": {
+        "value": null,
+        "basis": "not_public",
+        "src": []
+      },
+      "ticket": {
+        "value": null,
+        "basis": "not_public",
+        "src": []
+      },
+      "capital": {
+        "value": null,
+        "basis": "not_public",
+        "src": []
+      },
+      "last_investment": {
+        "value": null,
+        "basis": "not_public",
+        "src": [],
+        "note": "Najblizsie datovane clanky pripisuju investicie M. Dedkovi osobne (Advertee 2022-10, ETW 2022-02), nie SFG Holding; pred oknom."
+      },
+      "independent_deal_evidence": {
+        "value": {
+          "company": "ETW, NutritionPro, Buildiro, Edhance (historicke)",
+          "date": null
+        },
+        "basis": "media",
+        "src": [
+          {
+            "url": "https://cc.cz/o-jinych-rikal-ze-okradali-klienty-ted-podnikatel-michal-dedek-a-jeho-firmy-dluzi-az-desitky-milionu/",
+            "publisher": "CzechCrunch",
+            "published": "2025-06-19",
+            "retrieved": "2026-10-29",
+            "quote": "Dědkův SFG Holding historicky investoval do projektů jako ETW, NutritionPro, Buildiro, Edhance"
+          }
+        ],
+        "note": "Bez datumov investicii."
+      }
+    },
+    "open_questions": "Neoverene, ci SFG Holding investoval v okne (cc.cz tag zobrazuje clanky 2020-2025, zaden z nich s datovanou investiciou SFG v okne). Profil je zmes financii, developmentu a startupov (mozne X5/X7). Majitelom sa v 2025 stala T. Kouklova (po 70 % Dedek); clanok 2025-06-19 uvadza dlhy osoby M. Dedka, nie SFG Holding. Web nenajdeny."
+  }
+]
