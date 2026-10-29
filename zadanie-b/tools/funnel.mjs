@@ -6,10 +6,10 @@ import { readFileSync } from 'node:fs';
 const file = process.argv[2] || 'server-data/events.jsonl';
 const rows = readFileSync(file, 'utf8').trim().split('\n').filter(Boolean).map((l) => JSON.parse(l));
 
+// Len kroky, ktoré musí prejsť každý lead (CTA preskočí k formuláru priamo, preto
+// „videl porovnanie“ nie je krok lievika, ale interakcia).
 const FUNNEL = [
   ['page_view', 'Príchod'],
-  ['engaged_10s', 'Zostal ≥ 10 s'],
-  ['section_view:compare', 'Doscroloval k porovnaniu'],
   ['form_view', 'Videl formulár'],
   ['form_start', 'Klikol do e-mailu'],
   ['lead', 'Odoslal e-mail = LEAD'],
@@ -22,6 +22,8 @@ const AFTER = [
   ['tahak_open', 'Otvoril tahák'],
 ];
 const INTERACTIONS = [
+  ['engaged_10s', 'Zostal ≥ 10 s'],
+  ['section_view:compare', 'Doscroloval k porovnaniu'],
   ['calc_interact', 'Kalkulačka'],
   ['etf_open', 'Rozklikol ETF'],
   ['locked_click', 'Klikol na zamknutý ETF'],
