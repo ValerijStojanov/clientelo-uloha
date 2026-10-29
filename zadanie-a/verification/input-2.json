@@ -1,0 +1,345 @@
+{
+ "included": [
+  {
+   "name": "Inven Capital (ČEZ)",
+   "claimed_type": "VC",
+   "claimed_subtype": "cvc",
+   "fields": {
+    "legal_name": {
+     "value": "Inven Capital, SICAV, a.s.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02059533"
+     ]
+    },
+    "registry_id": {
+     "value": "02059533",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02059533"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02059533"
+     ]
+    },
+    "website": {
+     "value": "https://www.invencapital.cz/",
+     "urls": [
+      "https://www.invencapital.cz/"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "energy_climate"
+     ],
+     "urls": [
+      "https://www.invencapital.cz/"
+     ]
+    },
+    "stages": {
+     "value": [
+      "A",
+      "B+",
+      "growth"
+     ],
+     "urls": [
+      "https://www.eib.org/de/press/all/2023-047-expanding-strategic-partnership-eib-supports-investments-in-climate-friendly-startups-providing-a-further-eur50-million-to-the-czech-fund-inven-capital",
+      "https://www.invencapital.cz/"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 2000000,
+      "max": 30000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://www.invencapital.cz/"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 500000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://www.eib.org/de/press/all/2023-047-expanding-strategic-partnership-eib-supports-investments-in-climate-friendly-startups-providing-a-further-eur50-million-to-the-czech-fund-inven-capital",
+      "https://www.invencapital.cz/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Wint",
+      "date": "2026-09-09",
+      "round": "Series D (co-lead with LIP Ventures)"
+     },
+     "urls": [
+      "https://www.prnewswire.com/il/news-releases/wint-raises-36-million-in-series-d-funding-to-scale-ai-powered-water-intelligence-globally-302873443.html",
+      "https://theaiinsider.tech/2026/09/11/wint-raises-36m-in-series-d-funding-to-scale-ai-powered-water-intelligence-globally/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Andercore",
+      "date": "2026-02-11"
+     },
+     "urls": [
+      "https://www.ypog.law/en/press/ypog-advises-atomico-and-project-a-on-usd-40-million-series-b-financing-round-of-andercore"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Y Soft Ventures",
+   "claimed_type": "VC",
+   "claimed_subtype": "cvc",
+   "fields": {
+    "legal_name": {
+     "value": "Y Soft Ventures Management, a.s.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04504593"
+     ]
+    },
+    "registry_id": {
+     "value": "04504593",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04504593"
+     ]
+    },
+    "hq_city": {
+     "value": "Brno",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04504593"
+     ]
+    },
+    "website": {
+     "value": "https://www.ysoft.com/ventures",
+     "urls": [
+      "https://ysoftventures.com"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "software",
+      "deeptech"
+     ],
+     "urls": [
+      "https://ysoftventures.com"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed",
+      "seed"
+     ],
+     "urls": [
+      "https://ysoftventures.com"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "RoboTwin",
+      "date": "2025-07-02",
+      "round": "pre-seed (EUR 1.25M round)"
+     },
+     "urls": [
+      "https://eitjumpstarter.eu/robotwin-secures-1-million-eur/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "RoboTwin",
+      "date": "2025-07-02"
+     },
+     "urls": [
+      "https://eitjumpstarter.eu/robotwin-secures-1-million-eur/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Seed Starter ČS (Česká spořitelna)",
+   "claimed_type": "VC",
+   "claimed_subtype": "cvc",
+   "fields": {
+    "legal_name": {
+     "value": "ČS Seed Starter, a.s.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/61058769"
+     ]
+    },
+    "registry_id": {
+     "value": "61058769",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/61058769"
+     ]
+    },
+    "hq_city": {
+     "value": "Praha",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/61058769"
+     ]
+    },
+    "website": {
+     "value": "https://www.seedstarter.cz",
+     "urls": [
+      "https://www.seedstarter.cz/en/home"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "fintech",
+      "deeptech"
+     ],
+     "urls": [
+      "https://www.seedstarter.cz/en/home",
+      "https://cc.cz/jejich-nastroj-havel-pomaha-i-v-nato-do-litevcu-ted-investuji-tensor-ventures-a-ceska-sporitelna/"
+     ]
+    },
+    "stages": {
+     "value": [
+      "pre-seed",
+      "seed"
+     ],
+     "urls": [
+      "https://www.seedstarter.cz/en/home"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 200000,
+      "max": 1000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://www.seedstarter.cz/en/home"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "Repsense",
+      "date": "2025-12-17",
+      "round": null
+     },
+     "urls": [
+      "https://cc.cz/jejich-nastroj-havel-pomaha-i-v-nato-do-litevcu-ted-investuji-tensor-ventures-a-ceska-sporitelna/"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "Vestberry",
+      "date": "2025-03-17"
+     },
+     "urls": [
+      "https://cc.cz/ceska-sporitelna-chce-aby-investori-vice-vydelavali-investuje-do-slovenskeho-startupu-ktery-to-resi/"
+     ]
+    }
+   }
+  },
+  {
+   "name": "Jet Investment",
+   "claimed_type": "VC",
+   "claimed_subtype": "independent_vc",
+   "fields": {
+    "legal_name": {
+     "value": "Jet Investment, a.s.",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03890333"
+     ]
+    },
+    "registry_id": {
+     "value": "03890333",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03890333"
+     ]
+    },
+    "hq_city": {
+     "value": "Brno",
+     "urls": [
+      "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03890333"
+     ]
+    },
+    "website": {
+     "value": "https://www.jetinvestment.cz/en",
+     "urls": [
+      "https://www.jetinvestment.cz/en/venture-capital"
+     ]
+    },
+    "sectors": {
+     "value": [
+      "software",
+      "ai",
+      "deeptech",
+      "industry"
+     ],
+     "urls": [
+      "https://www.jetinvestment.cz/en/venture-capital"
+     ]
+    },
+    "ticket": {
+     "value": {
+      "min": 1500000,
+      "max": 2100000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://www.jetinvestment.cz/en/news",
+      "https://cc.cz/cesi-vyviji-centralni-mozek-pro-lepsi-firemni-rozhodovani-od-investoru-na-nej-maji-pres-70-milionu/"
+     ]
+    },
+    "capital": {
+     "value": {
+      "amount": 50000000,
+      "currency": "EUR"
+     },
+     "urls": [
+      "https://cc.cz/teoreticka-hodnota-nestaci-fondy-musi-investorum-vydelavat-rika-sef-fondu-jet-venture-1/"
+     ]
+    },
+    "last_investment": {
+     "value": {
+      "company": "AppNava",
+      "date": "2026-09-17",
+      "round": "USD 1.8M of a USD 2.3M round, Jet lead"
+     },
+     "urls": [
+      "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/",
+      "https://www.jetinvestment.cz/en/news"
+     ]
+    },
+    "independent_deal_evidence": {
+     "value": {
+      "company": "DecisionRules",
+      "date": "2026-06-23"
+     },
+     "urls": [
+      "https://cc.cz/cesi-vyviji-centralni-mozek-pro-lepsi-firemni-rozhodovani-od-investoru-na-nej-maji-pres-70-milionu/"
+     ]
+    }
+   }
+  }
+ ],
+ "excluded_recheck": [
+  {
+   "name": "RSJ Investments",
+   "website": "https://www.rsj.com",
+   "claim": "Subjekt nemá žiadnu doloženú novú investíciu od 2024-10-29 (neaktívny) alebo je neoveriteľný."
+  },
+  {
+   "name": "KB SmartSolutions",
+   "website": "https://www.kbsmart.cz/en/",
+   "claim": "Subjekt nemá žiadnu doloženú novú investíciu od 2024-10-29 (neaktívny) alebo je neoveriteľný."
+  },
+  {
+   "name": "mAccelerator.vc (mBank)",
+   "website": "https://maccelerator.vc",
+   "claim": "Subjekt nemá žiadnu doloženú novú investíciu od 2024-10-29 (neaktívny) alebo je neoveriteľný."
+  },
+  {
+   "name": "Orbit Capital (OGD Advisory)",
+   "website": "https://orbitcapital.com/",
+   "claim": "Subjekt nemá žiadnu doloženú novú investíciu od 2024-10-29 (neaktívny) alebo je neoveriteľný."
+  }
+ ]
+}

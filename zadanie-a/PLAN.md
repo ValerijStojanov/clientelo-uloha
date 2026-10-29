@@ -50,7 +50,7 @@ typ = typ väčšiny transakcií v okne aktivity, sekundárny typ v poli `type_s
 | X8 | je **neaktívny** — žiadna doložená investícia v okne aktivity | fond v harvest fáze | presun do archívu, nie zmazanie |
 | X9 | je **neoveriteľný** — iba vlastné tvrdenie, žiadny nezávislý zdroj | „investor“ len s webom | karanténa, nevstupuje do DB |
 | X10 | je **duplicita alebo vehikel** iného záznamu | Fund II s.r.o. toho istého správcu | jeden záznam na správcu, fondy ako podriadené záznamy |
-| X11 | (pre pilot) **sídlo mimo krajiny vzorky** | zahraničný fond s pobočkou | v celej DB nevyraďuje, iba pre meranie vzorky |
+| X11 | (pre pilot) **mimo rozsahu vzorky**: sídlo mimo krajiny vzorky alebo iný typ investora (napr. PE vo VC pilote) | zahraničný fond s pobočkou; český buyout fond | v celej DB nevyraďuje — skutočný investor iného typu ide do svojej kategórie |
 
 **Hraničné prípady rozhodujeme konzervatívne:** pri pochybnosti záznam
 nevstúpi do databázy, ale ostane v `excluded.csv` s dôvodom. Pre klienta je

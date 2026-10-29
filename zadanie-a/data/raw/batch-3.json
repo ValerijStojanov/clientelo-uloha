@@ -1,0 +1,317 @@
+[
+{
+"name": "RSJ Investments",
+"decision": "exclude",
+"exclusion_codes": ["X6", "X8"],
+"decision_reason": "Multi-strategy group (real estate, PE, VC); its VC activity (RSJ Tech IV) is described by the manager itself as a fund of funds, direct co-investments (Pigment, Moonpay, Manta) are undated and no independent dated direct deal in the 24-month window was found.",
+"type": "FoF", "subtype": null, "type_secondary": null,
+"confidence": "medium",
+"fields": {
+"legal_name": {"value": "RSJ Investments investiční společnost a.s.", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05357225", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"obchodniJmeno\":\"RSJ Investments investiční společnost a.s.\""}]},
+"registry_id": {"value": "05357225", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05357225", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"ico\":\"05357225\""}]},
+"hq_city": {"value": "Praha", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/05357225", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "Na Florenci 2116/15, Nové Město, 11000 Praha 1"}]},
+"website": {"value": "https://www.rsj.com", "basis": "stated", "src": [{"url": "https://www.rsj.com/en/investments/investments/Tech%20IV", "publisher": "RSJ (own site)", "published": null, "retrieved": "2026-10-29", "quote": "RSJ Tech's strategy operates as a fund of funds."}]},
+"sectors": {"value": null, "basis": "not_public", "src": []},
+"stages": {"value": ["pre-seed", "seed", "A"], "raw": "Investment focus within the Pre-Seed to Series A rounds (stage focus of the underlying VC funds RSJ Tech IV backs)", "basis": "stated", "src": [{"url": "https://www.rsj.com/en/investments/investments/Tech%20IV", "publisher": "RSJ (own site)", "published": null, "retrieved": "2026-10-29", "quote": "Investment focus within the Pre-Seed to Series A rounds."}]},
+"ticket": {"value": null, "basis": "not_public", "derivation": null, "src": []},
+"capital": {"value": null, "measure": null, "as_of": null, "basis": "not_public", "src": []},
+"last_investment": {"value": null, "basis": "not_public", "src": []},
+"independent_deal_evidence": {"value": null, "basis": "not_public", "src": []}
+},
+"open_questions": "RSJ's own page says co-investments in Pigment, Moonpay, Manta but gives no dates; Pigment's Oct 2026 Series E coverage seen in search results (search snippets only) lists other investors, not RSJ. AUM not stated on rsj.com/investments page. Share of VC within the group vs real estate not quantified. Legal entity shown is the manager; fund vehicle RSJ Investments SICAV a.s. (IČO 24704415) is subordinate (X10)."
+},
+{
+"name": "Thein",
+"decision": "exclude",
+"exclusion_codes": ["X11"],
+"decision_reason": "Real investor, wrong type for VC sample: PE (LBO/growth capital in industry and IT/cybersecurity buyouts, e.g. Your System Jun 2024). X11 used as sample-scope code (PE is out of the VC sample, not a quality exclusion).",
+"type": "PE", "subtype": "buyout", "type_secondary": "growth",
+"confidence": "medium",
+"fields": {
+"legal_name": {"value": "Thein Investments a.s.", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08839042", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"obchodniJmeno\":\"Thein Investments a.s.\""}]},
+"registry_id": {"value": "08839042", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08839042", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"ico\":\"08839042\""}]},
+"hq_city": {"value": "Praha", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08839042", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "V parku 2308/8, Chodov, 14800 Praha 4"}]},
+"website": {"value": "https://www.thein.eu", "basis": "stated", "src": [{"url": "https://cvca.cz/en/thein-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "www.thein.eu"}]},
+"sectors": {"value": ["industry", "security", "software"], "raw": "industry, railway industry, IT infrastructure, cybersecurity", "basis": "stated", "src": [{"url": "https://cvca.cz/en/thein-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "industry, railway industry, IT infrastructure, cybersecurity"}]},
+"stages": {"value": ["buyout", "growth"], "raw": "LBO, Growth capital", "basis": "stated", "src": [{"url": "https://cvca.cz/en/thein-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "LBO, Growth capital"}]},
+"ticket": {"value": {"min": 1000000, "max": 5000000, "currency": "EUR"}, "basis": "stated", "derivation": null, "src": [{"url": "https://cvca.cz/en/thein-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "EUR 1-5 million in equity"}]},
+"capital": {"value": {"amount": 40000000, "currency": "EUR"}, "measure": "volume of funds managed (self-reported in CVCA profile)", "as_of": null, "basis": "stated", "src": [{"url": "https://cvca.cz/en/thein-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "Volume of Funds Managed EUR 40 million"}]},
+"last_investment": {"value": {"company": "Your System", "date": "2024-06-20", "round": "acquisition (announced; subject to ÚOHS approval)"}, "basis": "media", "src": [{"url": "https://cc.cz/live/skupina-thein-koupila-firmu-your-system-poskytuje-it-verejnemu-sektoru/", "publisher": "CzechCrunch", "published": "2024-06-20", "retrieved": "2026-10-29", "quote": "Investiční skupina Thein bývalého generálního ředitele O2 Tomáše Budníka koupila firmu Your System, která poskytuje IT služby zejména veřejnému sektoru."}]},
+"independent_deal_evidence": {"value": {"company": "Top Alulit", "date": "2024-01-16"}, "basis": "media", "src": [{"url": "https://cc.cz/investicni-skupina-thein-nekdejsiho-kellnerova-manazera-koupila-benesovskou-slevarnu-top-alulit/", "publisher": "CzechCrunch", "published": "2024-01-16", "retrieved": "2026-10-29", "quote": "Investiční skupina Thein koupila benešovskou slévárnu Top Alulit"}]}
+},
+"open_questions": "No Thein transaction after Jun 2024 found (within the 36-month PE window anyway). A Forbes.cz headline (seen via WebFetch, article body unavailable, undated) says the Thein Industry branch lost its investment-fund status. Domain www.thein.eu did not resolve on 2026-10-29 and thein.cz is a parked page; CVCA figures undated. Legal entity chosen is the group holding; Thein Private Equity SICAV a.s. (IČO 11733861) is the fund vehicle. ČNB register not checked."
+},
+{
+"name": "Inven Capital (ČEZ)",
+"decision": "include",
+"exclusion_codes": [],
+"decision_reason": "Corporate VC fund of ČEZ group (EIB co-investor); co-led Wint Series D (Sep 2026) and Andercore Series B (Feb 2026), both independently documented inside the 24-month window.",
+"type": "VC", "subtype": "cvc", "type_secondary": null,
+"confidence": "high",
+"fields": {
+"legal_name": {"value": "Inven Capital, SICAV, a.s.", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02059533", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"obchodniJmeno\":\"Inven Capital, SICAV, a.s.\""}]},
+"registry_id": {"value": "02059533", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02059533", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"ico\":\"02059533\""}]},
+"hq_city": {"value": "Praha", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02059533", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "Pod křížkem 1773/2, Braník, 14700 Praha 4"}]},
+"website": {"value": "https://www.invencapital.cz/", "basis": "stated", "src": [{"url": "https://www.invencapital.cz/", "publisher": "Inven Capital (own site)", "published": null, "retrieved": "2026-10-29", "quote": "As a venture capital fund we invest EUR 500m from institutional investors and global corporates"}]},
+"sectors": {"value": ["energy_climate"], "raw": "Climate tech", "basis": "stated", "src": [{"url": "https://www.invencapital.cz/", "publisher": "Inven Capital (own site)", "published": null, "retrieved": "2026-10-29", "quote": "Topic Climate tech Geography Europe and Israel Ticket size 2-30m EUR"}]},
+"stages": {"value": ["A", "B+", "growth"], "raw": "main focus late growth phase (EIB: 'späten Wachstumsphase'); recent rounds Series A (Ember), Series B (Andercore), Series D (Wint)", "basis": "media", "src": [{"url": "https://www.eib.org/de/press/all/2023-047-expanding-strategic-partnership-eib-supports-investments-in-climate-friendly-startups-providing-a-further-eur50-million-to-the-czech-fund-inven-capital", "publisher": "European Investment Bank", "published": "2023-02-08", "retrieved": "2026-10-29", "quote": "Inven beteiligt sich hauptsächlich in der späten Wachstumsphase"}, {"url": "https://www.invencapital.cz/", "publisher": "Inven Capital (own site)", "published": null, "retrieved": "2026-10-29", "quote": "Inven co-leads $40M Series B in Andercore"}]},
+"ticket": {"value": {"min": 2000000, "max": 30000000, "currency": "EUR"}, "basis": "stated", "derivation": null, "src": [{"url": "https://www.invencapital.cz/", "publisher": "Inven Capital (own site)", "published": null, "retrieved": "2026-10-29", "quote": "Ticket size 2-30m EUR"}]},
+"capital": {"value": {"amount": 500000000, "currency": "EUR"}, "measure": "total assets managed by Inven Capital across vehicles (EIB 2023 statement); EIB also states >EUR 260m currently available for new investments (2022-2027 period)", "as_of": "2023-02", "basis": "stated", "src": [{"url": "https://www.eib.org/de/press/all/2023-047-expanding-strategic-partnership-eib-supports-investments-in-climate-friendly-startups-providing-a-further-eur50-million-to-the-czech-fund-inven-capital", "publisher": "European Investment Bank", "published": "2023-02-08", "retrieved": "2026-10-29", "quote": "Inven Capital verwaltet nunmehr ein Gesamtvermögen von mehr als 500 Millionen Euro"}, {"url": "https://www.invencapital.cz/", "publisher": "Inven Capital (own site, undated)", "published": null, "retrieved": "2026-10-29", "quote": "As a venture capital fund we invest EUR 500m from institutional investors and global corporates"}]},
+"last_investment": {"value": {"company": "Wint", "date": "2026-09-09", "round": "Series D (co-lead with LIP Ventures)"}, "basis": "portfolio_pr", "src": [{"url": "https://www.prnewswire.com/il/news-releases/wint-raises-36-million-in-series-d-funding-to-scale-ai-powered-water-intelligence-globally-302873443.html", "publisher": "PR Newswire (Wint press release)", "published": "2026-09-09", "retrieved": "2026-10-29", "quote": "announced it has raised $36 million in Series D funding co-led by LIP Ventures and Inven Capital"}, {"url": "https://theaiinsider.tech/2026/09/11/wint-raises-36m-in-series-d-funding-to-scale-ai-powered-water-intelligence-globally/", "publisher": "The AI Insider", "published": "2026-09-11", "retrieved": "2026-10-29", "quote": "raised $36 million in Series D funding co-led by LIP Ventures and Inven Capital"}]},
+"independent_deal_evidence": {"value": {"company": "Andercore", "date": "2026-02-11"}, "basis": "media", "src": [{"url": "https://www.ypog.law/en/press/ypog-advises-atomico-and-project-a-on-usd-40-million-series-b-financing-round-of-andercore", "publisher": "YPOG (law firm press release)", "published": "2026-02-11", "retrieved": "2026-10-29", "quote": "In addition to Atomico and Project A, participants in the round included Inven Capital"}]}
+},
+"open_questions": "Fund size: investor says EUR 500m, EIB (Feb 2023) says >EUR 500m total managed but only >EUR 260m available for new deals; a CzechCrunch snippet cited EUR 430m (search snippet only, not fetched). Capital figure is therefore self-reported/EIB-corroborated, as_of Feb 2023. Stage labels derived from recent round names; investor states no explicit stage list."
+},
+{
+"name": "Y Soft Ventures",
+"decision": "include",
+"exclusion_codes": [],
+"decision_reason": "Corporate VC platform of Y Soft (Brno) with external investors; participated in RoboTwin pre-seed (announced 2025-07-02), inside the 24-month window. Borderline: company says it is moving from investment phase to exits.",
+"type": "VC", "subtype": "cvc", "type_secondary": null,
+"confidence": "medium",
+"fields": {
+"legal_name": {"value": "Y Soft Ventures Management, a.s.", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04504593", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"obchodniJmeno\":\"Y Soft Ventures Management, a.s.\""}]},
+"registry_id": {"value": "04504593", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04504593", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"ico\":\"04504593\""}]},
+"hq_city": {"value": "Brno", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/04504593", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "Technická 2948/13, Královo Pole, 61600 Brno"}]},
+"website": {"value": "https://www.ysoft.com/ventures", "basis": "stated", "src": [{"url": "https://ysoftventures.com", "publisher": "Y Soft Ventures (own site; redirects to https://www.ysoft.com/ventures)", "published": null, "retrieved": "2026-10-29", "quote": "We invest in the people who build innovative B2B tech startups in Central and Eastern Europe."}]},
+"sectors": {"value": ["software", "deeptech"], "raw": "B2B tech startups; hardware and software; Internet of Things", "basis": "stated", "src": [{"url": "https://ysoftventures.com", "publisher": "Y Soft Ventures (own site)", "published": null, "retrieved": "2026-10-29", "quote": "The Internet of Things (IoT) represents the focal point of our investment strategy."}]},
+"stages": {"value": ["pre-seed", "seed"], "raw": "early-stage technology startups (mapping to pre-seed/seed is mine; RoboTwin deal was pre-seed)", "basis": "stated", "src": [{"url": "https://ysoftventures.com", "publisher": "Y Soft Ventures (own site)", "published": null, "retrieved": "2026-10-29", "quote": "we support early-stage technology startups or any other startup that can benefit from our expertise and know-how"}]},
+"ticket": {"value": null, "basis": "not_public", "derivation": null, "src": []},
+"capital": {"value": null, "measure": null, "as_of": null, "basis": "not_public", "src": []},
+"last_investment": {"value": {"company": "RoboTwin", "date": "2025-07-02", "round": "pre-seed (EUR 1.25M round)"}, "basis": "portfolio_pr", "src": [{"url": "https://eitjumpstarter.eu/robotwin-secures-1-million-eur/", "publisher": "EIT Jumpstarter (RoboTwin announcement)", "published": "2025-07-02", "retrieved": "2026-10-29", "quote": "The funding from European Institute of Innovation and Technology, BD Partners, Y Soft Ventures and Jörg Rupp will fuel"}]},
+"independent_deal_evidence": {"value": {"company": "RoboTwin", "date": "2025-07-02"}, "basis": "portfolio_pr", "src": [{"url": "https://eitjumpstarter.eu/robotwin-secures-1-million-eur/", "publisher": "EIT Jumpstarter (RoboTwin announcement)", "published": "2025-07-02", "retrieved": "2026-10-29", "quote": "has secured €1.25 million in pre-seed"}]}
+},
+"open_questions": "Y Soft's 30 Jun 2025 news release says YSV is moving from its investment phase to executing first exits and the role is mostly portfolio management; only one in-window deal (RoboTwin) found; unknown whether it was new or follow-on. Which ARES entity is the manager vs fund vehicles (Y Soft Ventures, a.s. 29314445; Y Soft Ventures II, a.s. 07890150) not verified - 'Management' entity chosen by name. Ticket and fund size not found on current sources (2019 CzechCrunch article gives none)."
+},
+{
+"name": "KB SmartSolutions",
+"decision": "exclude",
+"exclusion_codes": ["X8"],
+"decision_reason": "Bank-owned strategic fintech vehicle; only in-window events found are buying out remaining minority holders of already-controlled Upvest (Aug 2025) and selling its Roger stake (Jan 2025); a Jul 2025 Finbricks round appears only on an aggregator. No verified new minority VC investment in the window - conservative exclude.",
+"type": "VC", "subtype": "cvc", "type_secondary": null,
+"confidence": "medium",
+"fields": {
+"legal_name": {"value": "KB SmartSolutions, s.r.o.", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02021161", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"obchodniJmeno\":\"KB SmartSolutions, s.r.o.\""}]},
+"registry_id": {"value": "02021161", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02021161", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"ico\":\"02021161\""}]},
+"hq_city": {"value": "Praha", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/02021161", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "Václavské náměstí 796/42, Nové Město, 11000 Praha 1"}]},
+"website": {"value": "https://www.kbsmart.cz/en/", "basis": "stated", "src": [{"url": "https://www.kbsmart.cz/en/", "publisher": "KB SmartSolutions (own site; fetched page returned almost no text)", "published": null, "retrieved": "2026-10-29", "quote": null}]},
+"sectors": {"value": ["fintech"], "raw": "blending the best of fintechs and traditional bank to build financial services of the future", "basis": "stated", "src": [{"url": "https://czechstartups.gov.cz/investori_en/kb-smartsolutions/", "publisher": "CzechStartups.gov.cz investor profile", "published": null, "retrieved": "2026-10-29", "quote": "KB SmartSolutions is a subsidiary of Komerční Banka."}]},
+"stages": {"value": null, "basis": "not_public", "src": []},
+"ticket": {"value": null, "basis": "not_public", "derivation": null, "src": []},
+"capital": {"value": null, "measure": null, "as_of": null, "basis": "not_public", "src": []},
+"last_investment": {"value": {"company": "upvest", "date": "2025-08-26", "round": "purchase of remaining minority shares (to 100% ownership)"}, "basis": "media", "src": [{"url": "https://www.twobirds.com/en/news-and-deals/2025/czech-republic/bird-and-bird-assists-kb-smartsolutions-with-its-strategic-investment", "publisher": "Bird & Bird (law firm news item)", "published": "2025-08-26", "retrieved": "2026-10-29", "quote": "has assisted KB SmartSolutions, s.r.o. with acquiring full ownership of upvest s.r.o. by purchasing the minority shares held by its existing owners."}]},
+"independent_deal_evidence": {"value": {"company": "Roger (minority stake SOLD, exit not investment)", "date": "2025-01-28"}, "basis": "media", "src": [{"url": "https://kb.cz/cs/o-bance/pro-investory/novinky/oznameni-o-prodeji-minoritniho-podilu-kb-smartsolutions-ve-spolecnosti-platebni-instituce-roger-a-s", "publisher": "Komerční banka (investor-relations notice)", "published": "2025-01-28", "retrieved": "2026-10-29", "quote": "Oznámení o prodeji minoritního podílu KB SmartSolutions ve společnosti Platební instituce Roger a.s."}]}
+},
+"open_questions": "Finbricks round dated July 2025 with KB SmartSolutions as lead appears only in a search-result summary of Caplight (aggregator, not fetched) and was not confirmed; if confirmed by a primary source, the exclusion should be revisited. Earlier fintech investments (Upvest 2020, Roger 2020, Lemonero 2020) are outside the window. Website page returned almost no text, so strategy statement rests on CzechStartups profile only."
+},
+{
+"name": "Seed Starter ČS (Česká spořitelna)",
+"decision": "include",
+"exclusion_codes": [],
+"decision_reason": "Corporate VC of Česká spořitelna investing minority equity/CLA in pre-seed/seed startups; Repsense (Dec 2025) and Vestberry (Mar 2025) rounds independently reported by CzechCrunch inside the 24-month window.",
+"type": "VC", "subtype": "cvc", "type_secondary": null,
+"confidence": "high",
+"fields": {
+"legal_name": {"value": "ČS Seed Starter, a.s.", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/61058769", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"obchodniJmeno\":\"ČS Seed Starter, a.s.\""}]},
+"registry_id": {"value": "61058769", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/61058769", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"ico\":\"61058769\""}]},
+"hq_city": {"value": "Praha", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/61058769", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "Olbrachtova 1929/62, Krč, 14000 Praha 4"}]},
+"website": {"value": "https://www.seedstarter.cz", "basis": "stated", "src": [{"url": "https://www.seedstarter.cz/en/home", "publisher": "Seed Starter (own site)", "published": null, "retrieved": "2026-10-29", "quote": "Corporate Venture Capital of Česká spořitelna"}]},
+"sectors": {"value": ["fintech", "deeptech"], "raw": "technologies that help banking thrive or bring innovation to our clients; deeptech (per head of Seed Starter)", "basis": "stated", "src": [{"url": "https://www.seedstarter.cz/en/home", "publisher": "Seed Starter (own site)", "published": null, "retrieved": "2026-10-29", "quote": "investing in technologies that help banking thrive or bring innovation to our clients"}, {"url": "https://cc.cz/jejich-nastroj-havel-pomaha-i-v-nato-do-litevcu-ted-investuji-tensor-ventures-a-ceska-sporitelna/", "publisher": "CzechCrunch", "published": "2025-12-17", "retrieved": "2026-10-29", "quote": "Podle Tomáše Miloty, šéfa Seed Starteru, hledá jeho společnost deeptech startupy"}]},
+"stages": {"value": ["pre-seed", "seed"], "basis": "stated", "src": [{"url": "https://www.seedstarter.cz/en/home", "publisher": "Seed Starter (own site)", "published": null, "retrieved": "2026-10-29", "quote": "Pre-seed & Seed investment rounds Ticket size 200k – 1M EUR"}]},
+"ticket": {"value": {"min": 200000, "max": 1000000, "currency": "EUR"}, "basis": "stated", "derivation": null, "src": [{"url": "https://www.seedstarter.cz/en/home", "publisher": "Seed Starter (own site)", "published": null, "retrieved": "2026-10-29", "quote": "Pre-seed & Seed investment rounds Ticket size 200k – 1M EUR"}]},
+"capital": {"value": null, "measure": null, "as_of": null, "basis": "not_public", "src": []},
+"last_investment": {"value": {"company": "Repsense", "date": "2025-12-17", "round": null}, "basis": "media", "src": [{"url": "https://cc.cz/jejich-nastroj-havel-pomaha-i-v-nato-do-litevcu-ted-investuji-tensor-ventures-a-ceska-sporitelna/", "publisher": "CzechCrunch", "published": "2025-12-17", "retrieved": "2026-10-29", "quote": "Investiční kolo vedl český deeptech fond Tensor Ventures, přidaly se Seed Starter České spořitelny"}]},
+"independent_deal_evidence": {"value": {"company": "Vestberry", "date": "2025-03-17"}, "basis": "media", "src": [{"url": "https://cc.cz/ceska-sporitelna-chce-aby-investori-vice-vydelavali-investuje-do-slovenskeho-startupu-ktery-to-resi/", "publisher": "CzechCrunch", "published": "2025-03-17", "retrieved": "2026-10-29", "quote": "Téměř polovinu z 2,2 milionu eur posílá korporátní venture kapitálový fond Seed Starter České spořitelny"}]}
+},
+"open_questions": "Fund size / allocated capital not found (not_public). Dates are CzechCrunch publication dates, not closing dates; Repsense round label (seed) appears only on aggregators (not used); CzechCrunch gives EUR 1.1m for the round. ARES entity 'ČS Seed Starter, a.s.' matched to the programme by name only (founded 1996 so presumably a repurposed shell); verify vehicle if legal-entity precision matters."
+},
+{
+"name": "mAccelerator.vc (mBank)",
+"decision": "exclude",
+"exclusion_codes": ["X9", "X8"],
+"decision_reason": "Unverifiable and apparently inactive: only a CzechStartups portal description exists; the fund's own domain now shows a parked Polish-hosting placeholder, no portfolio or deal found; parent mBank S.A. operates in Czechia only via a branch, so HQ may also be outside CZ (X11 not confirmed).",
+"type": "VC", "subtype": "cvc", "type_secondary": null,
+"confidence": "low",
+"fields": {
+"legal_name": {"value": null, "basis": "not_public", "src": []},
+"registry_id": {"value": null, "basis": "not_public", "src": []},
+"hq_city": {"value": null, "basis": "not_public", "src": []},
+"website": {"value": "https://maccelerator.vc", "basis": "stated", "src": [{"url": "https://maccelerator.vc", "publisher": "fetched via curl: parked hosting placeholder, not the fund's content", "published": null, "retrieved": "2026-10-29", "quote": "JCHost.pl - strona w budowie"}]},
+"sectors": {"value": ["software"], "raw": "technological solutions having an impact on the digital economy", "basis": "stated", "src": [{"url": "https://czechstartups.gov.cz/investori_en/maccelerator-vc/", "publisher": "CzechStartups.gov.cz investor profile", "published": null, "retrieved": "2026-10-29", "quote": "The fund is focused on early-stage startups in the seed phase that create technological solutions having an impact on the digital economy."}]},
+"stages": {"value": ["seed"], "basis": "stated", "src": [{"url": "https://czechstartups.gov.cz/investori_en/maccelerator-vc/", "publisher": "CzechStartups.gov.cz investor profile", "published": null, "retrieved": "2026-10-29", "quote": "mAccelerator.vc is a venture-capital fund under the auspices of mBank."}]},
+"ticket": {"value": null, "basis": "not_public", "derivation": null, "src": []},
+"capital": {"value": null, "measure": null, "as_of": null, "basis": "not_public", "src": []},
+"last_investment": {"value": null, "basis": "not_public", "src": []},
+"independent_deal_evidence": {"value": null, "basis": "not_public", "src": []}
+},
+"open_questions": "No ARES entity named mAccelerator found (ARES lists only 'mBank S.A., organizační složka', IČO 27943445, Praha). maccelerator.vc/portfolio returned 404 and the homepage a hosting placeholder; web.archive.org was blocked in this environment; web search quota ran out before this candidate was researched, so no media check was done. Could be a Polish mBank programme (HQ Poland) - unconfirmed."
+},
+{
+"name": "Genesis Capital",
+"decision": "exclude",
+"exclusion_codes": ["X11"],
+"decision_reason": "Real investor, wrong type for VC sample: PE manager (buyouts, EUR 10-35m equity tickets; Slevomat majority acquisition Nov 2025). X11 used as sample-scope code.",
+"type": "PE", "subtype": "buyout", "type_secondary": "growth",
+"confidence": "high",
+"fields": {
+"legal_name": {"value": "Genesis Capital Equity s.r.o.", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/25795856", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"obchodniJmeno\":\"Genesis Capital Equity s.r.o.\""}]},
+"registry_id": {"value": "25795856", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/25795856", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"ico\":\"25795856\""}]},
+"hq_city": {"value": "Praha", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/25795856", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "Na Šafránce 1802/22, Vinohrady, 10100 Praha 10"}]},
+"website": {"value": "https://www.genesis.cz", "basis": "stated", "src": [{"url": "https://cvca.cz/en/genesis-capital-equity-s-r-o-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "www.genesis.cz"}]},
+"sectors": {"value": ["industry"], "raw": "Business and Industrial Products and Services", "basis": "stated", "src": [{"url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf", "publisher": "European Investment Fund (fund manager list as at 30 Sep 2026)", "published": "2026-09-30", "retrieved": "2026-10-29", "quote": "Genesis Private Equity Fund V SCSp Genesis Capital Equity s.r.o. Czech Republic"}]},
+"stages": {"value": ["buyout", "growth"], "raw": "corporate acquisitions, management buyouts, sector consolidation, growth capital, secondary buyouts", "basis": "stated", "src": [{"url": "https://cvca.cz/en/genesis-capital-equity-s-r-o-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "corporate acquisitions, management buyouts, sector consolidation, growth capital, secondary buyouts"}]},
+"ticket": {"value": {"min": 10000000, "max": 35000000, "currency": "EUR"}, "basis": "stated", "derivation": null, "src": [{"url": "https://cvca.cz/en/genesis-capital-equity-s-r-o-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "EUR 10 – 35 million (equity ticket)"}]},
+"capital": {"value": {"amount": 500000000, "currency": "EUR"}, "measure": "volume of funds managed (self-reported in CVCA profile)", "as_of": null, "basis": "stated", "src": [{"url": "https://cvca.cz/en/genesis-capital-equity-s-r-o-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "Volume of Funds Managed EUR 500 million"}]},
+"last_investment": {"value": {"company": "Slevomat", "date": "2025-11-21", "round": "majority acquisition (date = CzechCrunch report)"}, "basis": "media", "src": [{"url": "https://cc.cz/pro-brity-byl-zlate-vejce-slevomat-priblizil-detaily-jak-se-miliardovy-byznys-vraci-do-ceskych-rukou/", "publisher": "CzechCrunch", "published": "2025-11-21", "retrieved": "2026-10-29", "quote": "majoritně jej bude vlastnit fond Genesis Capital, menší podíly získá i management firmy"}]},
+"independent_deal_evidence": {"value": {"company": "PFX", "date": "2023-10-03"}, "basis": "media", "src": [{"url": "https://cc.cz/cesti-genesis-capital-vstupuji-do-mistni-firmy-ktera-tvorila-efekty-pro-stranger-things/", "publisher": "CzechCrunch", "published": "2023-10-03", "retrieved": "2026-10-29", "quote": "Čeští Genesis Capital vstupují do místní firmy, která tvořila efekty pro Stranger Things"}]}
+},
+"open_questions": "Fund and ticket figures are CVCA self-reported and undated. A newstream.cz piece (2024-06-12) names a 'Genesis Growth Equity Fund' managed by CVCA chair Jiří Beneš - relation to Genesis Capital Equity (and to Stratum Partners, which lists Beneš as managing partner) not established."
+},
+{
+"name": "ARX Equity Partners",
+"decision": "exclude",
+"exclusion_codes": ["X11"],
+"decision_reason": "Real investor, wrong type for VC sample: growth-oriented buyout PE firm (majority stakes, EUR 5-50m transactions). X11 used as sample-scope code.",
+"type": "PE", "subtype": "buyout", "type_secondary": "growth",
+"confidence": "medium",
+"fields": {
+"legal_name": {"value": "Arx Equity Partners s.r.o.", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/64943356", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"obchodniJmeno\":\"Arx Equity Partners s.r.o.\""}]},
+"registry_id": {"value": "64943356", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/64943356", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"ico\":\"64943356\""}]},
+"hq_city": {"value": "Praha", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/64943356", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "28. října 767/12, Nové Město, 11000 Praha 1"}]},
+"website": {"value": "https://www.arxequity.com", "basis": "stated", "src": [{"url": "https://www.arxequity.com/", "publisher": "ARX (own site)", "published": null, "retrieved": "2026-10-29", "quote": "We are proud of our 20-year track record building great companies in successful partnerships with business owners and managers"}]},
+"sectors": {"value": ["generalist"], "raw": "Generalist", "basis": "stated", "src": [{"url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf", "publisher": "European Investment Fund (fund manager list as at 30 Sep 2026)", "published": "2026-09-30", "retrieved": "2026-10-29", "quote": "Multi-Country Private Equity Generalist Growth-Oriented Buyout Fund"}]},
+"stages": {"value": ["buyout", "growth"], "raw": "acquisitions, management buyout (MBO & MBI), expansion capital, sector consolidation", "basis": "stated", "src": [{"url": "https://cvca.cz/en/arx-equity-partners-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "acquisitions, management buyout (MBO & MBI), expansion capital, sector consolidation"}]},
+"ticket": {"value": {"min": 5000000, "max": 50000000, "currency": "EUR"}, "basis": "stated", "derivation": "CVCA gives total transaction size, not the equity ticket", "src": [{"url": "https://cvca.cz/en/arx-equity-partners-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "EUR 5 – 50 million (total transaction)"}]},
+"capital": {"value": {"amount": 300000000, "currency": "EUR"}, "measure": "volume of funds managed (self-reported in CVCA profile)", "as_of": null, "basis": "stated", "src": [{"url": "https://cvca.cz/en/arx-equity-partners-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "Volume of Funds Managed EUR 300 million"}]},
+"last_investment": {"value": {"company": "Medicofit", "date": "2026-08-26", "round": "majority stake"}, "basis": "investor_site", "src": [{"url": "https://www.arxequity.com/", "publisher": "ARX (own site news list)", "published": "2026-08-26", "retrieved": "2026-10-29", "quote": "ARX Equity Partners Acquires Majority Stake in Medicofit, Slovenia’s Leading Private Physiotherapy Provider"}]},
+"independent_deal_evidence": {"value": {"company": "TES Vsetín (EXIT, not a new investment)", "date": "2024-06-12"}, "basis": "media", "src": [{"url": "https://www.newstream.cz/money/nejlepsi-firmy-roku-2024-z-private-equity-a-venture-kapitalu-v-cesku-prevzaly-sve-ceny", "publisher": "Newstream.cz", "published": "2024-06-12", "retrieved": "2026-10-29", "quote": "o jeden jediný hlas zvítězil exit společnosti TES Vsetín fondem ARX Equity Partners"}]}
+},
+"open_questions": "No independent source found for the 2026 acquisitions (HLB PROXY 2026-01-30, Direct4me 2026-03-17, Medicofit 2026-08-26 - all seen only on ARX's own site); the only independent dated item is an exit (TES Vsetín, via CVCA award coverage). Fund/ticket numbers CVCA self-reported and undated. The EIF list (fetched) confirms fund ARX CE V with investment period to 16/09/2029."
+},
+{
+"name": "EVERITA Capital",
+"decision": "exclude",
+"exclusion_codes": ["X11"],
+"decision_reason": "Real investor, wrong type for VC sample: lower-mid-market PE growth capital; the firm states it does not finance seed, start-up or venture projects. X11 used as sample-scope code.",
+"type": "PE", "subtype": "growth", "type_secondary": null,
+"confidence": "medium",
+"fields": {
+"legal_name": {"value": "EVERITA Capital s.r.o.", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19067097", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"obchodniJmeno\":\"EVERITA Capital s.r.o.\""}]},
+"registry_id": {"value": "19067097", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19067097", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"ico\":\"19067097\""}]},
+"hq_city": {"value": "Praha", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/19067097", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "Na Florenci 2116/15, Nové Město, 11000 Praha 1"}]},
+"website": {"value": "https://everitacap.com", "basis": "stated", "src": [{"url": "https://everitacap.com/", "publisher": "EVERITA Capital (own site)", "published": null, "retrieved": "2026-10-29", "quote": "We do not finance turnaround situations, seed, start-up or venture projects."}]},
+"sectors": {"value": ["health", "edtech", "agri_food", "industry"], "raw": "Healthcare, education, food production, specialty manufacturing a business services", "basis": "stated", "src": [{"url": "https://cvca.cz/en/everita-capital-en/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "Healthcare, education, food production, specialty manufacturing a business services"}]},
+"stages": {"value": ["growth"], "raw": "Private Equity - growth capital; lower-mid market", "basis": "stated", "src": [{"url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf", "publisher": "European Investment Fund (fund manager list as at 30 Sep 2026)", "published": "2026-09-30", "retrieved": "2026-10-29", "quote": "Multi-Country Private Equity Generalist Lower-Mid Market Fund"}]},
+"ticket": {"value": {"min": 2000000, "max": 5000000, "currency": "EUR"}, "basis": "stated", "derivation": null, "src": [{"url": "https://everitacap.com/", "publisher": "EVERITA Capital (own site)", "published": null, "retrieved": "2026-10-29", "quote": "€2–5m Equity investment Equity ticket per transaction, in minority or majority stakes."}]},
+"capital": {"value": {"amount": 40000000, "currency": "EUR"}, "measure": "TARGET fund size (EVERITA Fund I), not closed amount; EIF approved a EUR 20m commitment", "as_of": "2024-12", "basis": "stated", "src": [{"url": "https://cvca.cz/en/everita-capital-en/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "Target fund size 40m EUR"}, {"url": "https://everitacap.com/news/european-investment-fund-approves-eur-20-million-investment-in-everita-fund", "publisher": "EVERITA Capital (own site)", "published": "2024-12-27", "retrieved": "2026-10-29", "quote": "European Investment Fund approves a EUR 20 million investment in EVERITA Fund"}]},
+"last_investment": {"value": {"company": "CLINTRIAL", "date": "2026-08-31", "round": "majority stake with co-investors"}, "basis": "investor_site", "src": [{"url": "https://everitacap.com/news/everita-capital-vstupuje-do-spolecnosti-clintrial-a-podpori-rozvoj-klinickych-hodnoceni-v-cr", "publisher": "EVERITA Capital (own site)", "published": "2026-08-31", "retrieved": "2026-10-29", "quote": "has acquired, together with co-investors, a majority stake in CLINTRIAL s.r.o."}]},
+"independent_deal_evidence": {"value": null, "basis": "not_public", "src": []}
+},
+"open_questions": "No independent (non-EVERITA) source for the Clintrial / Pekarna Hrstić deals found; independent confirmation limited to the EIF fund-manager list (fund exists, investment period to 23/09/2030). Fund size is a target, not a closed figure."
+},
+{
+"name": "Orbit Capital (OGD Advisory)",
+"decision": "exclude",
+"exclusion_codes": ["X5", "X8"],
+"decision_reason": "Primarily venture/growth debt (Orbit Growth Debt II is an EIF private-credit fund; venture debt out of scope in v1). Its smaller Growth Equity fund made four equity investments in total; the latest equity deal found (CloudTalk, Jan 2024) predates the activity window.",
+"type": "venture_debt", "subtype": null, "type_secondary": "VC",
+"confidence": "medium",
+"fields": {
+"legal_name": {"value": "ORBIT Capital GP s.r.o.", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08319961", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"obchodniJmeno\":\"ORBIT Capital GP s.r.o.\""}]},
+"registry_id": {"value": "08319961", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08319961", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"ico\":\"08319961\""}]},
+"hq_city": {"value": "Praha", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/08319961", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "Thámova 289/13, Karlín, 18600 Praha 8"}]},
+"website": {"value": "https://orbitcapital.com/", "basis": "stated", "src": [{"url": "https://orbitcapital.com/", "publisher": "Orbit Capital (own site)", "published": null, "retrieved": "2026-10-29", "quote": "Orbit Capital Growth Equity Growth Debt"}]},
+"sectors": {"value": ["software"], "raw": "Technology and technology-enabled scale-ups", "basis": "stated", "src": [{"url": "https://cvca.cz/en/orbit-capital-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "Technology and technology-enabled scale-ups"}]},
+"stages": {"value": ["growth"], "raw": "Growth equity and venture debt", "basis": "stated", "src": [{"url": "https://cvca.cz/en/orbit-capital-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "Growth equity and venture debt"}]},
+"ticket": {"value": {"min": 6000000, "max": 15000000, "currency": "EUR"}, "basis": "stated", "derivation": "growth-equity ticket per CVCA; venture-debt ticket stated as EUR 2-6 million", "src": [{"url": "https://cvca.cz/en/orbit-capital-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "Growth Equity: EUR 6 – 15 million"}]},
+"capital": {"value": {"amount": 200000000, "currency": "EUR"}, "measure": "Growth Equity 'scaling to' EUR 200m per CVCA (same profile: Venture Debt EUR 30m) - conflicts with CzechCrunch saying Growth Equity is the smaller fund", "as_of": null, "basis": "stated", "src": [{"url": "https://cvca.cz/en/orbit-capital-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "Growth Equity: Scaling to EUR 200 million"}]},
+"last_investment": {"value": {"company": "CloudTalk", "date": "2024-01-17", "round": null}, "basis": "media", "src": [{"url": "https://cc.cz/call-centra-propojuje-s-umelou-inteligenci-slovensko-cesky-cloudtalk-nabira-pres-600-milionu/", "publisher": "CzechCrunch", "published": "2024-01-17", "retrieved": "2026-10-29", "quote": "stávající investoři Point Nine Capital, henQ i čeští Presto Ventures a Orbit Capital"}]},
+"independent_deal_evidence": {"value": {"company": "CloudTalk", "date": "2024-06-12"}, "basis": "media", "src": [{"url": "https://www.newstream.cz/money/nejlepsi-firmy-roku-2024-z-private-equity-a-venture-kapitalu-v-cesku-prevzaly-sve-ceny", "publisher": "Newstream.cz", "published": "2024-06-12", "retrieved": "2026-10-29", "quote": "investovaný fondy HenQ Capital Partners B.V., KPN Ventures, Lead Ventures, Orbit Capital, Point Nine Management a Presto Ventures"}]}
+},
+"open_questions": "Business mix evidenced by CzechCrunch 2025-01-14 (https://cc.cz/ulovil-dva-ceske-jednorozce-a-radi-uverove-financovani-je-ctyrikrat-levnejsi-nez-redit-svuj-podil/): 'Pod Orbit Capitalem fungují dva fondy – menší z nich s názvem Growth Equity se zaměřuje na poskytování kapitálu klasickým způsobem, tedy výměnou za podíl' and the main focus is 'venture debt'; EIF list (fetched) classifies Orbit Growth Debt II (OGD Advisory s.r.o., ARES 22269720) as Private Debt / Private Credit Fund. CVCA fund-size figures conflict with the article. No equity deal after Jan 2024 found; web search quota ran out so a newer Growth Equity deal could have been missed - if one exists, reclassify as VC (growth) candidate. Hq/legal entity: ORBIT Capital GP s.r.o. chosen by name."
+},
+{
+"name": "Jet Investment",
+"decision": "include",
+"exclusion_codes": [],
+"decision_reason": "Brno investment group with an active VC fund (Jet Venture 1 SICAV): 11 portfolio companies, four new deals Aug-Sep 2026 (CzechCrunch 2026-09-17) and DecisionRules Jun 2026. Also runs PE and real estate; VC taken as primary because VC deals dominate the evidenced window (PE deal count not tallied).",
+"type": "VC", "subtype": "independent_vc", "type_secondary": "PE",
+"confidence": "medium",
+"fields": {
+"legal_name": {"value": "Jet Investment, a.s.", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03890333", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"obchodniJmeno\":\"Jet Investment, a.s.\""}]},
+"registry_id": {"value": "03890333", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03890333", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"ico\":\"03890333\""}]},
+"hq_city": {"value": "Brno", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/03890333", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "Pisárecká 271/13, Pisárky, 63400 Brno"}]},
+"website": {"value": "https://www.jetinvestment.cz/en", "basis": "stated", "src": [{"url": "https://www.jetinvestment.cz/en/venture-capital", "publisher": "Jet Investment (own site)", "published": null, "retrieved": "2026-10-29", "quote": "We support Central European technology start-ups that can transform entire industries."}]},
+"sectors": {"value": ["software", "ai", "deeptech", "industry"], "raw": "AI technologies for software development automation; industrial deep-tech; industrial software; decision automation, enterprise software, AI; RegTech (portfolio descriptors)", "basis": "stated", "src": [{"url": "https://www.jetinvestment.cz/en/venture-capital", "publisher": "Jet Investment (own site)", "published": null, "retrieved": "2026-10-29", "quote": "Industrial deep-tech, optical quality control in manufacturing"}]},
+"stages": {"value": null, "basis": "not_public", "src": []},
+"ticket": {"value": {"min": 1500000, "max": 2100000, "currency": "EUR"}, "basis": "derived", "derivation": "from the three EUR-denominated 2026 deals: DecisionRules EUR 1.5M, GigaScan EUR 2.1M, Phantasma Labs EUR 2.1M; USD deals (Hermetiq USD 750,000, AppNava USD 1.8M) not converted and not included in the range", "src": [{"url": "https://www.jetinvestment.cz/en/news", "publisher": "Jet Investment (own site news list)", "published": "2026-09-17", "retrieved": "2026-10-29", "quote": "Jet Investment Announces €2.1 Million Investment in Berlin AI Startup Phantasma Labs"}, {"url": "https://cc.cz/cesi-vyviji-centralni-mozek-pro-lepsi-firemni-rozhodovani-od-investoru-na-nej-maji-pres-70-milionu/", "publisher": "CzechCrunch", "published": "2026-06-23", "retrieved": "2026-10-29", "quote": "DecisionRules získává investici ve výši 1,5 milionu eur (36 milionů korun) od brněnské skupiny Jet Investment"}]},
+"capital": {"value": {"amount": 50000000, "currency": "EUR"}, "measure": "TARGET size of Jet Venture 1 fund (first close >EUR 30m available per same source); whole Jet group states EUR 700m+ AUM across PE, real estate, VC", "as_of": "2025-12", "basis": "media", "src": [{"url": "https://cc.cz/teoreticka-hodnota-nestaci-fondy-musi-investorum-vydelavat-rika-sef-fondu-jet-venture-1/", "publisher": "CzechCrunch", "published": "2025-12-18", "retrieved": "2026-10-29", "quote": "Fond Jet Venture 1 cílí na velikost padesát milionů eur (zhruba 1,2 miliardy korun)"}]},
+"last_investment": {"value": {"company": "AppNava", "date": "2026-09-17", "round": "USD 1.8M of a USD 2.3M round, Jet lead"}, "basis": "media", "src": [{"url": "https://cc.cz/brnenska-startupova-ofenziva-miliardar-igor-fait-a-spol-investovali-behem-mesice-pres-150-milionu/", "publisher": "CzechCrunch", "published": "2026-09-17", "retrieved": "2026-10-29", "quote": "Její fond Jet Venture 1 oznámil během posledního měsíce hned čtyři nové investice."}, {"url": "https://www.jetinvestment.cz/en/news", "publisher": "Jet Investment (own site news list)", "published": "2026-09-17", "retrieved": "2026-10-29", "quote": "The Jet Investment Group has made its eleventh investment through the venture capital fund Jet Venture 1 SICAV, investing $1.8 million in AppNava Inc."}]},
+"independent_deal_evidence": {"value": {"company": "DecisionRules", "date": "2026-06-23"}, "basis": "media", "src": [{"url": "https://cc.cz/cesi-vyviji-centralni-mozek-pro-lepsi-firemni-rozhodovani-od-investoru-na-nej-maji-pres-70-milionu/", "publisher": "CzechCrunch", "published": "2026-06-23", "retrieved": "2026-10-29", "quote": "Český technologický startup DecisionRules získává investici ve výši 1,5 milionu eur (36 milionů korun) od brněnské skupiny Jet Investment"}]}
+},
+"open_questions": "Stage focus not stated (null). Primary-type call (VC vs PE) rests on partial evidence: PE/real-estate activity (e.g. Náš Chléb add-on Sep 2026) not tallied against 9+ VC deals; CVCA profile (undated) describes the group as buyout/growth/rescue with EUR 290m funds and 15-80m tickets. Legal entity is the group (Jet Investment, a.s.); VC vehicle is Jet Venture 1 SICAV, a.s. (ARES 22030417, founded 2024-09-10) - X10 hierarchy decision pending. The CzechCrunch Digicust piece of 2026-01-07 is labelled Native (sponsored) and was not used as independent evidence."
+},
+{
+"name": "Stratum Partners",
+"decision": "exclude",
+"exclusion_codes": ["X11"],
+"decision_reason": "Real investor, wrong type for VC sample: Czech/Slovak growth-equity and buyout PE (EUR 2-6m tickets; majority stakes e.g. Poptávej.cz Dec 2025). X11 used as sample-scope code.",
+"type": "PE", "subtype": "growth", "type_secondary": "buyout",
+"confidence": "medium",
+"fields": {
+"legal_name": {"value": "Stratum Partners s.r.o.", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07607539", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"obchodniJmeno\":\"Stratum Partners s.r.o.\""}]},
+"registry_id": {"value": "07607539", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07607539", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "\"ico\":\"07607539\""}]},
+"hq_city": {"value": "Praha", "basis": "registry", "src": [{"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/07607539", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "Škrétova 490/12, Vinohrady, 12000 Praha 2"}]},
+"website": {"value": "https://www.stratum.eu", "basis": "stated", "src": [{"url": "https://cvca.cz/en/stratum-partners-en/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "www.stratum.eu"}]},
+"sectors": {"value": ["industry", "software"], "raw": "Value added manufacturing, technology-enabled products and services, digitalization-related business models, new energy technologies, companies providing B2B and B2C services", "basis": "stated", "src": [{"url": "https://cvca.cz/en/stratum-partners-en/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "Value added manufacturing, technology-enabled products and services, digitalization-related business models"}]},
+"stages": {"value": ["growth", "buyout"], "raw": "Growth equity investments, buyouts or recapitalization", "basis": "stated", "src": [{"url": "https://cvca.cz/en/stratum-partners-en/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "Growth equity investments, buyouts or recapitalization"}]},
+"ticket": {"value": {"min": 2000000, "max": 6000000, "currency": "EUR"}, "basis": "stated", "derivation": null, "src": [{"url": "https://cvca.cz/en/stratum-partners-en/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "EUR 2 – 6 million"}]},
+"capital": {"value": {"amount": 40000000, "currency": "EUR"}, "measure": "volume of funds managed (self-reported in CVCA profile); new Stratum II fund targets EUR 65m per stratum.eu headline", "as_of": null, "basis": "stated", "src": [{"url": "https://cvca.cz/en/stratum-partners-en/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "Volume of Funds Managed EUR 40 million"}]},
+"last_investment": {"value": {"company": "Poptávej.cz (iFORO Group, s.r.o.)", "date": "2025-12-16", "round": "majority stake via GGEF I"}, "basis": "investor_site", "src": [{"url": "https://www.stratum.eu/", "publisher": "Stratum Partners (own site news list; retrieved via WebFetch because curl was blocked)", "published": "2025-12-16", "retrieved": "2026-10-29", "quote": "GGEF I acquires majority stake in Poptávej.cz, an online digital marketplace connecting craftsmen with customers"}]},
+"independent_deal_evidence": {"value": null, "basis": "not_public", "src": []}
+},
+"open_questions": "Stratum's own site (reachable only through WebFetch) reports GGEF I deals (Poptávej.cz 2025-12-16, ELIS DESIGN 2026-04-29) and Stratum II launch (2026-07-16) but the page does not clearly say GGEF I is managed by Stratum - relation not confirmed; no independent source found. Own site states equity investments of EUR 2-10 million (WebFetch summary) vs CVCA EUR 2-6 million. CVCA figures undated."
+},
+{
+"name": "Enterprise Investors",
+"decision": "exclude",
+"exclusion_codes": ["X11"],
+"decision_reason": "Real investor, wrong type for VC sample (buyout/expansion PE) and headquartered in Warsaw, Poland, outside the sample country.",
+"type": "PE", "subtype": "buyout", "type_secondary": "growth",
+"confidence": "medium",
+"fields": {
+"legal_name": {"value": null, "basis": "not_public", "src": []},
+"registry_id": {"value": null, "basis": "not_public", "src": []},
+"hq_city": {"value": "Warsaw", "basis": "stated", "src": [{"url": "https://www.ei.com.pl/en/", "publisher": "Enterprise Investors (own site)", "published": null, "retrieved": "2026-10-29", "quote": "Varso Tower 69 Chmielna Street, 34th floor 00-801 Warsaw"}, {"url": "https://cvca.cz/en/enterprise-investors-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "69 chmielna St., 00-801 Warsaw, Poland"}]},
+"website": {"value": "https://www.ei.com.pl", "basis": "stated", "src": [{"url": "https://www.ei.com.pl/en/", "publisher": "Enterprise Investors (own site)", "published": null, "retrieved": "2026-10-29", "quote": "We are the most experienced private equity investor in Central and Eastern Europe."}]},
+"sectors": {"value": null, "basis": "not_public", "src": []},
+"stages": {"value": ["buyout", "growth"], "raw": "buyout (MBO & MBI), expansion capital", "basis": "stated", "src": [{"url": "https://cvca.cz/en/enterprise-investors-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "buyout (MBO & MBI), expansion capital"}]},
+"ticket": {"value": {"min": 20000000, "max": 50000000, "currency": "EUR"}, "basis": "stated", "derivation": null, "src": [{"url": "https://cvca.cz/en/enterprise-investors-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "EUR 20-50 million"}]},
+"capital": {"value": {"amount": 2500000000, "currency": "EUR"}, "measure": "volume of funds managed, 'over EUR 2.5 billion' (self-reported in CVCA profile)", "as_of": null, "basis": "stated", "src": [{"url": "https://cvca.cz/en/enterprise-investors-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "Volume of Funds Managed over EUR 2.5 billion"}]},
+"last_investment": {"value": {"company": "Kredito unija Saulėgrąža (Lithuania)", "date": "2026-07-01", "round": "investment"}, "basis": "investor_site", "src": [{"url": "https://www.ei.com.pl/en/", "publisher": "Enterprise Investors (own site news list)", "published": "2026-07-01", "retrieved": "2026-10-29", "quote": "Enterprise Investors returns to Lithuania with investment in Kredito unija"}]},
+"independent_deal_evidence": {"value": null, "basis": "not_public", "src": []}
+},
+"open_questions": "Polish registry (KRS) not checked, so legal name/registry id left null. No independent deal source fetched (light fill for excluded PE). Other 2026 items on own site: Art Wind majority investment 2026-03-16."
+},
+{
+"name": "Mid Europa Partners",
+"decision": "exclude",
+"exclusion_codes": ["X11"],
+"decision_reason": "Real investor, wrong type for VC sample (large-cap buyout PE, EUR 50-300m equity cheques) and headquartered in London, outside the sample country.",
+"type": "PE", "subtype": "buyout", "type_secondary": "growth",
+"confidence": "medium",
+"fields": {
+"legal_name": {"value": null, "basis": "not_public", "src": []},
+"registry_id": {"value": null, "basis": "not_public", "src": []},
+"hq_city": {"value": "London", "basis": "stated", "src": [{"url": "https://cvca.cz/en/mid-europa-partners-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "South West House 11a Regent Street London SW1Y 4LR"}, {"url": "https://mideuropa.com/offices/", "publisher": "MidEuropa (own site)", "published": null, "retrieved": "2026-10-29", "quote": "London MidEuropa LLP 50 Queen Anne Street London W1G 8HJ United Kingdom"}]},
+"website": {"value": "https://mideuropa.com", "basis": "stated", "src": [{"url": "https://mideuropa.com/", "publisher": "MidEuropa (own site)", "published": null, "retrieved": "2026-10-29", "quote": "WE ARE A LEADING EUROPEAN PRIVATE EQUITY INVESTOR WITH DEEP ROOTS IN CENTRAL EUROPE"}]},
+"sectors": {"value": ["consumer", "health", "software", "fintech", "mobility"], "raw": "consumer, retail, health services and pharmacy, technology, media & communications, business services, financial services, transport and logistics", "basis": "stated", "src": [{"url": "https://cvca.cz/en/mid-europa-partners-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "consumer, retail, health services and pharmacy, technology, media & communications, business services, financial services, transport and logistics"}]},
+"stages": {"value": ["buyout", "growth"], "raw": "acquisitions, management buyouts (MBO & MBI), expansion financing, industry consolidation", "basis": "stated", "src": [{"url": "https://cvca.cz/en/mid-europa-partners-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "acquisitions, management buyouts (MBO & MBI), expansion financing, industry consolidation"}]},
+"ticket": {"value": {"min": 50000000, "max": 300000000, "currency": "EUR"}, "basis": "stated", "derivation": "own site states equity of EUR 50m-300m; CVCA profile says 50-200 million", "src": [{"url": "https://mideuropa.com/", "publisher": "MidEuropa (own site)", "published": null, "retrieved": "2026-10-29", "quote": "Investing €50m-€300m of equity in established and growing businesses"}]},
+"capital": {"value": {"amount": 5200000000, "currency": "EUR"}, "measure": "volume of funds managed (self-reported in CVCA profile)", "as_of": null, "basis": "stated", "src": [{"url": "https://cvca.cz/en/mid-europa-partners-2/", "publisher": "CVCA member profile", "published": null, "retrieved": "2026-10-29", "quote": "Volume of Funds Managed 5,2 miliardy EUR"}]},
+"last_investment": {"value": {"company": "ÚRS construction software platform (from DEK Group)", "date": "2026-07-27", "round": "acquisition"}, "basis": "investor_site", "src": [{"url": "https://mideuropa.com/news/mideuropa-acquires-leading-construction-software-platform-in-the-czech-republic/", "publisher": "MidEuropa (own site)", "published": "2026-07-27", "retrieved": "2026-10-29", "quote": "today announced the acquisition of the Czech Republic’s leading construction software platform from DEK Group"}]},
+"independent_deal_evidence": {"value": null, "basis": "not_public", "src": []}
+},
+"open_questions": "Registry id/legal entity not looked up (non-Czech HQ; MidEuropa Fund Management is Luxembourg-based per offices page). CVCA lists a Prague contact only via its member profile. No independent deal source fetched (light fill for excluded PE); the platform name 'ÚRS' comes from a truncated own-site sentence."
+}
+]
