@@ -1,0 +1,5 @@
+node_modules/
+.vercel/
+.env*
+zadanie-b/server-data/
+*.log
