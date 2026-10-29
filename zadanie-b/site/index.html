@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Poplatkoměr – kolik vás stojí poplatky za investování</title>
-<meta name="description" content="Spočítejte si, kolik vám za 20 let vezmou poplatky. Srovnání 12 nejoblíbenějších ETF z NYSE a jejich evropských dvojčat, která v Česku opravdu koupíte.">
+<meta name="description" content="Spočítejte si, kolik vám za 20 let vezmou poplatky. Srovnání 12 populárních ETF z NYSE a jejich evropských dvojčat, která mají KID a koupíte je v EU.">
 <meta name="theme-color" content="#FFD400">
 <meta property="og:title" content="Kolik vám za 20 let sežerou poplatky?">
 <meta property="og:description" content="Kalkulačka + srovnání 12 ETF z NYSE a jejich evropských dvojčat.">
@@ -39,19 +39,19 @@
       <p class="lead">Posuňte, kolik investujete měsíčně, a uvidíte rozdíl mezi ETF a fondem z banky.</p>
     </div>
     <div class="only-b">
-      <h1>VOO si v&nbsp;Česku nekoupíte. Jeho dvojče ano.</h1>
-      <p class="lead">Americká ETF z NYSE jsou pro drobné investory v EU zablokovaná. Evropská verze sleduje stejný index za stejně nízký poplatek.</p>
+      <h1>VOO vám většina brokerů neprodá. Jeho dvojče ano.</h1>
+      <p class="lead">Americká ETF z NYSE nemají dokument KID, který EU vyžaduje. Evropská verze sleduje stejný index S&amp;P 500 a KID má.</p>
       <div class="twin" aria-label="Srovnání VOO a jeho evropského dvojčete">
         <div class="twin-card is-no">
           <span class="twin-tk">VOO</span>
           <span class="twin-fee"><span data-fee="VOO">0,03 %</span> ročně</span>
-          <span class="twin-flag">V EU nekoupíte</span>
+          <span class="twin-flag">Bez KID, většina brokerů neprodá</span>
         </div>
         <div class="twin-eq" aria-hidden="true">=</div>
         <div class="twin-card is-yes">
-          <span class="twin-tk" data-twin-tk="VOO">SPYL</span>
-          <span class="twin-fee"><span data-twin-fee="VOO">0,03 %</span> ročně</span>
-          <span class="twin-flag">Koupíte v Česku</span>
+          <span class="twin-tk" data-twin-tk="VOO">VUAA</span>
+          <span class="twin-fee"><span data-twin-fee="VOO">0,07 %</span> ročně</span>
+          <span class="twin-flag">Má KID, koupíte v EU</span>
         </div>
       </div>
       <a class="btn" href="#odemknout" data-cta="hero">Ukažte mi všech 12 dvojčat</a>
@@ -88,8 +88,8 @@
 
   <!-- 3. SROVNÁNÍ: 4 ETF otevřená, zbytek zamčený za e-mailem. -->
   <section class="compare" id="srovnani" data-section="compare">
-    <h2>12 nejoblíbenějších ETF z NYSE</h2>
-    <p class="sub">Seřazeno podle velikosti fondu. U každého poplatek, výnos a hlavně: jestli ho v Česku koupíte, a pokud ne, co místo něj.</p>
+    <h2>12 populárních ETF z NYSE</h2>
+    <p class="sub">Největší fondy z hlavních kategorií (akcie USA, svět, dividendy, dluhopisy, zlato) a jeden drahý tematický pro srovnání. U každého poplatek, výnos a evropské dvojče, které si koupíte.</p>
     <ol class="etf-list" id="etfList"></ol>
 
     <div class="lock" id="odemknout" data-section="form">
@@ -145,8 +145,8 @@
   <section class="faq" data-section="faq">
     <h2>Časté otázky</h2>
     <details data-faq="priips">
-      <summary>Proč si VOO nebo SPY v Česku nekoupím?</summary>
-      <p id="faqPriips">Od roku 2018 platí v EU nařízení PRIIPs: fond prodávaný drobným investorům musí mít sdělení klíčových informací (KID) v jazyce země. Americké ETF ho nevydávají, takže je evropští brokeři drobným klientům neprodají. Evropské (UCITS) verze sledují stejný index a KID mají.</p>
+      <summary>Proč mi broker VOO nebo SPY neprodá?</summary>
+      <p id="faqPriips">Od roku 2018 platí v EU nařízení PRIIPs: produkt pro drobné investory musí mít sdělení klíčových informací (KID). Americká ETF ho nevydávají, a tak je většina brokerů (např. DEGIRO, LYNX, Interactive Brokers) drobným klientům neprodá — už koupená můžete držet i prodat. Výjimky existují, některé české banky nákup na pokyn klienta umožňují. Evropské (UCITS) verze sledují stejný index a KID mají.</p>
     </details>
     <details data-faq="advice">
       <summary>Je to investiční doporučení?</summary>
@@ -158,7 +158,7 @@
     </details>
     <details data-faq="calc" id="jak-pocitame">
       <summary>Jak počítá kalkulačka?</summary>
-      <p id="faqCalc">Každý měsíc vložíte stejnou částku. Trh roste o 7 % ročně, z toho se strhává roční poplatek fondu (a u fondu z banky i vstupní poplatek z každého vkladu). Daně a kurz koruny zanedbáváme, u obou variant jsou stejné.</p>
+      <p id="faqCalc">Každý měsíc vložíte stejnou částku. Trh roste o 7 % ročně, z toho se strhává roční poplatek fondu a u fondu z banky i vstupní poplatek z každého vkladu. Jako fond z banky počítáme skutečný příklad: <span id="calcBankName"></span>, průběžné náklady <span id="calcBankTer"></span> ročně podle KID a vstupní poplatek <span id="calcBankEntry"></span> podle ceníku banky. Transakční náklady a výkonnostní poplatek fondu nepočítáme, skutečný rozdíl tak bývá ještě vyšší. Daně a kurz koruny zanedbáváme, u obou variant jsou stejné.</p>
     </details>
   </section>
 

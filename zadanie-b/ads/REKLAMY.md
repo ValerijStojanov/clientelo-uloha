@@ -10,7 +10,7 @@ s optimalizáciou na udalosť `Lead` z pixelu (po súhlase) / Conversions API.
 
 | Pole | Text |
 |---|---|
-| **Primárny text** | Investujete přes fond v bance? Při 3 000 Kč měsíčně vás poplatky za 20 let můžou stát přes {{diff}}. Spočítejte si svou částku za 10 vteřin a podívejte se, která ETF z NYSE stojí jen pár setin procenta ročně. |
+| **Primárny text** | Investujete přes fond v bance? Při 3 000 Kč měsíčně vás poplatky za 20 let můžou stát přes 330 000 Kč. Spočítejte si svou částku za 10 vteřin a podívejte se, která ETF z NYSE stojí jen pár setin procenta ročně. |
 | **Nadpis** | Kolik vám sežerou poplatky? |
 | **Popis** | Kalkulačka + srovnání 12 ETF zdarma |
 | **Tlačidlo** | Zjistit více |
@@ -23,8 +23,8 @@ s optimalizáciou na udalosť `Lead` z pixelu (po súhlase) / Conversions API.
 
 | Pole | Text |
 |---|---|
-| **Primárny text** | Chtěli jste koupit VOO nebo SPY a broker vám to nedovolil? Není to chyba. Evropská pravidla (PRIIPs) americká ETF drobným investorům blokují. Ke 12 nejoblíbenějším ETF z NYSE jsme našli evropská dvojčata se stejným indexem. |
-| **Nadpis** | VOO si v Česku nekoupíte. Dvojče ano. |
+| **Primárny text** | Chtěli jste koupit VOO nebo SPY a broker vám to nedovolil? Není to chyba: americká ETF nemají dokument KID, který pravidla EU (PRIIPs) vyžadují, a většina brokerů je proto drobným investorům neprodá. Ke 12 populárním ETF z NYSE jsme našli evropská dvojčata se stejným indexem. |
+| **Nadpis** | VOO vám většina brokerů neprodá. Dvojče ano. |
 | **Popis** | Srovnání 12 ETF a jejich dvojčat zdarma |
 | **Tlačidlo** | Zjistit více |
 | **URL** | `/?v=b&utm_source=meta&utm_medium=paid_social&utm_campaign=etf_leadmagnet&utm_content=dvojce` |
@@ -40,5 +40,5 @@ s optimalizáciou na udalosť `Lead` z pixelu (po súhlase) / Conversions API.
   VOO) a ponúka riešenie, nie výčitku.
 - **Bez sľubov výnosov a bez „zaručene“** — pravidlá Meta pre finančné služby a
   česká regulácia (nejde o investičné odporúčanie).
-- **{{diff}}** v primárnom texte doplniť číslom z vyrenderovanej reklamy A
-  (zaokrúhlené nadol, napr. „300 000 Kč“), aby text a obrázok sedeli.
+- **Číslo v primárnom texte** (330 000 Kč) je zaokrúhlené nadol z výsledku
+  v obrázku (339 000 Kč) — text nikdy nesľúbi viac, než ukáže kalkulačka.

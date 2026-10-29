@@ -1,0 +1,855 @@
+{
+ "meta": {
+  "retrieved": "2026-10-29",
+  "agent_note": "All figures retrieved 2026-10-29. ETF returns are issuer fact-sheet figures as of the date in returns.as_of (quarter-end), NOT as of 2026-10-29. AUM is as of aum_as_of. dividend_yield_pct is a uniform trailing-12-month yield from stockanalysis.com (price date 2026-10-28) so that all rows are comparable; issuer-reported yields (different definitions) are in dividend_yield_issuer where available. See etf-notes.md for conflicts and confidence.",
+  "dropped_not_nyse": [
+   {
+    "ticker": "VXUS",
+    "name": "Vanguard Total International Stock ETF",
+    "exchange": "NASDAQ",
+    "source_url": "https://stockanalysis.com/etf/vxus/",
+    "note": "Dropped, primary listing Nasdaq. Replaced by VEU (NYSE Arca)."
+   },
+   {
+    "ticker": "BND",
+    "name": "Vanguard Total Bond Market ETF",
+    "exchange": "NASDAQ",
+    "source_url": "https://stockanalysis.com/etf/bnd/",
+    "note": "Dropped, primary listing Nasdaq. Replaced by AGG (NYSE Arca)."
+   },
+   {
+    "ticker": "ARKK",
+    "name": "ARK Innovation ETF",
+    "exchange": "Cboe BZX (BATS)",
+    "source_url": "https://stockanalysis.com/etf/arkk/",
+    "note": "Dropped. stockanalysis shows BATS/Cboe BZX; search-engine excerpt of ARK's own supplement says primary listing moved from NYSE Arca to Cboe BZX effective 2025-03-31 (ark-funds.com pages returned 403, so the ARK document itself was not read). Replaced by KWEB (NYSE group)."
+   }
+  ]
+ },
+ "fx": null,
+ "etfs": [
+  {
+   "ticker": "VOO",
+   "name": "Vanguard S&P 500 ETF",
+   "issuer": "Vanguard",
+   "category": "US large cap, S&P 500",
+   "exchange": "NYSE Arca",
+   "exchange_source": "Vanguard fact sheet 'Exchange: NYSE Arca' (as of 2026-09-30); stockanalysis.com also NYSEARCA",
+   "ter_pct": 0.03,
+   "ter_note": "Vanguard fact sheet 2026-09-30 (expense ratio as reported in most recent prospectus). Vanguard cut fees on 168 share classes effective 2025-02-01; VOO was already 0.03% - no old value verified.",
+   "aum_usd": 1032260000000,
+   "aum_as_of": "2026-09-30",
+   "aum_basis": "ETF share class only (Vanguard 'ETF total net assets' $1,032,260 million; fund incl. all share classes $1,732,017 million)",
+   "inception_year": 2010,
+   "inception_date": "2010-09-07",
+   "dividend_yield_pct": 1.05,
+   "dividend_yield_basis": "TTM dividends $7.43 / price 709.90",
+   "dividend_yield_as_of": "2026-10-28",
+   "dividend_yield_source_url": "https://stockanalysis.com/etf/voo/",
+   "dividend_yield_issuer": null,
+   "returns": {
+    "y1": 15.7,
+    "y5": 13.75,
+    "y10": 15.29,
+    "basis": "NAV",
+    "as_of": "2026-09-30",
+    "market": {
+     "y1": 15.78,
+     "y5": 13.76,
+     "y10": 15.3
+    }
+   },
+   "returns_source_url": "https://workplace.vanguard.com/iippdf/pdfs/FS968R.pdf",
+   "source_url": "https://workplace.vanguard.com/iippdf/pdfs/FS968R.pdf",
+   "source_note": "Vanguard fact sheet PDF (revision 09/2026, data as of 2026-09-30), text extracted by me with pdftotext. investor.vanguard.com ETF profile page is JavaScript-only and could not be read. Yield from secondary source stockanalysis.com (Vanguard fact sheet has no yield).",
+   "retrieved": "2026-10-29",
+   "confidence": "high",
+   "ucits_twin": {
+    "ticker": "VUAA",
+    "isin": "IE00BFMXXD54",
+    "name": "Vanguard S&P 500 UCITS ETF (USD) Accumulating",
+    "ter_pct": 0.07,
+    "exchange": "XETRA (EUR, ticker VUAA); London Stock Exchange (USD VUAA, GBP VUAG)",
+    "distribution": "acc",
+    "source_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BFMXXD54",
+    "index": "S&P 500",
+    "same_index": true,
+    "retrieved": "2026-10-29"
+   }
+  },
+  {
+   "ticker": "IVV",
+   "name": "iShares Core S&P 500 ETF",
+   "issuer": "iShares (BlackRock)",
+   "category": "US large cap, S&P 500",
+   "exchange": "NYSE Arca",
+   "exchange_source": "iShares product page 'Exchange: NYSE Arca' and iShares fact sheet (as of 2026-06-30) 'Exchange : NYSE Arca'; stockanalysis.com NYSEARCA",
+   "ter_pct": 0.03,
+   "ter_note": "iShares fact sheet 2026-06-30 and product page (management fee 0.03%, other 0.00%)",
+   "aum_usd": 888954066828,
+   "aum_as_of": "2026-10-28",
+   "aum_basis": "Net assets of fund, iShares product page",
+   "inception_year": 2000,
+   "inception_date": "2000-05-15",
+   "dividend_yield_pct": 1.08,
+   "dividend_yield_basis": "TTM dividends $8.40",
+   "dividend_yield_as_of": "2026-10-28",
+   "dividend_yield_source_url": "https://stockanalysis.com/etf/ivv/",
+   "dividend_yield_issuer": {
+    "value_pct": 1.1,
+    "type": "12m trailing yield",
+    "as_of": "2026-09-30",
+    "also": "30-day SEC yield 0.95% as of 2026-09-30",
+    "source_url": "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf"
+   },
+   "returns": {
+    "y1": 22.29,
+    "y5": 13.37,
+    "y10": 15.47,
+    "basis": "NAV",
+    "as_of": "2026-06-30",
+    "market": {
+     "y1": 22.05,
+     "y5": 13.33,
+     "y10": 15.44
+    }
+   },
+   "returns_source_url": "https://www.ishares.com/us/literature/fact-sheet/ivv-ishares-core-s-p-500-etf-fund-fact-sheet-en-us.pdf",
+   "source_url": "https://www.ishares.com/us/products/239726/ishares-core-sp-500-etf",
+   "source_note": "AUM/TER/exchange from iShares product page (fetched; summarised by the fetch tool). Returns from iShares fact sheet PDF which is dated 2026-06-30 (the PDF available at the iShares URL on 2026-10-29 was still the June edition) - so IVV returns are NOT comparable in date with the other rows (2026-09-30). The Sep-30 performance table on the product page was not reachable. Yield from stockanalysis.com plus iShares-reported 12m trailing yield.",
+   "retrieved": "2026-10-29",
+   "confidence": "high for TER/AUM/exchange; medium for returns (older as-of date)",
+   "ucits_twin": {
+    "ticker": "SXR8",
+    "isin": "IE00B5BMR087",
+    "name": "iShares Core S&P 500 UCITS ETF USD (Acc)",
+    "ter_pct": 0.07,
+    "exchange": "XETRA (EUR, SXR8); London Stock Exchange (USD CSPX, GBX CSP1); Euronext Amsterdam, SIX, Borsa Italiana, gettex, Stuttgart",
+    "distribution": "acc",
+    "source_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B5BMR087",
+    "index": "S&P 500",
+    "same_index": true,
+    "retrieved": "2026-10-29"
+   }
+  },
+  {
+   "ticker": "SPY",
+   "name": "State Street SPDR S&P 500 ETF Trust",
+   "issuer": "State Street Investment Management (SSGA)",
+   "category": "US large cap, S&P 500",
+   "exchange": "NYSE Arca",
+   "exchange_source": "SSGA fund page 'Primary exchange: NYSE ARCA' (Listing information as of 2026-10-29); stockanalysis.com NYSEARCA",
+   "ter_pct": 0.0945,
+   "ter_note": "SSGA gross expense ratio 0.0945% (net equal per fact sheet). Rounded 0.09% on stockanalysis.",
+   "aum_usd": 814718630000,
+   "aum_as_of": "2026-10-28",
+   "aum_basis": "SSGA net assets $814,718.63 million",
+   "inception_year": 1993,
+   "inception_date": "1993-01-22",
+   "dividend_yield_pct": 0.98,
+   "dividend_yield_basis": "TTM dividends $7.58",
+   "dividend_yield_as_of": "2026-10-28",
+   "dividend_yield_source_url": "https://stockanalysis.com/etf/spy/",
+   "dividend_yield_issuer": {
+    "value_pct": 0.99,
+    "type": "fund distribution yield",
+    "as_of": "2026-10-27",
+    "also": "30-day SEC yield 0.96% (fact sheet 2026-09-30)",
+    "source_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-etf-trust-spy"
+   },
+   "returns": {
+    "y1": 15.6,
+    "y5": 13.65,
+    "y10": 15.18,
+    "basis": "NAV",
+    "as_of": "2026-09-30",
+    "market": {
+     "y1": 15.66,
+     "y5": 13.66,
+     "y10": 15.18
+    }
+   },
+   "returns_source_url": "https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-spy.pdf",
+   "source_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-etf-trust-spy",
+   "source_note": "Returns read from SSGA fact sheet PDF (as of 09/30/2026) by pdftotext. WARNING: the fetch tool's summary of the SSGA web page gave wrong labels for returns (22.73/15.18/10.82); 22.73 is actually the 3-year figure in the fact sheet. AUM/exchange from SSGA page via fetch tool summary.",
+   "retrieved": "2026-10-29",
+   "confidence": "high",
+   "ucits_twin": {
+    "ticker": "SPY5",
+    "isin": "IE00B6YX5C33",
+    "name": "State Street SPDR S&P 500 UCITS ETF USD Unhedged (Dist)",
+    "ter_pct": 0.03,
+    "exchange": "XETRA (EUR, SPY5); London Stock Exchange (USD SPY5, GBP SPX5); Euronext Paris, SIX, Borsa Italiana, gettex, Stuttgart",
+    "distribution": "dist",
+    "source_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B6YX5C33",
+    "index": "S&P 500",
+    "same_index": true,
+    "retrieved": "2026-10-29"
+   }
+  },
+  {
+   "ticker": "SPYM",
+   "name": "State Street SPDR Portfolio S&P 500 ETF (formerly SPDR Portfolio S&P 500 ETF, ticker SPLG)",
+   "issuer": "State Street Investment Management (SSGA)",
+   "category": "US large cap, S&P 500",
+   "exchange": "NYSE Arca",
+   "exchange_source": "SSGA fund page 'Primary exchange: NYSE ARCA' (listing date Nov 08 2005; listing information as of 2026-10-29); stockanalysis.com NYSEARCA: SPYM",
+   "ter_pct": 0.02,
+   "ter_note": "SSGA gross expense ratio 0.02% (page 2026-10-29, fact sheet 09/30/2026). Unchanged by the rename.",
+   "aum_usd": 185960550000,
+   "aum_as_of": "2026-10-28",
+   "aum_basis": "SSGA assets under management $185,960.55 million",
+   "inception_year": 2005,
+   "inception_date": "2005-11-08",
+   "dividend_yield_pct": 1.0,
+   "dividend_yield_basis": "TTM dividends $0.91",
+   "dividend_yield_as_of": "2026-10-28",
+   "dividend_yield_source_url": "https://stockanalysis.com/etf/spym/",
+   "dividend_yield_issuer": {
+    "value_pct": 1.01,
+    "type": "fund distribution yield",
+    "as_of": "2026-10-27",
+    "also": "30-day SEC yield 1.04% (fact sheet 2026-09-30)",
+    "source_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-500-etf-spym"
+   },
+   "returns": {
+    "y1": 15.7,
+    "y5": 13.76,
+    "y10": 15.31,
+    "basis": "NAV",
+    "as_of": "2026-09-30",
+    "market": {
+     "y1": 15.78,
+     "y5": 13.77,
+     "y10": 15.31
+    }
+   },
+   "returns_source_url": "https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-spym.pdf",
+   "source_url": "https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-portfolio-sp-500-etf-spym",
+   "source_note": "Rename: SPLG became SPYM, effective 2025-10-31 (name and ticker; index, holdings, fee unchanged). Evidence: SSGA product page and fact sheet now carry SPYM; stockanalysis.com's /etf/splg/ URL now shows SPYM; search-engine excerpts of an SSGA AP notice and a MIAX options alert give the 2025-10-31 date. The SSGA AP-notice PDF itself returned 404 when fetched. NOTE: the fund's 2005 inception pre-dates the S&P 500 benchmark - the fund tracked other indexes (Dow Jones US Large-Cap TSM, Russell 1000, SSGA Large Cap) until 2020-01-24, so the 10-year return includes that history.",
+   "retrieved": "2026-10-29",
+   "confidence": "high",
+   "ucits_twin": {
+    "ticker": "SPYL",
+    "isin": "IE000XZSV718",
+    "name": "State Street SPDR S&P 500 UCITS ETF USD Unhedged (Acc)",
+    "ter_pct": 0.03,
+    "exchange": "XETRA (EUR, SPYL); London Stock Exchange (USD SPYL, GBP SPXL)",
+    "distribution": "acc",
+    "source_url": "https://www.justetf.com/en/etf-profile.html?isin=IE000XZSV718",
+    "index": "S&P 500",
+    "same_index": true,
+    "retrieved": "2026-10-29"
+   }
+  },
+  {
+   "ticker": "VTI",
+   "name": "Vanguard Morningstar Total Stock Market ETF (formerly Vanguard Total Stock Market ETF)",
+   "issuer": "Vanguard",
+   "category": "US total market",
+   "exchange": "NYSE Arca",
+   "exchange_source": "Vanguard fact sheet (as of 2026-09-30) lists NYSE Arca in trading information (text layout garbled but present); stockanalysis.com NYSEARCA",
+   "ter_pct": 0.03,
+   "ter_note": "Vanguard fact sheet 2026-09-30",
+   "aum_usd": 689219000000,
+   "aum_as_of": "2026-09-30",
+   "aum_basis": "ETF share class only (Vanguard 'ETF total net assets' $689,219 million; fund incl. all share classes $2,322,816 million)",
+   "inception_year": 2001,
+   "inception_date": "2001-05-24",
+   "dividend_yield_pct": 1.04,
+   "dividend_yield_basis": "TTM dividends $3.95",
+   "dividend_yield_as_of": "2026-10-28",
+   "dividend_yield_source_url": "https://stockanalysis.com/etf/vti/",
+   "dividend_yield_issuer": null,
+   "returns": {
+    "y1": 15.33,
+    "y5": 12.56,
+    "y10": 14.7,
+    "basis": "NAV",
+    "as_of": "2026-09-30",
+    "market": {
+     "y1": 15.35,
+     "y5": 12.56,
+     "y10": 14.7
+    }
+   },
+   "returns_source_url": "https://workplace.vanguard.com/iippdf/pdfs/FS970R.pdf",
+   "source_url": "https://workplace.vanguard.com/iippdf/pdfs/FS970R.pdf",
+   "source_note": "Vanguard fact sheet PDF, data as of 2026-09-30. NAME CHANGE: the fund became Vanguard Morningstar Total Stock Market ETF on 2026-07-29 and its benchmark changed from the CRSP US Total Market Index to the Morningstar US Total Market Index (Morningstar acquired CRSP indexes in Feb 2026). Ticker, fee, holdings unchanged. Primary evidence: the fact sheet itself (title, benchmark). Date 2026-07-29 and Vanguard press release of 2026-04-29 come from a secondary article (eciks.org) and a search excerpt; Vanguard's own release was not read.",
+   "retrieved": "2026-10-29",
+   "confidence": "high",
+   "ucits_twin": null,
+   "ucits_twin_note": "No UCITS ETF tracking the same total-US-market index found. justETF lists the SPDR Russell 3000 US Total Market UCITS ETF (IE00BKY7WX37, 0.25%) as liquidated or merged.",
+   "ucits_closest_alternative": {
+    "ticker": "XD9U",
+    "isin": "IE00BJ0KDR00",
+    "name": "Xtrackers MSCI USA UCITS ETF 1C",
+    "ter_pct": 0.03,
+    "exchange": "XETRA (EUR, XD9U); London Stock Exchange (USD XD9U, GBX XDUS)",
+    "distribution": "acc",
+    "source_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BJ0KDR00",
+    "index": "MSCI USA",
+    "same_index": false,
+    "note": "Large and mid cap only (no small caps) - NOT the same index as VTI. TER 0.03% as shown by the justETF fetch; double-check before publishing. The S&P 500 UCITS ETFs are the more common substitute.",
+    "retrieved": "2026-10-29"
+   }
+  },
+  {
+   "ticker": "VT",
+   "name": "Vanguard Total World Stock ETF",
+   "issuer": "Vanguard",
+   "category": "Global equity",
+   "exchange": "NYSE Arca",
+   "exchange_source": "Vanguard fact sheet 'Exchange: NYSE Arca' (as of 2026-09-30); stockanalysis.com NYSEARCA",
+   "ter_pct": 0.06,
+   "ter_note": "Vanguard fact sheet 2026-09-30. No Feb 2025 change for VT found in sources.",
+   "aum_usd": 81752000000,
+   "aum_as_of": "2026-09-30",
+   "aum_basis": "ETF share class only (Vanguard 'ETF total net assets' $81,752 million; fund incl. all share classes $101,182 million)",
+   "inception_year": 2008,
+   "inception_date": "2008-06-24",
+   "dividend_yield_pct": 1.53,
+   "dividend_yield_basis": "TTM dividends $2.41",
+   "dividend_yield_as_of": "2026-10-28",
+   "dividend_yield_source_url": "https://stockanalysis.com/etf/vt/",
+   "dividend_yield_issuer": null,
+   "returns": {
+    "y1": 16.32,
+    "y5": 11.34,
+    "y10": 12.32,
+    "basis": "NAV",
+    "as_of": "2026-09-30",
+    "market": {
+     "y1": 16.45,
+     "y5": 11.36,
+     "y10": 12.32
+    }
+   },
+   "returns_source_url": "https://workplace.vanguard.com/iippdf/pdfs/FS3141R.pdf",
+   "source_url": "https://workplace.vanguard.com/iippdf/pdfs/FS3141R.pdf",
+   "source_note": "Vanguard fact sheet PDF, data as of 2026-09-30. The return table in the text extract was laid out in a jumbled way; I mapped columns by the pattern (quarter, YTD, 1y, 3y, 5y, 10y, since inception) and cross-checked that NAV, market and index rows are consistent.",
+   "retrieved": "2026-10-29",
+   "confidence": "high (returns medium-high because of table layout)",
+   "ucits_twin": {
+    "ticker": "VWCE",
+    "isin": "IE00BK5BQT80",
+    "name": "Vanguard FTSE All-World UCITS ETF (USD) Accumulating",
+    "ter_pct": 0.14,
+    "exchange": "XETRA (EUR, VWCE); London Stock Exchange (USD VWRA, GBP VWRP)",
+    "distribution": "acc",
+    "source_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BK5BQT80",
+    "index": "FTSE All-World",
+    "same_index": false,
+    "note": "Near twin: FTSE All-World (large and mid cap) vs VT's FTSE Global All Cap (includes small caps). TER 0.14% per justETF fetch; many older sources show 0.19%.",
+    "retrieved": "2026-10-29"
+   }
+  },
+  {
+   "ticker": "VEU",
+   "name": "Vanguard FTSE All-World ex-US ETF",
+   "issuer": "Vanguard",
+   "category": "World ex-US equity",
+   "exchange": "NYSE Arca",
+   "exchange_source": "Vanguard fact sheet 'Exchange: NYSE Arca' (as of 2026-09-30); stockanalysis.com NYSEARCA. (VXUS is Nasdaq-listed, so VEU was used.)",
+   "ter_pct": 0.04,
+   "ter_note": "Vanguard fact sheet 2026-09-30. Secondary source (mymoneyblog.com) says VEU was 'lowered to 0.04%' in the Vanguard fee cut effective 2025-02-01; the previous value was not verified.",
+   "aum_usd": 68146000000,
+   "aum_as_of": "2026-09-30",
+   "aum_basis": "ETF share class only (Vanguard 'ETF total net assets' $68,146 million; fund incl. all share classes $95,687 million)",
+   "inception_year": 2007,
+   "inception_date": "2007-03-02",
+   "dividend_yield_pct": 2.39,
+   "dividend_yield_basis": "TTM dividends $1.96",
+   "dividend_yield_as_of": "2026-10-28",
+   "dividend_yield_source_url": "https://stockanalysis.com/etf/veu/",
+   "dividend_yield_issuer": null,
+   "returns": {
+    "y1": 19.12,
+    "y5": 9.66,
+    "y10": 9.36,
+    "basis": "NAV",
+    "as_of": "2026-09-30",
+    "market": {
+     "y1": 19.27,
+     "y5": 9.65,
+     "y10": 9.34
+    }
+   },
+   "returns_source_url": "https://workplace.vanguard.com/iippdf/pdfs/FS991R.pdf",
+   "source_url": "https://workplace.vanguard.com/iippdf/pdfs/FS991R.pdf",
+   "source_note": "Vanguard fact sheet PDF, data as of 2026-09-30; table layout in text extract was jumbled, columns mapped by pattern and cross-checked across NAV/market/index rows.",
+   "retrieved": "2026-10-29",
+   "confidence": "high (returns medium-high because of table layout)",
+   "ucits_twin": {
+    "ticker": "VXUA",
+    "isin": "IE0009A5ADV9",
+    "name": "Vanguard FTSE All-World ex-U.S. UCITS ETF USD Acc",
+    "ter_pct": 0.12,
+    "exchange": "XETRA (EUR, ticker VXUS); London Stock Exchange (USD VXUA, GBP VXUS); Euronext Amsterdam, SIX, Borsa Italiana, gettex",
+    "distribution": "acc",
+    "source_url": "https://www.justetf.com/en/etf-profile.html?isin=IE0009A5ADV9",
+    "index": "FTSE All-World ex US",
+    "same_index": true,
+    "note": "New fund: inception 2026-08-18, fund size only EUR 157 m per justETF. Xetra ticker VXUS can be confused with the US-listed VXUS.",
+    "retrieved": "2026-10-29"
+   }
+  },
+  {
+   "ticker": "VYM",
+   "name": "Vanguard High Dividend Yield ETF",
+   "issuer": "Vanguard",
+   "category": "US high dividend yield",
+   "exchange": "NYSE Arca",
+   "exchange_source": "Vanguard fact sheet 'Exchange: NYSE Arca' (as of 2026-09-30); stockanalysis.com NYSEARCA",
+   "ter_pct": 0.04,
+   "ter_note": "Vanguard fact sheet 2026-09-30. A search-engine excerpt of an older Vanguard fact sheet (as of 2025-06-30) showed 0.06%; timing of the cut to 0.04% (Feb 2025 round or a later round) not established.",
+   "aum_usd": 78948000000,
+   "aum_as_of": "2026-09-30",
+   "aum_basis": "ETF share class only (Vanguard 'ETF total net assets' $78,948 million; fund incl. all share classes $95,774 million)",
+   "inception_year": 2006,
+   "inception_date": "2006-11-10",
+   "dividend_yield_pct": 2.25,
+   "dividend_yield_basis": "TTM dividends $3.68",
+   "dividend_yield_as_of": "2026-10-28",
+   "dividend_yield_source_url": "https://stockanalysis.com/etf/vym/",
+   "dividend_yield_issuer": null,
+   "returns": {
+    "y1": 12.72,
+    "y5": 11.63,
+    "y10": 11.28,
+    "basis": "NAV",
+    "as_of": "2026-09-30",
+    "market": {
+     "y1": 12.81,
+     "y5": 11.64,
+     "y10": 11.28
+    }
+   },
+   "returns_source_url": "https://workplace.vanguard.com/iippdf/pdfs/FS923R.pdf",
+   "source_url": "https://workplace.vanguard.com/iippdf/pdfs/FS923R.pdf",
+   "source_note": "Vanguard fact sheet PDF, data as of 2026-09-30.",
+   "retrieved": "2026-10-29",
+   "confidence": "high",
+   "ucits_twin": {
+    "ticker": "VHYD",
+    "isin": "IE00B8GKDB10",
+    "name": "Vanguard FTSE All-World High Dividend Yield UCITS ETF Distributing",
+    "ter_pct": 0.29,
+    "exchange": "XETRA (EUR, VGWD); London Stock Exchange (USD VHYD, GBP VHYL)",
+    "distribution": "dist",
+    "source_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B8GKDB10",
+    "index": "FTSE All-World High Dividend Yield",
+    "same_index": false,
+    "note": "Nearest Vanguard equivalent, but GLOBAL (not US-only) and a different index than VYM's FTSE High Dividend Yield; no exact UCITS twin found.",
+    "retrieved": "2026-10-29"
+   }
+  },
+  {
+   "ticker": "SCHD",
+   "name": "Schwab U.S. Dividend Equity ETF",
+   "issuer": "Schwab Asset Management",
+   "category": "US dividend growth / quality",
+   "exchange": "NYSE Arca",
+   "exchange_source": "stockanalysis.com NYSEARCA; search-engine excerpt of Schwab's product page 'trades on NYSE Arca' (Schwab pages returned 403 to the fetch tool)",
+   "ter_pct": 0.06,
+   "ter_note": "Search-engine excerpt of Schwab product page: total expense ratio 0.060% as of 2026-10-27; stockanalysis.com 0.06%",
+   "aum_usd": 118500000000,
+   "aum_as_of": "2026-10-27",
+   "aum_basis": "Approx. $118.5 billion total net assets (from search-engine excerpt of Schwab product page, rounded). stockanalysis.com shows $118.95B undated (~2026-10-28).",
+   "inception_year": 2011,
+   "inception_date": "2011-10-20",
+   "dividend_yield_pct": 3.0,
+   "dividend_yield_basis": "TTM dividends $1.05",
+   "dividend_yield_as_of": "2026-10-28",
+   "dividend_yield_source_url": "https://stockanalysis.com/etf/schd/",
+   "dividend_yield_issuer": null,
+   "returns": {
+    "y1": 23.36,
+    "y5": 9.48,
+    "y10": 12.4,
+    "basis": "NAV",
+    "as_of": "2026-09-30",
+    "market": {
+     "y1": 23.32,
+     "y5": 9.47,
+     "y10": null
+    }
+   },
+   "returns_source_url": "https://www.schwab.wallst.com/Prospect/Research/etfs/performance.asp?symbol=schd",
+   "source_url": "https://www.schwabassetmanagement.com/products/schd",
+   "source_note": "Schwab Asset Management pages (products/schd, fact sheet, allholdings) returned HTTP 403, so there is no first-party fetch. 1y and 5y returns are from Schwab's own brokerage research page schwab.wallst.com (as of 09/30/2026), which did not show a 10y figure. 10y 12.4% (rounded to one decimal) is from AAII ETF evaluator page (NAV total return, data as of 9/30/26): https://www.aaii.com/fund/ticker/SCHD. AUM and TER come from a search-engine excerpt of the Schwab page, not read by me directly.",
+   "retrieved": "2026-10-29",
+   "confidence": "medium (no first-party fetch)",
+   "ucits_twin": {
+    "ticker": "SPYD",
+    "isin": "IE00B6YX5D40",
+    "name": "State Street SPDR S&P U.S. Dividend Aristocrats UCITS ETF USD Unhedged (Dist)",
+    "ter_pct": 0.35,
+    "exchange": "XETRA (EUR, SPYD); London Stock Exchange (USD UDVD, GBP USDV)",
+    "distribution": "dist",
+    "source_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B6YX5D40",
+    "index": "S&P High Yield Dividend Aristocrats",
+    "same_index": false,
+    "note": "Approximate substitute only: SCHD tracks the Dow Jones U.S. Dividend 100 Index; no exact UCITS twin found.",
+    "retrieved": "2026-10-29"
+   }
+  },
+  {
+   "ticker": "AGG",
+   "name": "iShares Core U.S. Aggregate Bond ETF",
+   "issuer": "iShares (BlackRock)",
+   "category": "US investment-grade bonds",
+   "exchange": "NYSE Arca",
+   "exchange_source": "iShares fact sheet 'Exchange : NYSE Arca' (as of 2026-09-30); stockanalysis.com NYSEARCA. (BND is Nasdaq-listed, so AGG was used.)",
+   "ter_pct": 0.03,
+   "ter_note": "iShares fact sheet 2026-09-30 (management fee 0.03%)",
+   "aum_usd": 135651660000,
+   "aum_as_of": "2026-09-30",
+   "aum_basis": "Net assets of fund, iShares fact sheet ($135,651.66 million). stockanalysis.com shows $139.34B undated.",
+   "inception_year": 2003,
+   "inception_date": "2003-09-22",
+   "dividend_yield_pct": 4.14,
+   "dividend_yield_basis": "TTM dividends $3.97 (monthly)",
+   "dividend_yield_as_of": "2026-10-28",
+   "dividend_yield_source_url": "https://stockanalysis.com/etf/agg/",
+   "dividend_yield_issuer": {
+    "value_pct": 5.04,
+    "type": "30-day SEC yield",
+    "as_of": "2026-09-30",
+    "source_url": "https://www.ishares.com/us/literature/fact-sheet/agg-ishares-core-u-s-aggregate-bond-etf-fund-fact-sheet-en-us.pdf"
+   },
+   "returns": {
+    "y1": -1.87,
+    "y5": -0.64,
+    "y10": 1.11,
+    "basis": "NAV",
+    "as_of": "2026-09-30",
+    "market": {
+     "y1": -1.86,
+     "y5": -0.62,
+     "y10": 1.1
+    }
+   },
+   "returns_source_url": "https://www.ishares.com/us/literature/fact-sheet/agg-ishares-core-u-s-aggregate-bond-etf-fund-fact-sheet-en-us.pdf",
+   "source_url": "https://www.ishares.com/us/literature/fact-sheet/agg-ishares-core-u-s-aggregate-bond-etf-fund-fact-sheet-en-us.pdf",
+   "source_note": "iShares fact sheet PDF 'as of September 30, 2026', text extracted by pdftotext. SEC yield (5.04%) and TTM yield (4.14%) differ by definition and date; dividend_yield_pct uses the TTM figure for consistency across rows.",
+   "retrieved": "2026-10-29",
+   "confidence": "high",
+   "ucits_twin": {
+    "ticker": "IUAA",
+    "isin": "IE00BYXYYM63",
+    "name": "iShares US Aggregate Bond UCITS ETF (Acc)",
+    "ter_pct": 0.25,
+    "exchange": "London Stock Exchange (USD, IUAA); gettex (EUR, IS03). justETF does not list it on XETRA.",
+    "distribution": "acc",
+    "source_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BYXYYM63",
+    "index": "Bloomberg US Aggregate Bond",
+    "same_index": true,
+    "note": "Distributing class IE00B44CGS96 (IUAG) with 0.25% TER was seen only in a search-engine excerpt of justETF, not fetched.",
+    "retrieved": "2026-10-29"
+   }
+  },
+  {
+   "ticker": "GLD",
+   "name": "SPDR Gold Shares (SPDR Gold Trust)",
+   "issuer": "State Street Investment Management / World Gold Trust Services",
+   "category": "Physical gold",
+   "exchange": "NYSE Arca",
+   "exchange_source": "SSGA fund page 'NYSE ARCA' and SSGA fact sheet 'Exchange NYSE ARCA' (as of 2026-09-30); spdrgoldshares.com 'NYSE Arca'; stockanalysis.com NYSEARCA",
+   "ter_pct": 0.4,
+   "ter_note": "SSGA gross expense ratio 0.40% (the trust's annual operating expense ratio)",
+   "aum_usd": 135546680000,
+   "aum_as_of": "2026-10-28",
+   "aum_basis": "SSGA assets under management $135,546.68 million",
+   "inception_year": 2004,
+   "inception_date": "2004-11-18",
+   "dividend_yield_pct": null,
+   "dividend_yield_basis": "Gold trust pays no distributions (SSGA page has no yield; stockanalysis lists n/a)",
+   "dividend_yield_as_of": "2026-10-28",
+   "dividend_yield_source_url": "https://stockanalysis.com/etf/gld/",
+   "dividend_yield_issuer": null,
+   "returns": {
+    "y1": 8.74,
+    "y5": 18.62,
+    "y10": 11.74,
+    "basis": "NAV",
+    "as_of": "2026-09-30",
+    "market": {
+     "y1": 7.14,
+     "y5": 18.31,
+     "y10": 11.72
+    }
+   },
+   "returns_source_url": "https://www.ssga.com/library-content/products/factsheets/etfs/us/factsheet-us-en-gld.pdf",
+   "source_url": "https://www.ssga.com/us/en/intermediary/etfs/spdr-gold-shares-gld",
+   "source_note": "Returns from SSGA fact sheet PDF (as of 09/30/2026). The bar-chart labels in the PDF are stored rotated and reversed (for example '47.8' = 8.74); I decoded them with pdfplumber using x-positions (NAV, market, index order per period) - double-check visually before publishing. The 1-year NAV vs market gap (8.74 vs 7.14) is large and not explained in the sheet; SSGA says market value uses the bid/ask midpoint at NAV time.",
+   "retrieved": "2026-10-29",
+   "confidence": "medium-high",
+   "ucits_twin": {
+    "ticker": "SGLN",
+    "isin": "IE00B4ND3602",
+    "name": "iShares Physical Gold ETC",
+    "ter_pct": 0.12,
+    "exchange": "XETRA (EUR, PPFB); London Stock Exchange (USD IGLN, EUR EGLN, GBX SGLN)",
+    "distribution": "acc",
+    "source_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4ND3602",
+    "index": "Gold spot price in USD",
+    "same_index": true,
+    "note": "This is an ETC (exchange-traded commodity), NOT a UCITS ETF; no distributions. Physical gold ETCs are not UCITS ETFs.",
+    "retrieved": "2026-10-29"
+   }
+  },
+  {
+   "ticker": "KWEB",
+   "name": "KraneShares CSI China Internet ETF",
+   "issuer": "KraneShares",
+   "category": "Thematic (China internet), expensive contrast to ARKK",
+   "exchange": "NYSE (KraneShares page: 'NYSE'; stockanalysis.com: 'NYSE Arca')",
+   "exchange_source": "KraneShares fund page lists primary exchange 'NYSE' (no 'Arca' wording); stockanalysis.com lists NYSEARCA. Both are NYSE group; exact sub-venue wording differs between sources.",
+   "ter_pct": 0.69,
+   "ter_note": "KraneShares page: total annual fund operating expense 0.69%",
+   "aum_usd": 4271564121,
+   "aum_as_of": "2026-10-28",
+   "aum_basis": "KraneShares page net assets $4,271,564,121",
+   "inception_year": 2013,
+   "inception_date": "2013-07-31",
+   "dividend_yield_pct": null,
+   "dividend_yield_basis": "TTM dividends $2.10 per stockanalysis.com (distribution paid annually; KraneShares page shows no yield)",
+   "dividend_yield_as_of": "2026-10-28",
+   "dividend_yield_source_url": "https://stockanalysis.com/etf/kweb/",
+   "dividend_yield_issuer": null,
+   "returns": {
+    "y1": -38.19,
+    "y5": -8.9,
+    "y10": -2.73,
+    "basis": "NAV",
+    "as_of": "2026-09-30",
+    "market": {
+     "y1": -38.14,
+     "y5": -9.08,
+     "y10": -2.83
+    }
+   },
+   "returns_source_url": "https://kraneshares.com/kweb/",
+   "source_url": "https://kraneshares.com/kweb/",
+   "source_note": "Net assets, TER and returns from KraneShares' own page (fetched, summarised by the fetch tool; average annualised returns as of 09/30/2026). Dividend yield is a single secondary-source figure that looks driven by one large annual distribution - LOW confidence, consider showing it as n/a. Chosen as replacement for ARKK (Cboe BZX). Passive index fund, not actively managed, but thematic and expensive. | Ručná kontrola 2026-10-29: dividendový výnos 9,12 % je len zo sekundárneho zdroja a emitent ho neuvádza → nezobrazujeme (null).",
+   "retrieved": "2026-10-29",
+   "confidence": "high for TER/AUM/returns; low for dividend yield",
+   "ucits_twin": {
+    "ticker": "KWEB",
+    "isin": "IE00BFXR7892",
+    "name": "KraneShares CSI China Internet UCITS ETF USD Acc",
+    "ter_pct": 0.75,
+    "exchange": "London Stock Exchange (USD, KWEB); XETRA (EUR, KWBE)",
+    "distribution": "acc",
+    "source_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BFXR7892",
+    "index": "CSI Overseas China Internet (price index)",
+    "same_index": true,
+    "note": "UCITS TER 0.75% is HIGHER than the US fund's 0.69%. Fund size EUR 426 m per justETF.",
+    "retrieved": "2026-10-29"
+   },
+   "dividend_yield_pct_unverified": 9.12
+  }
+ ],
+ "priips": [
+  {
+   "claim": "Under PRIIPs, a retail client in the EEA may not be sold a product without a KID. US-domiciled ETFs generally had no KID ready when PRIIPs applied (early 2018). Existing holders can keep or sell but cannot buy more until a compliant KID exists.",
+   "source_url": "https://www.justetf.com/en/news/etf/us-domiciled-etfs.html",
+   "publisher": "justETF (article by Dominique Riedl)",
+   "date": "2018-03-28",
+   "note": "Article names no brokers. Old (2018); page still online 2026-10-29."
+  },
+  {
+   "claim": "LYNX Broker: 'Retail clients cannot purchase ETFs from countries where the issuer does not publish a KID in accordance with EU regulation.' US ETFs are listed among affected products and cannot be traded unless the client is classified as professional; existing positions can be held or sold. KID obligation from 2018-01-01, extended to UCITS 2023-01-01.",
+   "source_url": "https://www.lynxbroker.com/service/products-and-regulations/regulations/key-information-document/",
+   "publisher": "LYNX Broker (first-party FAQ)",
+   "date": "undated page; retrieved 2026-10-29"
+  },
+  {
+   "claim": "DEGIRO: 'Due to the new PRIIPS legislation, as of the 2nd of January 2018' some foreign products can no longer be bought; 'U.S. products are particularly impacted'; holding or selling remains possible. DEGIRO Czech help page adds that a KID in the local language is required and that DEGIRO generally cannot offer an ETF without it (that Czech page does not mention US ETFs explicitly).",
+   "source_url": "https://www.degiro.com/uk/helpdesk/trading-possibilities/why-cant-i-trade-us-etfs",
+   "publisher": "DEGIRO (first-party help; Czech page https://www.degiro.cz/helpdesk/trading-possibilities/impact-new-priips-regulation)",
+   "date": "undated page (footer copyright 2026); retrieved 2026-10-29"
+  },
+  {
+   "claim": "TradeZero Europe: 'TradeZero Europe currently does not offer trading in U.S.-listed ETFs to retail clients' because most US ETF issuers do not provide the KID required for EEA retail clients.",
+   "source_url": "https://tradezero.com/en-at/support/questions/can-i-trade-u-s-listed-etfs-with-tradezero-europe",
+   "publisher": "TradeZero Europe (first-party support page)",
+   "date": "undated; retrieved 2026-10-29"
+  },
+  {
+   "claim": "Saxo partner update: US ETFs have no KIDs; white-label partners with the KID solution enabled 'will NOT be able to offer US ETFs to their retail clients anymore'.",
+   "source_url": "https://home.saxo/content/commentaries/ppu/partner-product-update/etf-kid-solution-for-wl-partners-under-priips-23092022",
+   "publisher": "Saxo Bank (partner product update)",
+   "date": "approx. 2022-09-23 (inferred from URL; not stated on page)"
+  },
+  {
+   "claim": "Interactive Brokers: a broker is required to block trading in a PRIIP if no KID is available; US clients are not affected by PRIIPs so issuers of US-listed ETFs do not as a rule create KIDs; European issuers' equivalents have KIDs and are tradable.",
+   "source_url": "https://ibkb.interactivebrokers.com/node/2993",
+   "publisher": "Interactive Brokers (first-party knowledge base)",
+   "date": "undated; retrieved 2026-10-29",
+   "note": "LOW verification: the page itself returned 403 / redirected (ibkr.info) to the fetch tool; wording taken from search-engine excerpts of the IBKR page."
+  },
+  {
+   "claim": "Trading 212 (staff reply on community forum, as quoted by a search-engine excerpt): US-domiciled ETFs are unavailable due to PRIIPs; most have EU-domiciled PRIIPs/UCITS-compliant equivalents.",
+   "source_url": "https://community.trading212.com/t/us-etf-please/4435/2.md",
+   "publisher": "Trading 212 community forum",
+   "date": "2020-04-14 (post found); retrieved 2026-10-29",
+   "note": "LOW verification: when I fetched the URL the visible post was by an ordinary user (not staff) saying 'ETFs cannot be traded without a KIID'. No Trading 212 help-centre article found."
+  },
+  {
+   "claim": "XTB: Czech blog Finhacker states XTB 'Neumožňuje obchodování amerických ETFek' (does not allow trading US ETFs; only European equivalents or CFDs). No first-party XTB statement found.",
+   "source_url": "https://www.finhacker.cz/jak-obejit-znemozneni-obchodovani-americkych-etfek-2-cast/",
+   "publisher": "Finhacker.cz (blog)",
+   "date": "2020-08-19, updated 2022-01-14"
+  },
+  {
+   "claim": "Czech press: Czech retail investors cannot buy VOO/SPY directly through common platforms because of EU PRIIPs legislation (KID not prepared by US managers for the European market); UCITS equivalents such as CSPX are suggested.",
+   "source_url": "https://finex.cz/ve-fondech-za-biliony-dolaru-uz-investuje-cely-svet-jak-se-k-nim-muze-dostat-i-cesky-investor/",
+   "publisher": "Finex.cz",
+   "date": "2026-06-05"
+  },
+  {
+   "claim": "Czech brokers differ: Fio banka (Czech bank) is reported to allow clients to trade US ETFs because of a permissive CNB stance (execution only; no advice or active offering); Patria unclear. Fio's own ETF page only says Fio does not offer any ETFs and merely gives access to selected markets, and mentions no PRIIPs/KID.",
+   "source_url": "https://www.finhacker.cz/jak-obejit-znemozneni-obchodovani-americkych-etfek-2-cast/",
+   "publisher": "Finhacker.cz (blog quoting Fio); Fio page https://www.fio.cz/akcie-investice/etf/vypis-etf",
+   "date": "2020-08-19, updated 2022-01-14 (blog); Fio page undated (copyright 2026)",
+   "note": "The quote that 'Klienti Fio banky tak i nadale mohou investovat do americkych ETF bez omezeni' comes via a search-engine excerpt of the blog quoting Fio's website; current Fio wording not verified."
+  },
+  {
+   "claim": "CNB Q&A on PRIIPs: a firm that only executes client orders or gives access to a foreign exchange, without actively offering/selling and without advice, is generally not the 'seller' under Art. 13 PRIIPs (so is not itself obliged to deliver the KID). Document does not mention US/third-country funds.",
+   "source_url": "https://www.cnb.cz/cs/dohled-financni-trh/legislativni-zakladna/stanoviska-k-regulaci-financniho-trhu/RS2018-12",
+   "publisher": "Ceska narodni banka (position RS2018-12)",
+   "date": "2018-10-22 (later updated, references 2022)"
+  },
+  {
+   "claim": "European Parliament written question E-004745/2021 by Eugen Jurzyca (ECR): since 2018 ordinary EU investors cannot invest in US ETFs because they provide no KID; asks the Commission about the regulatory conflict (US issuers say US law bars the performance scenarios the KID requires).",
+   "source_url": "https://www.europarl.europa.eu/doceo/document/E-9-2021-004745_EN.html",
+   "publisher": "European Parliament",
+   "date": "2021-10-19",
+   "note": "Page itself returned empty to the fetch tool; content from a search-engine summary. Commission answer not found. No ESMA/ESA primary text fetched."
+  }
+ ],
+ "cz_bank_funds": [
+  {
+   "fund": "Amundi Funds Global Equity - A CZK Hgd (ISIN LU1894680591), global active equity fund, benchmark MSCI World",
+   "provider": "Amundi Luxembourg S.A.; distributed in CZ by Komerční banka (KB) per KB price list 'AMUNDI FUNDS GLOBAL EQUITY (CZK Hedged)'",
+   "ongoing_charges_pct": 1.93,
+   "ongoing_charges_note": "KID: management fees and other administrative or operating costs 1.93% of investment value per year (based on actual costs last year). Separately, transaction costs 0.54% per year. KID summary: annual cost impact 4.3% over the 5-year recommended holding period incl. max entry fee (total costs CZK 76,623 on CZK 250,000).",
+   "transaction_costs_pct": 0.54,
+   "entry_fee_max_pct": 4.5,
+   "entry_fee_max_note": "KID states maximum distribution cost 4.50% of amount invested (up to CZK 11,250 on CZK 250,000); no exit fee in KID. KB price list valid from 2026-08-03 charges 3.00% purchase markup for AMUNDI FUNDS GLOBAL EQUITY (CZK Hedged).",
+   "kb_entry_fee_pct": 3.0,
+   "kid_date": "2026-08-19",
+   "source_url": "https://www.amundi.cz/produkty/dl/doc/kid-priips/LU1894680591/CES/CZE",
+   "kb_price_list_url": "https://www.kb.cz/getmedia/a53e1972-ff12-4692-b14f-29d56bf5c91e/CZ-014-20260803_Cenik-Amundi-Invest_KB.pdf",
+   "source_note": "KID PDF and KB price list PDF read by me via pdftotext. Assumed that KB's '(CZK Hedged)' line is this A CZK Hgd share class (KB list gives no ISIN).",
+   "retrieved": "2026-10-29",
+   "short_name": "Amundi Funds Global Equity (KB)",
+   "entry_fee_actual_pct": 3.0,
+   "entry_fee_actual_source": "https://www.kb.cz/getmedia/a53e1972-ff12-4692-b14f-29d56bf5c91e/CZ-014-20260803_Cenik-Amundi-Invest_KB.pdf",
+   "entry_fee_actual_note": "Ceník Amundi Invest KB platný od 3. 8. 2026: AMUNDI FUNDS GLOBAL EQUITY (CZK Hedged) 3,00 %. Ručne overené z PDF 2026-10-29.",
+   "verified_manually": "2026-10-29: z PDF KID overené 1,93 % (poplatky za vedení a správní náklady), 0,54 % transakční náklady, max. vstup 4,50 %; z ceníku KB 3,00 %."
+  },
+  {
+   "fund": "Sporotrend (ISIN CZ0008472289, class CZK C), CEE stock-picking equity fund (central and eastern Europe, NOT global)",
+   "provider": "Erste Asset Management GmbH, pobocka Ceska republika; sold via Ceska sporitelna",
+   "ongoing_charges_pct": null,
+   "ongoing_charges_note": "Current KID not retrieved. Management fee 2.00% p.a. per fund information sheet dated 2025-08-29. Secondary aggregators (penize.cz, finex.cz, via search excerpts) show total expense ratio 2.27% p.a., undated - not used as the main value.",
+   "management_fee_pct": 2.0,
+   "secondary_ter_pct": 2.27,
+   "entry_fee_max_pct": 3.0,
+   "entry_fee_max_note": "Fund info sheet 2025-08-29: entry fee max 3.00%, exit 0.00%. Ceska sporitelna price list effective 2026-10-23: 3.00% for Erste group equity funds ('Akciove fondy'), 4.00% for third-party equity funds.",
+   "kid_date": null,
+   "factsheet_date": "2025-08-29",
+   "source_url": "https://data.erste-am.com/gem/erste-am/getDocumentContent/6cc701c3-57a6-4d2c-a779-5770732e8cea",
+   "cs_price_list_url": "https://www.csas.cz/cenik-investovani",
+   "source_note": "The ERSTE AM PDF is a fund information sheet (data as of 2025-08-29), not the KID itself. ČS price list PDF (effective 2026-10-23) parsed with pdfplumber; the plain text layout shifted columns so I read row by row from coordinates.",
+   "retrieved": "2026-10-29"
+  }
+ ],
+ "cz_tax": [
+  {
+   "claim": "Time test: income of an individual from selling securities (shares, ETFs, unit certificates) held more than 3 years is exempt from Czech income tax.",
+   "source_url": "https://arws.cz/novinky-v-arrows/efektivni-zdaneni-akcii-a-etf",
+   "publisher": "ARROWS advokatni kancelar (law firm article)",
+   "date": "published 2025-09-25, updated 2026-10-12",
+   "note": "Corroborated by finance.cz article of 2025-04-11 ('36 months'): https://www.finance.cz/clanky/552974-jak-se-dani-akcie-kryptomeny-cenne-papiry/. The GFR press release of 2026-01-05 refers to 'splneny cesovy test' but does not state the length. GFR guideline D-59 (search-engine excerpt only, not read) says more than 3 years."
+  },
+  {
+   "claim": "Value test: the exemption for total sale proceeds of securities up to CZK 100,000 per tax period remains in force in 2026 ('hodnotovy test pro osvobozeni stanoveny na 100 tisic korun'). It is measured on proceeds, not profit. Per GFR guidelines (search-engine excerpt of D-59) the time test and value test are alternative conditions and cannot be combined.",
+   "source_url": "https://financnisprava.gov.cz/cs/financni-sprava/media-a-verejnost/tiskove-zpravy-gfr/tiskove-zpravy-2026/danove-novinky-pro-rok-2026",
+   "publisher": "Financni sprava CR (GFR press release)",
+   "date": "2026-01-05",
+   "note": "Proceeds-not-profit and combined-across-brokers wording from ARROWS (https://arws.cz/novinky-v-arrows/efektivni-zdaneni-akcii-a-etf, updated 2026-10-12). Non-combinability of the two tests only via search excerpt of https://financnisprava.gov.cz/assets/cs/prilohy/d-sprava-dani-a-poplatku/Pokyn_GFR-D-59.pdf - not verified."
+  },
+  {
+   "claim": "40 million CZK cap on exempt income (securities passing the time test): applied only for 2025 (introduced by the 2024 consolidation package), and is ABOLISHED for securities and business shares from 2026-01-01 by Act No. 360/2025 Sb.; it remains for crypto-assets. So there is currently no cap for time-test-exempt securities sales.",
+   "source_url": "https://mf.gov.cz/cs/ministerstvo/media/tiskove-zpravy/2025/zmeny-v-daneni-prodeje-podilu-ve-firmach-a-akcii-a-61234",
+   "publisher": "Ministerstvo financi CR (press release); confirmed by GFR 2026-01-05 and dauc.cz 2025-12-11",
+   "date": "2025-09-10",
+   "note": "Other sources: https://financnisprava.gov.cz/cs/financni-sprava/media-a-verejnost/tiskove-zpravy-gfr/tiskove-zpravy-2026/danove-novinky-pro-rok-2026 (2026-01-05); https://www.dauc.cz/clanky/16039/prehled-zmen-ve-zdaneni-fo-dle-zakona-c-360-2025-sb (2025-12-11); introduction for 2025: https://www.finance.cz/clanky/552974-jak-se-dani-akcie-kryptomeny-cenne-papiry/ (2025-04-11). Paragraph letters of CZ Income Tax Act sections differ between sources (w, x, u, q) because of amendments - not cited here."
+  },
+  {
+   "claim": "ETFs are taxed like shares on sale; accumulating (Acc) ETFs create no dividend income for the investor, distributing (Dist) ETFs pay dividends taxable in the Czech Republic; tax treatment also depends on fund domicile (often Ireland or Luxembourg).",
+   "source_url": "https://arws.cz/novinky-v-arrows/efektivni-zdaneni-akcii-a-etf",
+   "publisher": "ARROWS advokatni kancelar (law firm article)",
+   "date": "published 2025-09-25, updated 2026-10-12",
+   "note": "Law-firm marketing article, not an official source. Not verified against the law text."
+  }
+ ],
+ "us_tax": [
+  {
+   "claim": "US withholding on dividends paid to a Czech resident: statutory rate 30%, reduced by the US-Czech income tax treaty to 15% (5% for qualifying direct corporate holders). The 15% rate applies to dividends paid by US regulated investment companies (i.e. US ETFs structured as RICs); for REIT dividends only if the individual holds under 10%.",
+   "source_url": "https://www.irs.gov/pub/irs-lbi/tax-treaty-table-1.pdf",
+   "publisher": "IRS, Tax Treaty Table 1 (Rev. May 2023), Czech Republic row, Article 10(2), footnote w",
+   "date": "Rev. May 2023 (document fetched 2026-10-29)"
+  },
+  {
+   "claim": "IRS: dividends to nonresident aliens are withheld at 30% or the lesser tax-treaty rate; the beneficial owner claims the treaty article on dividend income by giving Form W-8BEN to the withholding agent.",
+   "source_url": "https://www.irs.gov/individuals/international-taxpayers/federal-income-tax-withholding-and-reporting-on-other-kinds-of-us-source-income-paid-to-nonresident-aliens",
+   "publisher": "IRS",
+   "date": "page last updated 2026-07-23"
+  },
+  {
+   "claim": "IRS Form W-8BEN page: foreign beneficial owners give Form W-8BEN to the withholding agent or payer whether or not they claim a reduced rate; current instructions version 10/2021.",
+   "source_url": "https://www.irs.gov/forms-pubs/about-form-w-8-ben",
+   "publisher": "IRS",
+   "date": "page last updated 2026-10-02"
+  },
+  {
+   "claim": "US estate tax for nonresident non-citizens: the executor must file Form 706-NA if the date-of-death value of US-situated assets (plus gift tax specific exemption and adjusted taxable gifts) exceeds the filing threshold of USD 60,000; the threshold is not indexed to inflation. IRS lists 'cash and securities' among property that may be includible; the IRS page does not itself spell out that US-listed ETF shares are US-situs (that inference is not sourced here).",
+   "source_url": "https://www.irs.gov/node/71231",
+   "publisher": "IRS, Estate tax for nonresidents not citizens of the United States",
+   "date": "page last updated 2026-06-28",
+   "note": "Second IRS page with the same USD 60,000 statement: https://www.irs.gov/node/9899 (updated 2026-06-28)."
+  },
+  {
+   "claim": "No US estate or gift tax treaty with the Czech Republic: IRS's list of estate and gift tax treaties (Australia, Austria, Canada, Denmark, Finland, France, Germany, Greece, Ireland, Italy, Japan, Netherlands, South Africa, Switzerland, UK) does not include the Czech Republic (Czechoslovakia).",
+   "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/estate-gift-tax-treaties-international",
+   "publisher": "IRS",
+   "date": "page last updated 2026-09-08"
+  }
+ ],
+ "dip": [
+  {
+   "claim": "DIP (dlouhodoby investicni produkt) can be concluded only from 2024-01-01 ('DIP lze sjednat az od 1. 1. 2024').",
+   "source_url": "https://mf.gov.cz/cs/financni-trh/ochrana-spotrebitele/aktuality/2024/dlouhodoby-investicni-produkt-a-danova-podpora-pro-54732",
+   "publisher": "Ministerstvo financi CR",
+   "date": "2024-01-31"
+  },
+  {
+   "claim": "Tax deduction: contributions to DIP and other state-supported pension-savings products and long-term-care insurance are deductible together up to CZK 48,000 per year (the limit is shared, not per product). Employer contributions are tax-exempt up to CZK 50,000 per year.",
+   "source_url": "https://mf.gov.cz/cs/financni-trh/ochrana-spotrebitele/aktuality/2024/dlouhodoby-investicni-produkt-a-danova-podpora-pro-54732",
+   "publisher": "Ministerstvo financi CR",
+   "date": "2024-01-31",
+   "note": "GFR 'Danove novinky pro rok 2026' (2026-01-05) does not mention DIP or the 48,000 limit; I found no 2025-2026 change but did not read the law text."
+  },
+  {
+   "claim": "Conditions: no withdrawal before both 10 years (120 months) since the DIP was created and the holder reaching age 60; earlier withdrawal means the claimed tax benefit must be repaid (looking back up to 10 years).",
+   "source_url": "https://mf.gov.cz/cs/financni-trh/ochrana-spotrebitele/aktuality/2024/dlouhodoby-investicni-produkt-a-danova-podpora-pro-54732",
+   "publisher": "Ministerstvo financi CR",
+   "date": "2024-01-31"
+  }
+ ]
+}

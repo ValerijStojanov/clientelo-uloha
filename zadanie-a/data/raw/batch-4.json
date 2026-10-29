@@ -1,0 +1,416 @@
+[
+  {
+    "name": "Fond rizikového kapitálu, s.r.o.",
+    "decision": "exclude",
+    "exclusion_codes": ["X8", "X9"],
+    "decision_reason": "Historický fond z roku 1995 (podľa médií 'za dobu své existence' 11 investícií, opisovaný v minulom čase); žiadna doložená investícia v okne aktivity a subjekt sa nepodarilo nájsť v ARES, takže ani jeho existenciu nevieme overiť. Zároveň ide o PE, nie VC.",
+    "type": null,
+    "subtype": null,
+    "type_secondary": null,
+    "confidence": "medium",
+    "fields": {
+      "website": {"value": null, "basis": "not_public", "src": []},
+      "exclusion_evidence": {
+        "value": "Fond opisovaný v minulom čase (11 investícií za celú existenciu, výnosy 'through 2000'); žiadna novšia investícia.",
+        "basis": "media",
+        "src": [
+          {"url": "https://www.newstream.cz/money/nejlepsi-firmy-roku-2024-z-private-equity-a-venture-kapitalu-v-cesku-prevzaly-sve-ceny", "publisher": "Newstream.cz", "published": "2024-06-12", "retrieved": "2026-10-29", "quote": "Fond rizikového kapitálu, který za dobu své existence uskutečnil celkem 11 investic."},
+          {"url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic", "publisher": "Wikipedia (T4, iba doplnkový zdroj)", "published": null, "retrieved": "2026-10-29", "quote": "Fond rizikového kapitálu, s.r.o. achieved average annual returns of approximately 50% through 2000."}
+        ]
+      }
+    },
+    "open_questions": "ARES (hľadanie podľa obchodného mena 'Fond rizikového kapitálu' a variantov) nevrátil žiadny subjekt, IČO sa nepodarilo zistiť. Wikipedia výslovne netvrdí, že fond Michala Noska z roku 1995 a 'Fond rizikového kapitálu, s.r.o.' sú ten istý subjekt (zdroj to len prepája v texte). Newstream uvádza fond v minulom čase; či formálne zanikol, nevieme."
+  },
+  {
+    "name": "StartupYard",
+    "decision": "include",
+    "exclusion_codes": [],
+    "decision_reason": "Pražský akcelerátor, ktorý za program a financovanie berie podiel (cieľovo ~5 %) a má follow-on fond; v okne aktivity doložená investícia do Ydoca (pre-seed, február 2025, StartupYard 500 tis. CZK) nezávislým médiom. VC / accelerator_equity.",
+    "type": "VC",
+    "subtype": "accelerator_equity",
+    "type_secondary": null,
+    "confidence": "medium",
+    "fields": {
+      "legal_name": {"value": "StartupYard Batch 15 s.r.o.", "basis": "registry", "src": [
+        {"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22266852", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "StartupYard Batch 15 s.r.o."}
+      ]},
+      "registry_id": {"value": "22266852", "basis": "registry", "src": [
+        {"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22266852", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "22266852"}
+      ]},
+      "hq_city": {"value": "Praha", "basis": "registry", "src": [
+        {"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/22266852", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "Perlová 371/5, Staré Město, 11000 Praha 1"}
+      ]},
+      "website": {"value": "https://startupyard.com/", "basis": "stated", "src": [
+        {"url": "https://startupyard.com/faq", "publisher": "StartupYard (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "In exchange for the program and funding, we typically target around 5% equity in your startup."}
+      ]},
+      "sectors": {"value": ["ai", "deeptech"], "raw": "sharp focus on AI and hard-to-replicate deep tech solutions; programme described as industry-agnostic", "basis": "stated", "src": [
+        {"url": "https://startupyard.com/the-next-wave-begins-startupyard-announces-batch-15/", "publisher": "StartupYard (vlastný web)", "published": "2025-09-11", "retrieved": "2026-10-29", "quote": "a sharp focus on AI and hard-to-replicate deep tech solutions"}
+      ]},
+      "stages": {"value": ["pre-seed", "seed"], "basis": "derived", "derivation": "Seed akcelerátor (hotovosť 25 000 EUR cez konvertibilnú pôžičku + follow-on fond); doložená investícia bola pre-seed kolo (Ydoca).", "src": [
+        {"url": "https://cc.cz/live/petkrat-rychlejsi-vyberova-rizeni-do-cesko-slovenske-ai-platformy-ydoca-investovali-depo-ventures-a-startupyard/", "publisher": "CzechCrunch", "published": "2025-02-14", "retrieved": "2026-10-29", "quote": "V rámci pre-seed investičního kola startup získal financování v celkové výši 2,3 milionu korun"}
+      ]},
+      "ticket": {"value": {"min": 25000, "max": 100000, "currency": "EUR"}, "basis": "stated", "derivation": "min = hotovostná časť programu (25 000 EUR; celá konvertibilná pôžička 70 000 EUR vrátane 45 000 EUR in-kind akceleračného programu); max = follow-on fond do 100 000 EUR. Doložená transakcia Ydoca: 500 000 CZK.", "src": [
+        {"url": "https://startupyard.com/faq", "publisher": "StartupYard (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "If your startup needs funding, you can receive €25,000 in cash"},
+        {"url": "https://startupyard.com/faq", "publisher": "StartupYard (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "We operate a follow-on fund for startups that perform well during and after the program, with investments of up to €100,000."}
+      ]},
+      "capital": {"value": null, "measure": null, "as_of": null, "basis": "not_public", "src": []},
+      "last_investment": {"value": {"company": "Ydoca", "date": "2025-02-14", "round": "pre-seed"}, "basis": "media", "src": [
+        {"url": "https://cc.cz/live/petkrat-rychlejsi-vyberova-rizeni-do-cesko-slovenske-ai-platformy-ydoca-investovali-depo-ventures-a-startupyard/", "publisher": "CzechCrunch", "published": "2025-02-14", "retrieved": "2026-10-29", "quote": "DEPO Ventures podpořilo projekt částkou 1,8 milionu a StartupYard částkou 500 tisíc korun."}
+      ]},
+      "independent_deal_evidence": {"value": {"company": "Ydoca", "date": "2025-02-14"}, "basis": "media", "src": [
+        {"url": "https://cc.cz/live/petkrat-rychlejsi-vyberova-rizeni-do-cesko-slovenske-ai-platformy-ydoca-investovali-depo-ventures-a-startupyard/", "publisher": "CzechCrunch", "published": "2025-02-14", "retrieved": "2026-10-29", "quote": "DEPO Ventures podpořilo projekt částkou 1,8 milionu a StartupYard částkou 500 tisíc korun."}
+      ]},
+      "type_evidence": {"value": "Berie podiel (cieľovo ~5 %) za program a financovanie; prevádzkuje follow-on fond v partnerstve s DEPO Ventures.", "basis": "stated", "src": [
+        {"url": "https://startupyard.com/faq", "publisher": "StartupYard (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "This follow-on fund is in partnership with DEPO Ventures."}
+      ]}
+    },
+    "open_questions": "(1) Právna štruktúra: StartupYard používa samostatné s.r.o. pre každý batch (Batch 5-15, všetky na Perlová 371/5, napr. Batch 14 = IČO 19997272, vznik 2023-12-07; StartupYard Services s.r.o. = 06002820); nepodarilo sa overiť, ktorý subjekt je správcom a ktorý vehikel reálne investoval (Ydoca vo februári 2025 mohol ísť cez Batch 14 aj Batch 15). Zvolený bol najnovší vehikel; podľa X10 má ísť o jeden záznam na správcu. (2) Kapitál / veľkosť follow-on fondu aktuálne nezverejnená (jediný údaj: 1 mil. EUR kolo z roku 2017 podľa vlastného blogu, zastaraný, nepoužitý). (3) Novšie investície (Batch 15, vznik vehikla 2024-11-14; blog uvádza spotlighty Wopee.io 2025-08, CaseLens 2026-04, Teamsharq 2026-06) som nevedel potvrdiť ako investície StartupYardu nezávislým zdrojom; za 'poslednú' je preto uvedená Ydoca. (4) Podmienky programu sa medzi zdrojmi líšia (FAQ ~5 % podiel; staršie články 10 %); použité je aktuálne FAQ."
+  },
+  {
+    "name": "JIC (JIC Ventures / JIC STARCUBE)",
+    "decision": "include",
+    "exclusion_codes": [],
+    "decision_reason": "Nový VC fond JIC Ventures (400 mil. CZK, pre-seed/seed, oficiálny štart apríl 2026), väčšinu kapitálu tvoria súkromní investori (CTP, Česká spořitelna, J. Barta); prvá investícia FaceUp (Series A, máj 2026) doložená nezávislým médiom. Správcom je JIC (jihomoravské inovační centrum), ale fond nie je štátny, takže nejde o public_vc.",
+    "type": "VC",
+    "subtype": "independent_vc",
+    "type_secondary": null,
+    "confidence": "high",
+    "fields": {
+      "legal_name": {"value": "JIC Ventures 2 a.s., osoba rizikového kapitálu", "basis": "registry", "src": [
+        {"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24320358", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "JIC Ventures 2 a.s., osoba rizikového kapitálu"}
+      ]},
+      "registry_id": {"value": "24320358", "basis": "registry", "src": [
+        {"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24320358", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "24320358"}
+      ]},
+      "hq_city": {"value": "Brno", "basis": "registry", "src": [
+        {"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/24320358", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "Purkyňova 649/127, Medlánky, 61200 Brno"}
+      ]},
+      "website": {"value": "https://www.jic.cz", "basis": "stated", "src": [
+        {"url": "https://www.jic.cz/en/about-us/pro-media/prvni-investice-noveho-fondu-jic-ventures-miri-do", "publisher": "JIC (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "intends to support approximately twenty technology startups over four years"}
+      ]},
+      "sectors": {"value": ["software", "deeptech"], "raw": "SaaS, deep tech or other advanced technologies", "basis": "stated", "src": [
+        {"url": "https://www.jic.cz/en/about-us/pro-media/prvni-investice-noveho-fondu-jic-ventures-miri-do", "publisher": "JIC (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "whether in SaaS, deep tech or other advanced technologies"}
+      ]},
+      "stages": {"value": ["pre-seed", "seed"], "basis": "stated", "src": [
+        {"url": "https://ctp.eu/wp-content/uploads/2026/04/TZ_CTP_JIC-Ventures.pdf", "publisher": "CTP Czech Republic (tlačová správa)", "published": "2026-04-07", "retrieved": "2026-10-29", "quote": "bude investovat do technologických startupů v raných fázích, tedy pre-seed a seed"}
+      ]},
+      "ticket": {"value": {"min": null, "max": 1000000, "currency": "EUR"}, "basis": "stated", "derivation": "Horná hranica podľa JIC; minimum nezverejnené. Prvá investícia FaceUp bola Series A.", "src": [
+        {"url": "https://www.jic.cz/en/about-us/pro-media/prvni-investice-noveho-fondu-jic-ventures-miri-do", "publisher": "JIC (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "with tickets of up to €1 million"}
+      ]},
+      "capital": {"value": {"amount": 400000000, "currency": "CZK"}, "measure": "veľkosť fondu JIC Ventures (oznámený cieľ; cc.cz uvádza 320 mil. Kč už alokovaných)", "as_of": "2026-04", "basis": "media", "src": [
+        {"url": "https://ctp.eu/wp-content/uploads/2026/04/TZ_CTP_JIC-Ventures.pdf", "publisher": "CTP Czech Republic (tlačová správa)", "published": "2026-04-07", "retrieved": "2026-10-29", "quote": "Fond o objemu 400 milionů korun, který iniciovalo Jihomoravské inovační centrum (JIC)"},
+        {"url": "https://cc.cz/v-brne-vznikl-fond-jaky-nema-obdoby-spojuje-soukromniky-mesto-kraj-univerzity-i-biskupstvi/", "publisher": "CzechCrunch", "published": "2026-04-07", "retrieved": "2026-10-29", "quote": "Fond cílí na velikost 400 milionů korun"}
+      ]},
+      "last_investment": {"value": {"company": "FaceUp", "date": "2026-05-19", "round": "Series A"}, "basis": "media", "src": [
+        {"url": "https://www.lupa.cz/aktuality/whistleblowing-platforma-faceup-ziskala-pres-100-milionu-i-od-brnenskeho-fondu-s-nimz-investuje-biskupstvi/", "publisher": "Lupa.cz", "published": "2026-05-19", "retrieved": "2026-10-29", "quote": "a významným účastníkem byl i nový fond JIC Ventures"}
+      ]},
+      "independent_deal_evidence": {"value": {"company": "FaceUp", "date": "2026-05-19"}, "basis": "media", "src": [
+        {"url": "https://www.lupa.cz/aktuality/whistleblowing-platforma-faceup-ziskala-pres-100-milionu-i-od-brnenskeho-fondu-s-nimz-investuje-biskupstvi/", "publisher": "Lupa.cz", "published": "2026-05-19", "retrieved": "2026-10-29", "quote": "Investiční kolo vedl chorvatský fond Fil Rouge Capital"}
+      ]}
+    },
+    "open_questions": "(1) Prepojenie fondu 'JIC Ventures' na právny subjekt je odvodené: ARES obsahuje 'JIC Ventures 2 a.s., osoba rizikového kapitálu' (vznik 2026-01-05, rovnaká adresa), ale žiadny zdroj priamo netvrdí, že je to vehikel fondu. Existujú aj JIC Ventures, s.r.o. (04156293, od 2015, staršie koinvestície napr. Gina Software 2015) a JIC General Partner s.r.o. (24074004). Treba overiť v ČNB registri / v obchodnom registri. (2) Či akcelerátor JIC STARCUBE berie equity, som neoveril (stránka /en/starcube vrátila 404). (3) FaceUp je podľa JIC prvá investícia nového fondu; či existujú novšie, som nezisťoval (limit vyhľadávania vyčerpaný). (4) Kolo FaceUp: Czech médiá 110+ mil. CZK, anglicky USD 5 M; suma JIC Ventures nezverejnená."
+  },
+  {
+    "name": "AI Startup Incubator",
+    "decision": "include",
+    "exclusion_codes": [],
+    "decision_reason": "AI Startup Incubator je dnes pod značkou Look AI (Look AI Investments, a.s., pôvodne AI Startup Incubator; dcéra Look AI Ventures). Fond Look AI Ventures SICAV priamo investuje do pre-seed/seed AI startupov, v okne aktivity viacero investícií (Checkstep máj 2026, Embodied AI september 2026) doložených nezávislými médiami.",
+    "type": "VC",
+    "subtype": "independent_vc",
+    "type_secondary": null,
+    "confidence": "medium",
+    "fields": {
+      "legal_name": {"value": "Look AI Ventures SICAV, a.s.", "basis": "registry", "src": [
+        {"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17604087", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "Look AI Ventures SICAV, a.s."}
+      ]},
+      "registry_id": {"value": "17604087", "basis": "registry", "src": [
+        {"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17604087", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "17604087"}
+      ]},
+      "hq_city": {"value": "Praha", "basis": "registry", "src": [
+        {"url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/17604087", "publisher": "ARES (Ministerstvo financí ČR)", "published": null, "retrieved": "2026-10-29", "quote": "Radlická 180/50, Smíchov, 15000 Praha 5"}
+      ]},
+      "website": {"value": "https://lookai.vc", "basis": "stated", "src": [
+        {"url": "https://lookai.vc/", "publisher": "Look AI Ventures (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "Look AI Investments (formerly AI Startup Incubator) is a subsidiary company of Look AI Ventures"}
+      ]},
+      "sectors": {"value": ["ai"], "raw": "primarily European AI startups; also globally companies with strong technical capabilities regardless of sector", "basis": "stated", "src": [
+        {"url": "https://lookai.vc/", "publisher": "Look AI Ventures (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "While we primarily focus on European AI startups"}
+      ]},
+      "stages": {"value": ["pre-seed", "seed"], "basis": "derived", "derivation": "Vlastný web: 'pre-Series A' fond; portfóliové kolá sú pre-seed (Ochy 1,7 M EUR, Inntelo AI >500 tis. GBP) a seed (Checkstep 3 M GBP).", "src": [
+        {"url": "https://lookai.vc/", "publisher": "Look AI Ventures (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "Look AI Ventures is a pre-Series A venture capital fund"},
+        {"url": "https://lookai.vc/news/", "publisher": "Look AI Ventures (vlastný web)", "published": "2025-02-20", "retrieved": "2026-10-29", "quote": "New Investment: Ochy Secures €1.7M Pre-Seed and Announces Integration within adidas adiClub"}
+      ]},
+      "ticket": {"value": {"min": 250000, "max": 250000, "currency": "EUR"}, "basis": "stated", "derivation": "Bodový cieľ 250 000 EUR na startup uvedený pri spustení fondu v apríli 2023; aktuálne rozpätie nezverejnené (agregátory uvádzajú rozdielne hodnoty, nepoužité).", "src": [
+        {"url": "https://tech.eu/2023/04/13/czech-republic-has-a-new-investment-fund-for-ai-start-ups", "publisher": "Tech.eu", "published": "2023-04-13", "retrieved": "2026-10-29", "quote": "The targeted investment amount in one start-up is €250,000 and mentorship will be provided."}
+      ]},
+      "capital": {"value": {"amount": 20000000, "currency": "EUR"}, "measure": "cieľová veľkosť fondu Look AI Ventures (aims to raise; stav z apríla 2023, skutočne zdvihnutý kapitál nezverejnený)", "as_of": "2023-04", "basis": "media", "src": [
+        {"url": "https://tech.eu/2023/04/13/czech-republic-has-a-new-investment-fund-for-ai-start-ups", "publisher": "Tech.eu", "published": "2023-04-13", "retrieved": "2026-10-29", "quote": "It aims to raise €20 million which will be invested in early stage AI-driven companies."}
+      ]},
+      "last_investment": {"value": {"company": "Embodied AI", "date": "2026-09-16", "round": "initial financing round (size undisclosed)"}, "basis": "media", "src": [
+        {"url": "https://pulse2.com/embodied-ai-launches-with-funding-to-automate-european-manufacturing/", "publisher": "Pulse 2", "published": "2026-09-16", "retrieved": "2026-10-29", "quote": "also included participation from Techshop Capital, Look AI Ventures, Kickfund, Plug and Play San Francisco, Excellis and Vento"}
+      ]},
+      "independent_deal_evidence": {"value": {"company": "Checkstep", "date": "2026-05-28"}, "basis": "media", "src": [
+        {"url": "https://startuprise.co.uk/checkstep-secures-3-million-to-scale-ai-powered-trust-safety-infrastructure-globally/", "publisher": "Startuprise", "published": "2026-05-28", "retrieved": "2026-10-29", "quote": "The round was led by Alea Capital Partners, with participation from Slow Ventures and Look AI Ventures."}
+      ]}
+    },
+    "open_questions": "(1) Pôvodná doména suincubator.ai je nedostupná (connection refused), značka je Look AI; kandidát je teda zlúčený s Look AI Ventures SICAV (zdroj: tvrdenie na lookai.vc o zmene mena a ARES). Ďalšie subjekty: Look AI Investments, a.s. (06385745, od 2017, pôvodne AI Startup Incubator) a Podfond Look AI Ventures I (75163705) - podľa X10 podriadené/vehikel. Ktorý z nich je formálne správcom, som neoveril. (2) Kapitál 20 mil. EUR je iba cieľ z roku 2023; aktuálna veľkosť nezverejnená, preto confidence = medium. (3) Dátum Embodied AI: nezávislý Pulse 2 = 2026-09-16, vlastný web fondu = 2026-09-22; či ide o to isté Embodied AI (Lausanne/Faber VC) je odvodené z lídra kola a témy. (4) Ticket je iba bodový cieľ z 2023."
+  },
+  {
+    "name": "HitHit",
+    "decision": "exclude",
+    "exclusion_codes": ["X2"],
+    "decision_reason": "Odmeňový crowdfunding: platforma prepája tvorcov s podporovateľmi, ktorí dostávajú odmeny, nie podiely; HitHit sám nič neinvestuje.",
+    "type": null,
+    "subtype": null,
+    "type_secondary": null,
+    "confidence": "high",
+    "fields": {
+      "website": {"value": "https://www.hithit.com/cs/home", "basis": "stated", "src": [
+        {"url": "https://www.hithit.com/cs/home", "publisher": "Hithit (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "Hithit propojuje kreativní lidi s těmi, kteří je chtějí podpořit."}
+      ]},
+      "exclusion_evidence": {
+        "value": "Podporovatelia si vyberajú odmeny (reward-based crowdfunding); ide o platformu, nie investora.",
+        "basis": "stated",
+        "src": [
+          {"url": "https://www.hithit.com/cs/home", "publisher": "Hithit (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "Vyberte si z odměn, které začínají na několika stovkách."}
+        ]
+      }
+    },
+    "open_questions": "Web explicitne nepíše, že sa neponúka podiel (zdroj len spomína odmeny); klasifikácia 'reward-based' pochádza aj z poznámky kandidátskeho zdroja czechstartups.gov.cz. Právny subjekt: Hithit s.r.o. (26706784, ARES); od 2025 existuje aj HITHIT Group a.s. (22568620)."
+  },
+  {
+    "name": "Fundlift",
+    "decision": "exclude",
+    "exclusion_codes": ["X2"],
+    "decision_reason": "Investičná crowdfundingová platforma: investujú jej používatelia do emitentov (konvertibilné certifikáty, minibondy), Fundlift sám nie je investor.",
+    "type": null,
+    "subtype": null,
+    "type_secondary": null,
+    "confidence": "high",
+    "fields": {
+      "website": {"value": "https://www.fundlift.cz", "basis": "stated", "src": [
+        {"url": "https://www.fundlift.cz", "publisher": "Fundlift (vlastný web; fetch vrátil iba šablónu bez textu)", "published": null, "retrieved": "2026-10-29", "quote": null}
+      ]},
+      "exclusion_evidence": {
+        "value": "Platforma sprostredkúva investície investorov do projektov/firiem; v 2016 ponúkla verejnosti investíciu do akcelerátora StartupYard.",
+        "basis": "media",
+        "src": [
+          {"url": "https://czechstartups.gov.cz/investori_en/fundlift/", "publisher": "CzechStartups.gov.cz", "published": null, "retrieved": "2026-10-29", "quote": "Fundlift is an investment-crowdfunding platform that connects investors and interesting projects."},
+          {"url": "https://cc.cz/platforma-fundlift-nabidne-od-pristiho-tydne-investice-do-ceskeho-akceleratoru-startupyard/", "publisher": "CzechCrunch", "published": "2016-07-22", "retrieved": "2026-10-29", "quote": "Fundlift.cz totiž otevře možnost investování do tuzemského startupového akcelerátoru StartupYard."}
+        ]
+      }
+    },
+    "open_questions": "Domovská stránka fundlift.cz sa mi nepodarilo prečítať (iba šablóna). Právny subjekt: Fundlift, s.r.o. (IČO 03876292, Praha, ARES)."
+  },
+  {
+    "name": "Investown",
+    "decision": "exclude",
+    "exclusion_codes": ["X2", "X5"],
+    "decision_reason": "Platforma, cez ktorú investujú používatelia (investičné úvery); predmetom sú úvery zabezpečené nehnuteľnosťami, nie podiely v neburzových firmách.",
+    "type": null,
+    "subtype": null,
+    "type_secondary": null,
+    "confidence": "high",
+    "fields": {
+      "website": {"value": "https://www.investown.cz", "basis": "stated", "src": [
+        {"url": "https://www.investown.cz", "publisher": "Investown (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "Investown je online platforma s investičními úvěry do nemovitostí."}
+      ]},
+      "exclusion_evidence": {
+        "value": "Online platforma s investičnými úvermi do nehnuteľností; ľudia sa podieľajú na investovaní do úverov z nehnuteľností.",
+        "basis": "media",
+        "src": [
+          {"url": "https://cc.cz/startup-investown-dostal-zelenou-od-cnb-licence-mu-otevira-cestu-do-george-ceske-sporitelny/", "publisher": "CzechCrunch", "published": "2023-10-24", "retrieved": "2026-10-29", "quote": "Investown lidem umožňuje podílet se na investování do úvěrů z nemovitostí."}
+        ]
+      }
+    },
+    "open_questions": "Právny subjekt prevádzkovateľa: Investown Technologies s.r.o. (IČO 08667144, ARES); existuje viac Investown s.r.o. (Family, Platforms, Shareholders, Reality), neriešené, pretože ide o vylúčenie."
+  },
+  {
+    "name": "Garage Angels",
+    "decision": "exclude",
+    "exclusion_codes": ["X2"],
+    "decision_reason": "Neformálna skupina jednotlivých anjelov; každý člen investuje vlastné peniaze, Garage Angels ako subjekt kapitál nemá ani nerozhoduje (ani vlastný fond/syndikát nie je doložený). Najbližší kód je X2 (investujú členovia, nie subjekt); hraničný prípad, rozhodnuté konzervatívne.",
+    "type": null,
+    "subtype": null,
+    "type_secondary": null,
+    "confidence": "medium",
+    "fields": {
+      "website": {"value": "https://g-angels.cz/", "basis": "stated", "src": [
+        {"url": "https://g-angels.cz/", "publisher": "Garage Angels (vlastný web; garageangels.cz presmeruje 301 na g-angels.cz)", "published": null, "retrieved": "2026-10-29", "quote": "Jsme neformální uskupení individuálních investorů."}
+      ]},
+      "exclusion_evidence": {
+        "value": "Skupina individuálnych investorov, investujú výhradne vlastné peniaze; stretávajú sa raz mesačne a vyberajú startupy.",
+        "basis": "stated",
+        "src": [
+          {"url": "https://g-angels.cz/", "publisher": "Garage Angels (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "V Garage Angels investujeme výhradně naše vlastní peníze."}
+        ]
+      }
+    },
+    "open_questions": "V ARES sú Garage Angels z.s. (21814414, spolok, vznik 2024-07-13) a Garage Angels Management s.r.o. (21657505, 2024-05-29); neoveril som, či niektorý funguje ako investičný syndikát/SPV (vtedy by mohol byť angel_syndicate). Web uvádza 13 portfóliových firiem bez dátumov a bez sumy ticketu. Jednotliví členovia by mohli byť samostatnými záznamami typu angel (min. 2 doložené investície a verejný investičný kontext), ak sa to v pilote vyžaduje."
+  },
+  {
+    "name": "Czech Private Equity and Venture Capital Association (CVCA)",
+    "decision": "exclude",
+    "exclusion_codes": ["X1"],
+    "decision_reason": "Profesijná asociácia PE/VC fondov (členovia: fondy, pridružení: právnici, poradcovia, banky); sama nespravuje ani neinvestuje kapitál. Pravidlá X1-X11 nemajú presný kód pre asociáciu, použitý X1 (nespĺňa test Kapitál; zastupuje a sprostredkúva, neinvestuje).",
+    "type": null,
+    "subtype": null,
+    "type_secondary": null,
+    "confidence": "high",
+    "fields": {
+      "website": {"value": "https://www.cvca.cz", "basis": "stated", "src": [
+        {"url": "https://czechstartups.gov.cz/investori_en/czech-private-equity-and-venture-capital-association/", "publisher": "CzechStartups.gov.cz (odkaz zo zoznamu kandidátov; cvca.cz sa nepodarilo načítať, chyba TLS certifikátu)", "published": null, "retrieved": "2026-10-29", "quote": null}
+      ]},
+      "exclusion_evidence": {
+        "value": "CVCA je 'trade body' reprezentujúci PE/VC fondy; ceny CVCA & SLOVCA nominujú členovia asociácií.",
+        "basis": "media",
+        "src": [
+          {"url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic", "publisher": "Wikipedia (T4, iba doplnkový zdroj)", "published": null, "retrieved": "2026-10-29", "quote": "a trade body representing PE/VC funds operating in the country"},
+          {"url": "https://www.newstream.cz/money/nejlepsi-firmy-roku-2024-z-private-equity-a-venture-kapitalu-v-cesku-prevzaly-sve-ceny", "publisher": "Newstream.cz", "published": "2024-06-12", "retrieved": "2026-10-29", "quote": "členové české i slovenské asociace CVCA & SLOVCA"}
+        ]
+      }
+    },
+    "open_questions": "Vlastný web cvca.cz sa nepodarilo načítať (chyba overenia TLS certifikátu; zámerne neobchádzané). Vlastný popis misie preto chýba; opis je z Wikipédie a Newstreamu. Právna forma v ARES: IČO 75063204, The Czech Private Equity and Venture Capital Association, NACE 94110 (členská organizácia), vznik 1995-07-24 (citát z ARES nie je k dispozícii, preto nie je v src)."
+  },
+  {
+    "name": "JŠK (law firm)",
+    "decision": "exclude",
+    "exclusion_codes": ["X1"],
+    "decision_reason": "Advokátska kancelária; poradca pri transakciách (ocenená v kategórii pre poradcov na CVCA & SLOVCA Awards), neinvestuje vlastný kapitál.",
+    "type": null,
+    "subtype": null,
+    "type_secondary": null,
+    "confidence": "high",
+    "fields": {
+      "website": {"value": "https://www.jsk.cz", "basis": "stated", "src": [
+        {"url": "https://www.jsk.cz/en", "publisher": "JŠK, advokátní kancelář, s.r.o. (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "transactions – disputes – regulation"}
+      ]},
+      "exclusion_evidence": {
+        "value": "JŠK je advokátní kancelář, ocenená medzi poradcami (kategória Poradci, banky, pojišťovny).",
+        "basis": "media",
+        "src": [
+          {"url": "https://www.newstream.cz/zpravy-z-firem/asociace-venture-kapitalu-ocenily-transakce-roku-zabodoval-productboard", "publisher": "Newstream.cz", "published": "2023-06-14", "retrieved": "2026-10-29", "quote": "Poslední kategorii určenou pro poradce a další spolupracující subjekty ovládla"}
+        ]
+      }
+    },
+    "open_questions": "Tvrdenie 'JŠK, advokátní kancelář' ako víťaz kategórie je zo súhrnu WebFetch (nie samostatný doslovný citát celej vety). Zoznam pridružených členov CVCA (cvca.cz) sa nepodarilo načítať (TLS chyba)."
+  },
+  {
+    "name": "CzechInvest",
+    "decision": "exclude",
+    "exclusion_codes": ["X3"],
+    "decision_reason": "Štátna agentúra na podporu podnikania a investícií: investičné stimuly, vízová podpora, inkubácia a dátová podpora ekosystému; nedohľadal som žiadnu priamu kapitálovú investíciu do firiem. Program bez equity (X3).",
+    "type": null,
+    "subtype": null,
+    "type_secondary": null,
+    "confidence": "medium",
+    "fields": {
+      "website": {"value": "https://czechinvest.gov.cz", "basis": "stated", "src": [
+        {"url": "https://czechinvest.gov.cz/en", "publisher": "CzechInvest (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "Business and Investment Development Agency - CzechInvest"}
+      ]},
+      "exclusion_evidence": {
+        "value": "Agentúra ponúka investičné stimuly, vízovú podporu, správu nehnuteľností a podporu startupov (inkubácia ESA BIC, DIANA a pod.); iniciatíva CzechEkoSystem má identifikovať perspektívne firmy a podporovať ekosystém, nie do nich investovať.",
+        "basis": "media",
+        "src": [
+          {"url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic", "publisher": "Wikipedia (T4, iba doplnkový zdroj)", "published": null, "retrieved": "2026-10-29", "quote": "tasked with identifying promising companies and supporting the entrepreneurial ecosystem"},
+          {"url": "https://een.gov.cz/en/news/cee-funding-map-provides-an-overview-of-active-investors-in-central-and-eastern-europe/", "publisher": "Enterprise Europe Network Czech Republic (een.gov.cz)", "published": "2026-05-26", "retrieved": "2026-10-29", "quote": "which is being developed in cooperation with CzechInvest and the Czech Founders platform."}
+        ]
+      }
+    },
+    "open_questions": "Absenciu equity investícií som dokladal iba tým, že stránka agentúry takú aktivitu neuvádza (nie priamym vyhlásením). ARES: IČO 71377999, právna forma 332. Hĺbková kontrola programov agentúry (napr. grantové/akceleračné schémy) nebola urobená."
+  },
+  {
+    "name": "European Investment Fund (EIF)",
+    "decision": "exclude",
+    "exclusion_codes": ["X6", "X11"],
+    "decision_reason": "Fond fondov: investuje do fondov spravovaných tretími stranami (ich zoznam 'equity fund partners' k 30. 9. 2026), nie priamo do startupov v ČR; sídlo v Luxembursku (mimo krajiny vzorky).",
+    "type": null,
+    "subtype": null,
+    "type_secondary": null,
+    "confidence": "high",
+    "fields": {
+      "website": {"value": "https://www.eif.org", "basis": "stated", "src": [
+        {"url": "https://www.eif.org/who_we_are/index.htm", "publisher": "European Investment Fund (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "Alongside other EU institutions and the EIB, our headquarters are in Luxembourg."}
+      ]},
+      "exclusion_evidence": {
+        "value": "EIF vykonáva 'equity investments in funds (intermediated equity)'; v Česku publikuje zoznam fondov a správcov, do ktorých investuje. Sídlo: Luxembursko.",
+        "basis": "stated",
+        "src": [
+          {"url": "https://www.eif.org/what_we_do/equity/index.htm", "publisher": "European Investment Fund (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "equity investments in funds (intermediated equity)"},
+          {"url": "https://www.eif.org/files/attachments/czechia-equity-fundmanagers.pdf", "publisher": "European Investment Fund (vlastný web, PDF)", "published": "2026-09-30", "retrieved": "2026-10-29", "quote": "EIF equity fund partners as at 30 September 2026"},
+          {"url": "https://www.eif.org/who_we_are/index.htm", "publisher": "European Investment Fund (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "Alongside other EU institutions and the EIB, our headquarters are in Luxembourg."}
+        ]
+      }
+    },
+    "open_questions": "Stránka EIF o equity uvádza aj 'direct co-investments in selected companies', takže EIF nie je čistý fond fondov; pre pilot je rozhodujúci X11 (sídlo v Luxembursku). Zoznam správcov fondov v ČR (PDF) je použiteľný ako zdroj kandidátov (napr. Tilia Impact Partners, KAYA Advisory, Tensor Advisory, EVERITA Capital, Genesis Capital Equity, ARX Equity Partners)."
+  },
+  {
+    "name": "EBRD (EBRD Venture Capital)",
+    "decision": "exclude",
+    "exclusion_codes": ["X11"],
+    "decision_reason": "Mnohostranná banka so sídlom v Londýne (mimo krajiny vzorky). EBRD Venture Capital síce figuruje ako investor českej firmy Manta (spolu s Credo Ventures a Senovo), ale pre pilotnú vzorku 'VC so sídlom v ČR' vypadáva; v celej DB by si zasluhovala samostatné posúdenie.",
+    "type": null,
+    "subtype": null,
+    "type_secondary": null,
+    "confidence": "high",
+    "fields": {
+      "website": {"value": "https://www.ebrd.com", "basis": "stated", "src": [
+        {"url": "https://www.ebrd.com/home/who-we-are/our-organisation/our-headquarters.html", "publisher": "EBRD (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "The EBRD headquarters building is located in London, in the Canary Wharf central business district."}
+      ]},
+      "exclusion_evidence": {
+        "value": "Sídlo EBRD je v Londýne. Priama VC aktivita v ČR existuje (Manta, exit ocenený v roku 2024).",
+        "basis": "stated",
+        "src": [
+          {"url": "https://www.ebrd.com/home/who-we-are/our-organisation/our-headquarters.html", "publisher": "EBRD (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "The EBRD headquarters building is located in London, in the Canary Wharf central business district."},
+          {"url": "https://www.newstream.cz/money/nejlepsi-firmy-roku-2024-z-private-equity-a-venture-kapitalu-v-cesku-prevzaly-sve-ceny", "publisher": "Newstream.cz", "published": "2024-06-12", "retrieved": "2026-10-29", "quote": "Manta Tomáše Krátkého společně s investory Credo Ventures, EBRD Venture Capital a Senovo."}
+        ]
+      }
+    },
+    "open_questions": "V celej DB (mimo pilota) je EBRD na posúdenie: VC program EBRD ako direct investor, ale aj typ 'multilaterálna banka'. Dátum a aktuálnosť investícií EBRD VC (okno 24 mesiacov) som nezisťoval."
+  },
+  {
+    "name": "Národní rozvojová banka (NRB)",
+    "decision": "exclude",
+    "exclusion_codes": ["X5", "X6"],
+    "decision_reason": "Štátna rozvojová banka: jej nástroje sú úvery a záruky (X5). Kapitálové aktivity vykonáva cez dcéru National Development Investment, a.s. a cez fond fondov CEFoF, ktorý investuje do VC/PE fondov, nie priamo do startupov (X6).",
+    "type": null,
+    "subtype": null,
+    "type_secondary": null,
+    "confidence": "high",
+    "fields": {
+      "website": {"value": "https://www.nrb.cz", "basis": "stated", "src": [
+        {"url": "https://www.nrb.cz/en/", "publisher": "Národní rozvojová banka (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "We provide preferential financial instruments and support programs including advisory services."}
+      ]},
+      "exclusion_evidence": {
+        "value": "Ponuka NRB = úvery a záruky; CEFoF je fond fondov, ktorý už investoval do 3 českých VC/PE fondov; equity vehikel je samostatná dcéra.",
+        "basis": "stated",
+        "src": [
+          {"url": "https://www.nrb.cz/en/the-ndb-hosted-a-meeting-of-the-advisory-board-of-the-central-europe-fund-of-funds-cefof/", "publisher": "Národní rozvojová banka (vlastný web)", "published": "2022-07-11", "retrieved": "2026-10-29", "quote": "the CEFoF has already invested in 3 Czech venture capital and private equity funds"},
+          {"url": "https://www.nrb.cz/en/subsidiaries/", "publisher": "Národní rozvojová banka (vlastný web)", "published": null, "retrieved": "2026-10-29", "quote": "a venture capital company wholly owned by National Development Bank, a.s."}
+        ]
+      }
+    },
+    "open_questions": "Dcéra National Development Investment, a.s. (podľa NRB spravuje fondy fondov a finančné nástroje, napr. IPO Fund 2025+ pre equity financovanie MSP) by mohla byť samostatným kandidátom; či investuje priamo do firiem, som nezistil (stránka to neuvádza). ARES: Národní rozvojová banka, a.s. IČO 44848943, Praha; dcéra sa pri hľadaní podľa mena v ARES nenašla. Vlastníka (štát / MF ČR) som nepotvrdil explicitnou vetou."
+  },
+  {
+    "name": "Seed Fund (Český rozvojový uzavřený investiční fond)",
+    "decision": "exclude",
+    "exclusion_codes": ["X8", "X9"],
+    "decision_reason": "Vládny koinvestičný nástroj z rokov 2011-2013; zdroje z roku 2013 uvádzajú, že fond ešte neinvestoval, a žiadny novší zdroj neukazuje investície v okne aktivity. Subjekt som nenašiel v ARES, existenciu ani aktivitu preto nevieme nezávisle overiť.",
+    "type": null,
+    "subtype": null,
+    "type_secondary": null,
+    "confidence": "medium",
+    "fields": {
+      "website": {"value": null, "basis": "not_public", "src": []},
+      "exclusion_evidence": {
+        "value": "K 2013 fond čakal na rozhodnutie ÚOHS a ešte nezačal investovať; nástroj mal koinvestovať so súkromnými investormi (min. 30 % projektu); žiadna investícia v okne aktivity nedoložená.",
+        "basis": "media",
+        "src": [
+          {"url": "https://www.lupa.cz/clanky/petra-kursova-investovani-cruif/", "publisher": "Lupa.cz", "published": "2013-08-07", "retrieved": "2026-10-29", "quote": "namísto toho se však stále čeká na výsledek řízení Úřadem pro ochranu hospodářské soutěže."},
+          {"url": "https://en.wikipedia.org/wiki/Venture_capital_in_the_Czech_Republic", "publisher": "Wikipedia (T4, iba doplnkový zdroj)", "published": null, "retrieved": "2026-10-29", "quote": "backed by CZK 660 million from EU structural funds"}
+        ]
+      }
+    },
+    "open_questions": "Nepodarilo sa zistiť, či sa fond reálne spustil a kto ho spravuje (ARES vyhľadávanie podľa 'Český rozvojový', 'Seed Fund', 'ČRUIF' nič nevrátilo; hľadanie sa po vyčerpaní limitu WebSearch nedalo rozšíriť). Lupa uvádza objem fondu ~1,3 mld. Kč, Wikipedia 660 mil. Kč pre Seed Fund (pravdepodobne len jedna zložka nástroja); nezosúladené. Ak sa existencia a aktivita neobjavia, stav ostáva X8 (archív), nie X9 (karanténa)."
+  }
+]

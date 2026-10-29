@@ -28,11 +28,13 @@ prvý dojem stránky:
 | Segment | Čo o ňom viem | Bolesť | Reklama → hero |
 |---|---|---|---|
 | **A: „Fond z banky“** | Investuje cez poradcu v banke do podielového fondu, o ETF počul, ale nevie, o koľko prichádza | Platí 1,5–2 % ročne + vstupný poplatok a nevie to vyčísliť | „Kolik vám za 20 let sežerou poplatky?“ → kalkulačka s účtenkou |
-| **B: „Samouk z YouTube“** | Pozerá americký obsah, chce kúpiť VOO/SPY, broker mu to nedovolí | Nerozumie prečo, nevie, čo kúpiť namiesto toho | „VOO si v Česku nekoupíte. Jeho dvojče ano.“ → VOO = SPYL |
+| **B: „Samouk z YouTube“** | Pozerá americký obsah, chce kúpiť VOO/SPY, broker mu to nedovolí | Nerozumie prečo, nevie, čo kúpiť namiesto toho | „VOO vám většina brokerů neprodá. Jeho dvojče ano.“ → VOO = VUAA |
 
 **Dôležité rozhodnutie:** zadanie chce porovnanie ETF z NYSE. Český retail ich však
-kvôli nariadeniu **PRIIPs** (americké ETF nevydávajú KID) u európskych brokerov
-**kúpiť nemôže**. Stránka, ktorá by len porovnala VOO a SPY, by návštevníka
+kvôli nariadeniu **PRIIPs** (americké ETF nevydávajú KID) u väčšiny brokerov
+(DEGIRO, LYNX, Interactive Brokers…) **kúpiť nemôže** — výnimky existujú (agent
+našiel, že Fio to podľa blogu Finhacker umožňuje), preto stránka hovorí „většina
+brokerů“, nie „v Česku nekoupíte“. Stránka, ktorá by len porovnala VOO a SPY, by návštevníka
 nasmerovala k produktu, ktorý si nekúpi — sklamanie, sťažnosti, nízka kvalita
 leadov. Preto porovnávam ETF z NYSE (ako zadanie chce) **a ku každému pridávam
 UCITS dvojča**, ktoré si kúpiť môže. Z problému sa tak stala hlavná hodnota

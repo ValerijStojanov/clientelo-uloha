@@ -19,7 +19,8 @@ const etfs = R.etfs
   .slice(0, 12)
   .map((e) => ({
     ticker: e.ticker,
-    name: e.name,
+    // „(formerly …)“ a podobné poznámky z research patria do zdrojov, nie na mobilnú kartu.
+    name: e.name.replace(/\s*\([^)]*\)/g, '').trim(),
     issuer: e.issuer,
     exchange: e.exchange,
     ter: e.ter_pct,
@@ -43,13 +44,20 @@ const etfs = R.etfs
       : null,
   }));
 
-// Kalkulačka: fond z banky = prvý fond z research (ručne vybraný reprezentatívny),
+// Kalkulačka: fond z banky = prvý fond z research (ručne overený KID + ceník banky),
 // ETF = UCITS dvojča k VOO (to si český investor reálne kúpi).
+// Vstupný poplatok: skutočný podľa ceníku banky, ak ho máme, inak maximum z KID.
 const bank = R.cz_bank_funds[0];
 const voo = etfs.find((e) => e.ticker === 'VOO');
 const calc = {
   returnPct: 7,
-  bank: { name: bank.fund, provider: bank.provider, ter: bank.ongoing_charges_pct, entry: bank.entry_fee_max_pct, source: bank.source_url },
+  bank: {
+    name: bank.short_name || bank.fund,
+    ter: bank.ongoing_charges_pct,
+    entry: bank.entry_fee_actual_pct ?? bank.entry_fee_max_pct,
+    source: bank.source_url,
+    entrySource: bank.entry_fee_actual_source || bank.source_url,
+  },
   etf: { label: voo.twin.ticker, ter: voo.twin.ter },
 };
 
@@ -61,7 +69,8 @@ const sources = [];
 const add = (label, url, date) => { if (url && !sources.some((s) => s.url === url)) sources.push({ label, url, date }); };
 for (const e of etfs) add(`${e.ticker} (${e.issuer})`, e.source, e.retAsOf || czDate('2026-10-29'));
 for (const e of etfs) if (e.twin) add(`${e.twin.ticker} (dvojče ${e.ticker})`, e.twin.source, czDate('2026-10-29'));
-add(`${bank.fund} – KID`, bank.source_url, czDate(bank.kid_date));
+add(`${calc.bank.name} – KID (průběžné náklady)`, bank.source_url, czDate(bank.kid_date));
+add(`${calc.bank.name} – ceník banky (vstupní poplatek)`, calc.bank.entrySource, czDate('2026-08-03'));
 for (const p of R.priips || []) add(`PRIIPs: ${p.publisher}`, p.source_url, czDate(p.date));
 for (const k of ['cz_tax', 'us_tax', 'dip']) for (const t of R[k] || []) add(t.publisher, t.source_url, czDate(t.date));
 
@@ -70,4 +79,4 @@ writeFileSync(
   join(ROOT, 'site', 'data.js'),
   `// Vygenerované z research/etf-data.json (tools/build-data.mjs) ${new Date().toISOString().slice(0, 10)} — needitovať ručne.\nwindow.ETF_DATA = ${JSON.stringify(out, null, 1)};\n`,
 );
-console.log(`ETF: ${etfs.length}, zdroje: ${sources.length}, platné k ${asOf}, banka: ${bank.fund} ${bank.ongoing_charges_pct} % + ${bank.entry_fee_max_pct} %`);
+console.log(`ETF: ${etfs.length}, zdroje: ${sources.length}, platné k ${asOf}, banka: ${calc.bank.name} ${calc.bank.ter} % + ${calc.bank.entry} %, ETF ${calc.etf.label} ${calc.etf.ter} %`);

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ETF tahák 2026 – Poplatkoměr</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap">
+<style>
+  :root { --y: #FFD400; --ink: #111; --ink-2: #3A3A36; --muted: #6A6A64; --line: #E3E1D8; --red: #D4261C; --green: #0B7A43; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #fff; color: var(--ink); font: 400 15px/1.45 'Archivo', system-ui, sans-serif; font-variant-numeric: tabular-nums; }
+  .page { max-width: 820px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 4px solid var(--y); padding-bottom: 10px; margin-bottom: 18px; }
+  .mark { font-weight: 800; font-size: 18px; font-stretch: 90%; }
+  .mark b { color: var(--red); }
+  h1 { font-size: 34px; line-height: 1.05; font-stretch: 82%; margin: 0 0 6px; }
+  h2 { font-size: 19px; font-stretch: 85%; margin: 26px 0 8px; }
+  .lead { color: var(--ink-2); margin: 0 0 8px; }
+  .print { border: 2px solid var(--ink); background: var(--y); padding: 8px 14px; font: 700 15px 'Archivo', sans-serif; border-radius: 6px; cursor: pointer; }
+  .tbl { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  .tbl th { text-align: left; font-size: 12px; color: var(--muted); font-weight: 600; border-bottom: 2px solid var(--ink); padding: 6px 6px 6px 0; }
+  .tbl td { border-bottom: 1px solid var(--line); padding: 7px 6px 7px 0; vertical-align: top; }
+  .tbl td.num { text-align: right; white-space: nowrap; }
+  .tk { font-weight: 800; font-stretch: 80%; font-size: 16px; }
+  .no { color: var(--red); font-weight: 700; }
+  .tw { font-weight: 700; }
+  .sm { display: block; color: var(--muted); font-size: 12px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 10px; }
+  .card { border: 1.5px solid var(--ink); border-radius: 6px; padding: 12px; }
+  .card h3 { margin: 0 0 4px; font-size: 15px; }
+  .card p { margin: 0; color: var(--ink-2); font-size: 13.5px; }
+  .src { font-size: 11.5px; color: var(--muted); margin-top: 24px; }
+  .src a { color: inherit; overflow-wrap: anywhere; }
+  .wrap { overflow-x: auto; }
+  @media print {
+    .print { display: none; }
+    .page { padding: 0; max-width: none; }
+    body { font-size: 11px; }
+    .tbl { font-size: 10.5px; }
+    h1 { font-size: 26px; }
+    @page { size: A4; margin: 12mm; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <span class="mark">poplatko<b>měr</b></span>
+    <button class="print" type="button" onclick="window.print()">Uložit jako PDF</button>
+  </header>
+
+  <h1>ETF tahák: 12 ETF z NYSE a co si místo nich koupit v Česku</h1>
+  <p class="lead">Data k <span id="asof"></span>. Nejde o investiční doporučení — jen srovnání veřejných údajů správců fondů.</p>
+
+  <h2>1. Srovnání</h2>
+  <div class="wrap">
+    <table class="tbl">
+      <thead><tr><th>ETF z NYSE</th><th class="num">Poplatek</th><th class="num">10 let p.a.</th><th>KID</th><th>Evropské dvojče (UCITS)</th><th class="num">Poplatek</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+
+  <h2>2. Co si ohlídat</h2>
+  <div class="cards">
+    <div class="card"><h3>Proč vám broker VOO neprodá</h3><p>Nařízení PRIIPs: produkt pro drobné investory v EU musí mít sdělení klíčových informací (KID). Americká ETF ho nevydávají, většina brokerů je proto drobným klientům neprodá (výjimky existují).</p></div>
+    <div class="card"><h3>Akumulační vs. distribuční</h3><p>„Acc“ dividendy automaticky reinvestuje (nic nedaníte průběžně), „Dist“ je vyplácí na účet (dividendy se daní). Pro dlouhodobé investování bývá jednodušší Acc.</p></div>
+    <div class="card"><h3>Časový test</h3><p id="taxTime">Zisk z prodeje cenných papírů držených déle než 3 roky je v Česku osvobozen od daně z příjmů.</p></div>
+    <div class="card"><h3>Malé prodeje</h3><p id="taxSmall">Pokud vaše celkové příjmy z prodeje cenných papírů za rok nepřesáhnou 100 000 Kč, jsou osvobozené i bez časového testu.</p></div>
+    <div class="card"><h3>W-8BEN a americké dividendy</h3><p id="taxUs">Kdo drží americké akcie/ETF přímo, vyplní u brokera formulář W-8BEN — srážková daň z dividend pak díky smlouvě USA–ČR činí 15 % místo 30 %.</p></div>
+    <div class="card"><h3>DIP</h3><p id="dip">Dlouhodobý investiční produkt: vklady lze odečíst od základu daně (spolu s penzijním spořením a životním pojištěním až 48 000 Kč ročně), peníze ale musí zůstat do 60 let a nejméně 10 let.</p></div>
+  </div>
+
+  <h2>3. Váš první nákup krok za krokem</h2>
+  <ol>
+    <li>Vyberte index (S&amp;P 500, celý svět…) — ne konkrétní akcie.</li>
+    <li>Najděte k němu UCITS ETF v tabulce výše a ověřte si ISIN u svého brokera.</li>
+    <li>Zkontrolujte poplatek za nákup u brokera (mnozí mají nákupy ETF do určitého objemu zdarma).</li>
+    <li>Nastavte pravidelnou měsíční investici a nechte ji běžet — časový test začíná u každého nákupu zvlášť.</li>
+  </ol>
+
+  <p class="src" id="src"></p>
+</div>
+<script src="data.js"></script>
+<script>
+  (function () {
+    var D = window.ETF_DATA;
+    var pct = function (n, d) { return n == null ? '–' : n.toLocaleString('cs-CZ', { minimumFractionDigits: d == null ? 2 : d, maximumFractionDigits: d == null ? 2 : d }) + ' %'; };
+    document.getElementById('asof').textContent = D.asOf;
+    document.getElementById('rows').innerHTML = D.etfs.map(function (e) {
+      var t = e.twin;
+      return '<tr><td><span class="tk">' + e.ticker + '</span><span class="sm">' + e.name + '</span></td>' +
+        '<td class="num">' + pct(e.ter) + '</td><td class="num">' + pct(e.ret10, 1) + '</td>' +
+        '<td class="no">bez KID</td>' +
+        (t ? '<td><span class="tw">' + t.ticker + '</span> <span class="sm">' + t.name + ' · ' + t.isin + ' · ' + t.exchange + (t.dist ? ' · ' + t.dist : '') + '</span></td><td class="num">' + pct(t.ter) + '</td>'
+           : '<td><span class="sm">přesné dvojče neexistuje</span></td><td class="num">–</td>') + '</tr>';
+    }).join('');
+    document.getElementById('src').innerHTML = 'Zdroje: ' + D.sources.map(function (s) {
+      return s.label + ' (' + s.date + '): <a href="' + s.url + '">' + s.url.replace(/^https?:\/\//, '') + '</a>';
+    }).join(' · ');
+  })();
+</script>
+</body>
+</html>

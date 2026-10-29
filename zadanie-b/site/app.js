@@ -143,6 +143,9 @@
   }
   $('#rBankFee').textContent = pct(C.bank.ter) + ' ročně + ' + pct(C.bank.entry, 0) + ' z vkladu';
   $('#rEtfFee').textContent = C.etf.label + ', ' + pct(C.etf.ter) + ' ročně';
+  $('#calcBankName').textContent = C.bank.name;
+  $('#calcBankTer').textContent = pct(C.bank.ter);
+  $('#calcBankEntry').textContent = pct(C.bank.entry, 0);
 
   var calcTimer;
   var calcTouched = false;
@@ -171,8 +174,8 @@
     var locked = !unlocked && i >= OPEN;
     var high = e.ter >= 0.2;
     var twin = e.twin
-      ? '<span class="buy no">V ČR nekoupíte</span><span>→ dvojče <span class="tw">' + e.twin.ticker + ' ' + pct(e.twin.ter) + '</span></span>'
-      : '<span class="buy no">V ČR nekoupíte</span><span>přesné dvojče neexistuje</span>';
+      ? '<span class="buy no">Bez KID</span><span>→ dvojče <span class="tw">' + e.twin.ticker + ' ' + pct(e.twin.ter) + '</span></span>'
+      : '<span class="buy no">Bez KID</span><span>přesné dvojče neexistuje</span>';
     return '<li class="etf' + (locked ? ' is-locked' : '') + '" data-ticker="' + e.ticker + '"' + (locked ? ' aria-hidden="true"' : '') + '>' +
       '<button class="etf-head" type="button" aria-expanded="false"' + (locked ? ' tabindex="-1"' : '') + '>' +
         '<span class="tk">' + e.ticker + '</span>' +
@@ -180,7 +183,7 @@
         '<span class="fee' + (high ? ' is-high' : '') + '"><b>' + pct(e.ter) + '</b>ročně</span>' +
         '<span class="feebar' + (high ? ' is-high' : '') + '"><i style="width:' + Math.max(1, (e.ter / maxTer) * 100).toFixed(1) + '%"></i></span>' +
       '</button>' +
-      '<div class="etf-row2">' + (e.ret10 != null ? '<span class="ret">10 let: ' + (e.ret10 > 0 ? '+' : '') + pct(e.ret10, 1) + ' ročně</span>' : '<span class="ret">' + e.note + '</span>') + twin + '</div>' +
+      '<div class="etf-row2">' + (e.ret10 != null ? '<span class="ret">10 let: ' + (e.ret10 > 0 ? '+' : '−') + pct(Math.abs(e.ret10), 1) + ' ročně</span>' : '<span class="ret">' + e.note + '</span>') + twin + '</div>' +
       '<div class="etf-more" hidden><dl>' +
         '<dt>Správce</dt><dd>' + e.issuer + '</dd>' +
         '<dt>Burza</dt><dd>' + e.exchange + '</dd>' +
